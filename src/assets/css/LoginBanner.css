@@ -1,0 +1,17 @@
+.awc-nav{
+    float: right;
+    margin-right: 16px;
+    margin-top: 6px;
+  }
+  /* .awc-ul{
+    display: flex;
+    float: inline-end;
+    
+  } */
+
+
+
+@media (max-width: 576px) {
+   
+  
+}
