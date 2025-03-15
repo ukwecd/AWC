@@ -5,6 +5,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import NavBar from "./componets/topnav/NavBar";
 import "../../awc/src/custom/style.css";
 import Home from "./componets/Home";
+import 'font-awesome/css/font-awesome.min.css';
+
 
 function App() {
   return (
