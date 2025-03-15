@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     font-family: var(--bs-body-font-family);
     font-size: var(--bs-body-font-size);
@@ -10,7 +10,7 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     backgrouawc-color: var(--awc-blue-light-bg);
-  }
+  } */
   
   /* svg {
       fill: #0d77cb;
@@ -74,6 +74,10 @@ body {
     --awc-space-1000: 40px;
     --awc-space-1100: 44px;
     --awc-space-1200: 48px;
+  }
+
+  .awc-login-col{
+    padding: 0px;
   }
   
   
