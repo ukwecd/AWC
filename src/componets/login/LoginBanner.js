@@ -77,7 +77,7 @@ const LoginBanner = () => {
                           शासनादेश{" "}
                           <MdSimCardDownload className="awc-pdf-icon" />
                         </div>
-                        <span className="awc-span-alert1">अहर परियोजनाओं की सूची <LiaEyeSolid  className="awc-span-icon"/></span>
+                        <span className="awc-span-alert1">अहर परियोजनाओं की सूची <LiaEyeSolid className="awc-span-icon" /></span>
                       </td>
                       <td>
                         निर्देशिका{" "}
@@ -122,7 +122,7 @@ const LoginBanner = () => {
         </Col>
 
         <Col lg={5} md={5} sm={12} className="awc-login-col">
-          <Navbar expand="lg md" className="bg-body-tertiary">
+          <Navbar expand="lg md" >
             <Navbar.Brand href="#home" className=" awc-heading ">
               <h1>उत्तराखंड सरकार | Gov.t of Uttarakhand</h1>
             </Navbar.Brand>
@@ -179,7 +179,7 @@ const LoginBanner = () => {
                     controlId="exampleForm.ControlInput1"
                   >
                     <Form.Label className="awc-form-label">
-                    Registered Mobile No.
+                      Registered Mobile No.
                     </Form.Label>
 
                     <Form.Control
@@ -188,7 +188,8 @@ const LoginBanner = () => {
                       name="phone_no"
                       className="awc-form-control"
                     />
-                 <span className="awc-verify">verify</span>   <CiCircleCheck className="input-icon" />
+                    <CiCircleCheck className="input-icon" />
+                    <span className="awc-verify">Verify</span>
                   </Form.Group>
                   {/* <InputGroup hasValidation>
                     <Form.Control type="text" required isInvalid />
@@ -217,7 +218,8 @@ const LoginBanner = () => {
                       name="phone_no"
                       className="awc-form-control"
                     />
-                    <span className="awc-verify">verify</span>   <CiCircleCheck className="input-icon" />
+                    <CiCircleCheck className="input-icon" />
+                    <span className="awc-verify">Verify</span>
                   </Form.Group>
                   <Form.Group className="text-center ">
                     <Button
@@ -234,11 +236,11 @@ const LoginBanner = () => {
                       </span>
                     </Button>
                   </Form.Group>
-                <Row>
-                  <Col lg={12} md={12} sm={12} className="awc-forgot-pass">
-                  <p> पासवर्ड भूल गए है ?</p>
-                  </Col>
-                </Row>
+                  <Row>
+                    <Col lg={12} md={12} sm={12} className="awc-forgot-pass">
+                      <p> पासवर्ड भूल गए है ?</p>
+                    </Col>
+                  </Row>
                 </Form>
               </div>
             </Form>

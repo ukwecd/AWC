@@ -1,7 +1,7 @@
 .awc-nav {
     float: right;
-    margin-right: 16px;
-    margin-top: 6px;
+    margin-right: var(--awc-space-400);
+    margin-top: var(--awc-space-150)
 }
 
 /* .awc-ul{
@@ -30,17 +30,18 @@
 }
 
 .awc-form-label {
-    font-size: 14px;
-    color: #B8B8B8;
+    font-size: var(--awc-space-350);
+    color: #767676;
     font-weight: 600;
 
 }
-.awc-form{
+
+.awc-form {
     padding: 10px 25px 10px 25px;
 }
 
 .awc-form-control {
-    font-size: 12px;
+    font-size: var(--awc-space-300);
     height: 45px;
 }
 
@@ -63,6 +64,7 @@
 
 .awc-table {
     margin: 0px 25px 0px 25px;
+    margin: var(--awc-space-0) var(--awc-space-600) var(--awc-space-0) var(--awc-space-600);
 }
 
 .awc-pdf-icon {
@@ -71,13 +73,13 @@
 }
 
 .awc-sub-table th {
-    font-size: 14px;
+    font-size: var(--awc-space-350);
     white-space: nowrap;
 }
 
 .awc-sub-table td {
-    padding: 14px;
-    font-size: 12px;
+    padding: var(--awc-space-350);
+    font-size: var(--awc-space-300);
 }
 
 .table-container {
@@ -96,20 +98,17 @@
     width: 100%;
     overflow: hidden;
     max-height: 500px;
-
-
-
 }
 
 .awc-heading h1 {
-    font-size: 16px;
+    font-size: var(--awc-space-400);
     color: var(--awc-Primary);
     font-weight: 600;
 }
 
 .awc-p {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: var(--awc-space-0);
+    padding-right: var(--awc-space-0);
 }
 
 .awc-thead-table th {
@@ -118,8 +117,6 @@
 }
 
 .awc-logo {
-    text-align: center;
-
     text-align: center;
 }
 
@@ -132,7 +129,7 @@
 .awc-login-title {
     color: #1976d2;
     font-weight: 800;
-    font-size: 24px;
+    font-size: var(--awc-space-600);
 }
 
 .awc-login-subtitle {
@@ -152,7 +149,7 @@
     top: 70%;
     transform: translateY(-50%);
     color: var(--awc-bg-green);
-    font-size: 18px;
+    font-size: var(--awc-space-450)
 }
 
 .awc-verify {
@@ -161,7 +158,7 @@
     top: 70%;
     transform: translateY(-50%);
     color: var(--awc-bg-green);
-    font-size: 18px;
+    font-size: var(--awc-space-400)
 }
 
 .awc-primary-btn {
@@ -187,7 +184,7 @@
     width: 25px;
     height: 110px;
     clip-path: polygon(0% 0%, 100% 25%, 100% 75%, 0% 100%, 0% 75%, 0% 25%);
-    padding: 0px;
+    padding: var(--awc-space-0);
 }
 
 .awc-box-left {
@@ -205,23 +202,23 @@ span.awc-span-alert1 {
     color: var(--awc-white);
     font-size: var(--awc-space-200);
     background-color: #87BE7E;
-    padding: 2px;
+    padding: var(--awc-space-50);
 }
 
 .awc-forgot-pass {
     color: #EA9343;
-    font-size: 12px;
-    margin-top: 12px;
+    font-size: var(--awc-space-300);
+    margin-top: var(--awc-space-300);
     text-align: center;
     font-weight: 600;
 }
 
 .awc-span-icon {
-    font-size: 12px;
+    font-size: var(--awc-space-300);
 }
 
 .awc-span-closed {
-    font-size: 12px;
+    font-size: var(--awc-space-300);
     color: var(--awc-Primary);
 }
 
@@ -232,15 +229,15 @@ span.awc-span-alert1 {
     }
 
     .awc-heading h1 {
-        font-size: 12px;
+        font-size: var(--awc-space-300);
     }
 
     .awc-update {
-        font-size: 14px;
+        font-size: var(--awc-space-350);
     }
 
     .awc-home h1 {
-        font-size: 22px;
+        font-size: var(--awc-space-550);
     }
 
     .awc-td {
@@ -248,11 +245,11 @@ span.awc-span-alert1 {
     }
 
     .bg-body-tertiary {
-        padding: 4px !important;
+        padding: var(--awc-space-100) !important;
     }
 
     .me-auto.justify-content-end.flex-grow-1.navbar-nav {
-        margin-left: 28px;
+        margin-left: var(--awc-space-700);
     }
 }
 
@@ -268,7 +265,8 @@ span.awc-span-alert1 {
     }
 
     button.navbar-toggler.collapsed {
-        margin-right: 6px;
+        margin-right: var(--awc-space-150);
+        ;
     }
 
     .awc-heading {
@@ -281,7 +279,7 @@ span.awc-span-alert1 {
     }
 
     .awc-nav {
-        margin-right: 0px;
+        margin-right: var(--awc-space-0);
     }
 
     .awc-box {
@@ -289,12 +287,12 @@ span.awc-span-alert1 {
     }
 
     .awc-heading h1 {
-        padding-left: 10px;
+        padding-left: var(--awc-space-250);
     }
 
     .awc-alert-span span {
         color: var(--awc-Primary);
-        font-size: 10px;
+        font-size: var(--awc-space-250);
     }
 
     .awc-w span {
@@ -302,19 +300,21 @@ span.awc-span-alert1 {
     }
 
     .me-auto.justify-content-end.flex-grow-1.navbar-nav {
-        padding-left: 10px;
+        padding-left: var(--awc-space-250);
     }
 
 
-
+    .awc-form {
+        padding: var(--awc-space-0);
+    }
 
 
 }
 
 @media (max-width: 390px) {
     .awc-heading h1 {
-        font-size: 16px;
-        padding-left: 10px;
+        font-size: var(--awc-space-450);
+        padding-left: var(--awc-space-250);
     }
 
 
