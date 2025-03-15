@@ -24,20 +24,20 @@
 .awc-home {
 
     margin-top: var(--awc-space-100);
-    padding: 0px 0px 0px 38px;
+    padding: var(--awc-space-0) var(--awc-space-0) var(--awc-space-0) var(--awc-space-950);
     ;
     color: var(--awc-white);
 }
 
 .awc-form-label {
     font-size: var(--awc-space-350);
-    color: #767676;
+    color: var(--awc-gray-off);
     font-weight: 600;
 
 }
 
 .awc-form {
-    padding: 10px 25px 10px 25px;
+    padding: var(--awc-space-250) var(--awc-space-650) var(--awc-space-250) var(--awc-space-650);
 }
 
 .awc-form-control {
@@ -68,7 +68,7 @@
 }
 
 .awc-pdf-icon {
-    color: red;
+    color: var(--awc-Primary);
     font-size: var(--awc-space-500);
 }
 
@@ -112,7 +112,7 @@
 }
 
 .awc-thead-table th {
-    background-color: #0B62BB;
+    background-color: var(--awc-blue-bg);
     color: var(--awc-white);
 }
 
@@ -122,12 +122,12 @@
 
 .awc-sign {
     font-size: var(--awc-space-400);
-    color: #767676;
+    color: var(--awc-gray-off);
     font-weight: 600;
 }
 
 .awc-login-title {
-    color: #1976d2;
+    color: var(--awc-blue-bg);
     font-weight: 800;
     font-size: var(--awc-space-600);
 }
@@ -195,18 +195,18 @@
     width: 25px;
     height: 142px;
     clip-path: polygon(0% 50%, 100% 41%, 100% 100%, 0% 90%, 0% 50%, 0% 90%);
-    padding: 0px;
+    padding: var(--awc-space-0);
 }
 
 span.awc-span-alert1 {
     color: var(--awc-white);
     font-size: var(--awc-space-200);
-    background-color: #87BE7E;
+    background-color: var(--awc-green-off);
     padding: var(--awc-space-50);
 }
 
 .awc-forgot-pass {
-    color: #EA9343;
+    color: var(--awc-orange);
     font-size: var(--awc-space-300);
     margin-top: var(--awc-space-300);
     text-align: center;
@@ -223,6 +223,10 @@ span.awc-span-alert1 {
 }
 
 @media (max-width: 844px) {
+    nav.navbar.navbar-expand-lg.md.navbar-light {
+        padding: var(--awc-space-250);
+    }
+
     .awc-heading {
         display: block;
         font-size: var(--awc-space-400);
@@ -296,7 +300,7 @@ span.awc-span-alert1 {
     }
 
     .awc-w span {
-        background-color: aquamarine;
+        background-color: var(--awc-button-bg);
     }
 
     .me-auto.justify-content-end.flex-grow-1.navbar-nav {

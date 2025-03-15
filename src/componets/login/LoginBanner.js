@@ -66,7 +66,7 @@ const LoginBanner = () => {
                       <td>
                         <div className="awc-alert-span">
                           {" "}
-                          <span className="awc-span-closed">Application closed</span>
+                        
                         </div>
                         आंगनवाड़ी कार्यकर्ती पुरस्कार के चयन हेतु क्लिक करे
                       </td>
@@ -89,6 +89,8 @@ const LoginBanner = () => {
                     </tr>
                     <tr>
                       <td>
+                        <div className="awc-alert-span">
+                      <span className="awc-span-closed">Application closed</span></div>
                         राज्य स्त्री शक्ति तीलू रौतेली पुरुस्कार हेतु क्लिक करे
                       </td>
                       <td>02-Jan-2025</td>
