@@ -11,6 +11,7 @@ import Wecdlogo from "../../assets/images/wecdlogo.png";
 import Group from "../../assets/images/Groupimg.png";
 import { CiCircleCheck } from "react-icons/ci";
 import { LiaEyeSolid } from "react-icons/lia";
+import { Link } from "react-router-dom";
 const LoginBanner = () => {
   return (
     <div clasName="container-fluid">
@@ -224,7 +225,7 @@ const LoginBanner = () => {
                     <span className="awc-verify">Verify</span>
                   </Form.Group>
                   <Form.Group className="text-center ">
-                    <Button
+                   <Link to="/InnerDashBoard"> <Button
                       type="submit"
                       className="mt-3 awc-primary-btn nd-primary-btn1"
                       name="login"
@@ -236,7 +237,7 @@ const LoginBanner = () => {
                       >
                         Go to DashBoard
                       </span>
-                    </Button>
+                    </Button></Link>
                   </Form.Group>
                   <Row>
                     <Col lg={12} md={12} sm={12} className="awc-forgot-pass">

@@ -3,6 +3,9 @@
     margin-right: var(--awc-space-400);
     margin-top: var(--awc-space-150)
 }
+.awc-login-col{
+    background-color: var(--awc-white);
+}
 
 /* .awc-ul{
     display: flex;
