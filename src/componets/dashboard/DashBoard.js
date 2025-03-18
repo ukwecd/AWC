@@ -43,7 +43,7 @@ function DashBoard() {
       label: "Aanganwadi Center Info",
       path: "/AWCInformation",
     },
-   
+
     {
       icon: <MdCurrencyRupee />,
       label: "Finance Schemes",
@@ -64,7 +64,7 @@ function DashBoard() {
           label: "History",
           path: "/History",
         },
-       
+
       ],
     },
     {
@@ -106,18 +106,18 @@ function DashBoard() {
             alt="menu-icon"
             onClick={toggleNav}
           />
-            <Link to="#" className="logo-page">
-            <img src={UKLogon} alt="logo" className="uk-logo" />
+          <Link to="#" className="logo-page">
+            <img src={UKLogon} alt="logo" className="wced-logo" />
           </Link>
           <Link to="#" className="logo-page">
             <img src={UKLOGO} alt="logo" className="uk-logo" />
           </Link>
-        
-         
+
+
           <div className="awc-title">
             <span className="awc-subtitle">WECDPANE</span>
           </div>
-          
+
         </div>
 
         <div className="message">
@@ -165,7 +165,7 @@ function DashBoard() {
                               <span className="nav-icon">{option.icon}</span>
                               <span className="nav-label">{option.label}</span>
                               <span className="dropdown-arrow">
-                                {expandedMenus[option.label] ? <MdExpandLess />: <MdKeyboardArrowRight />}
+                                {expandedMenus[option.label] ? <MdExpandLess /> : <MdKeyboardArrowRight />}
                               </span>
                             </div>
                           </div>

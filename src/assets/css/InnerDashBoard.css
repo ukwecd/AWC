@@ -15,7 +15,7 @@
     font-size: var(--awc-space-300);
     color: var(--awc-white);
     text-align: justify;
-
+    word-wrap: break-word;
 
 }
 
@@ -29,14 +29,14 @@
 .aws-data-container {
     flex-wrap: wrap;
     padding: var(--awc-space-300) var(--awc-space-400) var(--awc-space-750) var(--awc-space-400);
-    margin-top: -26px;
+    margin-top: -36px;
 }
 
 .awc-project-icon {
     background-color: var(--awc-orange);
     padding: var(--awc-space-200);
     width: 52px;
-    font-size: var(--awc-space-950);
+    font-size: var(--awc-space-750);
     border-radius: var(--awc-space-200);
 }
 
@@ -48,16 +48,16 @@
 }
 
 .aws-data h2 {
-    font-size: var(--awc-space-550);
+    font-size: var(--awc-space-450);
     font-weight: 600;
 }
 
 .awc-data-body p {
-    font-size: var(--awc-space-450);
+    font-size: var(--awc-space-350);
     color: var(--awc-orange);
     font-weight: 600;
 }
 
 .awc-data-body h3 {
-    font-size: var(--awc-space-500);
+    font-size: var(--awc-space-400);
 }

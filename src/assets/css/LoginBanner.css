@@ -3,15 +3,23 @@
     margin-right: var(--awc-space-400);
     margin-top: var(--awc-space-150)
 }
-.awc-login-col{
+
+.awc-login-col {
     background-color: var(--awc-white);
 }
-.awc-nav{
+
+.awc-nav {
     font-size: var(--awc-space-300);
 }
-.uk-logo{
+
+.wced-logo {
+    width: 68px;
+    margin-left: var(--awc-space-300);
+}
+
+.uk-logo {
     width: 40px;
-    margin-left: var(--awc-space-300); 
+    margin-left: var(--awc-space-300);
 }
 
 /* .awc-ul{
@@ -274,9 +282,10 @@ span.awc-span-alert1 {
 }
 
 @media (max-width: 576px) {
-    .awc-logo-img{
+    .awc-logo-img {
         display: none;
     }
+
     .awc-col {
         display: none;
     }
