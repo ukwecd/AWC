@@ -6,6 +6,13 @@
 .awc-login-col{
     background-color: var(--awc-white);
 }
+.awc-nav{
+    font-size: var(--awc-space-300);
+}
+.uk-logo{
+    width: 40px;
+    margin-left: var(--awc-space-300); 
+}
 
 /* .awc-ul{
     display: flex;
@@ -267,6 +274,9 @@ span.awc-span-alert1 {
 }
 
 @media (max-width: 576px) {
+    .awc-logo-img{
+        display: none;
+    }
     .awc-col {
         display: none;
     }

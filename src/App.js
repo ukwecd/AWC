@@ -8,7 +8,14 @@ import Home from "./componets/Home";
 import 'font-awesome/css/font-awesome.min.css';
 import DashBoard from "./componets/dashboard/DashBoard";
 import InnerDashBoard from "./componets/dashboard/InnerDashBoard";
-
+import AWCInformation from "./componets/dashboard/AWCInformation";
+import StateSchemeReport from "./componets/dashboard/Finance/StateSchemeReport";
+import BalanceExpenditure from "./componets/dashboard/Finance/BalanceExpenditure";
+import History from "./componets/dashboard/Finance/History";
+import AddVacancies from "./componets/dashboard/Vacancies/AddVacancies";
+import ActiveVacancies from "./componets/dashboard/Vacancies/ActiveVacancies";
+import ReceivedForms from "./componets/dashboard/Vacancies/ReceivedForms";
+import GuideLine from "./componets/dashboard/GuideLine";
 
 function App() {
   return (
@@ -18,6 +25,14 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/DashBoard" element={<DashBoard />} />
         <Route path="/InnerDashBoard" element={<InnerDashBoard />} />
+        <Route path="/AWCInformation" element={<AWCInformation />} />
+        <Route path="/StateSchemeReport" element={<StateSchemeReport />} />
+        <Route path="/BalanceExpenditure" element={<BalanceExpenditure />} />
+        <Route path="/History" element={<History />} />
+        <Route path="/AddVacancies" element={<AddVacancies />} />
+        <Route path="/ActiveVacancies" element={<ActiveVacancies />} />
+        <Route path="/ReceivedForms" element={<ReceivedForms />} />
+        <Route path="/GuideLine" element={<GuideLine />} />
 
       </Routes>
     </Router>

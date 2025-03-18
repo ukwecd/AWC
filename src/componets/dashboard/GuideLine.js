@@ -1,6 +1,6 @@
 import React from "react";
 import DashBoard from "./DashBoard";
-const AWCInformation = () => {
+const GuideLine = () => {
   
   return (
     <>
@@ -17,7 +17,7 @@ const AWCInformation = () => {
             
 
             <div className="box-container">
-              AWC Information
+            GuideLine
               
             </div>
             <div>
@@ -30,4 +30,4 @@ const AWCInformation = () => {
   );
 };
 
-export default AWCInformation;
+export default GuideLine;

@@ -26,14 +26,37 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
-img.awc-logo-img{
+
+.d-flex.awc-sub-item {
+  margin-left: var(--awc-space-700);
+  margin-top: var(--awc-space-200);
+}
+
+.dropdown-arrow {
+  margin-top: 6px;
+  float: right;
+
+}
+
+img.awc-logo-img {
   width: 50px;
 
 }
+
+a.nav-sub-option {
+  background-color: #e78f3d;
+  color: var(--awc-white) !important;
+}
+
+a.nav-sub-option:hover {
+  /* custom */
+  background-color: #DE700A;
+}
+
 .user-awc-header {
   height: 70px;
   width: 100vw;
-  padding: 0 30px;
+  padding: 0 12px;
   background: var(--awc-white);
   position: fixed;
   z-index: 100;
@@ -42,6 +65,7 @@ img.awc-logo-img{
   justify-content: space-between;
   align-items: center;
 }
+
 
 .logo {
   width: 66px;
@@ -156,6 +180,7 @@ img.awc-logo-img{
 
   border-radius: 50%;
   color: var(--awc-white);
+  margin-right: 10px;
 
 }
 
@@ -195,6 +220,8 @@ img.awc-logo-img{
 .main::-webkit-scrollbar-track {
   background-color: #9e9e9eb2;
 }
+
+
 
 .box-container {
   flex-wrap: wrap;
@@ -240,15 +267,15 @@ img.awc-logo-img{
 }
 
 .navclose {
-  width: 68px;
+  width: 50px;
 }
 
 .nav-option {
   width: 250px;
-  height: 60px;
+  height: 50px;
   /* display: flex; */
   align-items: center;
-  padding: 12px 30px 0 20px;
+  padding: 8px 30px 0 0px;
   gap: 20px;
   transition: all 0.1s ease-in-out;
 }
@@ -270,12 +297,12 @@ img.awc-logo-img{
   gap: 0px;
 
 }
-.awc-menu{
+
+.awc-menu {
   color: var(--awc-black) !important;
 }
 
 .option1 {
-  border-left: 5px solid var(--awc-primary);
   /* background-color: #EA9343; custom css */
   background-color: #EA9343;
   color: white !important;
@@ -284,7 +311,6 @@ img.awc-logo-img{
 }
 
 .option1:hover {
-  border-left: 5px solid var(--awc-Primary);
   /* custom */
   background-color: #DE700A;
   color: var(--awc-white);
@@ -431,8 +457,8 @@ img.awc-logo-img{
 }
 
 .nav-icon {
-  padding: 16px;
-  font-size: 24px;
+  padding: 16px 20px 0px 16px;
+  font-size: 20px;
   padding-top: 0px !important;
   /* color: #ADB5BD; */
   font-weight: 600;
@@ -448,8 +474,9 @@ img.awc-logo-img{
 
 span.nav-label {
   padding-top: var(--awc-space-250);
-  font-size: var(--awc-space-350);
-/* color: var(--awc-black); */
+  font-size: var(--awc-space-300);
+  line-height: var(--awc-space-450);
+  /* color: var(--awc-black); */
   /* color: #ADB5BD; */
 }
 
@@ -489,7 +516,7 @@ span.nav-label:hover {
 
   .awc-user {
     display: none;
-    
+
   }
 
 
@@ -542,7 +569,7 @@ span.nav-label:hover {
 
   .nav-option {
     gap: 30px;
-    color: red;
+
   }
 
   .nav-option h3 {
@@ -592,26 +619,28 @@ span.nav-label:hover {
 }
 
 @media screen and (max-width: 850px) {
-  .box-container{
+  .box-container {
     margin-top: var(--awc-space-450);
   }
-  img.awc-logo-img{
+
+  img.awc-logo-img {
     width: 50px;
 
   }
+
   .nav-img {
     height: 30px;
   }
 
   .awc-log-icon-mob {
-/* custom */
+    /* custom */
     background-color: #EA9343;
     color: white;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     padding-left: var(--awc-space-150);
-    margin-left: 324px;
+    margin-left: 395px;
   }
 
   .awc-check-btn {
@@ -733,23 +762,26 @@ span.nav-label:hover {
     padding-left: var(--awc-space-150);
     margin-right: var(--awc-space-150);
   }
-  
+
   .awc-check-btn {
     width: fit-content;
   }
 }
-@media screen and (max-width: 844px){
-  .awc-user{
+
+@media screen and (max-width: 844px) {
+  .awc-user {
     margin-left: 170px !important;
   }
 }
 
 @media screen and (max-width: 568px) {
 
-  .message span{
+  .message span {
     padding: 28px;
     font-size: 12px;
+    display: none;
   }
+
   .awc-accordion {
     display: show;
   }
@@ -808,15 +840,21 @@ span.nav-label:hover {
 }
 
 @media screen and (max-width: 490px) {
+  .nav-option:hover {
+    /* custom */
+    background-color: #DE700A;
+    cursor: pointer;
+    color: var(--awc-white);
+  }
 
   .awc-log-icon-mob {
-      /* custom */
-      background-color: #EA9343;
+    /* custom */
+    background-color: #EA9343;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     padding-left: var(--awc-space-150);
-    margin-left: 108px;
+    margin-left: 130px;
   }
 
   span.nav-label {
@@ -835,7 +873,7 @@ span.nav-label:hover {
 
   .awc-user {
     padding: 6px 8px 6px 16px;
-   margin-left: 18px !important;
+    margin-left: 18px !important;
 
     text-align: right;
     font-size: 14px;
@@ -847,11 +885,12 @@ span.nav-label:hover {
     font-size: 12px;
   }
 
-  .awc-msg img{
+  .awc-msg img {
     display: none;
-    
+
   }
-  img.awc-logo-img{
+
+  img.awc-logo-img {
     width: 50px;
 
   }
@@ -868,6 +907,7 @@ span.nav-label:hover {
 
   .logo {
     font-size: 20px;
+    margin-left: var(--awc-space-200);
   }
 
   .menuicn {
@@ -907,7 +947,7 @@ span.nav-label:hover {
 
 
 @media screen and (max-width: 400px) {
-  
+
   .recent-Articles {
     font-size: 17px;
   }
@@ -926,14 +966,29 @@ span.nav-label:hover {
   .searchbtn img {
     height: 20px;
   }
+
   .option1:hover {
     /* custom */
     background-color: #DE700A;
     color: var(--awc-white);
   }
+
+  .nav-option:hover {
+    /* custom */
+    background-color: #DE700A;
+    cursor: pointer;
+    color: var(--awc-white);
+  }
 }
 
 @media screen and (max-width: 320px) {
+  .nav-option:hover {
+    /* custom */
+    background-color: #DE700A;
+    cursor: pointer;
+    color: var(--awc-white);
+  }
+
   .recent-Articles {
     font-size: 12px;
   }

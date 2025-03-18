@@ -131,7 +131,7 @@ const LoginBanner = () => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto justify-content-end flex-grow-1">
+              <Nav className="me-auto justify-content-end flex-grow-1 awc-nav">
                 <Nav.Link href="#home">
                   <FaGlobe className="me-1" />
                   Official Website

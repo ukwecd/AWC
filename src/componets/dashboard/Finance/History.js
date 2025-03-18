@@ -1,6 +1,7 @@
 import React from "react";
-import DashBoard from "./DashBoard";
-const AWCInformation = () => {
+import DashBoard from "../DashBoard";
+
+const History = () => {
   
   return (
     <>
@@ -17,7 +18,7 @@ const AWCInformation = () => {
             
 
             <div className="box-container">
-              AWC Information
+            History
               
             </div>
             <div>
@@ -30,4 +31,4 @@ const AWCInformation = () => {
   );
 };
 
-export default AWCInformation;
+export default History;

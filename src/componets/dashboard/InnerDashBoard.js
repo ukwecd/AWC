@@ -1,53 +1,12 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-import Accordion from "react-bootstrap/Accordion";
-// import UKLogon from "../../assets/images/UKLogo.png";
-import { Row, Col, Card, Button } from "react-bootstrap";
-
 import DashBoard from "./DashBoard";
-
-
+import Vector from "../../assets/images/project_area_icon.png";
+import "../../assets/css/InnerDashBoard.css";
+import { Col, Row } from "react-bootstrap";
 const InnerDashBoard = () => {
-  
   return (
     <>
       <div>
-        {/* Header */}
-        {/* <header>
-          <div className="logosec">
-            <img
-              src="https://media.geeksforgeeks.org/wp-content/uploads/20221210182541/Untitled-design-(30).png"
-              className="icn menuicn"
-              id="menuicn"
-              alt="menu-icon"
-              onClick={toggleNav}
-            />
-
-            <Link to="#" className="logo-page">
-              <img src={UKLogon} alt="logo" className="logo" />
-            </Link>
-            <div className="nd-title">
-              <span className="nd-subtitle">
-                उत्तराखंड सरकार | Gov.t of Uttarakhand{" "}
-              </span>
-              <span className="subtitle">
-                महिला सशक्तिकरण एवं बाल विकास विभाग उत्तराखंड
-              </span>
-            </div>
-          </div>
-
-          <div className="message">
-            <div className="nd-msg">
-              <span>User:</span> Deepika
-            </div>
-
-            <div className="dp" alt="logout" title="Click to logout">
-              <LuLogOut />
-            </div>
-          </div>
-        </header> */}
-     
-
         {/* Main Container */}
         <div className="main-container">
           {/* Navigation */}
@@ -56,15 +15,92 @@ const InnerDashBoard = () => {
           {/* Main Content */}
 
           <div className="main">
-            
+            <div className="awc-dashboard-title">
+              <div>
+                <h1>DashBoard</h1>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable. If you are going to use a passage of
+                  Lorem Ipsum, you need to be sure there isn't anything
+                  embarrassing hidden in the middle of text. All the Lorem Ipsum
+                  generators on the Internet tend to repeat predefined chunks as
+                  necessary, making this the first true generator on the
+                  Internet. It uses a dictionary of over 200 Latin words,
+                  combined with a handful of model sentence structures, to
+                  generate Lorem Ipsum which looks reasonable. The generated
+                  Lorem Ipsum is therefore always free from repetition, injected
+                  humour, or non-characteristic words etc.
+                </p>
+              </div>
+            </div>
 
-            <div className="box-container">
-              helo
-              
+            <div className="aws-data-container">
+              <Row>
+                <Col lg={4} md={4} sm={12} className="my-2">
+                  <div className="aws-data">
+                    <div>
+                      <h2>Project Bageshwar</h2>
+                    </div>
+                    <div className="awc-data-body">
+                      <div className="">
+                        {" "}
+                        <i className="awc-project-icon">
+                          <img src={Vector} alt="project"></img>
+                        </i>
+                      </div>
+                      <div>
+                        <p>District</p>
+                        <h3>Bageshwar</h3>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={12} className="my-2">
+                  <div className="aws-data">
+                    <div>
+                      <h2>Project Bageshwar</h2>
+                    </div>
+                    <div className="awc-data-body">
+                      <div className="">
+                        {" "}
+                        <i className="awc-project-icon">
+                          <img src={Vector} alt="project"></img>
+                        </i>
+                      </div>
+                      <div>
+                        <p>District</p>
+                        <h3>Bageshwar</h3>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={12} className="my-2">
+                  <div className="aws-data">
+                    <div>
+                      <h2>Project Bageshwar</h2>
+                    </div>
+                    <div className="awc-data-body">
+                      <div className="">
+                        {" "}
+                        <i className="awc-project-icon">
+                          <img src={Vector} alt="project"></img>
+                        </i>
+                      </div>
+                      <div>
+                        <p>District</p>
+                        <h3>Bageshwar</h3>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                
+              </Row>
             </div>
-            <div>
-              {/* <Footer /> */}
-            </div>
+
+            <div className="box-container">DashBoard</div>
+            <div>{/* <Footer /> */}</div>
           </div>
         </div>
       </div>

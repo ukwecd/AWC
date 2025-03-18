@@ -1,0 +1,63 @@
+.awc-dashboard-title {
+    background-image: url("../images/dashboard-bg.png");
+    padding: var(--awc-space-400);
+    background-repeat: no-repeat;
+    border-radius: var(--awc-space-200)
+}
+
+.awc-dashboard-title h1 {
+    font-size: var(--awc-space-700);
+    color: var(--awc-white);
+    font-weight: 600;
+}
+
+.awc-dashboard-title p {
+    font-size: var(--awc-space-300);
+    color: var(--awc-white);
+    text-align: justify;
+
+
+}
+
+.aws-data {
+    padding: var(--awc-space-300) var(--awc-space-400) var(--awc-space-750) var(--awc-space-400);
+    box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
+    background-color: var(--awc-white);
+    border-radius: var(--awc-space-200);
+}
+
+.aws-data-container {
+    flex-wrap: wrap;
+    padding: var(--awc-space-300) var(--awc-space-400) var(--awc-space-750) var(--awc-space-400);
+    margin-top: -26px;
+}
+
+.awc-project-icon {
+    background-color: var(--awc-orange);
+    padding: var(--awc-space-200);
+    width: 52px;
+    font-size: var(--awc-space-950);
+    border-radius: var(--awc-space-200);
+}
+
+.awc-data-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--awc-space-1000);
+    line-height: var(--awc-space-0);
+}
+
+.aws-data h2 {
+    font-size: var(--awc-space-550);
+    font-weight: 600;
+}
+
+.awc-data-body p {
+    font-size: var(--awc-space-450);
+    color: var(--awc-orange);
+    font-weight: 600;
+}
+
+.awc-data-body h3 {
+    font-size: var(--awc-space-500);
+}
