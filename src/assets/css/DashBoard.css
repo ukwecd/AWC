@@ -22,7 +22,8 @@
 }
 
 body {
-  background-color: var(--background-color4);
+  background-color: #E9ECEF;   
+  /* custom */
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -640,7 +641,7 @@ span.nav-label:hover {
     height: 30px;
     border-radius: 50%;
     padding-left: var(--awc-space-150);
-    margin-left: 395px;
+    margin-left: 350px;
   }
 
   .awc-check-btn {
@@ -760,7 +761,7 @@ span.nav-label:hover {
     height: 30px;
     border-radius: 50%;
     padding-left: var(--awc-space-150);
-    margin-right: var(--awc-space-150);
+    margin-right: var(--awc-space-400);
   }
 
   .awc-check-btn {
@@ -772,6 +773,15 @@ span.nav-label:hover {
   .awc-user {
     margin-left: 170px !important;
   }
+  .awc-log-icon-mob {
+    background-color: #EA9343;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-left: var(--awc-space-150);
+    margin-left: 395px;
+}
 }
 
 @media screen and (max-width: 568px) {
@@ -873,7 +883,7 @@ span.nav-label:hover {
 
   .awc-user {
     padding: 6px 8px 6px 16px;
-    margin-left: 18px !important;
+    margin-left: 12px !important;
 
     text-align: right;
     font-size: 14px;

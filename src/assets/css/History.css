@@ -1,0 +1,10 @@
+.awc-history-data h3{
+    font-size: var(--awc-space-300);
+    padding: var(--awc-space-200) var(--awc-space-200) var(--awc-space-200) var(--awc-space-200);
+    color: var(--awc-white);
+}
+.awc-history-data{
+    background-color: #6e626e;
+    border-radius: var(--awc-space-200);
+    min-height: 30px;
+}

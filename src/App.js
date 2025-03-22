@@ -16,6 +16,7 @@ import AddVacancies from "./componets/dashboard/Vacancies/AddVacancies";
 import ActiveVacancies from "./componets/dashboard/Vacancies/ActiveVacancies";
 import ReceivedForms from "./componets/dashboard/Vacancies/ReceivedForms";
 import GuideLine from "./componets/dashboard/GuideLine";
+import AdminBanner from "./componets/AdminBanner";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/ActiveVacancies" element={<ActiveVacancies />} />
         <Route path="/ReceivedForms" element={<ReceivedForms />} />
         <Route path="/GuideLine" element={<GuideLine />} />
+        <Route path="/AdminBanner" element={<AdminBanner />} />
 
       </Routes>
     </Router>

@@ -4,7 +4,7 @@ import Vector from "../../assets/images/project_area_icon.png";
 import AWCCenters from "../../assets/images/awc-centers-icon.png";
 import ReportIcon from "../../assets/images/reported-icon.png";
 import "../../assets/css/InnerDashBoard.css";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Table } from "react-bootstrap";
 const InnerDashBoard = () => {
   return (
     <>
@@ -37,7 +37,7 @@ const InnerDashBoard = () => {
 
             <div className="aws-data-container">
               <Row>
-                <Col lg={4} md={4} sm={12} className="my-2 ">
+                <Col lg={4} md={4} sm={12} className="my-2">
                   <div className="aws-data">
                     <div>
                       <h2>Project Bageshwar</h2>
@@ -94,11 +94,45 @@ const InnerDashBoard = () => {
                     </div>
                   </div>
                 </Col>
-
               </Row>
             </div>
-
-            <div className="box-container">DashBoard</div>
+            <div className="awc-table-heading">
+                  <h1>Puruskar Application Real time Status 2022-23</h1>
+                </div>
+            <div className="box-container-table">
+              <div>
+               
+               
+                <div className="awc-table-data">
+                  <div className="table-responsive-lg table-container-box">
+                    <Table
+                      
+                      className="awc-sub-table"
+                    >
+                      <thead className="awc-thead">
+                        <tr>
+                          <th>Title</th>
+                          <th>In Process</th>
+                          <th>Final Submit</th>
+                         
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          
+                          <td>आंगनवाड़ी कार्यकर्ती पुरस्कार</td>
+                          <td>3</td>
+                          
+                          <td>0 </td>
+                          
+                        </tr>
+                        
+                      </tbody>
+                    </Table>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div>{/* <Footer /> */}</div>
           </div>
         </div>

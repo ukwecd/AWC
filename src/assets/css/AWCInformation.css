@@ -1,0 +1,143 @@
+.awc-update-btn {
+    font-size: var(--awc-space-300);
+    /* custom */
+    background-color: #800080;
+    border: 1px #800080 solid;
+    height: 30px;
+
+}
+
+button.awc-update-btn.btn.btn-primary:hover {
+    background-color: #811c81;
+    border: 1px #800080 solid;
+}
+
+.awc-update-icon {
+    font-size: var(--awc-space-350);
+    margin-left: var(--awc-space-200);
+}
+
+.awc-control-inp {
+    font-size: var(--awc-space-300);
+    width: 143px;
+}
+
+.awc-label {
+    font-size: var(--awc-space-300);
+    font-weight: 600;
+}
+
+.awc-control {
+    font-size: var(--awc-space-300);
+
+}
+
+.awc-form-box {
+    box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
+    padding: var(--awc-space-400);
+}
+
+.table-responsive-lg {
+    box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
+    padding: var(--awc-space-400);
+    margin-top: 12px;
+}
+
+.awc-thead td {
+    font-size: var(--awc-space-300) !important;
+}
+
+.table-responsive-lg.table-container-box {
+    overflow-x: auto;
+
+
+}
+
+.awc-btn-passbook {
+    font-size: var(--awc-space-300);
+}
+
+.awc-view-btn {
+    float: right;
+}
+
+.awc-view-btn span {
+    font-size: var(--awc-space-250);
+    margin-right: var(--awc-space-300);
+    /* custom */
+    color: purple;
+}
+
+.nd-staff-mobresp {
+    display: flex;
+}
+
+.awc-heading-two h2 {
+    font-size: var(--awc-space-350);
+    margin-left: var(--awc-space-500);
+}
+
+.awc-span {
+    font-size: var(--awc-space-250);
+    /* custom */
+    color: purple;
+}
+
+.awc-surrend-btn {
+    font-size: var(--awc-space-350);
+    padding: var(--awc-space-0);
+    padding-top: var(--awc-space-100);
+}
+
+.awc-demand-btn {
+    font-size: var(--awc-space-350);
+    padding: var(--awc-space-0);
+    padding-top: var(--awc-space-100);
+    /* custom */
+    background-color: purple;
+}
+
+button.awc-demand-btn.btn.btn-primary {
+    border: 1px purple solid;
+}
+
+button.awc-demand-btn.btn.btn-primary:hover {
+    background-color: purple;
+    border: 1px purple solid;
+}
+
+.awc-surrend-register {
+    color: var(--awc-black) !important;
+    font-size: var(--awc-space-300);
+
+}
+
+.awc-surrend-register a {
+    color: var(--awc-black);
+    font-size: var(--awc-space-300);
+
+}
+
+.awc-surrend-register a:hover {
+    color: var(--awc-orange) !important;
+    font-size: var(--awc-space-300);
+
+}
+
+button.awc-surrend-register.btn.btn-info:hover {
+    border: none;
+}
+
+@media only screen and (max-width: 568px) {
+    .awc-table {
+        margin: var(--awc-space-0);
+    }
+
+    .nd-staff-mobresp {
+        display: block;
+    }
+
+    .awc-form-box {
+        box-shadow: none;
+    }
+}
