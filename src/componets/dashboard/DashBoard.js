@@ -1,5 +1,4 @@
-
-import UKLOGO from "../../assets/images/uklogo.png"
+import UKLOGO from "../../assets/images/uklogo.png";
 import UKLogon from "../..//assets/images/wecdlogo.png";
 import MenuIcon from "../../assets/images/menu_icon.png";
 import { MdCurrencyRupee } from "react-icons/md";
@@ -36,7 +35,6 @@ function DashBoard() {
   };
 
   const navigationOptions = [
-
     { icon: <RxDashboard />, label: "DashBoard", path: "/InnerDashBoard" },
     {
       icon: <MdCenterFocusWeak />,
@@ -64,7 +62,6 @@ function DashBoard() {
           label: "History",
           path: "/History",
         },
-
       ],
     },
     {
@@ -92,6 +89,7 @@ function DashBoard() {
       icon: <GrDocumentSound />,
       label: "दिशा निर्देश",
       path: "/GuideLine",
+      download: "/दिशा निर्देश पत्र.pdf",
     },
   ];
 
@@ -113,11 +111,9 @@ function DashBoard() {
             <img src={UKLOGO} alt="logo" className="uk-logo" />
           </Link>
 
-
           <div className="awc-title">
             <span className="awc-subtitle">WECDPANE</span>
           </div>
-
         </div>
 
         <div className="message">
@@ -130,7 +126,7 @@ function DashBoard() {
           </div>
           <div className="dp" alt="logout" title="Click to logout">
             <div className="awc-log-icon">
-              <LuLogOut />
+              <LuLogOut className="awc-logout" />
             </div>
           </div>
         </div>
@@ -150,10 +146,24 @@ function DashBoard() {
                     <LuLogOut className=" " title="Click to logout" />
                   </div>
                 </div>
-
+                    {/* pdf link */}
                 {navigationOptions.map((option, index) => (
                   <React.Fragment key={index}>
-                    {option.subRoutes ? (
+                    {option.download ? (
+                      <a
+                        href={option.download}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`nav-option option${index + 1}`}
+                      >
+                        <div className="nav-item">
+                          <div className="d-flex">
+                            <span className="nav-icon">{option.icon}</span>
+                            <span className="nav-label">{option.label}</span>
+                          </div>
+                        </div>
+                      </a>
+                    ) : option.subRoutes ? (
                       <>
                         <div
                           className={`nav-option option${index + 1}`}
@@ -161,11 +171,15 @@ function DashBoard() {
                           style={{ cursor: "pointer" }}
                         >
                           <div className="nav-item">
-                            <div className=" awc-nav-items">
+                            <div className="awc-nav-items">
                               <span className="nav-icon">{option.icon}</span>
                               <span className="nav-label">{option.label}</span>
                               <span className="dropdown-arrow">
-                                {expandedMenus[option.label] ? <MdExpandLess /> : <MdKeyboardArrowRight />}
+                                {expandedMenus[option.label] ? (
+                                  <MdExpandLess />
+                                ) : (
+                                  <MdKeyboardArrowRight />
+                                )}
                               </span>
                             </div>
                           </div>

@@ -37,10 +37,11 @@ button.awc-update-btn.btn.btn-primary:hover {
     padding: var(--awc-space-400);
 }
 
-.table-responsive-lg {
+
+.table-container-box{
     box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
     padding: var(--awc-space-400);
-    margin-top: 12px;
+   
 }
 
 .awc-thead td {
@@ -65,22 +66,26 @@ button.awc-update-btn.btn.btn-primary:hover {
     font-size: var(--awc-space-250);
     margin-right: var(--awc-space-300);
     /* custom */
-    color: purple;
+    color: #2c0b99;
 }
 
 .nd-staff-mobresp {
     display: flex;
 }
 
-.awc-heading-two h2 {
+.awc-heading-tw h2 {
     font-size: var(--awc-space-350);
-    margin-left: var(--awc-space-500);
+
+    
 }
 
 .awc-span {
     font-size: var(--awc-space-250);
     /* custom */
-    color: purple;
+    color: var(--awc-black)
+}
+.nd-btn-district1{
+    font-weight: 500;
 }
 
 .awc-surrend-btn {

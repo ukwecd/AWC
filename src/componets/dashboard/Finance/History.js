@@ -23,7 +23,7 @@ const History = () => {
               <Row>
                 <div className="nd-staff-mobresp">
                   <Col lg={6} md={6} sm={12}>
-                    <div className="awc-heading-two">
+                    <div className="awc-heading-tw">
                       <h2>PassBook of Details 2024-25 </h2>
                     </div>
                   </Col>
@@ -41,29 +41,29 @@ const History = () => {
                 </div>
               </Row>
               <Row className="mt-3">
-                <Col lg={2} md={3} sm={12}>
-                  <div className="awc-history-data">
+                
+                  <div>
                     <h3>Fatch Spasific</h3>
                   </div>
-                </Col>
+                
                 <Col lg={2} md={2} sm={12}>
                   <div className="awc-history-data">
-                    <h3>All</h3>
+                    <Button className="fatch-data">All</Button>
                   </div>
                 </Col>
                 <Col lg={3} md={3} sm={12}>
                   <div className="awc-history-data">
-                    <h3>15 Awc rent | आंगनवाड़ी केंद्र किराया</h3>
+                    <Button className="fatch-data">15 Awc rent | आंगनवाड़ी केंद्र किराया</Button>
                   </div>
                 </Col>
                 <Col lg={2} md={2} sm={12}>
                   <div className="awc-history-data">
-                    <h3>15 Cooked | मानदेय</h3>
+                    <Button className="fatch-data">15 Cooked | मानदेय</Button>
                   </div>
                 </Col>
                 <Col lg={3} md={3} sm={12}>
                   <div className="awc-history-data">
-                    <h3>30 Cooked | मानदेय</h3>
+                    <Button className="fatch-data">30 Cooked | मानदेय</Button>
                   </div>
                 </Col>
               </Row>

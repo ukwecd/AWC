@@ -62,16 +62,26 @@
 .awc-data-body h3 {
     font-size: var(--awc-space-400);
 }
-.awc-table-heading h1{
-    font-size: var(--awc-space-500);
-    color: var(--awc-orange);
-    margin-top:var(--awc-space-200);
 
-   
+.awc-table-heading h2 {
+    font-size: var(--awc-space-400);
+    color: var(--awc-black);
+    margin-top: var(--awc-space-200);
+
+
 }
-.awc-table-heading{
+
+.awc-table-heading h1 {
+    font-size: var(--awc-space-500);
+    color: var(--awc-black);
+    margin-top: var(--awc-space-200);
+}
+
+.awc-table-heading {
     padding-left: var(--awc-space-300);
+    padding-top: var(--awc-space-200);
 }
+
 .awc-thead th {
     background-color: var(--awc-orange) !important;
     font-size: var(--awc-space-300);
@@ -80,19 +90,22 @@
     vertical-align: top;
 
 }
-.awc-table-data{
+
+.awc-table-data {
     margin-top: var(--awc-space-600);
 }
-.table-container-box{
+
+.table-container-box {
     box-shadow: 0 4px 6px #C4C4C480;
-  
+
     border-radius: var(--awc-space-200);
 }
-.box-container-table{
+
+.box-container-table {
     flex-wrap: wrap;
     border: 1px solid var(--awc-border);
     background-color: var(--awc-white);
     border-radius: var(--awc-space-200);
-    padding: 8px 16px 30px 16px ;
+    padding: 8px 16px 30px 16px;
     box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
 }

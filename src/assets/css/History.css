@@ -1,10 +1,153 @@
-.awc-history-data h3{
+.awc-history-data .awc-history-data {
     font-size: var(--awc-space-300);
     padding: var(--awc-space-200) var(--awc-space-200) var(--awc-space-200) var(--awc-space-200);
     color: var(--awc-white);
 }
-.awc-history-data{
+
+.awc-history-data {
     background-color: #6e626e;
     border-radius: var(--awc-space-200);
     min-height: 30px;
+}
+
+.nd-staff-mobresp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+    margin: var(--awc-space-100) var(--awc-space-50);
+    height: 50px;
+    width: auto;
+}
+
+.search {
+    position: absolute;
+    left: 0;
+    height: 42px !important;
+    background-color: var(--awc-blue-light-bg);
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    width: 0;
+    height: 100%;
+    z-index: 10;
+    transition: width 0.4s ease-in-out, padding 0.4s ease-in-out;
+    border-radius: 20px;
+    font-size: 12px;
+    opacity: 0;
+}
+
+.search-btn-sector {
+    display: inline-block;
+    margin: var(--awc-space-150) var(--awc-space-50);
+    background-color: var(--awc-orange) !important;
+    font-size: var(--awc-space-700);
+    padding: var(--awc-space-0) var(--awc-space-100);
+    height: 35px;
+    width: 35px;
+    line-height: 38px;
+    text-align: center;
+    color: var(--awc-white);
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    border: none;
+    border-radius: 50%;
+    transform: rotateZ(45deg);
+}
+
+.nd-staff-print {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nd-btn-prt {
+    font-size: 12px;
+    padding: 6px 12px 4px 12px;
+    color: var(--awc-white);
+}
+
+.nd-btn-copy {
+    font-size: 12px;
+    padding: 6px 12px 6px 12px;
+    background-color: var(--awc-orange);
+    color: var(--awc-white);
+    border: none;
+}
+
+.nd-btn-excel {
+    font-size: 12px;
+    padding: 6px 12px 6px 12px;
+    /* custom */
+    background-color: purple;
+    color: var(--awc-white);
+    border: none;
+}
+
+.nd-btn-excel:hover {
+    background-color: purple;
+    color: var(--awc-white);
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    background-color: purple;
+    color: var(--awc-white);
+}
+
+.search:focus,
+.search-container.active .search {
+    width: 300px;
+    opacity: 1;
+    padding: 0 10px;
+}
+
+.awc-select-option {
+    font-size: var(--awc-space-300);
+}
+
+option .awc-select-option {
+    font-size: 12px;
+}
+
+.form-select {
+    font-size: var(--awc-space-300);
+}
+
+.awc-sector-btn {
+    font-size: var(--awc-space-300);
+    background-color: var(--awc-orange);
+    color: var(--awc-white);
+    border: 1px #f9b115 solid;
+}
+
+button.awc-sector-btn.btn.btn-primary:hover {
+    background-color: var(--awc-orange);
+    color: var(--awc-white);
+    border: 1px #f9b115 solid;
+}
+
+.awc-sector-submit {
+    text-align: center;
+    margin-top: var(--awc-space-500);
+}
+
+.awc-dna {
+    color: var(--awc-red);
+    font-size: var(--awc-space-300);
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    background-color: #0dcaf0 !important;
+}
+.awc-table-heading span{
+    color: green;
+    font-size: var(--awc-space-300);
 }

@@ -17,6 +17,8 @@ import ActiveVacancies from "./componets/dashboard/Vacancies/ActiveVacancies";
 import ReceivedForms from "./componets/dashboard/Vacancies/ReceivedForms";
 import GuideLine from "./componets/dashboard/GuideLine";
 import AdminBanner from "./componets/AdminBanner";
+import Footer from "./componets/footer/Footer";
+import Header from "./componets/header/Header";
 
 function App() {
   return (
@@ -35,8 +37,11 @@ function App() {
         <Route path="/ReceivedForms" element={<ReceivedForms />} />
         <Route path="/GuideLine" element={<GuideLine />} />
         <Route path="/AdminBanner" element={<AdminBanner />} />
+        <Route path="/Header" element={<Header />} />
+        
 
       </Routes>
+      <Footer />
     </Router>
   );
 }

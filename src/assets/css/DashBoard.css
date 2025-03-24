@@ -30,7 +30,9 @@ body {
 
 .d-flex.awc-sub-item {
   margin-left: var(--awc-space-700);
-  margin-top: var(--awc-space-200);
+  margin-top: var(--awc-space-100);
+  margin-bottom: var(--awc-space-200);
+
 }
 
 .dropdown-arrow {

@@ -81,7 +81,7 @@ const StateSchemeReport = () => {
                   </Row>
                 </div>
                 <div className="awc-table-heading">
-                    <h1>View Report Surrender Report</h1>
+                    <h2>View Report Surrender Report</h2>
                   </div>
                 <div className="table-responsive-lg table-container-box">
                  

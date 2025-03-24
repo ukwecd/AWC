@@ -28,6 +28,7 @@
     --awc-white: #ffffff;
     --awc-black: #000000;
     --awc-Primary: #ED3338;
+    --awc-red:#ff0000;
     --awc-red-dark: #ac0a0f;
     --awc-seconadry: #a0a0a0;
     --awc-seconadry-hover: #807d7d;
@@ -82,6 +83,9 @@
 
   .awc-login-col{
     padding: 0px;
+  }
+  .awc-logout{
+    font-size: var(--awc-space-400);
   }
   
   

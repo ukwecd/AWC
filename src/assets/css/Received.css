@@ -1,0 +1,57 @@
+.awc-recevid-submit{
+    text-align: center;
+}
+.navcontainer, .received-form{
+    min-height: 100vh;
+    padding: 8px 12px 24px 12px;
+}
+
+.awc-sent-btn{
+    margin-right: var(--awc-space-400);
+    border: var(--awc-space-25) solid;
+    font-size: var(--awc-space-300);
+    background-color: var(--awc-gray);
+    color: var(--awc-white);
+}
+.awc-sent-btn:hover{
+   
+    border: var(--awc-space-25) solid;
+   
+    background-color: var(--awc-gray);
+    color: var(--awc-white);
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    background-color: var(--awc-gray) !important;
+    border: var(--awc-space-25) solid;
+}
+.awc-dashboard-btn{
+    margin-right: var(--awc-space-400);
+    border: var(--awc-space-25) solid;
+    font-size: var(--awc-space-300);
+    background-color: var(--awc-orange);
+    color: var(--awc-white);
+}
+.awc-dashboard-btn:hover{
+   
+    border: var(--awc-space-25) solid;
+   
+    background-color: var(--awc-orange);
+    color: var(--awc-white);
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    background-color: var(--awc-orange) !important;
+    border: var(--awc-space-25) solid;
+}
+@media only screen and (max-width: 568px) {
+
+
+.awc-dashboard-btn{
+    width: 100%;
+    
+}
+
+.awc-sent-btn{
+    width: 100%;
+    margin-top: var(--awc-space-300);
+}
+}

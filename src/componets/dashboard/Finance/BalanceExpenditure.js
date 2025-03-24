@@ -26,7 +26,7 @@ const BalanceExpenditure = () => {
               <Row>
                 <div className="nd-staff-mobresp">
                   <Col lg={6} md={6} sm={12}>
-                    <div className="awc-heading-two">
+                    <div className="awc-heading-tw">
                       <h2>Havalbag Amount Allotment/Expandture Details </h2>
                     </div>
                   </Col>
@@ -60,7 +60,7 @@ const BalanceExpenditure = () => {
                   </Col>
                 </div>
               </Row>
-              <div className="table-responsive-lg table-container-box">
+              <div className="table-responsive-lg table-container-box mt-3">
                 <Table className="awc-sub-table" striped bordered hover>
                   <thead className="awc-thead">
                     <tr>
