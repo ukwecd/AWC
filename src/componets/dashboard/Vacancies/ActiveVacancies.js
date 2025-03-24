@@ -1,6 +1,6 @@
 import React from "react";
 import DashBoard from "../DashBoard";
-import { Button, Col, Pagination, Row, Table} from "react-bootstrap";
+import { Button, Col, Row, Table} from "react-bootstrap";
 import "../../../assets/css/History.css";
 import { FaCheckCircle } from "react-icons/fa";
 

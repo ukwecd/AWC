@@ -22,10 +22,10 @@
 }
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
     background-color: var(--awc-gray) !important;
-    border: var(--awc-space-25) solid;
+    border: var(--awc-space-25) var(--awc-gray) solid;
 }
 .awc-dashboard-btn{
-    margin-right: var(--awc-space-400);
+    margin-right: var(--awc-space-800);
     border: var(--awc-space-25) solid;
     font-size: var(--awc-space-300);
     background-color: var(--awc-orange);
@@ -38,10 +38,7 @@
     background-color: var(--awc-orange);
     color: var(--awc-white);
 }
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
-    background-color: var(--awc-orange) !important;
-    border: var(--awc-space-25) solid;
-}
+
 @media only screen and (max-width: 568px) {
 
 

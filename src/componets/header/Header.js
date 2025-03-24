@@ -1,7 +1,6 @@
 import React from 'react';
 import UKLOGO from "../../assets/images/uklogo.png"
 import UKLogon from "../..//assets/images/wecdlogo.png";
-import MenuIcon from "../../assets/images/menu_icon.png";
 import { LuLogOut } from "react-icons/lu";
 import "../../assets/css/DashBoard.css";
 import { Link } from "react-router-dom";
@@ -14,13 +13,7 @@ function Header() {
     <div>
         <header className="user-awc-header">
         <div className="logosec">
-          <img
-            src={MenuIcon}
-            className="icn menuicn"
-            id="menuicn"
-            alt="menu-icon"
-            
-          />
+         
           <Link to="#" className="logo-page">
             <img src={UKLogon} alt="logo" className="wced-logo" />
           </Link>

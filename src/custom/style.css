@@ -87,5 +87,18 @@
   .awc-logout{
     font-size: var(--awc-space-400);
   }
+  .awc-control-chooce{
+    background-color: #b4b4b4;
+
+  }
+  
+  @media only screen and (max-width: 568px){
+   .search{
+    width: 160px;
+   }
+   .awc-form-box{
+    padding: 0px !important;
+   }
+  }
   
   

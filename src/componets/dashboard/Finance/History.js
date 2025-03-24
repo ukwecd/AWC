@@ -40,35 +40,35 @@ const History = () => {
                   </Col>
                 </div>
               </Row>
-              <Row className="mt-3">
+              <Row>
                 
-                  <div>
+                  <div className="awc-spasific-title">
                     <h3>Fatch Spasific</h3>
                   </div>
                 
-                <Col lg={2} md={2} sm={12}>
+                <Col lg={3} md={4} sm={12}>
                   <div className="awc-history-data">
                     <Button className="fatch-data">All</Button>
                   </div>
                 </Col>
-                <Col lg={3} md={3} sm={12}>
+                <Col lg={3} md={4} sm={12}>
                   <div className="awc-history-data">
                     <Button className="fatch-data">15 Awc rent | आंगनवाड़ी केंद्र किराया</Button>
                   </div>
                 </Col>
-                <Col lg={2} md={2} sm={12}>
+                <Col lg={3} md={4} sm={12}>
                   <div className="awc-history-data">
                     <Button className="fatch-data">15 Cooked | मानदेय</Button>
                   </div>
                 </Col>
-                <Col lg={3} md={3} sm={12}>
+                <Col lg={3} md={4} sm={12}>
                   <div className="awc-history-data">
                     <Button className="fatch-data">30 Cooked | मानदेय</Button>
                   </div>
                 </Col>
               </Row>
               <div>
-                <div className="table-responsive-lg table-container-box">
+                <div className="table-responsive-lg table-container-box mt-3">
                   <Table className="awc-sub-table">
                     <thead className="awc-thead">
                       <tr>

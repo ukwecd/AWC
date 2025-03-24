@@ -65,7 +65,7 @@ const StateSchemeReport = () => {
                         <Form.Control
                           type="file"
                           placeholder="District Name"
-                          className="awc-control"
+                          className="awc-control awc-control-chooce"
                         />
                       </Form.Group>
                     </Col>
@@ -75,7 +75,7 @@ const StateSchemeReport = () => {
                         controlId="exampleForm.ControlInput1"
                       >
                         <Form.Label className="awc-label">Remark</Form.Label>
-                        <Form.Control as="textarea" rows={2} />
+                        <Form.Control as="textarea" rows={1} />
                       </Form.Group>
                     </Col>
                   </Row>
