@@ -500,7 +500,7 @@ span.nav-label:hover {
 }
 
 .accordion-button::after {
-  /* background-image: url("../images/down-arrow.svg") !important; */
+  background-image: url("../images/down-arrow.svg") !important;
   content: "";
 }
 
@@ -542,7 +542,7 @@ span.nav-label:hover {
     }
 
     .accordion-button::after {
-      /* background-image: url("../images/down-arrow.svg") !important; */
+      background-image: url("../images/down-arrow.svg") !important;
       content: "";
     }
 
@@ -603,7 +603,7 @@ span.nav-label:hover {
   }
 
   .accordion-button::after {
-    /* background-image: url("../images/down-arrow.svg") !important; */
+    background-image: url("../images/down-arrow.svg") !important;
     content: "";
   }
 
@@ -728,7 +728,7 @@ span.nav-label:hover {
   }
 
   .accordion-button::after {
-    /* background-image: url("../images/down-arrow.svg") !important; */
+    background-image: url("../images/down-arrow.svg") !important;
     content: "";
   }
 
@@ -816,7 +816,7 @@ span.nav-label:hover {
   }
 
   .accordion-button::after {
-    /* background-image: url("../images/down-arrow.svg") !important; */
+    background-image: url("../images/down-arrow.svg") !important;
     content: "";
   }
 
