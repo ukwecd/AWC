@@ -37,12 +37,12 @@ const InsuranceBillView = () => {
             <div className="box-container">
               <div>
                 <Form>
-                  
+
                   <Row>
-                    
-                    <Col lg={7} md={7} sm={12} className="awc-bills-box1">
-                   
-                      <Row>
+
+                    <Col lg={7} md={7} sm={12} >
+
+                      <Row className="awc-bills-box1">
                         <div className="awc-label-title">For Bill Type | Manday :</div>
                         <Col lg={3} md={3} sm={3}>
                           <Form.Group
@@ -88,9 +88,9 @@ const InsuranceBillView = () => {
                       </Row>
                     </Col>
 
-                    <Col lg={5} md={5} sm={12} className="awc-bills-box">
-                   
-                      <Row>
+                    <Col lg={5} md={5} sm={12} >
+
+                      <Row className="awc-bills-box">
                         <div className="awc-label-title">For Bill Type | Protsahan :</div>
                         <Col lg={3} md={3} sm={3}>
                           <Form.Group
