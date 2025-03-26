@@ -99,7 +99,7 @@ const RequestDelete = () => {
                   </Col>
                   <Col lg={4} md={4} sm={12}>
                     <Form.Group
-                      className="mb-3"
+                      className=""
                       controlId="exampleForm.ControlInput1"
                     >
                       <Form.Label className="awc-label">
@@ -158,80 +158,80 @@ const RequestDelete = () => {
               <h1>Added Groups with Employee</h1>
             </div>
             <div className="box-container-table">
-           
-                <div className="awc-mt">
-                  <div className="table-responsive-lg table-container-box">
-                    <Table className="awc-sub-table">
-                      <thead className="awc-thead">
-                        <tr>
-                          <th>S.No</th>
-                          <th>Bill Title</th>
-                          <th>Instruction</th>
-                          <th>Reason</th>
-                          <th>Name</th>
-                          <th>Project</th>
-                          <th>District</th>
-                          <th>Status</th>
-                          <th>Response</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>May 2024-25 Pending</td>
-                          <td> To add AWW Worker which got removed. </td>
-                          <td>Account No.- 000134001100323\r\n\r\n</td>
-                          <td>Ayush Dobal(Junior Assistant) </td>
-                          <td>Havalbag</td>
-                          <td>Almora</td>
 
-                          <td>
-                            <div className="td-p">
-                              <Button
-                                variant="info "
-                                className="awc-surrend-btn"
-                              >
-                                <span class="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                                  Done{" "}
-                                  <FaCheckCircle className="awc-update-icon" />
-                                </span>
-                              </Button>
-                            </div>
-                          </td>
-                          <td>Worker added on request </td>
-                        </tr>
-                      </tbody>
-                    </Table>
-                  </div>
-                  <Row>
-                    <Col lg={6} md={6} sm={12}>
-                      {" "}
-                      <div className="tech-staff-perviose">
-                        <div>Showing 1 to 10 of 105 entries</div>
-                      </div>{" "}
-                    </Col>
-                    <Col lg={6} md={6} sm={12} className="awc-pading-next">
-                      {" "}
-                      <div className="tech-staff-table">
-                        {" "}
-                        <Pagination className="awc-paging">
-                          <Pagination.First />
-                          <Pagination.Prev />
-                          <Pagination.Item>{1}</Pagination.Item>
-                          <Pagination.Ellipsis />
+              <div className="awc-mt">
+                <div className="table-responsive-lg table-container-box">
+                  <Table className="awc-sub-table">
+                    <thead className="awc-thead">
+                      <tr>
+                        <th>S.No</th>
+                        <th>Bill Title</th>
+                        <th>Instruction</th>
+                        <th>Reason</th>
+                        <th>Name</th>
+                        <th>Project</th>
+                        <th>District</th>
+                        <th>Status</th>
+                        <th>Response</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>May 2024-25 Pending</td>
+                        <td> To add AWW Worker which got removed. </td>
+                        <td>Account No.- 000134001100323\r\n\r\n</td>
+                        <td>Ayush Dobal(Junior Assistant) </td>
+                        <td>Havalbag</td>
+                        <td>Almora</td>
 
-                          <Pagination.Item>{10}</Pagination.Item>
-                          <Pagination.Item>{11}</Pagination.Item>
-                          <Pagination.Item active>{12}</Pagination.Item>
-
-                          <Pagination.Next />
-                          <Pagination.Last />
-                        </Pagination>
-                      </div>{" "}
-                    </Col>
-                  </Row>
+                        <td>
+                          <div className="td-p">
+                            <Button
+                              variant="info "
+                              className="awc-surrend-btn"
+                            >
+                              <span class="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
+                                Done{" "}
+                                <FaCheckCircle className="awc-update-icon" />
+                              </span>
+                            </Button>
+                          </div>
+                        </td>
+                        <td>Worker added on request </td>
+                      </tr>
+                    </tbody>
+                  </Table>
                 </div>
-             
+                <Row>
+                  <Col lg={6} md={6} sm={12}>
+                    {" "}
+                    <div className="tech-staff-perviose">
+                      <div>Showing 1 to 10 of 105 entries</div>
+                    </div>{" "}
+                  </Col>
+                  <Col lg={6} md={6} sm={12} className="awc-pading-next">
+                    {" "}
+                    <div className="tech-staff-table">
+                      {" "}
+                      <Pagination className="awc-paging">
+                        <Pagination.First />
+                        <Pagination.Prev />
+                        <Pagination.Item>{1}</Pagination.Item>
+                        <Pagination.Ellipsis />
+
+                        <Pagination.Item>{10}</Pagination.Item>
+                        <Pagination.Item>{11}</Pagination.Item>
+                        <Pagination.Item active>{12}</Pagination.Item>
+
+                        <Pagination.Next />
+                        <Pagination.Last />
+                      </Pagination>
+                    </div>{" "}
+                  </Col>
+                </Row>
+              </div>
+
             </div>
             <div>
               <Footer />
