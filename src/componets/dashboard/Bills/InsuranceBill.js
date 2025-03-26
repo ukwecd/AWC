@@ -37,12 +37,12 @@ const InsuranceBill = () => {
             <div className="box-container">
               <div>
                 <Form>
-                  
+
                   <Row>
-                    
-                    <Col lg={7} md={7} sm={12} className="awc-bills-box1">
-                   
-                      <Row>
+
+                    <Col lg={7} md={7} sm={12} >
+
+                      <Row className="awc-bills-box1">
                         <div className="awc-label-title">For Bill Type | Manday :</div>
                         <Col lg={3} md={3} sm={3}>
                           <Form.Group
@@ -69,7 +69,7 @@ const InsuranceBill = () => {
                             </Form.Select>
                           </Form.Group>
                         </Col>
-                        <Col lg={3} md={3} sm={3}>
+                        <Col lg={4} md={4} sm={4}>
                           <Form.Group
                             className="mb-3"
                             controlId="exampleForm.ControlInput1"
@@ -82,15 +82,15 @@ const InsuranceBill = () => {
                             </Form.Select>
                           </Form.Group>
                         </Col>
-                        <Col lg={3} md={3} sm={3}>
+                        <Col lg={2} md={2} sm={2}>
                           <Button className="create-submit-btn">Submit</Button>
                         </Col>
                       </Row>
                     </Col>
 
-                    <Col lg={5} md={5} sm={12} className="awc-bills-box">
-                   
-                      <Row>
+                    <Col lg={5} md={5} sm={12}>
+
+                      <Row className="awc-bills-box1">
                         <div className="awc-label-title">For Bill Type | Protsahan :</div>
                         <Col lg={3} md={3} sm={3}>
                           <Form.Group
@@ -105,7 +105,7 @@ const InsuranceBill = () => {
                           </Form.Group>
                         </Col>
 
-                        <Col lg={3} md={3} sm={3}>
+                        <Col lg={6} md={6} sm={6}>
                           <Form.Group
                             className="mb-3"
                             controlId="exampleForm.ControlInput1"

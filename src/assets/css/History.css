@@ -13,10 +13,11 @@
     display: flex;
     justify-content: space-between;
 }
+
 .awc-staff-mobresp {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .search-container {
@@ -188,6 +189,10 @@ button.awc-sector-btn.btn.btn-primary:hover {
 :not(.btn-check)+.btn:active {
     background-color: var(--awc-gray) !important;
     border: solid var(--awc-space-25) var(--awc-gray);
+}
+
+.form-control:disabled {
+    font-size: var(--awc-space-300);
 }
 
 @media only screen and (max-width: 844px) {

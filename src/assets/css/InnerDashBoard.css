@@ -62,7 +62,8 @@
 .awc-data-body h3 {
     font-size: var(--awc-space-400);
 }
-.awc-mt{
+
+.awc-mt {
     margin-top: var(--awc-space-300);
 }
 
