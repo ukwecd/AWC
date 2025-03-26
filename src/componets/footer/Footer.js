@@ -8,7 +8,7 @@ function Footer() {
       <div className='nd-footer-data'>
        
         <Col>
-        <p>© 2025 नंदा गौरा योजना | WECDUK . All Rights Reserved  <br/> Designed by Brainrock</p>
+        <p>© Copyrights ICDS. All Rights Reserved  <br/> Designed By Brainrock</p>
         
         </Col>
      

@@ -3,6 +3,7 @@ import { Row,Form,Col, Button } from "react-bootstrap";
 import Header from "../../header/Header";
 import "../../../assets/css/Received.css"
 import { useNavigate } from "react-router-dom";
+import Footer from "../../footer/Footer";
 
 const ReceivedForms = () => {
   
@@ -21,7 +22,7 @@ const ReceivedForms = () => {
           <div className="main received-form">
           <div className="awc-table-heading">
               <h1>OTP Authentication</h1>
-              <span>Verify with otp to View Application Recevied</span>
+              <p>Verify with otp to View Application Recevied</p>
             </div>
             <div className="box-container">
             <div className="awc-form-box">
@@ -81,7 +82,7 @@ const ReceivedForms = () => {
               
             </div>
             <div>
-              {/* <Footer /> */}
+              <Footer />
             </div>
           </div>
         </div>

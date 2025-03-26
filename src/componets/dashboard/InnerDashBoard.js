@@ -4,7 +4,8 @@ import Vector from "../../assets/images/project_area_icon.png";
 import AWCCenters from "../../assets/images/awc-centers-icon.png";
 import ReportIcon from "../../assets/images/reported-icon.png";
 import "../../assets/css/InnerDashBoard.css";
-import { Col, Row, Table } from "react-bootstrap";
+import { Col, Pagination, Row, Table } from "react-bootstrap";
+import Footer from "../footer/Footer";
 const InnerDashBoard = () => {
   return (
     <>
@@ -130,10 +131,37 @@ const InnerDashBoard = () => {
                       </tbody>
                     </Table>
                   </div>
+                  <Row>
+                <Col lg={6} md={6} sm={12}>
+                  {" "}
+                  <div className="tech-staff-perviose">
+                    <div>Showing 1 to 10 of 105 entries</div>
+                  </div>{" "}
+                </Col>
+                <Col lg={6} md={6} sm={12} className="awc-pading-next">
+                  {" "}
+                  <div className="tech-staff-table">
+                    {" "}
+                    <Pagination className="awc-paging">
+                      <Pagination.First />
+                      <Pagination.Prev />
+                      <Pagination.Item>{1}</Pagination.Item>
+                      <Pagination.Ellipsis />
+
+                      <Pagination.Item>{10}</Pagination.Item>
+                      <Pagination.Item>{11}</Pagination.Item>
+                      <Pagination.Item active>{12}</Pagination.Item>
+                     
+                      <Pagination.Next />
+                      <Pagination.Last />
+                    </Pagination>
+                  </div>{" "}
+                </Col>
+              </Row>
                 </div>
               </div>
             </div>
-            <div>{/* <Footer /> */}</div>
+            <div><Footer /></div>
           </div>
         </div>
       </div>

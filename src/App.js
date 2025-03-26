@@ -9,16 +9,24 @@ import 'font-awesome/css/font-awesome.min.css';
 import DashBoard from "./componets/dashboard/DashBoard";
 import InnerDashBoard from "./componets/dashboard/InnerDashBoard";
 import AWCInformation from "./componets/dashboard/AWCInformation";
-import StateSchemeReport from "./componets/dashboard/Finance/StateSchemeReport";
-import BalanceExpenditure from "./componets/dashboard/Finance/BalanceExpenditure";
-import History from "./componets/dashboard/Finance/History";
-import AddVacancies from "./componets/dashboard/Vacancies/AddVacancies";
-import ActiveVacancies from "./componets/dashboard/Vacancies/ActiveVacancies";
-import ReceivedForms from "./componets/dashboard/Vacancies/ReceivedForms";
+import PendingRemoveRequest from "./componets/dashboard/MandayWorker/PendingRemoveRequest";
+import PendingEditRequest from "./componets/dashboard/MandayWorker/PendingEditRequest";
+import CreateGroup from "./componets/dashboard/MandayWorker/CreateGroup";
+import GenerateBill from "./componets/dashboard/Bills/GenerateBill";
+import ActiveVacancies from "./componets/dashboard/Bills/ActiveVacancies";
+import ReceivedForms from "./componets/dashboard/Bills/ReceivedForms";
 import GuideLine from "./componets/dashboard/GuideLine";
 import AdminBanner from "./componets/AdminBanner";
+import ContactUs from "./componets/dashboard/ContactUs";
 import Footer from "./componets/footer/Footer";
 import Header from "./componets/header/Header";
+import AllWorker from "./componets/dashboard/MandayWorker/AllWorker";
+import RetiredWorker from "./componets/dashboard/MandayWorker/RetiredWorker";
+import RequestDelete from "./componets/dashboard/Bills/RequestDelete";
+import ViewGeneratedBill from "./componets/dashboard/Bills/ViewGeneratedBill";
+import InsuranceBill from "./componets/dashboard/Bills/InsuranceBill";
+import InsuranceBillView from "./componets/dashboard/Bills/InsuranceBillView";
+
 
 function App() {
   return (
@@ -29,19 +37,27 @@ function App() {
         <Route path="/DashBoard" element={<DashBoard />} />
         <Route path="/InnerDashBoard" element={<InnerDashBoard />} />
         <Route path="/AWCInformation" element={<AWCInformation />} />
-        <Route path="/StateSchemeReport" element={<StateSchemeReport />} />
-        <Route path="/BalanceExpenditure" element={<BalanceExpenditure />} />
-        <Route path="/History" element={<History />} />
-        <Route path="/AddVacancies" element={<AddVacancies />} />
+        <Route path="/PendingRemoveRequest" element={<PendingRemoveRequest />} />
+        <Route path="/PendingEditRequest" element={<PendingEditRequest />} />
+        <Route path="/CreateGroup" element={<CreateGroup />} />
+        <Route path="/GenerateBill" element={<GenerateBill />} />
         <Route path="/ActiveVacancies" element={<ActiveVacancies />} />
         <Route path="/ReceivedForms" element={<ReceivedForms />} />
         <Route path="/GuideLine" element={<GuideLine />} />
         <Route path="/AdminBanner" element={<AdminBanner />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/AllWorker" element={<AllWorker />} />
+        <Route path="/RetiredWorker" element={<RetiredWorker />} />
+        <Route path="/RequestDelete" element={<RequestDelete />} />
+        <Route path="/ViewGeneratedBill" element={<ViewGeneratedBill />} />
+        <Route path="/InsuranceBill" element={<InsuranceBill />} />
+        <Route path="/InsuranceBillView" element={<InsuranceBillView />} />
         <Route path="/Header" element={<Header />} />
+        <Route path="/Footer" element={<Footer />} />
         
 
       </Routes>
-      <Footer />
+      
     </Router>
   );
 }

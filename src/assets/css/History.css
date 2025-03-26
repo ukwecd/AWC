@@ -13,6 +13,11 @@
     display: flex;
     justify-content: space-between;
 }
+.awc-staff-mobresp {
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 .search-container {
     position: relative;
@@ -152,7 +157,8 @@ button.awc-sector-btn.btn.btn-primary:hover {
     background-color: #0dcaf0 !important;
 }
 
-.awc-table-heading span {
+.awc-table-heading p {
+    /* custom */
     color: green;
     font-size: var(--awc-space-300);
 }

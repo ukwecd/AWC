@@ -132,19 +132,19 @@ const LoginBanner = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto justify-content-end flex-grow-1 awc-nav">
-                <Nav.Link href="#home">
+                <Link to ="/ContactUs" ><Nav.Link href="#home">
                   <FaGlobe className="me-1" />
                   Official Website
-                </Nav.Link>
+                </Nav.Link></Link>
                 <Nav.Link href="#link">
                   {" "}
                   <FaUserShield className="me-1" />
                   Login (Admin)
                 </Nav.Link>
-                <Nav.Link href="#link">
+                <Link to ="/ContactUs" > <Nav.Link href="#link">
                   <FaPhoneAlt className="me-1" />
                   Contact Us
-                </Nav.Link>
+                </Nav.Link></Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

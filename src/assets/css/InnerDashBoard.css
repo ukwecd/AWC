@@ -62,6 +62,9 @@
 .awc-data-body h3 {
     font-size: var(--awc-space-400);
 }
+.awc-mt{
+    margin-top: var(--awc-space-300);
+}
 
 .awc-table-heading h2 {
     font-size: var(--awc-space-400);

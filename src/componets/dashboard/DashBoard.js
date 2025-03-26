@@ -11,12 +11,10 @@ import LogoCDPO from "../../assets/images/Logo-cdpo.png";
 import { RxDashboard } from "react-icons/rx";
 import { MdCenterFocusWeak } from "react-icons/md";
 import { FaUserGroup } from "react-icons/fa6";
-import { GrDocumentSound } from "react-icons/gr";
 import { TiDocument } from "react-icons/ti";
 import { RiFileHistoryLine } from "react-icons/ri";
 import { RiFileEditLine } from "react-icons/ri";
 import { VscVmActive } from "react-icons/vsc";
-import { GoChecklist } from "react-icons/go";
 import { MdExpandLess } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
@@ -44,52 +42,68 @@ function DashBoard() {
 
     {
       icon: <MdCurrencyRupee />,
-      label: "Finance Schemes",
-      path: "/Finance",
+      label: "Manday Worker Info",
+      path: "/Manday Worker Info",
       subRoutes: [
         {
           icon: <TiDocument />,
-          label: "State Scheme Surr. Report",
-          path: "/StateSchemeReport",
+          label: "All Worker",
+          path: "/AllWorker",
+        },
+        {
+          icon: <TiDocument />,
+          label: "Retired Worker",
+          path: "/RetiredWorker",
+        },
+        {
+          icon: <TiDocument />,
+          label: "Pending Edit Request",
+          path: "/PendingEditRequest",
         },
         {
           icon: <FaChalkboardTeacher />,
-          label: "Balance/Expenditure",
-          path: "/BalanceExpenditure",
+          label: "Pending Remove Request",
+          path: "/PendingRemoveRequest",
         },
         {
           icon: <RiFileHistoryLine />,
-          label: "History",
-          path: "/History",
+          label: "Create Group",
+          path: "/CreateGroup",
         },
       ],
     },
     {
       icon: <FaUserGroup />,
-      label: "AWW/AWH Vacancies",
+      label: "Bills",
       subRoutes: [
         {
           icon: <RiFileEditLine />,
-          label: "Add Vacancies",
-          path: "/AddVacancies",
+          label: "Generate Bill",
+          path: "/GenerateBill",
         },
         {
           icon: <VscVmActive />,
-          label: "Active Vacanciess",
-          path: "/ActiveVacancies",
+          label: "View Generated Bill",
+          path: "/ViewGeneratedBill",
         },
         {
-          icon: <GoChecklist />,
-          label: "Received Forms",
-          path: "/ReceivedForms",
+          icon: <VscVmActive />,
+          label: "Insurance Bill",
+          path: "/InsuranceBill",
         },
+        {
+          icon: <VscVmActive />,
+          label: "Insurance Bill View",
+          path: "/InsuranceBillView",
+        },
+        {
+          icon: <RiFileEditLine />,
+          label: "Request Delete Edit",
+          path: "/RequestDelete",
+        },
+       
+       
       ],
-    },
-    {
-      icon: <GrDocumentSound />,
-      label: "दिशा निर्देश",
-      path: "/GuideLine",
-      download: "/दिशा निर्देश पत्र.pdf",
     },
   ];
 
