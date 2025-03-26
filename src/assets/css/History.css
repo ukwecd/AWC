@@ -85,6 +85,13 @@
     border: none;
 }
 
+.nd-btn-copy:hover {
+
+    color: var(--awc-white);
+    background-color: #dd791d;
+
+}
+
 .nd-btn-excel {
     font-size: 12px;
     padding: 6px 12px 6px 12px;
@@ -95,7 +102,7 @@
 }
 
 .nd-btn-excel:hover {
-    background-color: purple;
+    background-color: rgb(165, 24, 165);
     color: var(--awc-white);
 }
 
