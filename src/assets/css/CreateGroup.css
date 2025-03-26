@@ -67,7 +67,7 @@ button.accordion-button.collapsed {
 }
 
 .awc-bills-box1 {
-    padding: 12px;
+    padding: var(--awc-space-300);
     border-radius: var(--awc-space-200);
     text-align: center;
     box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
@@ -75,7 +75,7 @@ button.accordion-button.collapsed {
 }
 
 .awc-bills-box {
-    padding: 12px;
+    padding: var(--awc-space-300);
     border-radius: var(--awc-space-200);
     text-align: center;
     margin: var(--awc-space-100);
@@ -109,4 +109,16 @@ button.accordion-button.collapsed {
 
 textarea.form-control {
     font-size: var(--awc-space-250);
+}
+
+@media only screen and (max-width: 568px) {
+    .awc-bills-box1 {
+        padding: var(--awc-space-300) var(--awc-space-100) var(--awc-space-100) var(--awc-space-100);
+
+    }
+
+    .awc-bills-box {
+        padding: var(--awc-space-300) var(--awc-space-100) var(--awc-space-100) var(--awc-space-100);
+
+    }
 }
