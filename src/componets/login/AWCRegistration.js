@@ -66,7 +66,7 @@ function AWCRegistration() {
             </div>
           </Modal.Body>
           <Modal.Footer className="nd-registration">
-            <Link to="/UserOtp">
+            <Link to="/CreatePassword">
               {" "}
               <Button variant="secondary" className="awc-primary-btn">
                 जानकारी दर्ज करे
