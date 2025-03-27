@@ -38,10 +38,10 @@ button.awc-update-btn.btn.btn-primary:hover {
 }
 
 
-.table-container-box{
+.table-container-box {
     box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
     /* padding: var(--awc-space-400); */
-   
+
 }
 
 .awc-thead td {
@@ -55,21 +55,36 @@ button.awc-update-btn.btn.btn-primary:hover {
 }
 
 .awc-btn-add {
-    font-size: var(--awc-space-250);
+    font-size: var(--awc-space-300);
     margin-right: var(--awc-space-250);
     background-color: var(--awc-bg-green);
     border: var(--awc-space-25) var(--awc-bg-green);
 }
+
+.awc-btn-add:hover {
+    font-size: var(--awc-space-300);
+    margin-right: var(--awc-space-250);
+    background-color: #4d8b6d;
+    border: var(--awc-space-25) var(--awc-bg-green);
+}
+
 .awc-btn-remove {
     font-size: var(--awc-space-300);
     margin-right: var(--awc-space-300);
-    background-color: var( --awc-red);
+    background-color: var(--awc-red);
     border: var(--awc-space-25) var(--awc-red);
 }
-.awc-text h2{
+
+.awc-btn-remove:hover {
+    background-color: #ea3838;
+
+}
+
+.awc-text h2 {
     font-size: var(--awc-space-300);
     color: var(--awc-red);
 }
+
 .awc-view-btn {
     float: right;
     display: flex;
@@ -89,7 +104,7 @@ button.awc-update-btn.btn.btn-primary:hover {
 .awc-heading-tw h2 {
     font-size: var(--awc-space-350);
 
-    
+
 }
 
 .awc-span {
@@ -97,7 +112,8 @@ button.awc-update-btn.btn.btn-primary:hover {
     /* custom */
     color: var(--awc-black)
 }
-.nd-btn-district1{
+
+.nd-btn-district1 {
     font-weight: 500;
 }
 
