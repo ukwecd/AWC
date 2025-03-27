@@ -31,15 +31,100 @@ const GenerateBill = () => {
                 </p>
               </div>
             </div>
-            <div className="awc-table-heading">
-              <h1>Dasoli PassBook 2024-25</h1>
-            </div>
-            <div className="box-container">
-             <Row>
-              <Col lg={6} md={6} sm={12}>1</Col>
-              <Col lg={6} md={6} sm={12}>1</Col>
-             </Row>
-            </div>
+            
+            <div className="box-container mt-3">
+                         <div>
+                           <Form>
+           
+                             <Row>
+           
+                               <Col lg={7} md={7} sm={12} >
+           
+                                 <Row className="awc-bills-box1">
+                                   <div className="awc-label-title">For Bill Type | Manday :</div>
+                                   <Col lg={3} md={3} sm={3}>
+                                     <Form.Group
+                                       className="mb-3"
+                                       controlId="exampleForm.ControlInput1"
+                                     >
+                                       <Form.Control
+                                         type="text"
+                                         placeholder="Manday"
+                                         disabled
+                                       />
+                                     </Form.Group>
+                                   </Col>
+                                   <Col lg={3} md={3} sm={3}>
+                                     <Form.Group
+                                       className="mb-3"
+                                       controlId="exampleForm.ControlInput1"
+                                     >
+                                       <Form.Select className="mb-2">
+                                         <option>Choose Type</option>
+                                         <option value="1">Option 1</option>
+                                         <option value="2">Option 2</option>
+                                         <option value="3">Option 3</option>
+                                       </Form.Select>
+                                     </Form.Group>
+                                   </Col>
+                                   <Col lg={4} md={4} sm={4}>
+                                     <Form.Group
+                                       className="mb-3"
+                                       controlId="exampleForm.ControlInput1"
+                                     >
+                                       <Form.Select className="mb-2">
+                                         <option>Choose Distribution </option>
+                                         <option value="1">Option 1</option>
+                                         <option value="2">Option 2</option>
+                                         <option value="3">Option 3</option>
+                                       </Form.Select>
+                                     </Form.Group>
+                                   </Col>
+                                   <Col lg={2} md={2} sm={2}>
+                                     <Button className="create-submit-btn">Submit</Button>
+                                   </Col>
+                                 </Row>
+                               </Col>
+           
+                               <Col lg={5} md={5} sm={12}>
+           
+                                 <Row className="awc-bills-box1">
+                                   <div className="awc-label-title">For Bill Type | Protsahan :</div>
+                                   <Col lg={3} md={3} sm={3}>
+                                     <Form.Group
+                                       className="mb-3"
+                                       controlId="exampleForm.ControlInput1"
+                                     >
+                                       <Form.Control
+                                         type="text"
+                                         placeholder="Manday"
+                                         disabled
+                                       />
+                                     </Form.Group>
+                                   </Col>
+           
+                                   <Col lg={6} md={6} sm={6}>
+                                     <Form.Group
+                                       className="mb-3"
+                                       controlId="exampleForm.ControlInput1"
+                                     >
+                                       <Form.Select className="mb-2">
+                                         <option>Choose Month </option>
+                                         <option value="1">Option 1</option>
+                                         <option value="2">Option 2</option>
+                                         <option value="3">Option 3</option>
+                                       </Form.Select>
+                                     </Form.Group>
+                                   </Col>
+                                   <Col lg={3} md={3} sm={3}>
+                                     <Button className="create-submit-btn">Submit</Button>
+                                   </Col>
+                                 </Row>
+                               </Col>
+                             </Row>
+                           </Form>
+                         </div>
+                       </div>
             <div className="awc-table-heading">
               <h1>Added Groups with Employee</h1>
             </div>

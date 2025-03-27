@@ -83,13 +83,14 @@ const RetiredWorker = () => {
                     </thead>
                     <tbody></tbody>
                   </Table>
-                  <div className="text-center awc-dna">
+                 
+                 
+              </div>
+              <div className="text-center awc-dna">
                   {" "}
                   <MdError /> Data Not Available
                 
                 </div>
-                
-              </div>
               <Row>
                 <Col lg={6} md={6} sm={12}>
                   {" "}

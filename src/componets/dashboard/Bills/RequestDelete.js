@@ -18,10 +18,12 @@ const RequestDelete = () => {
 
           <div className="main">
             <div className="awc-table-heading">
-              <h1>All Anganwadi Center List</h1>
+              <h1>Bill Entry Deletion/Update Request Form</h1>
             </div>
             <div className="box-container">
               <div className="awc-form-box">
+                <p>Note:Only Current bill can be updated which are not forwarded.
+                (केवल वर्तमान बिल को अपडेट किया जा सकता है जो forward नहीं किया गया है)</p>
                 <Row>
                   <Col lg={4} md={4} sm={12}>
                     <Form.Group
@@ -147,7 +149,7 @@ const RequestDelete = () => {
                     </Form.Group>
                   </Col>
                   <div className="awc-recevid-submit">
-                    <Button className="awc-dashboard-btn">
+                    <Button className="create-submit-btn">
                       अपना अनुरोध सबमिट करे
                     </Button>
                   </div>

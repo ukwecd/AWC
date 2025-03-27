@@ -45,6 +45,7 @@
     --awc-off-black: #154351;
     --awc-blue-light-bg: #E0EEFB;
     --awc-blue-bg: #0B62BB;
+    --awc-blue-hover: #0b5ed7;
     --awc-orange: #EA9343;
     --awc-orange-border: #f9b115;
     --awc-green-border: #59822c;
@@ -83,6 +84,17 @@
     --awc-space-1200: 48px;
   }
 
+  .modal-footer{
+    justify-content: center !important;
+  }
+
+  .shadow1 {
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.10);
+  }
+.awc-form-box p{
+  font-size: var(--awc-space-300);
+  color: var(--awc-red);
+}
   .awc-login-col{
     padding: 0px;
   }
@@ -119,7 +131,12 @@ font-size: 4px;
     background-color: var(--awc-orange);
     border: var(--awc-space-25) var(--awc-orange);
   }
+  
   @media only screen and (max-width: 568px){
+    img.logo1 {
+      width: 45px;
+      display: none;
+  }
    .search{
     width: 160px !important;
    }
@@ -132,6 +149,9 @@ font-size: 4px;
    .awc-after-fillter{
     padding:  var(--awc-space-0) !important;
    }
+   .awc-banner-p{
+    padding-right: var(--awc-space-0) !important;
+}
   }
   
   

@@ -26,15 +26,19 @@ import RequestDelete from "./componets/dashboard/Bills/RequestDelete";
 import ViewGeneratedBill from "./componets/dashboard/Bills/ViewGeneratedBill";
 import InsuranceBill from "./componets/dashboard/Bills/InsuranceBill";
 import InsuranceBillView from "./componets/dashboard/Bills/InsuranceBillView";
+import OTPPage from "./componets/login/OTPPage";
+import CreatePassword from "./componets/login/CreatePassword";
+
 
 
 function App() {
   return (
     <Router>
-      <NavBar />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/DashBoard" element={<DashBoard />} />
+        <Route path="/NavBar" element={<NavBar />} />
         <Route path="/InnerDashBoard" element={<InnerDashBoard />} />
         <Route path="/AWCInformation" element={<AWCInformation />} />
         <Route path="/PendingRemoveRequest" element={<PendingRemoveRequest />} />
@@ -52,6 +56,8 @@ function App() {
         <Route path="/ViewGeneratedBill" element={<ViewGeneratedBill />} />
         <Route path="/InsuranceBill" element={<InsuranceBill />} />
         <Route path="/InsuranceBillView" element={<InsuranceBillView />} />
+        <Route path="/OTPPage" element={<OTPPage />} />
+        <Route path="/CreatePassword" element={<CreatePassword />} />
         <Route path="/Header" element={<Header />} />
         <Route path="/Footer" element={<Footer />} />
         

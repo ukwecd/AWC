@@ -8,7 +8,7 @@ function Footer() {
       <div className='nd-footer-data'>
        
         <Col>
-        <p>© Copyrights ICDS. All Rights Reserved  <br/> Designed By Brainrock</p>
+        <p>© 2025 WECDUK . All Rights Reserved  <br/> Designed By Brainrock</p>
         
         </Col>
      

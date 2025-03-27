@@ -11,7 +11,9 @@
 
 
 }
-
+.awc-update {
+    display: flex;
+}
 .awc-image img {
     width: 20px;
     margin-left: var(--awc-space-200);

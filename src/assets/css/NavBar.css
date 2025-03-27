@@ -1,0 +1,68 @@
+/* .awc-main {
+    background: linear-gradient(#C1E5FB, #FFFFFF);
+
+} */
+
+.awc-title {
+    line-height: var(--awc-space-400);
+    width: 400px;
+    color: var(--awc-black) !important;
+    margin-top: 12px;
+}
+img.logo1 {
+    width: 45px;
+}
+
+
+.awc-subtitle {
+    color: var(--awc-red) !important;
+    font-size: var(--awc-space-450) !important;
+    display: flex;
+    margin-left: var(--awc-space-300);
+
+}
+img.logo-wecd{
+    width: 60px;
+}
+
+.subtitle {
+    color: var(--awc-Primary) !important;
+    font-size: var(--awc-space-350) !important;
+    line-height: var(--awc-space-600) !important;
+}
+
+.nav-link {
+    color: var(--awc-black);
+    font-weight: var(--awc-space-800) !important;
+    font-size: 14px;
+}
+
+@media (max-width: 576px) {
+    
+    
+    .logo {
+
+        display: flex;
+        margin-right: var(--awc-space-0) !important;
+    }
+
+    .awc-title {
+
+        font-size: var(--awc-space-200) !important;
+        width: 209px !important;
+    }
+
+    .awc-subtitle {
+
+        display: flex;
+        font-size: var(--awc-space-300) !important;
+    }
+
+    .subtitle {
+        font-size: var(--awc-space-250) !important;
+    }
+    .awc-mob-responsive{
+        padding: var(--awc-space-150)var(--awc-space-150) var(--awc-space-150) var(--awc-space-150) !important;
+    }
+  
+}

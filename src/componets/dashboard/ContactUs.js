@@ -1,22 +1,24 @@
 import React from "react";
 import { Row, Col, Container, Card } from "react-bootstrap";
 import "../../assets/css/ContactUs.css"
-import LocationIcon from "../../assets/images/location_icon.png"
-import UserIcon from "../../assets/images//user_icon.png";
-import PhoneIcon from "../../assets/images/phone_icon.png";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
+import NavBar from "../topnav/NavBar";
+import Footer from "../footer/Footer"
+
+
 
 function ContactUs() {
   return (
     <div>
+      <NavBar />
       <Container fluid>
         <Row className="awc-header">
-          <Col lg={4} md={4} sm={12} className="awc-header-subtitle ">
-            <h1 className="offset-3 pt-3" >नंदा गौरा योजना</h1>
+          <Col lg={12} md={12} sm={12} className="awc-header-subtitle text-center ">
+            <h1 className="offset-1 pt-3" >महिला सशक्तिकरण एवं बाल विकास विभाग</h1>
           </Col>
-          <Col lg={8} md={8} sm={12} className="awc-subtitle">
+          {/* <Col lg={8} md={8} sm={12} className="awc-subtitle">
            
               <p className="pt-3">District-Wise Nodal Officer Contact Details
               <br/>
@@ -24,20 +26,13 @@ function ContactUs() {
                 वैधानिक कार्यवाही की जाएगी |
                 </p>
             
-          </Col>
+          </Col> */}
         </Row>
       </Container>
       <Container className="mt-2 mb-2">
         <Row className="awc-contact-main">
-          <div className="awc-contact-title">
-            {" "}
-            <h2>
-              Legal action will be taken if there is iawciscipline during the
-              call.
-            </h2>
-          </div>
-
-          <Col lg={3} md={4} sm={12}>
+          
+          {/* <Col lg={3} md={4} sm={12}>
             <Card className="m-2 awc-contact-box">
               <Row>
                 <div className="d-flex ">
@@ -45,17 +40,17 @@ function ContactUs() {
                     <img src={LocationIcon} alt="Location"></img>
                   </Col>
                   <Col lg={10} md={10} sm={10} className="awc-contact-info">
-                    <span>District: </span> Almora
+                    <span>Email: </span> help.wecduk@gmail.com
                   </Col>
                 </div>
               </Row>
               <Row>
                 <div className="d-flex ">
                   <Col lg={2} className="awc-image">
-                    <img src={UserIcon} alt="user name"></img>
+                    <img src={LocationIcon} alt="user name"></img>
                   </Col>
                   <Col lg={10} className="awc-contact-info">
-                    <span>Officer Name:</span> RAJEEV KUMAR TIWARI
+                    <span>Address:</span>  ICDS office,Dehradun,U.K <br />Near Nanda ki chowki, Chakrata Road, Dehradun
                   </Col>
                 </div>
               </Row>
@@ -65,386 +60,12 @@ function ContactUs() {
                     <img src={PhoneIcon} alt="phone number"></img>
                   </Col>
                   <Col lg={10} className="awc-contact-info">
-                    <span> Mobile No.:</span> 9557110679
+                    <span> Department helpline:</span> 9557110679
                   </Col>
                 </div>
               </Row>
             </Card>
-          </Col>
-          <Col lg={3} md={4} sm={12}>
-            <Card className="m-2 awc-contact-box">
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} md={2} sm={2} className="awc-image">
-                    <img src={LocationIcon} alt="Location"></img>
-                  </Col>
-                  <Col lg={10} md={10} sm={10} className="awc-contact-info">
-                    <span>District: </span> Almora
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} className="awc-image">
-                    <img src={UserIcon} alt="user name"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span>Officer Name:</span> RAJEEV KUMAR TIWARI
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex">
-                  <Col lg={2} className="awc-image">
-                    <img src={PhoneIcon} alt="phone number"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span> Mobile No.:</span> 9557110679
-                  </Col>
-                </div>
-              </Row>
-            </Card>
-          </Col>
-          <Col lg={3} md={4} sm={12}>
-            <Card className="m-2 awc-contact-box">
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} md={2} sm={2} className="awc-image">
-                    <img src={LocationIcon} alt="Location"></img>
-                  </Col>
-                  <Col lg={10} md={10} sm={10} className="awc-contact-info">
-                    <span>District: </span> Almora
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} className="awc-image">
-                    <img src={UserIcon} alt="user name"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span>Officer Name:</span> RAJEEV KUMAR TIWARI
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex">
-                  <Col lg={2} className="awc-image">
-                    <img src={PhoneIcon} alt="phone number"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span> Mobile No.:</span> 9557110679
-                  </Col>
-                </div>
-              </Row>
-            </Card>
-          </Col>
-          <Col lg={3} md={4} sm={12}>
-            <Card className="m-2 awc-contact-box">
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} md={2} sm={2} className="awc-image">
-                    <img src={LocationIcon} alt="Location"></img>
-                  </Col>
-                  <Col lg={10} md={10} sm={10} className="awc-contact-info">
-                    <span>District: </span> Almora
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} className="awc-image">
-                    <img src={UserIcon} alt="user name"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span>Officer Name:</span> RAJEEV KUMAR TIWARI
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex">
-                  <Col lg={2} className="awc-image">
-                    <img src={PhoneIcon} alt="phone number"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span> Mobile No.:</span> 9557110679
-                  </Col>
-                </div>
-              </Row>
-            </Card>
-          </Col>
-          <Col lg={3} md={4} sm={12}>
-            <Card className="m-2 awc-contact-box">
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} md={2} sm={2} className="awc-image">
-                    <img src={LocationIcon} alt="Location"></img>
-                  </Col>
-                  <Col lg={10} md={10} sm={10} className="awc-contact-info">
-                    <span>District: </span> Almora
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} className="awc-image">
-                    <img src={UserIcon} alt="user name"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span>Officer Name:</span> RAJEEV KUMAR TIWARI
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex">
-                  <Col lg={2} className="awc-image">
-                    <img src={PhoneIcon} alt="phone number"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span> Mobile No.:</span> 9557110679
-                  </Col>
-                </div>
-              </Row>
-            </Card>
-          </Col>
-          <Col lg={3} md={4} sm={12}>
-            <Card className="m-2 awc-contact-box">
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} md={2} sm={2} className="awc-image">
-                    <img src={LocationIcon} alt="Location"></img>
-                  </Col>
-                  <Col lg={10} md={10} sm={10} className="awc-contact-info">
-                    <span>District: </span> Almora
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} className="awc-image">
-                    <img src={UserIcon} alt="user name"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span>Officer Name:</span> RAJEEV KUMAR TIWARI
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex">
-                  <Col lg={2} className="awc-image">
-                    <img src={PhoneIcon} alt="phone number"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span> Mobile No.:</span> 9557110679
-                  </Col>
-                </div>
-              </Row>
-            </Card>
-          </Col>
-          <Col lg={3} md={4} sm={12}>
-            <Card className="m-2 awc-contact-box">
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} md={2} sm={2} className="awc-image">
-                    <img src={LocationIcon} alt="Location"></img>
-                  </Col>
-                  <Col lg={10} md={10} sm={10} className="awc-contact-info">
-                    <span>District: </span> Almora
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} className="awc-image">
-                    <img src={UserIcon} alt="user name"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span>Officer Name:</span> RAJEEV KUMAR TIWARI
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex">
-                  <Col lg={2} className="awc-image">
-                    <img src={PhoneIcon} alt="phone number"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span> Mobile No.:</span> 9557110679
-                  </Col>
-                </div>
-              </Row>
-            </Card>
-          </Col>
-          <Col lg={3} md={4} sm={12}>
-            <Card className="m-2 awc-contact-box">
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} md={2} sm={2} className="awc-image">
-                    <img src={LocationIcon} alt="Location"></img>
-                  </Col>
-                  <Col lg={10} md={10} sm={10} className="awc-contact-info">
-                    <span>District: </span> Almora
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} className="awc-image">
-                    <img src={UserIcon} alt="user name"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span>Officer Name:</span> RAJEEV KUMAR TIWARI
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex">
-                  <Col lg={2} className="awc-image">
-                    <img src={PhoneIcon} alt="phone number"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span> Mobile No.:</span> 9557110679
-                  </Col>
-                </div>
-              </Row>
-            </Card>
-          </Col>
-          <Col lg={3} md={4} sm={12}>
-            <Card className="m-2 awc-contact-box">
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} md={2} sm={2} className="awc-image">
-                    <img src={LocationIcon} alt="Location"></img>
-                  </Col>
-                  <Col lg={10} md={10} sm={10} className="awc-contact-info">
-                    <span>District: </span> Almora
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} className="awc-image">
-                    <img src={UserIcon} alt="user name"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span>Officer Name:</span> RAJEEV KUMAR TIWARI
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex">
-                  <Col lg={2} className="awc-image">
-                    <img src={PhoneIcon} alt="phone number"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span> Mobile No.:</span> 9557110679
-                  </Col>
-                </div>
-              </Row>
-            </Card>
-          </Col>
-          <Col lg={3} md={4} sm={12}>
-            <Card className="m-2 awc-contact-box">
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} md={2} sm={2} className="awc-image">
-                    <img src={LocationIcon} alt="Location"></img>
-                  </Col>
-                  <Col lg={10} md={10} sm={10} className="awc-contact-info">
-                    <span>District: </span> Almora
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} className="awc-image">
-                    <img src={UserIcon} alt="user name"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span>Officer Name:</span> RAJEEV KUMAR TIWARI
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex">
-                  <Col lg={2} className="awc-image">
-                    <img src={PhoneIcon} alt="phone number"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span> Mobile No.:</span> 9557110679
-                  </Col>
-                </div>
-              </Row>
-            </Card>
-          </Col>
-          <Col lg={3} md={4} sm={12}>
-            <Card className="m-2 awc-contact-box">
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} md={2} sm={2} className="awc-image">
-                    <img src={LocationIcon} alt="Location"></img>
-                  </Col>
-                  <Col lg={10} md={10} sm={10} className="awc-contact-info">
-                    <span>District: </span> Almora
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} className="awc-image">
-                    <img src={UserIcon} alt="user name"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span>Officer Name:</span> RAJEEV KUMAR TIWARI
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex">
-                  <Col lg={2} className="awc-image">
-                    <img src={PhoneIcon} alt="phone number"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span> Mobile No.:</span> 9557110679
-                  </Col>
-                </div>
-              </Row>
-            </Card>
-          </Col>
-          <Col lg={3} md={4} sm={12}>
-            <Card className="m-2 awc-contact-box">
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} md={2} sm={2} className="awc-image">
-                    <img src={LocationIcon} alt="Location"></img>
-                  </Col>
-                  <Col lg={10} md={10} sm={10} className="awc-contact-info">
-                    <span>District: </span> Almora
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex ">
-                  <Col lg={2} className="awc-image">
-                    <img src={UserIcon} alt="user name"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span>Officer Name:</span> RAJEEV KUMAR TIWARI
-                  </Col>
-                </div>
-              </Row>
-              <Row>
-                <div className="d-flex">
-                  <Col lg={2} className="awc-image">
-                    <img src={PhoneIcon} alt="phone number"></img>
-                  </Col>
-                  <Col lg={10} className="awc-contact-info">
-                    <span> Mobile No.:</span> 9557110679
-                  </Col>
-                </div>
-              </Row>
-            </Card>
-          </Col>
+          </Col> */}
 
           <Col lg={12}>
             <Card className="awc-office-contact-info">
@@ -507,6 +128,7 @@ function ContactUs() {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 }

@@ -5,18 +5,21 @@ import { MdCurrencyRupee } from "react-icons/md";
 import { LuLogOut } from "react-icons/lu";
 import "../../assets/css/DashBoard.css";
 import React, { useState } from "react";
-import { FaAlignLeft, FaChalkboardTeacher } from "react-icons/fa";
+import { FaAlignLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import LogoCDPO from "../../assets/images/Logo-cdpo.png";
 import { RxDashboard } from "react-icons/rx";
 import { MdCenterFocusWeak } from "react-icons/md";
-import { FaUserGroup } from "react-icons/fa6";
-import { TiDocument } from "react-icons/ti";
-import { RiFileHistoryLine } from "react-icons/ri";
 import { RiFileEditLine } from "react-icons/ri";
-import { VscVmActive } from "react-icons/vsc";
 import { MdExpandLess } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { MdOutlineReceiptLong } from "react-icons/md";
+import { FaReceipt } from "react-icons/fa";
+import { PiShieldCheckDuotone } from "react-icons/pi";
+import { RiBillLine } from "react-icons/ri";
+import { FaUserEdit } from "react-icons/fa";
+import { FaMoneyBill } from "react-icons/fa6";
+import { PiUsersFourFill } from "react-icons/pi";
 
 function DashBoard() {
   const [isNavClosed, setIsNavClosed] = useState(false);
@@ -46,64 +49,70 @@ function DashBoard() {
       path: "/Manday Worker Info",
       subRoutes: [
         {
-          icon: <TiDocument />,
+          icon: <PiUsersFourFill />,
           label: "All Worker",
           path: "/AllWorker",
         },
         {
-          icon: <TiDocument />,
+          icon: <PiUsersFourFill />,
           label: "Retired Worker",
           path: "/RetiredWorker",
         },
         {
-          icon: <TiDocument />,
+          icon: <PiUsersFourFill />,
           label: "Pending Edit Request",
           path: "/PendingEditRequest",
         },
         {
-          icon: <FaChalkboardTeacher />,
+          icon: <PiUsersFourFill />,
           label: "Pending Remove Request",
           path: "/PendingRemoveRequest",
         },
         {
-          icon: <RiFileHistoryLine />,
+          icon: <PiUsersFourFill />,
           label: "Create Group",
           path: "/CreateGroup",
         },
       ],
     },
     {
-      icon: <FaUserGroup />,
+      icon: <FaMoneyBill />,
       label: "Bills",
       subRoutes: [
         {
-          icon: <RiFileEditLine />,
+          icon: <MdOutlineReceiptLong />,
           label: "Generate Bill",
           path: "/GenerateBill",
         },
         {
-          icon: <VscVmActive />,
+          icon: <FaReceipt />,
           label: "View Generated Bill",
           path: "/ViewGeneratedBill",
         },
         {
-          icon: <VscVmActive />,
+          icon: <PiShieldCheckDuotone />,
           label: "Insurance Bill",
           path: "/InsuranceBill",
         },
         {
-          icon: <VscVmActive />,
+          icon: <RiBillLine />,
           label: "Insurance Bill View",
           path: "/InsuranceBillView",
         },
         {
-          icon: <RiFileEditLine />,
+          icon: <FaUserEdit  />,
           label: "Request Delete Edit",
           path: "/RequestDelete",
         },
        
        
       ],
+      
+    },
+    {
+      icon: <RiFileEditLine />,
+      label: "For Help call : +91-9876543210 Technocal Department",
+     
     },
   ];
 

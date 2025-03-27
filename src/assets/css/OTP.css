@@ -1,0 +1,65 @@
+/* create password css */
+
+.nd-user-reg{
+    background-color: var(--awc-white);
+    min-height: 540px;
+    border-radius: var(--awc-space-300);
+}
+.nd-regis-heading h5{
+    color: var( --awc-blue-bg);
+    font-weight: 600;
+    font-size: var(--awc-space-400);
+    padding-top: 12px;
+   
+}
+.alert-txt-registration{
+    color: var(--awc-Primary);
+    font-size: var(--awc-space-300);
+}
+/* otp css */
+.nd-user-otp{
+    width: 500px;
+    padding: 40px;
+    padding-top: var(--awc-space-300);
+    top: 20% !important;
+   align-items: center !important;
+   justify-items: center;
+   margin: 0 auto;
+    transition: 0.25s;
+  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06) !important;
+    
+}
+.awc-primary-submit-btn{
+        font-size: var(--awc-space-300);
+        background-color: var(--awc-blue);
+        border: var(--awc-space-25) var(--awc-blue);
+        padding: var(--awc-space-250);
+        margin-left: var(--awc-space-400);
+    
+}
+.awc-primary-submit-btn:hover{
+    background-color: var(--awc-blue-hover);
+}
+.nd-back-btn{
+    font-size: var(--awc-space-300);
+    background-color: var(--awc-gray);
+    border: var(--awc-space-25) var(--awc-blue);
+    padding: var(--awc-space-250);
+    margin-left: var(--awc-space-400);
+}
+.nd-registration{
+    text-align: center;
+
+}
+.nd-req-text span{
+    font-size: var(--awc-space-250);
+    color: var(--awc-Primary) !important;
+}
+@media only screen and (max-width: 568px) {
+ .nd-p-regi{
+    padding: 0px;
+ } 
+ 
+}
+

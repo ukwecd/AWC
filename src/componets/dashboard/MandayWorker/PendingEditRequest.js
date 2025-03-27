@@ -57,7 +57,7 @@ const PendingEditRequest = () => {
               </Row>
               <div className="table-responsive-lg table-container-box">
                 <Table className="awc-sub-table" striped bordered hover>
-                  <thead className="awc-thead">
+                  <thead className="awc-thead ">
                     <tr>
                       <th>S.No</th>
                       <th>Old Information Description</th>
@@ -76,11 +76,12 @@ const PendingEditRequest = () => {
                   </thead>
                   <tbody></tbody>
                 </Table>
-                <div className="text-center awc-dna">
+                
+              </div>
+              <div className="text-center awc-dna">
                   {" "}
                   <MdError /> Data Not Available
                 </div>
-              </div>
               <Row>
                 <Col lg={6} md={6} sm={12}>
                   {" "}

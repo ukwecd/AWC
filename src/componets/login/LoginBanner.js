@@ -12,6 +12,9 @@ import Group from "../../assets/images/Groupimg.png";
 import { CiCircleCheck } from "react-icons/ci";
 import { LiaEyeSolid } from "react-icons/lia";
 import { Link } from "react-router-dom";
+import ForgotPassword from "./ForgotPassword";
+import AWCRegistration from "./AWCRegistration";
+import "../../assets/css/LoginBanner.css";
 const LoginBanner = () => {
   return (
     <div clasName="container-fluid">
@@ -21,7 +24,7 @@ const LoginBanner = () => {
             <div className="awc-home mt-4">
               <h1>उत्तराखंड सरकार | Gov.t of Uttarakhand</h1>
             </div>
-            <div className="awc-update d-flex align-items-center gap-3">
+            <div className="awc-update align-items-center gap-3">
               <img src={News} alt="news"></img>नंदा गौरा योजना के तहत 12वीं
               पासआउट 2024 के लिए नए आवेदन केवल 30-नवंबर-2024 तक भरे जा सकते{" "}
             </div>
@@ -132,11 +135,11 @@ const LoginBanner = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto justify-content-end flex-grow-1 awc-nav">
-                <Link to ="/ContactUs" ><Nav.Link href="#home">
+                <Link to ="/" ><Nav.Link href="#home">
                   <FaGlobe className="me-1" />
                   Official Website
                 </Nav.Link></Link>
-                <Nav.Link href="#link">
+                <Nav.Link href="/AdminBanner">
                   {" "}
                   <FaUserShield className="me-1" />
                   Login (Admin)
@@ -240,8 +243,11 @@ const LoginBanner = () => {
                     </Button></Link>
                   </Form.Group>
                   <Row>
-                    <Col lg={12} md={12} sm={12} className="awc-forgot-pass">
-                      <p> पासवर्ड भूल गए है ?</p>
+                    <Col lg={6} md={6} sm={6} className="awc-forgot-pass">
+                    <ForgotPassword />
+                    </Col>
+                    <Col lg={6} md={6} sm={6} className="awc-forgot-pass">
+                    <AWCRegistration />
                     </Col>
                   </Row>
                 </Form>
