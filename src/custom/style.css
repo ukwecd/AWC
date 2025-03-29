@@ -114,11 +114,11 @@
   .awc-pading-next{
     display: flex;
     justify-content: end;
-    margin-top: 8px;
+    
   }
   .tech-staff-perviose{
     font-size: var(--awc-space-300);
-    margin-top: var(--awc-space-150);
+    
   }
   ul.awc-paging.pagination .page-item{
 font-size: 4px;
@@ -131,8 +131,42 @@ font-size: 4px;
     background-color: var(--awc-orange);
     border: var(--awc-space-25) var(--awc-orange);
   }
-  
+ 
+.awc-m-t{
+  margin-top: var(--awc-space-200);
+}
+.awc-table-head {
+  padding: 8px 8px 8px 8px;
+}
+.awc-table-head h1{
+  font-size: var(--awc-space-500);
+  color: var(--awc-black);
+}
+.custom-divider {
+  border-top: 2px dashed #B8B8B8 !important; 
+  opacity: 1; 
+}
+
+
   @media only screen and (max-width: 568px){
+    .m-t-0{
+      margin-top: var(--awc-space-0) !important;
+    }
+    .form-check{
+margin-top: var(--awc-space-200);
+    }
+    .form-check1{
+      padding-top: var(--awc-space-0) !important;
+    }
+    .awc-home{
+      display: none;
+    }
+    .awc-table-head {
+      padding: 12px 8px 0px 8px;
+  }
+    .awc-contact-border{
+      border: none !important;
+    }
     img.logo1 {
       width: 45px;
       display: none;
@@ -151,6 +185,10 @@ font-size: 4px;
    }
    .awc-banner-p{
     padding-right: var(--awc-space-0) !important;
+}
+.biil-submit{
+  
+        padding: 8px 12px 12px 12px;
 }
   }
   

@@ -15,9 +15,11 @@ import { Link } from "react-router-dom";
 import ForgotPassword from "./ForgotPassword";
 import AWCRegistration from "./AWCRegistration";
 import "../../assets/css/LoginBanner.css";
+import Footer from "../footer/Footer";
+import { Divider } from "antd";
 const LoginBanner = () => {
   return (
-    <div clasName="container-fluid">
+    <div className="container-fluid">
       <Row className="flex-fill">
         <Col lg={7} md={7} sm={12} className="awc-col awc-p">
           <div>
@@ -210,6 +212,8 @@ const LoginBanner = () => {
                     </Form.Control.Feedback>
                   </InputGroup> */}
 
+<Divider className="custom-divider" dashed />
+
                   <Form.Group
                     className="mb-3 input-container"
                     controlId="exampleForm.ControlInput1"
@@ -248,14 +252,17 @@ const LoginBanner = () => {
                     </Col>
                     <Col lg={6} md={6} sm={6} className="awc-forgot-pass">
                     <AWCRegistration />
+                 
                     </Col>
                   </Row>
                 </Form>
               </div>
             </Form>
           </div>
+          <Footer />
         </Col>
       </Row>
+     
     </div>
   );
 };

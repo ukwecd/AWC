@@ -17,7 +17,7 @@ const CreateGroup = () => {
           {/* Main Content */}
 
           <div className="main">
-            <div className="awc-table-heading">
+            <div className="awc-table-head">
               <h1>Group Creation and View page</h1>
             </div>
             <div className="box-container">
@@ -51,7 +51,7 @@ const CreateGroup = () => {
                 </Form>
               </div>
             </div>
-            <div className="awc-table-heading">
+            <div className="awc-table-head">
               <h1>Added Groups with Employee</h1>
             </div>
             <div className="awc-after-fillter">
@@ -91,7 +91,7 @@ const CreateGroup = () => {
                         </tbody>
                       </Table>
                     </div>
-                    <Row>
+                    <Row className="awc-m-t">
                       <Col lg={6} md={6} sm={12}>
                         {" "}
                         <div className="tech-staff-perviose">
@@ -152,6 +152,8 @@ const CreateGroup = () => {
                             <td>000134001100331</td>
                             <td>YESB0AZSB02</td>
                             <td>ALMORA DISTRICT CENTRAL CO-OP.BANK</td>
+                            <td>AWC</td>
+                            <td>5064060101</td>
                           </tr>
                         </tbody>
                       </Table>

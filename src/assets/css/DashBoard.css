@@ -250,6 +250,10 @@ a.nav-sub-option:hover {
   padding: 0px 0 20px 0px;
   /* color: var(--awc-black); */
 }
+.awc-lhs-nav{
+  background-color: var(--awc-white);
+  box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
+  }
 
 .navcontainer,
 .main {

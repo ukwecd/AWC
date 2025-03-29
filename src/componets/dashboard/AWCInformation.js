@@ -17,10 +17,10 @@ const AWCInformation = () => {
           {/* Main Content */}
 
           <div className="main">
-            <div className="awc-table-heading">
+            <div className="awc-table-head">
               <h1>All Anganwadi Center List</h1>
             </div>
-            <div className="box-container">
+            <div className="box-container-table">
               <div>
                 <div className="table-responsive-lg table-container-box">
                   <Table className="awc-sub-table">
@@ -67,7 +67,7 @@ const AWCInformation = () => {
                         <td>
                           <div className="td-p">
                             <Button className="awc-update-btn">
-                              <span class="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
+                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
                                 Update AWC Name{" "}
                                 <GrUpdate className="awc-update-icon" />
                               </span>
@@ -78,7 +78,7 @@ const AWCInformation = () => {
                     </tbody>
                   </Table>
                 </div>
-                <Row>
+                <Row className="awc-m-t">
                 <Col lg={6} md={6} sm={12}>
                   {" "}
                   <div className="tech-staff-perviose">

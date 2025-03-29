@@ -2,8 +2,6 @@
     background-color: var(--awc-blue) !important;
 }
 
-.awc-contact-header h1 {}
-
 .awc-contact-main {
     background-color: var(--awc-white);
     border-radius: var(--awc-space-200);
@@ -83,4 +81,8 @@
     padding: var(--awc-space-100);
     margin-bottom: var(--awc-space-300);
 
+}
+.awc-contact-border{
+    border-left: 1px solid hsl(0deg 0% 100% / 19%);
+    border-right: 1px solid hsl(0deg 0% 100% / 19%);
 }

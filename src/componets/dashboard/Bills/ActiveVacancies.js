@@ -26,10 +26,10 @@ const ActiveVacancies = () => {
               <Row className="mt-3">
                 <div className="nd-staff-mobresp">
                   <Col lg={6} md={6} sm={6} className="nd-staff-print11">
-                    <div class="search-container">
+                    <div className="search-container">
                       <form>
                         <input
-                          class="search"
+                          className="search"
                           id="searchleft"
                           type="search"
                           name="q"
@@ -37,10 +37,10 @@ const ActiveVacancies = () => {
                           aria-label="Search"
                         />
                         <label
-                          class="button search-btn-sector "
+                          className="button search-btn-sector "
                           for="searchleft"
                         >
-                          <span class="mglass">&#9906;</span>
+                          <span className="mglass">&#9906;</span>
                         </label>
                       </form>
                     </div>
@@ -88,7 +88,7 @@ const ActiveVacancies = () => {
                         <td>
                           <div className="td-p">
                             <Button variant="info " className="awc-surrend-btn">
-                              <span class="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
+                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
                                 Approved{" "}
                                 <FaCheckCircle className="awc-update-icon" />
                               </span>

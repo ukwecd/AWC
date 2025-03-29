@@ -80,9 +80,10 @@ button.awc-update-btn.btn.btn-primary:hover {
 
 }
 
-.awc-text h2 {
+.awc-text p {
     font-size: var(--awc-space-300);
     color: var(--awc-red);
+  
 }
 
 .awc-view-btn {

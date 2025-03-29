@@ -17,7 +17,7 @@ const ViewGeneratedBill = () => {
           {/* Main Content */}
 
           <div className="main received-form">
-            <div className="awc-table-heading">
+            <div className="awc-table-head">
               <h1>View Generated Bill</h1>
              
             </div>

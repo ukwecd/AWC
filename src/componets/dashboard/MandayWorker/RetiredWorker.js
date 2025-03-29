@@ -17,17 +17,17 @@ const RetiredWorker = () => {
           {/* Main Content */}
 
           <div className="main">
-            <div className="awc-table-heading">
+            <div className="awc-table-head">
               <h1>Remove Retired Worker From Manday List to Generate Manday</h1>
             </div>
             <div className="box-container">
               <Row>
                 <div className="nd-staff-mobresp">
                   <Col lg={6} md={6} sm={12} className="nd-staff-print11">
-                    <div class="search-container">
+                    <div className="search-container">
                       <form>
                         <input
-                          class="search"
+                          className="search"
                           id="searchleft"
                           type="search"
                           name="q"
@@ -35,10 +35,10 @@ const RetiredWorker = () => {
                           aria-label="Search"
                         />
                         <label
-                          class="button search-btn-sector "
+                          className="button search-btn-sector "
                           for="searchleft"
                         >
-                          <span class="mglass">&#9906;</span>
+                          <span className="mglass">&#9906;</span>
                         </label>
                       </form>
                     </div>

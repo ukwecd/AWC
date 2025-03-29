@@ -38,3 +38,18 @@
     font-size: var(--awc-space-450);
     font-weight: 600;
 }
+
+.nd-primary{
+    width: 100%;
+}
+.awc-border{
+    margin: -3px !important;
+}
+
+@media (max-width: 844px) {
+
+    .form-check {
+        margin-top:
+        12px;
+    }
+}

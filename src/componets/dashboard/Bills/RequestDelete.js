@@ -17,7 +17,7 @@ const RequestDelete = () => {
           {/* Main Content */}
 
           <div className="main">
-            <div className="awc-table-heading">
+            <div className="awc-table-head">
               <h1>Bill Entry Deletion/Update Request Form</h1>
             </div>
             <div className="box-container">
@@ -156,12 +156,12 @@ const RequestDelete = () => {
                 </Row>
               </div>
             </div>
-            <div className="awc-table-heading">
+            <div className="awc-table-head">
               <h1>Added Groups with Employee</h1>
             </div>
             <div className="box-container-table">
 
-              <div className="awc-mt">
+              <div className="awc-table-data">
                 <div className="table-responsive-lg table-container-box">
                   <Table className="awc-sub-table">
                     <thead className="awc-thead">
@@ -193,7 +193,7 @@ const RequestDelete = () => {
                               variant="info "
                               className="awc-surrend-btn"
                             >
-                              <span class="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
+                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
                                 Done{" "}
                                 <FaCheckCircle className="awc-update-icon" />
                               </span>
@@ -205,7 +205,7 @@ const RequestDelete = () => {
                     </tbody>
                   </Table>
                 </div>
-                <Row>
+                <Row className="awc-m-t">
                   <Col lg={6} md={6} sm={12}>
                     {" "}
                     <div className="tech-staff-perviose">
@@ -235,6 +235,7 @@ const RequestDelete = () => {
               </div>
 
             </div>
+            
             <div>
               <Footer />
             </div>

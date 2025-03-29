@@ -110,13 +110,24 @@
 
 .awc-bg {
 
-    background-image: url("../images/bgimg.png") !important;
+    background-image: url("../images/bgimg1.jpg") !important;
     background-size: cover;
     height: auto;
     width: 100%;
     overflow: hidden;
     max-height: 500px;
 }
+.awc-bg-img {
+
+    background-image: url("../images/bgimg1.jpg") !important;
+    background-size: cover;
+    height: auto;
+    overflow: hidden;
+    
+}
+/* .awc-bg-img img{
+    height: 600px;
+} */
 
 .awc-heading h1 {
     font-size: var(--awc-space-400);
@@ -239,6 +250,7 @@ span.awc-span-alert1 {
     color: var(--awc-Primary);
 }
 
+
 @media (max-width: 844px) {
     nav.navbar.navbar-expand-lg.md.navbar-light {
         padding: var(--awc-space-250);
@@ -273,6 +285,7 @@ span.awc-span-alert1 {
         margin-left: var(--awc-space-700);
     } */
 }
+
 
 @media (max-width: 1180px) {
     .awc-td {
@@ -333,7 +346,7 @@ span.awc-span-alert1 {
 
 @media (max-width: 390px) {
     .awc-heading h1 {
-        font-size: var(--awc-space-450);
+        /* font-size: var(--awc-space-450); */
         padding-left: var(--awc-space-250);
     }
 

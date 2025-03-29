@@ -88,7 +88,7 @@ function ContactUs() {
                     </div>
                   </div>
                 </Col>
-                <Col lg={4} md={4} sm={12}>
+                <Col lg={4} md={4} sm={12} className="awc-contact-border">
                   <div className="p-3">
                     <div className="awc-contact-information">
                       <h2>

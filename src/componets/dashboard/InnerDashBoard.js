@@ -131,7 +131,7 @@ const InnerDashBoard = () => {
                       </tbody>
                     </Table>
                   </div>
-                  <Row>
+                  <Row className="awc-m-t">
                 <Col lg={6} md={6} sm={12}>
                   {" "}
                   <div className="tech-staff-perviose">

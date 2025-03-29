@@ -36,16 +36,16 @@ function AWCRegistration() {
                 className="awc-forgot-input"
               />
             </Form.Group>
-            <div class="mb-3 nd-label-input">
+            <div className="mb-3 nd-label-input">
               <label
-                class=" awc-modal-label form-label"
+                className=" awc-modal-label form-label"
                 for="exampleForm.ControlTextarea1"
               >
                 अपने जिले का नाम चुनें
               </label>
               <select
                 aria-label="Default select example"
-                class="awc-label-input form-select"
+                className="awc-label-input form-select"
                 id="exampleForm.ControlTextarea1"
               >
                 <option value="">Choose District Name</option>

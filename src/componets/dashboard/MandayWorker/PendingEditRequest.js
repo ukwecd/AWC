@@ -16,17 +16,17 @@ const PendingEditRequest = () => {
           {/* Main Content */}
 
           <div className="main">
-            <div className="awc-table-heading">
+            <div className="awc-table-head">
               <h1>Manday Employee Requested to Edit | Status = Pending</h1>
             </div>
             <div className="box-container">
               <Row>
                 <div className="nd-staff-mobresp">
                   <Col lg={6} md={6} sm={12} className="nd-staff-print11">
-                    <div class="search-container">
+                    <div className="search-container">
                       <form>
                         <input
-                          class="search"
+                          className="search"
                           id="searchleft"
                           type="search"
                           name="q"
@@ -34,10 +34,10 @@ const PendingEditRequest = () => {
                           aria-label="Search"
                         />
                         <label
-                          class="button search-btn-sector "
+                          className="button search-btn-sector "
                           for="searchleft"
                         >
-                          <span class="mglass">&#9906;</span>
+                          <span className="mglass">&#9906;</span>
                         </label>
                       </form>
                     </div>
@@ -82,7 +82,7 @@ const PendingEditRequest = () => {
                   {" "}
                   <MdError /> Data Not Available
                 </div>
-              <Row>
+              <Row className="awc-m-t">
                 <Col lg={6} md={6} sm={12}>
                   {" "}
                   <div className="tech-staff-perviose">

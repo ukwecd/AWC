@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import LogoCDPO from "../../assets/images/Logo-cdpo.png";
 import { RxDashboard } from "react-icons/rx";
 import { MdCenterFocusWeak } from "react-icons/md";
-import { RiFileEditLine } from "react-icons/ri";
+// import { RiFileEditLine } from "react-icons/ri";
 import { MdExpandLess } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdOutlineReceiptLong } from "react-icons/md";
@@ -20,6 +20,7 @@ import { RiBillLine } from "react-icons/ri";
 import { FaUserEdit } from "react-icons/fa";
 import { FaMoneyBill } from "react-icons/fa6";
 import { PiUsersFourFill } from "react-icons/pi";
+import { FaPhoneAlt } from "react-icons/fa";
 
 function DashBoard() {
   const [isNavClosed, setIsNavClosed] = useState(false);
@@ -110,7 +111,7 @@ function DashBoard() {
       
     },
     {
-      icon: <RiFileEditLine />,
+      icon: <FaPhoneAlt />,
       label: "For Help call : +91-9876543210 Technocal Department",
      
     },
@@ -155,7 +156,7 @@ function DashBoard() {
         </div>
       </header>
 
-      <div>
+      <div className="awc-lhs-nav">
         <div>
           <div className={`navcontainer ${isNavClosed ? "navclose" : ""}`}>
             <nav className="nav">
@@ -173,8 +174,9 @@ function DashBoard() {
                 {navigationOptions.map((option, index) => (
                   <React.Fragment key={index}>
                     {option.download ? (
-                      <a
-                        href={option.download}
+                      // ancore
+                      <Link to =
+                        {option.download}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`nav-option option${index + 1}`}
@@ -185,7 +187,7 @@ function DashBoard() {
                             <span className="nav-label">{option.label}</span>
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     ) : option.subRoutes ? (
                       <>
                         <div

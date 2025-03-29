@@ -78,12 +78,12 @@
 .awc-table-heading h1 {
     font-size: var(--awc-space-500);
     color: var(--awc-black);
-    margin-top: var(--awc-space-200);
+    
 }
 
 .awc-table-heading {
-    padding-left: var(--awc-space-300);
-    padding-top: var(--awc-space-200);
+ 
+    padding: 0px 8px 8px 8px;
 }
 
 .awc-thead th {
@@ -95,9 +95,7 @@
 
 }
 
-.awc-table-data {
-    margin-top: var(--awc-space-600);
-}
+
 
 .table-container-box {
     box-shadow: 0 4px 6px #C4C4C480;
@@ -110,6 +108,6 @@
     border: 1px solid var(--awc-border);
     background-color: var(--awc-white);
     border-radius: var(--awc-space-200);
-    padding: 8px 16px 30px 16px;
+    padding: var(--awc-space-400);
     box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
 }

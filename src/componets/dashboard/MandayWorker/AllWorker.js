@@ -16,7 +16,7 @@ const AllWorker = () => {
           {/* Main Content */}
 
           <div className="main">
-            <div className="awc-table-heading">
+            <div className="awc-table-head">
               <h1>HavaBag Current Balance 2024-25</h1>
             </div>
             <div className="box-container">
@@ -24,10 +24,10 @@ const AllWorker = () => {
                 <div className="nd-staff-mobresp">
                   <Col lg={12} md={12} sm={12}>
                     <div className="awc-text">
-                      <h2>
+                      <p>
                         पूर्व में हटाई गई आंगनबाड़ी कार्यकर्ती को जोड़ने के लिए
                         तकनीकी विभाग से संपर्क करें{" "}
-                      </h2>
+                      </p>
                     </div>
                   </Col>
                 
@@ -47,10 +47,10 @@ const AllWorker = () => {
               <Row className="mt-3">
                 <div className="awc-staff-mobresp">
                   <Col lg={6} md={6} sm={12} className="nd-staff-print11">
-                    <div class="search-container">
+                    <div className="search-container">
                       <form>
                         <input
-                          class="search"
+                          className="search"
                           id="searchleft"
                           type="search"
                           name="q"
@@ -58,10 +58,10 @@ const AllWorker = () => {
                           aria-label="Search"
                         />
                         <label
-                          class="button search-btn-sector "
+                          className="button search-btn-sector "
                           for="searchleft"
                         >
-                          <span class="mglass">&#9906;</span>
+                          <span className="mglass">&#9906;</span>
                         </label>
                       </form>
                     </div>
@@ -138,7 +138,7 @@ const AllWorker = () => {
                   </tbody>
                 </Table>
               </div>
-              <Row>
+              <Row className="awc-m-t">
                 <Col lg={6} md={6} sm={12}>
                   {" "}
                   <div className="tech-staff-perviose">
