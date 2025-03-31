@@ -21,6 +21,8 @@ import { FaReceipt } from "react-icons/fa";
 import { FaMoneyBill } from "react-icons/fa6";
 import { PiUsersFourFill } from "react-icons/pi";
 // import { FaPhoneAlt } from "react-icons/fa";
+import { FaUsers } from "react-icons/fa";
+
 
 function DPODashBoard() {
   const [isNavClosed, setIsNavClosed] = useState(false);
@@ -37,10 +39,12 @@ function DPODashBoard() {
   };
 
   const navigationOptions = [
-    { icon: <RxDashboard />, 
-        label: "DashBoard",
-         path: "/DPOInnerDashBoard"},
-   
+    {
+      icon: <RxDashboard />,
+      label: "DashBoard",
+      path: "/DPOInnerDashBoard"
+    },
+
 
     {
       icon: <MdCurrencyRupee />,
@@ -67,7 +71,7 @@ function DPODashBoard() {
           label: "Worker Remove Request",
           path: "/WorkerRemoveRequest",
         },
-       
+
       ],
     },
     {
@@ -84,64 +88,64 @@ function DPODashBoard() {
           label: "Protsahan Bills",
           path: "/ProtsahanBills",
         },
-       
-       
-       
+
+
+
       ],
-      
+
     },
 
-  
 
-      {
-        icon: <FaMoneyBill />,
-        label: "FPuruskar Application",
-        subRoutes: [
-          {
-            icon: <MdOutlineReceiptLong />,
-            label: "Anganwadi Karyakarti",
-            path: "/AnganwadiKaryakarti",
-          },
-          {
-            icon: <FaReceipt />,
-            label: "Telu Roteli Puruskar",
-            path: "/TeluRoteliPuruskar",
-          },
-         
-         
-         
-        ],
-        
-      },
-      {
-        icon: <PiUsersFourFill />,
-        label: "AWW/AWH Vacancies",
-        path: "/AWWAWHVacancie",
-      },
-      {
-        icon: <FaMoneyBill />,
-        label: "Finance",
-        subRoutes: [
-          {
-            icon: <MdOutlineReceiptLong />,
-            label: "State Scheme Surr. Report",
-            path: "/GenerateBill",
-          },
-          {
-            icon: <FaReceipt />,
-            label: "Project 2023-24",
-            path: "/ViewGeneratedBill",
-          },
-          {
-            icon: <FaReceipt />,
-            label: "District 2023-24",
-            path: "/ViewGeneratedBill",
-          },
-        
-        ],
-        
-      },
-   
+
+    {
+      icon: <FaMoneyBill />,
+      label: "FPuruskar Application",
+      subRoutes: [
+        {
+          icon: <MdOutlineReceiptLong />,
+          label: "Anganwadi Karyakarti",
+          path: "/AnganwadiKaryakarti",
+        },
+        {
+          icon: <FaReceipt />,
+          label: "Telu Roteli Puruskar",
+          path: "/TeluRoteliPuruskar",
+        },
+
+
+
+      ],
+
+    },
+    {
+      icon: <PiUsersFourFill />,
+      label: "AWW/AWH Vacancies",
+      path: "/AWWAWHVacancie",
+    },
+    {
+      icon: <FaMoneyBill />,
+      label: "Finance",
+      subRoutes: [
+        {
+          icon: <MdOutlineReceiptLong />,
+          label: "State Scheme Surr. Report",
+          path: "/GenerateBill",
+        },
+        {
+          icon: <FaReceipt />,
+          label: "Project 2023-24",
+          path: "/ViewGeneratedBill",
+        },
+        {
+          icon: <FaReceipt />,
+          label: "District 2023-24",
+          path: "/ViewGeneratedBill",
+        },
+
+      ],
+
+    },
+
   ];
 
   return (
@@ -197,12 +201,12 @@ function DPODashBoard() {
                     <LuLogOut className=" " title="Click to logout" />
                   </div>
                 </div>
-                    {/* pdf link */}
+                {/* pdf link */}
                 {navigationOptions.map((option, index) => (
                   <React.Fragment key={index}>
                     {option.download ? (
                       // ancore
-                      <Link to =
+                      <Link to=
                         {option.download}
                         target="_blank"
                         rel="noopener noreferrer"
