@@ -20,6 +20,9 @@ import { FaReceipt } from "react-icons/fa";
 // import { FaUserEdit } from "react-icons/fa";
 import { FaMoneyBill } from "react-icons/fa6";
 import { PiUsersFourFill } from "react-icons/pi";
+import { FaUserTie } from "react-icons/fa";
+import { FaUserEdit } from "react-icons/fa";
+import { IoPersonAdd } from "react-icons/io5";
 // import { FaPhoneAlt } from "react-icons/fa";
 
 function DPODashBoard() {
@@ -45,17 +48,17 @@ function DPODashBoard() {
 
 
     {
-      icon: <MdCurrencyRupee />,
+      icon: <FaUserTie />,
       label: "Manday Worker",
       path: "/Manday Worker Info",
       subRoutes: [
         {
-          icon: <PiUsersFourFill />,
+          icon: <FaUserEdit />,
           label: "All Worker List(edit)",
           path: "/AllWorkerList",
         },
         {
-          icon: <PiUsersFourFill />,
+          icon: <IoPersonAdd />,
           label: "Worker Add Request",
           path: "/WorkerAddRequest",
         },
