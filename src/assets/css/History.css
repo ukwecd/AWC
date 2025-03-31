@@ -23,7 +23,6 @@
 .search-container {
     position: relative;
     display: inline-block;
-    margin: var(--awc-space-100) var(--awc-space-50);
     height: 50px;
     width: auto;
 }

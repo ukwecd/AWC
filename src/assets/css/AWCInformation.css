@@ -83,7 +83,7 @@ button.awc-update-btn.btn.btn-primary:hover {
 .awc-text p {
     font-size: var(--awc-space-300);
     color: var(--awc-red);
-  
+    margin-bottom: 0px;
 }
 
 .awc-view-btn {
