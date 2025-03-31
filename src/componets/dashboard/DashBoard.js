@@ -118,7 +118,7 @@ function DashBoard() {
     },
     {
       icon: <FaPhoneAlt />,
-      label: "For Help call : +91-9876543210 Technocal Department",
+      label: "Technical Help: 7668151041",
 
     },
   ];
