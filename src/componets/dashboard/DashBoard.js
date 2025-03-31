@@ -21,6 +21,12 @@ import { FaUserEdit } from "react-icons/fa";
 import { FaMoneyBill } from "react-icons/fa6";
 import { PiUsersFourFill } from "react-icons/pi";
 import { FaPhoneAlt } from "react-icons/fa";
+import { FaUserTie } from "react-icons/fa";
+import { FaUsers } from "react-icons/fa";
+import { MdOutlineElderlyWoman } from "react-icons/md";
+
+import { MdOutlinePendingActions } from "react-icons/md";
+import { MdGroupAdd } from "react-icons/md";
 
 function DashBoard() {
   const [isNavClosed, setIsNavClosed] = useState(false);
@@ -45,32 +51,32 @@ function DashBoard() {
     },
 
     {
-      icon: <MdCurrencyRupee />,
+      icon: <FaUserTie />,
       label: "Manday Worker Info",
       path: "/Manday Worker Info",
       subRoutes: [
         {
-          icon: <PiUsersFourFill />,
+          icon: <FaUsers />,
           label: "All Worker",
           path: "/AllWorker",
         },
         {
-          icon: <PiUsersFourFill />,
+          icon: <MdOutlineElderlyWoman />,
           label: "Retired Worker",
           path: "/RetiredWorker",
         },
         {
-          icon: <PiUsersFourFill />,
+          icon: <FaUserEdit />,
           label: "Pending Edit Request",
           path: "/PendingEditRequest",
         },
         {
-          icon: <PiUsersFourFill />,
+          icon: <MdOutlinePendingActions />,
           label: "Pending Remove Request",
           path: "/PendingRemoveRequest",
         },
         {
-          icon: <PiUsersFourFill />,
+          icon: <MdGroupAdd />,
           label: "Create Group",
           path: "/CreateGroup",
         },
@@ -101,19 +107,19 @@ function DashBoard() {
           path: "/InsuranceBillView",
         },
         {
-          icon: <FaUserEdit  />,
+          icon: <FaUserEdit />,
           label: "Request Delete Edit",
           path: "/RequestDelete",
         },
-       
-       
+
+
       ],
-      
+
     },
     {
       icon: <FaPhoneAlt />,
-      label: "For Help call : +91-9876543210 Technocal Department",
-     
+      label: "Technical Help: 7668151041",
+
     },
   ];
 
@@ -170,12 +176,12 @@ function DashBoard() {
                     <LuLogOut className=" " title="Click to logout" />
                   </div>
                 </div>
-                    {/* pdf link */}
+                {/* pdf link */}
                 {navigationOptions.map((option, index) => (
                   <React.Fragment key={index}>
                     {option.download ? (
                       // ancore
-                      <Link to =
+                      <Link to=
                         {option.download}
                         target="_blank"
                         rel="noopener noreferrer"
