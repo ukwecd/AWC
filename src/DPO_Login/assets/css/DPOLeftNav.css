@@ -47,13 +47,13 @@ img.awc-logo-img {
 }
 
 a.nav-sub-option {
-  background-color: #e78f3d;
+  background-color: #091023;
   color: var(--awc-white) !important;
 }
 
 a.nav-sub-option:hover {
   /* custom */
-  background-color: #DE700A;
+  background-color: #0F1A34;
 }
 
 .user-awc-header {
@@ -238,7 +238,7 @@ a.nav-sub-option:hover {
 .nav {
   min-height: 100vh;
   width: 250px;
-  background-color: var(--awc-white);
+  background-color: #0F1A34;
   position: absolute;
   top: 0px;
   left: 00;
@@ -248,11 +248,11 @@ a.nav-sub-option:hover {
   justify-content: space-between;
   overflow: hidden;
   padding: 0px 0 20px 0px;
-  /* color: var(--awc-black); */
+  color: var(--awc-white);
 }
 
 .awc-lhs-nav {
-  background-color: var(--awc-white);
+  background-color: #0F1A34;
   box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
 }
 
@@ -290,7 +290,7 @@ a.nav-sub-option:hover {
 
 .nav-option:hover {
   /* custom */
-  background-color: #DE700A;
+  background-color: #091023;
   cursor: pointer;
   color: var(--awc-white);
 }
@@ -312,7 +312,7 @@ a.nav-sub-option:hover {
 
 .option1 {
   /* background-color: #EA9343; custom css */
-  background-color: #EA9343;
+  background-color: #091023;
   color: white !important;
   cursor: pointer;
   margin-top: 7%;
@@ -320,7 +320,7 @@ a.nav-sub-option:hover {
 
 .option1:hover {
   /* custom */
-  background-color: #DE700A;
+  background-color: #091023;
   color: var(--awc-white);
 }
 
@@ -468,7 +468,7 @@ a.nav-sub-option:hover {
   padding: 16px 20px 0px 16px;
   font-size: 20px;
   padding-top: 0px !important;
-  /* color: #ADB5BD; */
+  color: var(--awc-white);
   font-weight: 600;
 }
 
@@ -484,8 +484,7 @@ span.nav-label {
   padding-top: var(--awc-space-250);
   font-size: var(--awc-space-300);
   line-height: var(--awc-space-450);
-  /* color: var(--awc-black); */
-  /* color: #ADB5BD; */
+  color: var(--awc-white);
 }
 
 .option1:active {

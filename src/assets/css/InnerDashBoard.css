@@ -1,8 +1,9 @@
 .awc-dashboard-title {
-    background-image: url("../images/dashboard-bg.png");
+
     padding: var(--awc-space-400);
     background-repeat: no-repeat;
-    border-radius: var(--awc-space-200)
+    border-radius: var(--awc-space-200);
+    background-color: #5886FF;
 }
 
 .awc-dashboard-title h1 {
@@ -78,11 +79,11 @@
 .awc-table-heading h1 {
     font-size: var(--awc-space-500);
     color: var(--awc-black);
-    
+
 }
 
 .awc-table-heading {
- 
+
     padding: 0px 8px 8px 8px;
 }
 
