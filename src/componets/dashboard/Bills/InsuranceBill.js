@@ -17,15 +17,12 @@ const InsuranceBill = () => {
           {/* Main Content */}
 
           <div className="main">
-            <div className="awc-dashboard-title">
-              <div>
-                <h1>Generate Worker/Helper Insurance Bill</h1>
-                <p>
+            <div className="awc-table-head"><h1>Generate Worker/Helper Insurance Bill</h1>
+              <p>
                 समस्त डीपीओ/ सीडीपीओ कृपया अवगत कराना है माह February 2025 में कार्यरत आंगनवाड़ी कार्यकर्ती/सहायिकाओं की केन्द्र/राज्य मानदेय धनराशि की मांग नियमानुसार मानदेय पोर्टल पर तैयार कर आज ही प्रमाण पत्र निदेशालय को प्रेषित किया जाना है। अतः उक्त कार्य को प्राथमिकता देते हुए आज ही मानदेय धनराशि की मांग प्रेषित करें। इसमें किसी भी प्रकार की लापरवाही क्षम्य नहीं होगी। आज्ञा से , निर्देशक महोदय
-                </p>
-              </div>
+              </p>
             </div>
-           
+
             <div className="box-container mt-3">
               <div>
                 <Form>
@@ -80,7 +77,7 @@ const InsuranceBill = () => {
                       </Row>
                     </Col>
 
-                    
+
                   </Row>
                 </Form>
               </div>
@@ -89,7 +86,7 @@ const InsuranceBill = () => {
               <h1>Generate Worker/Helper Insurance Bill</h1>
             </div>
             <div className="awc-after-fillter">
-            <Accordion>
+              <Accordion>
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
                     HAVA-AWW001 | Newly Promoted ( 73 workers in this group)
