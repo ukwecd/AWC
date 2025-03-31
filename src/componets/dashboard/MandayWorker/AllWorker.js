@@ -30,7 +30,7 @@ const AllWorker = () => {
                       </p>
                     </div>
                   </Col>
-                
+
 
                   {/* <Col lg={6} md={6} sm={12} className="nd-staff-print">
                     <div className="awc-view-btn">
@@ -44,7 +44,7 @@ const AllWorker = () => {
                   </Col> */}
                 </div>
               </Row>
-              <Row className="mt-3">
+              <Row className="mt-1">
                 <div className="awc-staff-mobresp">
                   <Col lg={6} md={6} sm={12} className="nd-staff-print11">
                     <div className="search-container">
@@ -67,12 +67,12 @@ const AllWorker = () => {
                     </div>
                   </Col>
                   <Col lg={6} md={6} sm={12} className="nd-staff-print ">
-                  <Button variant="primary" className="awc-btn-add">
-                        Add New Request
-                      </Button>
-                      <Button variant="primary" className="awc-btn-remove">
-                        Remove Request
-                      </Button>
+                    <Button variant="primary" className="awc-btn-add">
+                      Add New Request
+                    </Button>
+                    <Button variant="primary" className="awc-btn-remove">
+                      Remove Request
+                    </Button>
                     <Button variant="warning" className="nd-btn-copy">
                       Copy
                     </Button>
@@ -85,10 +85,10 @@ const AllWorker = () => {
                   </Col>
                 </div>
               </Row>
-              <div className="table-responsive-lg table-container-box mt-3">
+              <div className="table-responsive-lg table-container-box mt-1">
                 <Table className="awc-sub-table" striped bordered hover>
                   <thead className="awc-thead">
-                   
+
                     <tr>
                       <th>S.No</th>
                       <th>Edit</th>
@@ -97,7 +97,7 @@ const AllWorker = () => {
                       <th>Grant Code</th>
                       <th>
                         Worker Name
-                      
+
                       </th>
                       <th>Worker DOB</th>
                       <th>Worker Mobile No</th>
@@ -107,7 +107,7 @@ const AllWorker = () => {
                       <th>AWC Name</th>
                       <th>AWC Code</th>
                       <th>Center Manday</th>
-                     <th>State Manday</th>
+                      <th>State Manday</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -116,13 +116,13 @@ const AllWorker = () => {
                       <td>-</td>
 
                       <td>
-                      246475680948
+                        246475680948
                       </td>
                       <td>
-                        
+
                       </td>
                       <td>
-                      SCP30
+                        SCP30
                       </td>
                       <td>hansi arya</td>
                       <td>25-Jul-1979</td>
@@ -158,7 +158,7 @@ const AllWorker = () => {
                       <Pagination.Item>{10}</Pagination.Item>
                       <Pagination.Item>{11}</Pagination.Item>
                       <Pagination.Item active>{12}</Pagination.Item>
-                     
+
                       <Pagination.Next />
                       <Pagination.Last />
                     </Pagination>
