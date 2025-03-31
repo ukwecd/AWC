@@ -19,7 +19,7 @@ import Footer from "../footer/Footer";
 import { Divider } from "antd";
 const LoginBanner = () => {
   return (
-    <div className="container-fluid">
+    <div>
       <Row className="flex-fill">
         <Col lg={7} md={7} sm={12} className="awc-col awc-p">
           <div>

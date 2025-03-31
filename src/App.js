@@ -28,6 +28,18 @@ import InsuranceBill from "./componets/dashboard/Bills/InsuranceBill";
 import InsuranceBillView from "./componets/dashboard/Bills/InsuranceBillView";
 import OTPPage from "./componets/login/OTPPage";
 import CreatePassword from "./componets/login/CreatePassword";
+//DPODasboard
+import DPODashBoard from "./DPO_Login/dashboard/DPODashBoard";
+import DPOInnerDashBoard from "./DPO_Login/dashboard/DPOInnerDashBoard";
+import AllWorkerList from "./DPO_Login/dashboard/MandayWorker/AllWorkerList";
+import WorkerAddRequest from "./DPO_Login/dashboard/MandayWorker/WorkerAddRequest";
+import WorkerEditRequest from "./DPO_Login/dashboard/MandayWorker/WorkerEditRequest";
+import WorkerRemoveRequest from "./DPO_Login/dashboard/MandayWorker/WorkerRemoveRequest";
+import MandayBills from "./DPO_Login/dashboard/ForwardBills/MandayBills";
+import ProtsahanBills from "./DPO_Login/dashboard/ForwardBills/ProtsahanBills";
+import AnganwadiKaryakarti from "./DPO_Login/dashboard/puruskar_application/AnganwadiKaryakarti";
+import TeluRoteliPuruskar from "./DPO_Login/dashboard/puruskar_application/TeluRoteliPuruskar";
+import AWWAWHVacancie from "./DPO_Login/dashboard/AWWAWHVacancie";
 
 
 
@@ -59,7 +71,24 @@ function App() {
         <Route path="/OTPPage" element={<OTPPage />} />
         <Route path="/CreatePassword" element={<CreatePassword />} />
         <Route path="/Header" element={<Header />} />
+
         <Route path="/Footer" element={<Footer />} />
+
+        {/* // DPODasboard */}
+        <Route path="/DPODashBoard" element={<DPODashBoard />} />
+        <Route path="/DPOInnerDashBoard" element={< DPOInnerDashBoard />} />
+        <Route path="/AllWorkerList" element={< AllWorkerList />} />
+        <Route path="/WorkerAddRequest" element={< WorkerAddRequest />} />
+        <Route path="/WorkerEditRequest" element={< WorkerEditRequest />} />
+        <Route path="/WorkerRemoveRequest" element={< WorkerRemoveRequest />} />
+        <Route path="/ProtsahanBills" element={< ProtsahanBills />} />
+        <Route path="/MandayBills" element={< MandayBills />} />
+        <Route path="/AnganwadiKaryakarti" element={< AnganwadiKaryakarti />} />
+        <Route path="/TeluRoteliPuruskar" element={< TeluRoteliPuruskar />} />
+        <Route path="/AWWAWHVacancie" element={< AWWAWHVacancie />} />
+       
+       
+       
         
 
       </Routes>
