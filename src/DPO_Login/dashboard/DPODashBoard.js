@@ -21,8 +21,6 @@ import { FaReceipt } from "react-icons/fa";
 import { FaMoneyBill } from "react-icons/fa6";
 import { PiUsersFourFill } from "react-icons/pi";
 // import { FaPhoneAlt } from "react-icons/fa";
-import { FaUsers } from "react-icons/fa";
-
 
 function DPODashBoard() {
   const [isNavClosed, setIsNavClosed] = useState(false);
@@ -129,17 +127,17 @@ function DPODashBoard() {
           {
             icon: <MdOutlineReceiptLong />,
             label: "State Scheme Surr. Report",
-            path: "/GenerateBill",
+            path: "/FinanceSchemeReport",
           },
           {
             icon: <FaReceipt />,
             label: "Project 2023-24",
-            path: "/ViewGeneratedBill",
+            path: "/Project202324",
           },
           {
             icon: <FaReceipt />,
             label: "District 2023-24",
-            path: "/ViewGeneratedBill",
+            path: "/District202324",
           },
         
         ],

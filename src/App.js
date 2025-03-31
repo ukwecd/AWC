@@ -41,8 +41,8 @@ import AnganwadiKaryakarti from "./DPO_Login/dashboard/puruskar_application/Anga
 import TeluRoteliPuruskar from "./DPO_Login/dashboard/puruskar_application/TeluRoteliPuruskar";
 import AWWAWHVacancie from "./DPO_Login/dashboard/AWWAWHVacancie";
 import FinanceSchemeReport from "./DPO_Login/dashboard/Finance/FinanceSchemeReport";
-
-
+import Project202324 from "./DPO_Login/dashboard/Finance/Project202324";
+import District202324 from "./DPO_Login/dashboard/Finance/District202324";
 
 
 function App() {
@@ -73,7 +73,6 @@ function App() {
         <Route path="/OTPPage" element={<OTPPage />} />
         <Route path="/CreatePassword" element={<CreatePassword />} />
         <Route path="/Header" element={<Header />} />
-
         <Route path="/Footer" element={<Footer />} />
 
         {/* // DPODasboard */}
@@ -89,6 +88,8 @@ function App() {
         <Route path="/TeluRoteliPuruskar" element={< TeluRoteliPuruskar />} />
         <Route path="/AWWAWHVacancie" element={< AWWAWHVacancie />} />
         <Route path="/FinanceSchemeReport" element={<FinanceSchemeReport />} />
+        <Route path="/Project202324" element={<Project202324 />} />
+        <Route path="/District202324" element={<District202324 />} />
        
        
        
