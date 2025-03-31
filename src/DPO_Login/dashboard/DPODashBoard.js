@@ -125,7 +125,7 @@ function DPODashBoard() {
           {
             icon: <MdOutlineReceiptLong />,
             label: "State Scheme Surr. Report",
-            path: "/GenerateBill",
+            path: "/FinanceSchemeReport",
           },
           {
             icon: <FaReceipt />,

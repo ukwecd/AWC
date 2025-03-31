@@ -40,6 +40,8 @@ import ProtsahanBills from "./DPO_Login/dashboard/ForwardBills/ProtsahanBills";
 import AnganwadiKaryakarti from "./DPO_Login/dashboard/puruskar_application/AnganwadiKaryakarti";
 import TeluRoteliPuruskar from "./DPO_Login/dashboard/puruskar_application/TeluRoteliPuruskar";
 import AWWAWHVacancie from "./DPO_Login/dashboard/AWWAWHVacancie";
+import FinanceSchemeReport from "./DPO_Login/dashboard/Finance/FinanceSchemeReport";
+
 
 
 
@@ -86,6 +88,7 @@ function App() {
         <Route path="/AnganwadiKaryakarti" element={< AnganwadiKaryakarti />} />
         <Route path="/TeluRoteliPuruskar" element={< TeluRoteliPuruskar />} />
         <Route path="/AWWAWHVacancie" element={< AWWAWHVacancie />} />
+        <Route path="/FinanceSchemeReport" element={<FinanceSchemeReport />} />
        
        
        
