@@ -97,55 +97,55 @@ function DPODashBoard() {
 
 
 
-    {
-      icon: <FaMoneyBill />,
-      label: "FPuruskar Application",
-      subRoutes: [
-        {
-          icon: <MdOutlineReceiptLong />,
-          label: "Anganwadi Karyakarti",
-          path: "/AnganwadiKaryakarti",
-        },
-        {
-          icon: <FaReceipt />,
-          label: "Telu Roteli Puruskar",
-          path: "/TeluRoteliPuruskar",
-        },
-
-
-
-      ],
-
-    },
-    {
-      icon: <PiUsersFourFill />,
-      label: "AWW/AWH Vacancies",
-      path: "/AWWAWHVacancie",
-    },
-    {
-      icon: <FaMoneyBill />,
-      label: "Finance",
-      subRoutes: [
-        {
-          icon: <MdOutlineReceiptLong />,
-          label: "State Scheme Surr. Report",
-          path: "/GenerateBill",
-        },
-        {
-          icon: <FaReceipt />,
-          label: "Project 2023-24",
-          path: "/ViewGeneratedBill",
-        },
-        {
-          icon: <FaReceipt />,
-          label: "District 2023-24",
-          path: "/ViewGeneratedBill",
-        },
-
-      ],
-
-    },
-
+      {
+        icon: <FaMoneyBill />,
+        label: "FPuruskar Application",
+        subRoutes: [
+          {
+            icon: <MdOutlineReceiptLong />,
+            label: "Anganwadi Karyakarti",
+            path: "/AnganwadiKaryakarti",
+          },
+          {
+            icon: <FaReceipt />,
+            label: "Telu Roteli Puruskar",
+            path: "/TeluRoteliPuruskar",
+          },
+         
+         
+         
+        ],
+        
+      },
+      {
+        icon: <PiUsersFourFill />,
+        label: "AWW/AWH Vacancies",
+        path: "/AWWAWHVacancie",
+      },
+      {
+        icon: <FaMoneyBill />,
+        label: "Finance",
+        subRoutes: [
+          {
+            icon: <MdOutlineReceiptLong />,
+            label: "State Scheme Surr. Report",
+            path: "/GenerateBill",
+          },
+          {
+            icon: <FaReceipt />,
+            label: "Project 2023-24",
+            path: "/ViewGeneratedBill",
+          },
+          {
+            icon: <FaReceipt />,
+            label: "District 2023-24",
+            path: "/ViewGeneratedBill",
+          },
+        
+        ],
+        
+      },
+   
   ];
 
   return (
