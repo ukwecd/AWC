@@ -72,7 +72,7 @@ const LoginBanner = () => {
                       <td>
                         <div className="awc-alert-span">
                           {" "}
-                        
+
                         </div>
                         आंगनवाड़ी कार्यकर्ती पुरस्कार के चयन हेतु क्लिक करे
                       </td>
@@ -96,7 +96,7 @@ const LoginBanner = () => {
                     <tr>
                       <td>
                         <div className="awc-alert-span">
-                      <span className="awc-span-closed">Application closed</span></div>
+                          <span className="awc-span-closed">Application closed</span></div>
                         राज्य स्त्री शक्ति तीलू रौतेली पुरुस्कार हेतु क्लिक करे
                       </td>
                       <td>02-Jan-2025</td>
@@ -137,7 +137,7 @@ const LoginBanner = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto justify-content-end flex-grow-1 awc-nav">
-                <Link to ="/" ><Nav.Link href="#home">
+                <Link to="/" ><Nav.Link href="#home">
                   <FaGlobe className="me-1" />
                   Official Website
                 </Nav.Link></Link>
@@ -146,7 +146,7 @@ const LoginBanner = () => {
                   <FaUserShield className="me-1" />
                   Login (Admin)
                 </Nav.Link>
-                <Link to ="/ContactUs" > <Nav.Link href="#link">
+                <Link to="/ContactUs" > <Nav.Link href="#link">
                   <FaPhoneAlt className="me-1" />
                   Contact Us
                 </Nav.Link></Link>
@@ -212,7 +212,7 @@ const LoginBanner = () => {
                     </Form.Control.Feedback>
                   </InputGroup> */}
 
-<Divider className="custom-divider" dashed />
+                  <Divider className="custom-divider" dashed />
 
                   <Form.Group
                     className="mb-3 input-container"
@@ -232,7 +232,7 @@ const LoginBanner = () => {
                     <span className="awc-verify">Verify</span>
                   </Form.Group>
                   <Form.Group className="text-center ">
-                   <Link to="/InnerDashBoard"> <Button
+                    <Link to="/InnerDashBoard"> <Button
                       type="submit"
                       className="mt-3 awc-primary-btn nd-primary-btn1"
                       name="login"
@@ -248,11 +248,11 @@ const LoginBanner = () => {
                   </Form.Group>
                   <Row>
                     <Col lg={6} md={6} sm={6} className="awc-forgot-pass">
-                    <ForgotPassword />
+                      <ForgotPassword />
                     </Col>
                     <Col lg={6} md={6} sm={6} className="awc-forgot-pass">
-                    <AWCRegistration />
-                 
+                      <AWCRegistration />
+
                     </Col>
                   </Row>
                 </Form>
@@ -262,7 +262,7 @@ const LoginBanner = () => {
           <Footer />
         </Col>
       </Row>
-     
+
     </div>
   );
 };

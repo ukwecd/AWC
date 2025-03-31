@@ -250,10 +250,11 @@ a.nav-sub-option:hover {
   padding: 0px 0 20px 0px;
   /* color: var(--awc-black); */
 }
-.awc-lhs-nav{
+
+.awc-lhs-nav {
   background-color: var(--awc-white);
   box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
-  }
+}
 
 .navcontainer,
 .main {
@@ -512,6 +513,12 @@ span.nav-label:hover {
   color: var(--awc-white) !important;
   background-color: var(--awc-blue-hover) !important;
   border-radius: 8px 8px 0px 0px;
+}
+
+.awc-admin-bg {
+  margin-top: 22%;
+  text-align: center;
+  position: relative;
 }
 
 /* Responsive CSS Here */
