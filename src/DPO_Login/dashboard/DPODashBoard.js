@@ -1,10 +1,9 @@
 import UKLOGO from "../../assets/images/uklogo.png";
 import UKLogon from "../..//assets/images/wecdlogo.png";
 import MenuIcon from "../../assets/images/menu_icon.png";
-import { MdCurrencyRupee } from "react-icons/md";
 import { LuLogOut } from "react-icons/lu";
-import "../../assets/css/DashBoard.css";
 import React, { useState } from "react";
+import "../../DPO_Login/assets/css/DPOLeftNav.css";
 import { FaAlignLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import LogoCDPO from "../../assets/images/Logo-cdpo.png";
@@ -43,9 +42,8 @@ function DPODashBoard() {
     {
       icon: <RxDashboard />,
       label: "DashBoard",
-      path: "/DPOInnerDashBoard"
+      path: "/DPOInnerDashBoard",
     },
-
 
     {
       icon: <FaUserTie />,
@@ -72,7 +70,6 @@ function DPODashBoard() {
           label: "Worker Remove Request",
           path: "/WorkerRemoveRequest",
         },
-
       ],
     },
     {
@@ -89,64 +86,51 @@ function DPODashBoard() {
           label: "Protsahan Bills",
           path: "/ProtsahanBills",
         },
-
-
-
       ],
-
     },
 
-
-
-      {
-        icon: <FaMoneyBill />,
-        label: "FPuruskar Application",
-        subRoutes: [
-          {
-            icon: <MdOutlineReceiptLong />,
-            label: "Anganwadi Karyakarti",
-            path: "/AnganwadiKaryakarti",
-          },
-          {
-            icon: <FaReceipt />,
-            label: "Telu Roteli Puruskar",
-            path: "/TeluRoteliPuruskar",
-          },
-         
-         
-         
-        ],
-        
-      },
-      {
-        icon: <PiUsersFourFill />,
-        label: "AWW/AWH Vacancies",
-        path: "/AWWAWHVacancie",
-      },
-      {
-        icon: <FaMoneyBill />,
-        label: "Finance",
-        subRoutes: [
-          {
-            icon: <MdOutlineReceiptLong />,
-            label: "State Scheme Surr. Report",
-            path: "/FinanceSchemeReport",
-          },
-          {
-            icon: <FaReceipt />,
-            label: "Project 2023-24",
-            path: "/Project202324",
-          },
-          {
-            icon: <FaReceipt />,
-            label: "District 2023-24",
-            path: "/District202324",
-          },
-        
-        ],
-        
-      },
-   
+    {
+      icon: <FaMoneyBill />,
+      label: "FPuruskar Application",
+      subRoutes: [
+        {
+          icon: <MdOutlineReceiptLong />,
+          label: "Anganwadi Karyakarti",
+          path: "/AnganwadiKaryakarti",
+        },
+        {
+          icon: <FaReceipt />,
+          label: "Telu Roteli Puruskar",
+          path: "/TeluRoteliPuruskar",
+        },
+      ],
+    },
+    {
+      icon: <PiUsersFourFill />,
+      label: "AWW/AWH Vacancies",
+      path: "/AWWAWHVacancie",
+    },
+    {
+      icon: <FaMoneyBill />,
+      label: "Finance",
+      subRoutes: [
+        {
+          icon: <MdOutlineReceiptLong />,
+          label: "State Scheme Surr. Report",
+          path: "/FinanceSchemeReport",
+        },
+        {
+          icon: <FaReceipt />,
+          label: "Project 2023-24",
+          path: "/Project202324",
+        },
+        {
+          icon: <FaReceipt />,
+          label: "District 2023-24",
+          path: "/District202324",
+        },
+      ],
+    },
   ];
 
   return (
@@ -180,7 +164,7 @@ function DPODashBoard() {
             <span className="mx-2">DPO login :</span>
             <span>Almora</span>
           </div>
-          <div className="dp" alt="logout" title="Click to logout">
+          <div className="dpo-dp" alt="logout" title="Click to logout">
             <div className="awc-log-icon">
               <LuLogOut className="awc-logout" />
             </div>
@@ -191,7 +175,7 @@ function DPODashBoard() {
       <div className="awc-lhs-nav">
         <div>
           <div className={`navcontainer ${isNavClosed ? "navclose" : ""}`}>
-            <nav className="nav">
+            <nav className="dpo-nav">
               <div className="nav-upper-options">
                 <div className="awc-menu">
                   <div>
@@ -207,11 +191,11 @@ function DPODashBoard() {
                   <React.Fragment key={index}>
                     {option.download ? (
                       // ancore
-                      <Link to=
-                        {option.download}
+                      <Link
+                        to={option.download}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={`nav-option option${index + 1}`}
+                        className={`dpo-nav-option option${index + 1}`}
                       >
                         <div className="nav-item">
                           <div className="d-flex">
@@ -223,7 +207,7 @@ function DPODashBoard() {
                     ) : option.subRoutes ? (
                       <>
                         <div
-                          className={`nav-option option${index + 1}`}
+                          className={`dpo-nav-option option${index + 1}`}
                           onClick={() => toggleSubMenu(option.label)}
                           style={{ cursor: "pointer" }}
                         >
@@ -246,7 +230,7 @@ function DPODashBoard() {
                             <Link
                               key={subIndex}
                               to={subOption.path}
-                              className="nav-sub-option"
+                              className="dpo-sub-option"
                             >
                               <div className="nav-item">
                                 <div className="d-flex awc-sub-item">
@@ -264,7 +248,7 @@ function DPODashBoard() {
                     ) : (
                       <Link
                         to={option.path}
-                        className={`nav-option option${index + 1}`}
+                        className={`dpo-nav-option option${index + 1}`}
                       >
                         <div className="nav-item">
                           <div className="d-flex">

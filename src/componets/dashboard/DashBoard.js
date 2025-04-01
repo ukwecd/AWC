@@ -1,7 +1,6 @@
 import UKLOGO from "../../assets/images/uklogo.png";
 import UKLogon from "../..//assets/images/wecdlogo.png";
 import MenuIcon from "../../assets/images/menu_icon.png";
-import { MdCurrencyRupee } from "react-icons/md";
 import { LuLogOut } from "react-icons/lu";
 import "../../assets/css/DashBoard.css";
 import React, { useState } from "react";
@@ -19,7 +18,6 @@ import { PiShieldCheckDuotone } from "react-icons/pi";
 import { RiBillLine } from "react-icons/ri";
 import { FaUserEdit } from "react-icons/fa";
 import { FaMoneyBill } from "react-icons/fa6";
-import { PiUsersFourFill } from "react-icons/pi";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaUserTie } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
@@ -162,7 +160,7 @@ function DashBoard() {
         </div>
       </header>
 
-      <div className="awc-lhs-nav">
+      <div className="cdpo-lhs-nav">
         <div>
           <div className={`navcontainer ${isNavClosed ? "navclose" : ""}`}>
             <nav className="nav">

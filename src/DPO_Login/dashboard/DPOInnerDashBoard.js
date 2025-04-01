@@ -8,6 +8,7 @@ import { Col, Pagination, Row, Table } from "react-bootstrap";
 import "../assets/css/DPOLeftNav.css";
 import Footer from "../../componets/footer/Footer";
 import DPODashBoard from "./DPODashBoard";
+import "../../DPO_Login/assets/css/DPODashboard.css";
 
 const DPOInnerDashBoard = () => {
   return (
@@ -21,7 +22,7 @@ const DPOInnerDashBoard = () => {
           {/* Main Content */}
 
           <div className="main">
-            <div className="awc-dashboard-title">
+            <div className="awc-dpo-title">
               <div>
                 <h1>Dashboard-DPO login</h1>
                 <p>
@@ -36,17 +37,17 @@ const DPOInnerDashBoard = () => {
               </div>
             </div>
 
-            <div className="aws-data-container">
+            <div className="dpo-data-container">
               <Row>
                 <Col lg={4} md={4} sm={12} className="my-2">
-                  <div className="aws-data">
+                  <div className="dpo-data">
                     <div>
                       <h2>AWC Center</h2>
                     </div>
-                    <div className="awc-data-body">
+                    <div className="awc-dpo-body">
                       <div className="">
                         {" "}
-                        <i className="awc-project-icon">
+                        <i className="awc-dpo-icon">
                           <img src={Vector} alt="project"></img>
                         </i>
                       </div>
@@ -58,14 +59,14 @@ const DPOInnerDashBoard = () => {
                   </div>
                 </Col>
                 <Col lg={4} md={4} sm={12} className="my-2">
-                  <div className="aws-data">
+                  <div className="dpo-data">
                     <div>
                       <h2>Beneficiaries Reported</h2>
                     </div>
-                    <div className="awc-data-body">
+                    <div className="awc-dpo-body">
                       <div className="">
                         {" "}
-                        <i className="awc-project-icon">
+                        <i className="awc-dpo-icon">
                           <img src={AWCCenters} alt="AWC Centers"></img>
                         </i>
                       </div>
@@ -77,14 +78,14 @@ const DPOInnerDashBoard = () => {
                   </div>
                 </Col>
                 <Col lg={4} md={4} sm={12} className="my-2">
-                  <div className="aws-data">
+                  <div className="dpo-data">
                     <div>
                       <h2>Total Projects</h2>
                     </div>
-                    <div className="awc-data-body">
+                    <div className="awc-dpo-body">
                       <div className="">
                         {" "}
-                        <i className="awc-project-icon">
+                        <i className="awc-dpo-icon">
                           <img src={ReportIcon} alt="Report"></img>
                         </i>
                       </div>
@@ -107,7 +108,7 @@ const DPOInnerDashBoard = () => {
                       
                       className="awc-sub-table"
                     >
-                      <thead className="awc-thead">
+                      <thead className="dpo-thead">
                         <tr>
                           <th>Title</th>
                           <th>In Process</th>
@@ -160,13 +161,13 @@ const DPOInnerDashBoard = () => {
 
               <Row>
                 <Col lg={6} md={6} sm={12} className="mb-3">
-                  <div className="awc-table-heading">
+                  <div className="awc-dpo-heading">
                     <h1>Telu Roteli Application Real time Status 2023-24</h1>
                   </div>
                   <div className="awc-table-data">
                     <div className="table-responsive-lg table-container-box">
                       <Table className="awc-sub-table">
-                        <thead className="awc-thead">
+                        <thead className="dpo-thead">
                           <tr>
                             <th>Title</th>
                             <th>In Process</th>
@@ -202,7 +203,6 @@ const DPOInnerDashBoard = () => {
                             <Pagination.Item>{10}</Pagination.Item>
                             <Pagination.Item>{11}</Pagination.Item>
                             <Pagination.Item active>{12}</Pagination.Item>
-
                             <Pagination.Next />
                             <Pagination.Last />
                           </Pagination>
@@ -213,13 +213,13 @@ const DPOInnerDashBoard = () => {
                 </Col>
 
                 <Col lg={6} md={6} sm={12} className="mb-3">
-                  <div className="awc-table-heading">
+                  <div className="awc-dpo-heading">
                     <h1>Puruskar Application Real time Status 2022-23</h1>
                   </div>
                   <div className="awc-table-data">
                     <div className="table-responsive-lg table-container-box">
                       <Table className="awc-sub-table">
-                        <thead className="awc-thead">
+                        <thead className="dpo-thead">
                           <tr>
                             <th>Title</th>
                             <th>In Process</th>

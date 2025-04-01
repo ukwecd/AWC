@@ -238,7 +238,7 @@ a.nav-sub-option:hover {
 .nav {
   min-height: 100vh;
   width: 250px;
-  background-color: var(--awc-white);
+  background-color: var(--awc-orange);
   position: absolute;
   top: 0px;
   left: 00;
@@ -250,9 +250,11 @@ a.nav-sub-option:hover {
   padding: 0px 0 20px 0px;
   /* color: var(--awc-black); */
 }
-
-.awc-lhs-nav {
-  background-color: var(--awc-white);
+.nav-item{
+  color: var(--awc-white);
+}
+.cdpo-lhs-nav {
+  background-color: var(--awc-orange);
   box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
 }
 
@@ -309,10 +311,12 @@ a.nav-sub-option:hover {
 .awc-menu {
   color: var(--awc-black) !important;
 }
-
+a.nav-option.option1 {
+  background-color: #DE700A !important;
+}
 .option1 {
   /* background-color: #EA9343; custom css */
-  background-color: #EA9343;
+  background-color: #EA9343 !important;
   color: white !important;
   cursor: pointer;
   margin-top: 7%;
@@ -320,7 +324,7 @@ a.nav-sub-option:hover {
 
 .option1:hover {
   /* custom */
-  background-color: #DE700A;
+  background-color: #DE700A !important;
   color: var(--awc-white);
 }
 

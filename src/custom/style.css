@@ -38,6 +38,9 @@
   --awc-primary-off-white: #EFF0F2;
   --awc-gray-off: #767676;
   --awc-dark-gray: #4a525a;
+  --awc-blue-off: #5886FF;
+  --awc-blue-dark-bg:  #0F1A34;
+ 
 
 
   --awc-blue: #1976D2;
@@ -142,11 +145,7 @@ ul.awc-paging.pagination .page-item {
   color: var(--awc-black);
 }
 
-.active>.page-link,
-.page-link.active {
-  background-color: var(--awc-orange);
-  border: var(--awc-space-25) var(--awc-orange);
-}
+
 
 .awc-m-t {
   margin-top: var(--awc-space-200);
