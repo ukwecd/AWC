@@ -1,0 +1,57 @@
+.awc-dpo-FSR-title {
+    color: var(--awc-black);
+    padding: var(--awc-space-400) var(--awc-space-0) var(--awc-space-0) var(--awc-space-0);
+    background-repeat: no-repeat;
+    border-radius: var(--awc-space-200);
+}
+
+
+
+.awc-dpo-head {
+    padding: 8px 8px 0px 8px;
+}
+
+.awc-dpo-head h1 {
+    font-size: var(--awc-space-500);
+    color: var(--awc-black);
+}
+
+.awc-dpo-head p {
+    font-size: var(--awc-space-300);
+    color: var(--awc-black);
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.custom-file-input::file-selector-button {
+    background-color: #ababab;
+    /* Green background */
+    color: var(--awc-black);
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.awc-dop-primary-btn {
+    background-color: var(--awc-blue-off);
+    columns: var(--awc-white);
+    font-size: var(--awc-space-300);
+}
+
+.awc-dop-primary-btn:hover {
+    background-color: #091023;
+}
+
+.awc-dele-icon {
+    font-size: var(--awc-space-400) !important;
+    color: var(--awc-red) !important;
+}
+
+.awc-dpo-label-title {
+    display: flex;
+    justify-content: left;
+    font-size: var(--awc-space-300);
+    margin-bottom: var(--awc-space-100);
+    font-weight: 500;
+}
