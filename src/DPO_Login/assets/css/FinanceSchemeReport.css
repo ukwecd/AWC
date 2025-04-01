@@ -44,8 +44,8 @@
 }
 
 .awc-dele-icon {
-    font-size: var(--awc-space-400);
-    color: var (--awc-red);
+    font-size: var(--awc-space-400) !important;
+    color: var(--awc-red) !important;
 }
 
 .awc-dpo-label-title {

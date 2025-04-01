@@ -61,32 +61,32 @@ const FinanceSchemeReport = () => {
 
               <div class="awc-table-head"><h1>2. View added Surrender Report</h1>
 
-                <Row className="awc-bills-box1">
 
-                  <div className="table-responsive-lg table-container-box">
-                    <Table className="awc-sub-table">
-                      <thead className="awc-thead">
-                        <tr>
-                          <th>S.No</th>
-                          <th>District</th>
-                          <th>File</th>
-                          <th>Change</th>
-                          <th>Action</th>
 
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>almora</td>
-                          <td> View File </td>
-                          <td>show</td>
-                          <td><RiDeleteBin6Line /> </td>
-                        </tr>
-                      </tbody>
-                    </Table>
-                  </div>
-                </Row>
+                <div className="table-responsive-lg table-container-box">
+                  <Table className="awc-sub-table">
+                    <thead className="awc-thead">
+                      <tr>
+                        <th>S.No</th>
+                        <th>District</th>
+                        <th>File</th>
+                        <th>Change</th>
+                        <th>Action</th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>almora</td>
+                        <td> View File </td>
+                        <td>show</td>
+                        <td className="awc-dele-icon">< RiDeleteBin6Line /> </td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                </div>
+
 
               </div>
 
