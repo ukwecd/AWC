@@ -1,9 +1,8 @@
 import React from "react";
-
 // import { Col, Pagination, Row, Table } from "react-bootstrap";
-
 import DPODashBoard from "../DPODashBoard";
 import Footer from "../../../componets/footer/Footer";
+import "../../../DPO_Login/assets/css/FinanceDistrict.css";
 
 const District202324 = () => {
   return (

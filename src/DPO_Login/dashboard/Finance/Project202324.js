@@ -4,6 +4,7 @@ import React from "react";
 
 import DPODashBoard from "../DPODashBoard";
 import Footer from "../../../componets/footer/Footer";
+import "../../../DPO_Login/assets/css/Project202324.css";
 
 const Project202324 = () => {
   return (

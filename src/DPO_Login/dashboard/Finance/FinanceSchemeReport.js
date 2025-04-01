@@ -4,6 +4,7 @@ import React from "react";
 
 import DPODashBoard from "../DPODashBoard";
 import Footer from "../../../componets/footer/Footer";
+import "../../../DPO_Login/assets/css/FinanceSchemeReport.css";
 
 const FinanceSchemeReport = () => {
   return (
