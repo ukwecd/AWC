@@ -50,7 +50,7 @@ const MandayBills = () => {
                   <Col lg={6} md={6} sm={12} className="nd-staff-print ">
                     <Button className="awc-btn-copy">Copy</Button>
 
-                    <Button variant="secondary" className="nd-btn-prt">
+                    <Button variant="secondary " className="awc-dpo-btn-prt">
                       Print
                     </Button>
                   </Col>
@@ -61,7 +61,7 @@ const MandayBills = () => {
                 <Form>
                   <Row>
                     <Col lg={6} md={6} sm={12}>
-                      <Row className="awc-bills-box1">
+                      <Row>
                         <div className="awc-label-title">
                           Insurance Bill View:
                         </div>

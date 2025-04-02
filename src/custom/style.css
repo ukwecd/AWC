@@ -152,11 +152,11 @@ ul.awc-paging.pagination .page-item {
 }
 
 .awc-table-head {
-  padding: 8px 8px 8px 8px;
+  padding: 8px 8px 0px 8px;
 }
 
 .awc-table-head h1 {
-  font-size: var(--awc-space-500);
+  font-size: var(--awc-space-00);
   color: var(--awc-black);
 }
 

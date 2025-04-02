@@ -89,7 +89,7 @@ const AWCInformation = () => {
                   {" "}
                   <div className="tech-staff-table">
                     {" "}
-                    <Pagination className="awc-paging">
+                    <Pagination className="awc-cdpo-paging">
                       <Pagination.First />
                       <Pagination.Prev />
                       <Pagination.Item>{1}</Pagination.Item>

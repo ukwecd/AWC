@@ -1,15 +1,16 @@
 .awc-update-btn {
     font-size: var(--awc-space-300);
     /* custom */
-    background-color: #800080;
-    border: 1px #800080 solid;
-    height: 30px;
+    background-color: var(--awc-bg-green);
+    border: 1px var(--awc-bg-green) solid;
+    height: 28px;
+    margin-bottom: var(--awc-space-300);
 
 }
 
 button.awc-update-btn.btn.btn-primary:hover {
-    background-color: #811c81;
-    border: 1px #800080 solid;
+    background-color: var(--awc-orange);
+    border: 1px var(--awc-orange) solid;
 }
 
 .awc-update-icon {
@@ -116,12 +117,20 @@ button.awc-update-btn.btn.btn-primary:hover {
 
 .nd-btn-district1 {
     font-weight: 500;
+    top: -3px !important;
 }
 
 .awc-surrend-btn {
     font-size: var(--awc-space-350);
-    padding: var(--awc-space-0);
-    padding-top: var(--awc-space-100);
+    padding: 8px 8px 0px 0px;
+
+    background-color: var(--awc-bg-green);
+    border: var(--awc-space-25) var(--awc-bg-green);
+}
+.awc-surrend-btn:hover{
+    background-color: var(--awc-orange);
+    border: var(--awc-space-25) var(--awc-orange);
+
 }
 
 .awc-demand-btn {

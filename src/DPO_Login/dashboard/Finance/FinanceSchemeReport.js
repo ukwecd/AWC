@@ -57,15 +57,10 @@ const FinanceSchemeReport = () => {
                 </Row>
 
               </div>
-
-
               <div class="awc-table-head"><h1>2. View added Surrender Report</h1>
-
-
-
                 <div className="table-responsive-lg table-container-box">
-                  <Table className="awc-sub-table">
-                    <thead className="awc-thead">
+                  <Table className="awc-Finance-table">
+                    <thead className="dpo-thead">
                       <tr>
                         <th>S.No</th>
                         <th>District</th>

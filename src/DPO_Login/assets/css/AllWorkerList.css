@@ -16,12 +16,12 @@
     color: var(--awc-black);
 }
  
-/* .awc-dpo-head p {
+.awc-dpo-alert p {
     font-size: var(--awc-space-300);
-    color: var(--awc-black);
-    padding-bottom: 0px !important;
+    color: var(--awc-Primary);
+    padding: var(--awc-space-100);
     margin-bottom: 0px !important;
-} */
+} 
 
 .awc-btn-copy {
     font-size: 12px;
@@ -137,4 +137,67 @@ margin: -3px;
 .awc-dpo-btn-prt:hover{
     background-color: var(--awc-blue-off);
     border: var(--awc-space-25) var(--awc-blue-off);
+}
+.dpo-sub-table td{
+    padding: 12px 12px 12px 12px;
+    font-size: var(--awc-space-300);
+}
+.dpo-approved-btn {
+    font-size: var(--awc-space-300);
+    background-color: var(--awc-bg-green);
+    border: var(--awc-space-25) var(--awc-bg-green) solid;
+    height: 28px;
+    padding-left: var(--awc-space-100);
+  
+}
+.dpo-approved-btn:hover{
+    background-color: var(--awc-blue-off);
+    background-color: var(--awc-blue-off);
+}
+.dpo-return-btn {
+    font-size: var(--awc-space-300);
+    background-color: var(--awc-Primary);
+    border: 1px var(--awc-Primary) solid;
+    height: 28px;
+    padding-left: var(--awc-space-100);
+  
+}
+.dpo-return-btn:hover{
+    background-color: var(--awc-blue-dark-bg);
+    border: 1px var(--awc-blue-dark-bg) solid;
+}
+.dpo-prnt-btn {
+    font-size: 12px;
+    padding: 6px 12px 4px 12px;
+    color: var(--awc-white);
+    background-color: var(--awc-gray);
+    border: 1px var(--awc-gray) solid;
+}
+.dpo-prnt-btn:hover{
+    background-color: var(--awc-blue-off);
+    border: 1px var(--awc-blue-off) solid;  
+}
+.dpo-project th {
+    background-color: var(--awc-blue-off) !important;
+    font-size: var(--awc-space-300);
+    color: var(--awc-white);
+    font-weight: 500;
+    
+    vertical-align: bottom;
+}
+.dpo-form-id-btn{
+    font-size: var(--awc-space-300);
+    background-color: var(--awc-blue-dark-bg);
+    border: 1px var(--awc-blue-dark-bg) solid;
+    height: 28px;
+    padding-left: var(--awc-space-100);
+    margin-bottom: 12px;
+}
+.dpo-form-id-btn:hover{
+    background-color: var(--awc-blue-off);
+    border: var(--awc-space-25) var(--awc-blue-off);
+}
+.awc-Finance-table td {
+    padding: 8px 12px 0px 12px;
+    font-size: var(--awc-space-300);
 }

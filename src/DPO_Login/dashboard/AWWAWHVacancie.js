@@ -1,14 +1,11 @@
 import React from "react";
-
-// import Vector from "../../assets/images/project_area_icon.png";
-// import AWCCenters from "../../assets/images/awc-centers-icon.png";
-// import ReportIcon from "../../assets/images/reported-icon.png";
-import "../../assets/css/InnerDashBoard.css";
-// import { Col, Pagination, Row, Table } from "react-bootstrap";
-
-import "../assets/css/DPOLeftNav.css";
+import { Button, Col, Pagination, Row, Table } from "react-bootstrap";
+import "../../DPO_Login/assets/css/AllWorkerList.css";
 import Footer from "../../componets/footer/Footer";
 import DPODashBoard from "./DPODashBoard";
+
+import { IoIosCheckmarkCircle, IoMdCloseCircle } from "react-icons/io";
+
 const AWWAWHVacancie = () => {
   return (
     <>
@@ -21,120 +18,96 @@ const AWWAWHVacancie = () => {
           {/* Main Content */}
 
           <div className="main">
-            <div className="awc-dashboard-title">
-              <div>
-                <h1>DashBoard</h1>
-                <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem Ipsum, you need to be sure there isn't anything
-                  embarrassing hidden in the middle of text. All the Lorem Ipsum
-                  generators on the Internet tend to repeat predefined chunks as
-                  necessary, making this the first true generator on the
-                  Internet. It uses a dictionary of over 200 Latin words,
-                  combined with a handful of model sentence structures.
-                </p>
-              </div>
+            <div className="awc-dpo-head">
+              <h1>Vacancies Details</h1>
             </div>
+            <div className="box-container">
+            <div class="awc-table-head">
+              <h1>Added Vacancies</h1></div>
 
-            {/* <div className="aws-data-container">
               <Row>
-                <Col lg={4} md={4} sm={12} className="my-2">
-                  <div className="aws-data">
-                    <div>
-                      <h2>Project Bageshwar</h2>
+                <div className="awc-dpo-mobresp">
+                  <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                    <div className="search-container">
+                      <form>
+                        <input
+                          className="search"
+                          id="searchleft"
+                          type="search"
+                          name="q"
+                          placeholder="Search"
+                          aria-label="Search"
+                        />
+                        <label
+                          className="button search-btn-dpo "
+                          for="searchleft"
+                        >
+                          <span className="mglass">&#9906;</span>
+                        </label>
+                      </form>
                     </div>
-                    <div className="awc-data-body">
-                      <div className="">
-                        {" "}
-                        <i className="awc-project-icon">
-                          <img src={Vector} alt="project"></img>
-                        </i>
-                      </div>
-                      <div>
-                        <p>District</p>
-                        <h3>Bageshwar</h3>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-                <Col lg={4} md={4} sm={12} className="my-2">
-                  <div className="aws-data">
-                    <div>
-                      <h2>AWC Centers</h2>
-                    </div>
-                    <div className="awc-data-body">
-                      <div className="">
-                        {" "}
-                        <i className="awc-project-icon">
-                          <img src={AWCCenters} alt="AWC Centers"></img>
-                        </i>
-                      </div>
-                      <div>
-                        <p>Total Registered:</p>
-                        <h3>325</h3>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
-                <Col lg={4} md={4} sm={12} className="my-2">
-                  <div className="aws-data">
-                    <div>
-                      <h2>Beneficiaries Reported</h2>
-                    </div>
-                    <div className="awc-data-body">
-                      <div className="">
-                        {" "}
-                        <i className="awc-project-icon">
-                          <img src={ReportIcon} alt="Report"></img>
-                        </i>
-                      </div>
-                      <div>
-                        <p>Total Reported:</p>
-                        <h3>518</h3>
-                      </div>
-                    </div>
-                  </div>
-                </Col>
+                  </Col>
+                  <Col lg={6} md={6} sm={12} className="nd-staff-print ">
+                    <Button className="awc-btn-copy">Copy</Button>
+
+                    <Button variant="secondary" className="dpo-prnt-btn">
+                      Print
+                    </Button>
+                  </Col>
+                </div>
               </Row>
-            </div> */}
-            {/* <div className="awc-table-heading">
-                  <h1>Puruskar Application Real time Status 2022-23</h1>
-                </div> */}
-            {/* <div className="box-container-table">
-              <div>
-               
-               
-                <div className="awc-table-data">
-                  <div className="table-responsive-lg table-container-box">
-                    <Table
-                      
-                      className="awc-sub-table"
-                    >
-                      <thead className="awc-thead">
-                        <tr>
-                          <th>Title</th>
-                          <th>In Process</th>
-                          <th>Final Submit</th>
-                         
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          
-                          <td>आंगनवाड़ी कार्यकर्ती पुरस्कार</td>
-                          <td>3</td>
-                          
-                          <td>0 </td>
-                          
-                        </tr>
-                        
-                      </tbody>
-                    </Table>
-                  </div>
-                  <Row className="awc-m-t">
+              <div className="table-responsive-lg table-container-box mt-1">
+                <Table className="dpo-sub-table" striped bordered hover>
+                  <thead className="dpo-thead">
+                    <tr>
+                      <th>S.No</th>
+                      <th>District Name</th>
+                      <th>Project Name</th>
+                     <th>Sector Name</th>
+                      <th>AWC Name</th>
+                      <th>AWC Type</th>
+                      <th>Vacancy Name</th>
+                      <th>Reserved Category</th>
+                      <th>Action</th>
+                      <th>Remove</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Almora</td>
+                      <td>salt[0506042]</td>
+                      <td>Jalkhan[03]</td>
+                      <td>Jipha</td>
+                      <td>Rural</td>
+                      <td>AWH</td>
+                      <td>UN</td>
+                      <td>
+                        <div className="dpo-p">
+                          <Button className="dpo-approved-btn">
+                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
+                              <IoIosCheckmarkCircle className="awc-dpo-add-icon" /> Approved By CDPO
+                            </span>
+                          </Button>
+                        </div>
+                      </td>
+                      <td>
+                        <div className="dpo-p">
+                          <Button className="dpo-return-btn">
+                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
+                              <IoMdCloseCircle className="awc-dpo-add-icon" /> Return to CDPO
+                            </span>
+                          </Button>
+                        </div>
+                      </td>
+
+                     
+                     
+                    </tr>
+                  </tbody>
+                </Table>
+              </div>
+              <Row className="awc-m-t">
                 <Col lg={6} md={6} sm={12}>
                   {" "}
                   <div className="tech-staff-perviose">
@@ -154,17 +127,17 @@ const AWWAWHVacancie = () => {
                       <Pagination.Item>{10}</Pagination.Item>
                       <Pagination.Item>{11}</Pagination.Item>
                       <Pagination.Item active>{12}</Pagination.Item>
-                     
+
                       <Pagination.Next />
                       <Pagination.Last />
                     </Pagination>
                   </div>{" "}
                 </Col>
               </Row>
-                </div>
-              </div>
-            </div> */}
-            <div><Footer /></div>
+            </div>
+            <div>
+              <Footer />
+            </div>
           </div>
         </div>
       </div>

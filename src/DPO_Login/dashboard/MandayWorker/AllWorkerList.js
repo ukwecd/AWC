@@ -50,7 +50,7 @@ const AllWorkerList = () => {
                   <Col lg={6} md={6} sm={12} className="nd-staff-print ">
                     <Button className="awc-btn-copy">Copy</Button>
 
-                    <Button variant="secondary" className="nd-btn-prt">
+                    <Button variant="secondary" className="awc-dpo-btn-prt">
                       Print
                     </Button>
                   </Col>
@@ -66,7 +66,7 @@ const AllWorkerList = () => {
                       <th>Group Title</th>
                       <th>Grant Code</th>
                       <th>Worker Name</th>
-                     
+
                       <th>Worker Mobile No</th>
                       <th>Worker Type</th>
                       <th>District</th>
@@ -85,15 +85,14 @@ const AllWorkerList = () => {
                         <div className="dpo-p">
                           <Button className="awc-edit-btn">
                             <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                            <FaUserEdit className="awc-update-icon" />  Edit{" "}
-                             
+                              <FaUserEdit className="awc-dpo-add-icon" /> Edit
                             </span>
                           </Button>
                         </div>
                       </td>
 
                       <td>558830682810</td>
-                      <td>DWAR-AWW001	</td>
+                      <td>DWAR-AWW001 </td>
                       <td>GEN15</td>
                       <td>PUSHPA BISHT</td>
                       <td>9411764031</td>
