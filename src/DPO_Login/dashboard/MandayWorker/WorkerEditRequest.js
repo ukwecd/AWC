@@ -86,7 +86,7 @@ const WorkerEditRequest = () => {
                         <div className="dpo-p">
                           <Button className="awc-edit-btn">
                             <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                              Edit <FaUserEdit className="awc-update-icon" />
+                            <FaUserEdit className="awc-dpo-add-icon" />   Edit 
                             </span>
                           </Button>
                         </div>
@@ -95,16 +95,16 @@ const WorkerEditRequest = () => {
                       <td>
                         <div className="dpo-table-remove">
                           <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                            Remove{" "}
-                            <IoMdCloseCircle className="awc-update-icon" />
+                          <IoMdCloseCircle className="awc-dpo-add-icon" />   Remove{" "}
+                           
                           </span>
                         </div>
                       </td>
                       <td>
                         <div className="dpo-table-add">
                           <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                            Nanki Devi{" "}
-                            <IoIosCheckmarkCircle className="awc-update-icon" />
+                          <IoIosCheckmarkCircle className="awc-dpo-add-icon" />   Nanki Devi{" "}
+                           
                           </span>
                         </div>
                       </td>

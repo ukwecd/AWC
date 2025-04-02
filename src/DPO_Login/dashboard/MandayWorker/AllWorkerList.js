@@ -85,8 +85,8 @@ const AllWorkerList = () => {
                         <div className="dpo-p">
                           <Button className="awc-edit-btn">
                             <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                              Edit{" "}
-                              <FaUserEdit className="awc-update-icon" />
+                            <FaUserEdit className="awc-update-icon" />  Edit{" "}
+                             
                             </span>
                           </Button>
                         </div>

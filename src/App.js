@@ -43,6 +43,8 @@ import AWWAWHVacancie from "./DPO_Login/dashboard/AWWAWHVacancie";
 import FinanceSchemeReport from "./DPO_Login/dashboard/Finance/FinanceSchemeReport";
 import Project202324 from "./DPO_Login/dashboard/Finance/Project202324";
 import District202324 from "./DPO_Login/dashboard/Finance/District202324";
+import ViewMandayBills from "./DPO_Login/dashboard/view_bills/ViewMandayBills";
+import ViewProtsahanBills from "./DPO_Login/dashboard/view_bills/ViewProtsahanBills";
 
 
 function App() {
@@ -90,11 +92,9 @@ function App() {
         <Route path="/FinanceSchemeReport" element={<FinanceSchemeReport />} />
         <Route path="/Project202324" element={<Project202324 />} />
         <Route path="/District202324" element={<District202324 />} />
-       
-       
-       
+        <Route path="/ViewMandayBills" element={<ViewMandayBills />} />
+        <Route path="/ViewProtsahanBills" element={<ViewProtsahanBills />} />
         
-
       </Routes>
       
     </Router>

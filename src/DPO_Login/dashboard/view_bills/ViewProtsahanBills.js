@@ -4,12 +4,10 @@ import React from "react";
 // import ReportIcon from "../../../assets/images/reported-icon.png";
 import { Button, Col, Form, Pagination, Row } from "react-bootstrap";
 import "../../../DPO_Login/assets/css/AllWorkerList.css";
-
 import DPODashBoard from "../DPODashBoard";
 import Footer from "../../../componets/footer/Footer";
 
-
-const ProtsahanBills = () => {
+const ViewProtsahanBills = () => {
   return (
     <>
       <div>
@@ -22,7 +20,7 @@ const ProtsahanBills = () => {
 
           <div className="main">
             <div className="awc-dpo-head">
-              <h1>View Generated Protsahan Bill</h1>
+              <h1>View Generated Protsahan Bills</h1>
             </div>
             <div className="box-container">
               <Row>
@@ -96,8 +94,7 @@ const ProtsahanBills = () => {
                           <Button className="awc-dop-primary-btn">Submit</Button>
                         </Col>
                       </Row>
-                    </Col>
-                    
+                    </Col>    
                   </Row>
                 </Form>
               </div>
@@ -140,4 +137,4 @@ const ProtsahanBills = () => {
   );
 };
 
-export default ProtsahanBills;
+export default ViewProtsahanBills;

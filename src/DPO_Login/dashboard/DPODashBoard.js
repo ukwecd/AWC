@@ -91,7 +91,24 @@ function DPODashBoard() {
 
     {
       icon: <FaMoneyBill />,
-      label: "FPuruskar Application",
+      label: "View Bills",
+      subRoutes: [
+        {
+          icon: <MdOutlineReceiptLong />,
+          label: "View Manday Bills",
+          path: "/ViewMandayBills",
+        },
+        {
+          icon: <FaReceipt />,
+          label: "ViewProtsahanBills",
+          path: "/ViewProtsahanBills",
+        },
+      ],
+    },
+
+    {
+      icon: <FaMoneyBill />,
+      label: "Puruskar Application",
       subRoutes: [
         {
           icon: <MdOutlineReceiptLong />,
@@ -177,12 +194,12 @@ function DPODashBoard() {
           <div className={`navcontainer ${isNavClosed ? "navclose" : ""}`}>
             <nav className="dpo-nav">
               <div className="nav-upper-options">
-                <div className="awc-menu">
+                <div className="dpo-menu">
                   <div>
-                    <FaAlignLeft className="icn menuicn" onClick={toggleNav} />
+                    <FaAlignLeft className="icn dpo-menuicn" onClick={toggleNav} />
                   </div>
-                  <div className="awc-user">DPO login : Almora</div>
-                  <div className="awc-log-icon-mob">
+                  <div className="dpo-user">DPO login : Almora</div>
+                  <div className="dpo-log-icon-mob">
                     <LuLogOut className=" " title="Click to logout" />
                   </div>
                 </div>

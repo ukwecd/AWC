@@ -9,7 +9,7 @@ import DPODashBoard from "../DPODashBoard";
 import Footer from "../../../componets/footer/Footer";
 
 
-const ProtsahanBills = () => {
+const ViewMandayBills = () => {
   return (
     <>
       <div>
@@ -22,7 +22,7 @@ const ProtsahanBills = () => {
 
           <div className="main">
             <div className="awc-dpo-head">
-              <h1>View Generated Protsahan Bill</h1>
+              <h1>View Generated Manday Bills</h1>
             </div>
             <div className="box-container">
               <Row>
@@ -63,7 +63,7 @@ const ProtsahanBills = () => {
                     <Col lg={6} md={6} sm={12}>
                       <Row className="awc-bills-box1">
                         <div className="awc-label-title">
-                        Protsahan Bill View:
+                        Manday Bill View:
                         </div>
 
                         <Col lg={5} md={5} sm={5}>
@@ -73,9 +73,10 @@ const ProtsahanBills = () => {
                           >
                             <Form.Select className="mb-2">
                               <option>Choose Month </option>
-                              <option value="1">Option 1</option>
-                              <option value="2">Option 2</option>
-                              <option value="3">Option 3</option>
+                              <option value="1">January 2024-25</option>
+                              <option value="2">February 2024-25</option>
+                              <option value="3">March 2024-25</option>
+                              
                             </Form.Select>
                           </Form.Group>
                         </Col>
@@ -140,4 +141,4 @@ const ProtsahanBills = () => {
   );
 };
 
-export default ProtsahanBills;
+export default ViewMandayBills;
