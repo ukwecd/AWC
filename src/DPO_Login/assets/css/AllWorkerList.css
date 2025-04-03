@@ -201,3 +201,7 @@ margin: -3px;
     padding: 8px 12px 0px 12px;
     font-size: var(--awc-space-300);
 }
+.awc-Finance-tables td{
+    padding-top: var(--awc-space-0);
+    font-size: var(--awc-space-300);
+}

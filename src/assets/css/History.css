@@ -193,8 +193,8 @@ button.awc-sector-btn.btn.btn-primary:hover {
 .btn.show,
 .btn:first-child:active,
 :not(.btn-check)+.btn:active {
-    background-color: var(--awc-gray) !important;
-    border: solid var(--awc-space-25) var(--awc-gray);
+    background-color: hsl(210deg 8.11% 29.02% / 0%) !important;
+    border: var(--awc-space-25) hsl(210deg 8.11% 29.02% / 0%) solid;
 }
 
 .form-control:disabled {

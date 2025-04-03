@@ -40,6 +40,8 @@
   --awc-dark-gray: #4a525a;
   --awc-blue-off: #5886FF;
   --awc-blue-dark-bg:  #0F1A34;
+  --awc-gray-light-bg:  #b4b4b4;
+
  
 
 
@@ -91,9 +93,9 @@
     margin: -3px;
   } */
 
-.modal-footer {
+/* .modal-footer {
   justify-content: center !important;
-}
+} */
 
 .shadow1 {
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.10);
@@ -105,7 +107,7 @@
 }
 
 .awc-login-col {
-  padding: 0px;
+  padding: var(--awc-space-0);
 }
 
 .awc-nav a {
@@ -117,7 +119,7 @@
 }
 
 .awc-control-chooce {
-  background-color: #b4b4b4;
+  background-color: var(--awc-gray-light-bg);
 
 }
 
@@ -137,7 +139,7 @@
 }
 
 ul.awc-paging.pagination .page-item {
-  font-size: 4px;
+  font-size: var(--awc-space-100);
 }
 
 .page-link {
@@ -152,7 +154,7 @@ ul.awc-paging.pagination .page-item {
 }
 
 .awc-table-head {
-  padding: 8px 8px 0px 8px;
+  padding: var(--awc-space-200) var(--awc-space-200)  var(--awc-space-0)  var(--awc-space-200) ;
 }
 
 .awc-table-head h1 {
@@ -163,17 +165,22 @@ ul.awc-paging.pagination .page-item {
 .awc-table-head p {
   font-size: var(--awc-space-300);
   color: var(--awc-black);
-  padding-bottom: 0px !important;
-  margin-bottom: 0px !important;
+  padding-bottom:var(--awc-space-0) !important;
+  margin-bottom: var(--awc-space-0) !important;
 }
 
 .custom-divider {
-  border-top: 2px dashed #B8B8B8 !important;
+  border-top: var(--awc-space-50) dashed #B8B8B8 !important;
   opacity: 1;
 }
 
 
 @media only screen and (max-width: 568px) {
+  .awc-pading-next {
+    display: flex;
+    justify-content: start;
+  
+  }
   .m-t-0 {
     margin-top: var(--awc-space-0) !important;
   }
@@ -191,7 +198,7 @@ ul.awc-paging.pagination .page-item {
   }
 
   .awc-table-head {
-    padding: 12px 8px 0px 8px;
+    padding: var(--awc-space-300) var(--awc-space-200) var(--awc-space-0) var(--awc-space-200);
   }
 
   .awc-contact-border {
@@ -208,7 +215,7 @@ ul.awc-paging.pagination .page-item {
   }
 
   .awc-form-box {
-    padding: 0px !important;
+    padding: var(--awc-space-0) !important;
   }
 
   .awc-staff-mobresp {
@@ -225,6 +232,6 @@ ul.awc-paging.pagination .page-item {
 
   .biil-submit {
 
-    padding: 8px 12px 12px 12px;
+    padding: var(--awc-space-200) var(--awc-space-300) var(--awc-space-300) var(--awc-space-300);
   }
 }

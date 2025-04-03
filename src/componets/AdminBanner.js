@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Form, Nav, Navbar, Row } from "react-bootstrap";
-import { FaUserShield, FaGlobe, FaPhoneAlt } from "react-icons/fa";
+import { FaUserShield, FaGlobe } from "react-icons/fa";
 import "font-awesome/css/font-awesome.min.css";
 // import News from "../assets/images/news.png";
 import Logo from "../assets/images/uklogo.png";
@@ -9,7 +9,8 @@ import Group from "../assets/images/Groupimg.png";
 import { Link } from "react-router-dom";
 import AdminLogin from "./AdminLogin";
 import Footer from "./footer/Footer";
-import Login from "../assets/images/login.png";
+// import Login from "../assets/images/login.png";
+import LogoDanparbw from "../assets/images/LogoDhanParbaw.png"
 
 const AdminBanner = () => {
   return (
@@ -25,10 +26,7 @@ const AdminBanner = () => {
             <div className="awc-home mt-4">
               <h1>उत्तराखंड सरकार | Gov.t of Uttarakhand </h1>
             </div>
-            {/* <div className="awc-update align-items-center gap-3">
-              <img src={News} alt="news"></img>नंदा गौरा योजना के तहत 12वीं
-              पासआउट 2024 के लिए नए आवेदन केवल 30-नवंबर-2024 तक भरे जा सकते{" "}
-            </div> */}
+            
           </div>
           <div className=" ">
             <i>
@@ -59,13 +57,13 @@ const AdminBanner = () => {
                   <FaUserShield className="me-1" />
                   Login (Admin)
                 </Nav.Link>
-                <Link to="/ContactUs">
+                {/* <Link to="/ContactUs">
                   {" "}
                   <Nav.Link href="#link">
                     <FaPhoneAlt className="me-1" />
                     Contact Us
                   </Nav.Link>
-                </Link>
+                </Link> */}
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -80,15 +78,21 @@ const AdminBanner = () => {
                 <img src={Wecdlogo} alt="wecd-logo"></img>
               </i>
             </div>
+           
             <Form className="awc-form">
               <div className=" p-3 nd-Login-form">
                 <p className="text-center awc-login-title">
                   महिला सशक्तिकरण एवं बाल विकास विभाग
                 </p>
-                <p className="text-center awc-admin-subtitle">
-                  <img src={Login} alt="sign" className="p-2" /> Manday Login
-                </p>
-
+                {/* <p className="text-center awc-admin-subtitle">
+                  <img src={Login} alt="sign" className="p-2" /> धन प्रवाह
+                </p> */}
+                <div className="awc-logo">
+              <i>
+                <img src={LogoDanparbw} alt="uk" className="dhanparwa-logo"></img>
+              </i>
+             
+            </div>
                 <AdminLogin />
               </div>
             </Form>

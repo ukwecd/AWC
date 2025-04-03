@@ -348,7 +348,7 @@ function AdminBanner() {
                 </h1> */}
 
                 <Row className="nd-p-18">
-                  <Col lg={4} md={6} sm={3}>
+                  <Col lg={4} md={6} sm={6}>
                     <div className="form-check">
                       <Link to="#">
                         {" "}
@@ -367,7 +367,7 @@ function AdminBanner() {
                       </label>
                     </div>
                   </Col>
-                  <Col lg={4} md={6} sm={3}>
+                  <Col lg={4} md={6} sm={6}>
                     <div className="form-check">
                       <Link to="#">
                         <input
@@ -386,7 +386,7 @@ function AdminBanner() {
                     </div>
                   </Col>
 
-                  <Col lg={4} md={6} sm={3}>
+                  <Col lg={4} md={6} sm={6}>
                     <div className="form-check">
                       <input
                         className="form-check-input"
@@ -403,7 +403,7 @@ function AdminBanner() {
                     </div>
                   </Col>
 
-                  <Col lg={4} md={6} sm={3} className="nd-admin-top m-t-0">
+                  <Col lg={4} md={6} sm={6} className="nd-admin-top m-t-0">
                     <div className="form-check form-check1">
                       <Link to="/DPOInnerDashBoard">
                         {" "}
@@ -422,7 +422,7 @@ function AdminBanner() {
                       </label>
                     </div>
                   </Col>
-                  <Col lg={4} md={6} sm={3} className="mt-3 m-t-0">
+                  <Col lg={4} md={6} sm={6} className="mt-3 m-t-0">
                     <div className="form-check">
                       <Link to="/InnerDashBoard">
                         {" "}

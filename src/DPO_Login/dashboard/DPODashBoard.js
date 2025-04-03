@@ -4,7 +4,7 @@ import MenuIcon from "../../assets/images/menu_icon.png";
 import { LuLogOut } from "react-icons/lu";
 import React, { useState } from "react";
 import "../../DPO_Login/assets/css/DPOLeftNav.css";
-import { FaAlignLeft } from "react-icons/fa";
+import { FaAlignLeft} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import LogoCDPO from "../../assets/images/Logo-cdpo.png";
 import { RxDashboard } from "react-icons/rx";
@@ -22,7 +22,18 @@ import { PiUsersFourFill } from "react-icons/pi";
 import { FaUserTie } from "react-icons/fa";
 import { FaUserEdit } from "react-icons/fa";
 import { IoPersonAdd } from "react-icons/io5";
+import { IoIosList } from "react-icons/io";
+import { FaAward } from "react-icons/fa";
+import { FiFileText } from "react-icons/fi";
+import { LuFileText } from "react-icons/lu";
+import { BiRupee } from "react-icons/bi";
+
+import { TbReceiptRupee } from "react-icons/tb";
+import { IoIosCall } from "react-icons/io";
+
+
 // import { FaPhoneAlt } from "react-icons/fa";
+import { MdPlaylistRemove } from "react-icons/md";
 
 function DPODashBoard() {
   const [isNavClosed, setIsNavClosed] = useState(false);
@@ -51,7 +62,7 @@ function DPODashBoard() {
       path: "/Manday Worker Info",
       subRoutes: [
         {
-          icon: <FaUserEdit />,
+          icon: <IoIosList />,
           label: "All Worker List(edit)",
           path: "/AllWorkerList",
         },
@@ -61,19 +72,19 @@ function DPODashBoard() {
           path: "/WorkerAddRequest",
         },
         {
-          icon: <PiUsersFourFill />,
+          icon: <FaUserEdit  />,
           label: "Worker Edit Request",
           path: "/WorkerEditRequest",
         },
         {
-          icon: <PiUsersFourFill />,
+          icon: <MdPlaylistRemove />,
           label: "Worker Remove Request",
           path: "/WorkerRemoveRequest",
         },
       ],
     },
     {
-      icon: <FaMoneyBill />,
+      icon: <TbReceiptRupee />,
       label: "Forward Bills",
       subRoutes: [
         {
@@ -107,7 +118,7 @@ function DPODashBoard() {
     },
 
     {
-      icon: <FaMoneyBill />,
+      icon: <FaAward />,
       label: "Puruskar Application",
       subRoutes: [
         {
@@ -128,26 +139,32 @@ function DPODashBoard() {
       path: "/AWWAWHVacancie",
     },
     {
-      icon: <FaMoneyBill />,
+      icon: <BiRupee  />,
       label: "Finance",
       subRoutes: [
         {
-          icon: <MdOutlineReceiptLong />,
+          icon: <IoIosList  />,
           label: "State Scheme Surr. Report",
           path: "/FinanceSchemeReport",
         },
         {
-          icon: <FaReceipt />,
+          icon: <FiFileText />,
           label: "Project 2023-24",
           path: "/Project202324",
         },
         {
-          icon: <FaReceipt />,
+          icon: <LuFileText />,
           label: "District 2023-24",
           path: "/District202324",
         },
       ],
     },
+
+     {
+          icon: <IoIosCall />,
+          label: "Technical Help: 7668151041",
+    
+        },
   ];
 
   return (

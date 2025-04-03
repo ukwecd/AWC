@@ -45,6 +45,7 @@ import Project202324 from "./DPO_Login/dashboard/Finance/Project202324";
 import District202324 from "./DPO_Login/dashboard/Finance/District202324";
 import ViewMandayBills from "./DPO_Login/dashboard/view_bills/ViewMandayBills";
 import ViewProtsahanBills from "./DPO_Login/dashboard/view_bills/ViewProtsahanBills";
+import DistrictHistory from "./DPO_Login/dashboard/Finance/DistrictHistory";
 
 
 function App() {
@@ -94,6 +95,7 @@ function App() {
         <Route path="/District202324" element={<District202324 />} />
         <Route path="/ViewMandayBills" element={<ViewMandayBills />} />
         <Route path="/ViewProtsahanBills" element={<ViewProtsahanBills />} />
+        <Route path="/DistrictHistory" element={<DistrictHistory />} />
         
       </Routes>
       
