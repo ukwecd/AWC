@@ -184,13 +184,13 @@ const DPOInnerDashBoard = () => {
                       </Table>
                     </div>
                     <Row className="awc-m-t">
-                      <Col lg={6} md={6} sm={12}>
+                      <Col lg={6} md={12} sm={12}>
                         {" "}
                         <div className="tech-staff-perviose">
                           <div>Showing 1 to 10 of 105 entries</div>
                         </div>{" "}
                       </Col>
-                      <Col lg={6} md={6} sm={12} className="awc-pading-next">
+                      <Col lg={6} md={12} sm={12} className="awc-pading-next">
                         {" "}
                         <div className="tech-staff-table">
                           {" "}
@@ -237,13 +237,13 @@ const DPOInnerDashBoard = () => {
                       </Table>
                     </div>
                     <Row className="awc-m-t">
-                      <Col lg={6} md={6} sm={12}>
+                      <Col lg={6} md={12} sm={12}>
                         {" "}
                         <div className="tech-staff-perviose">
                           <div>Showing 1 to 10 of 105 entries</div>
                         </div>{" "}
                       </Col>
-                      <Col lg={6} md={6} sm={12} className="awc-pading-next">
+                      <Col lg={6} md={12} sm={12} className="awc-pading-next">
                         {" "}
                         <div className="tech-staff-table">
                           {" "}

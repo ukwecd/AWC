@@ -250,9 +250,11 @@ a.nav-sub-option:hover {
   padding: 0px 0 20px 0px;
   /* color: var(--awc-black); */
 }
-.nav-item{
+
+.nav-item {
   color: var(--awc-white);
 }
+
 .cdpo-lhs-nav {
   background-color: var(--awc-orange);
   box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
@@ -311,9 +313,11 @@ a.nav-sub-option:hover {
 .awc-menu {
   color: var(--awc-black) !important;
 }
+
 a.nav-option.option1 {
   background-color: #DE700A !important;
 }
+
 .option1 {
   /* background-color: #EA9343; custom css */
   background-color: #EA9343 !important;
@@ -638,7 +642,7 @@ span.nav-label:hover {
 
 @media screen and (max-width: 850px) {
   .box-container {
-    margin-top: var(--awc-space-450);
+    margin-top: var(--awc-space-0);
   }
 
   img.awc-logo-img {
