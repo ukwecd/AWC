@@ -5,10 +5,10 @@
 
 .awc-title {
     line-height: var(--awc-space-400);
-    width: 400px;
     color: var(--awc-black) !important;
     margin-top: 12px;
 }
+
 img.logo1 {
     width: 45px;
 }
@@ -21,7 +21,8 @@ img.logo1 {
     margin-left: var(--awc-space-300);
 
 }
-img.logo-wecd{
+
+img.logo-wecd {
     width: 60px;
 }
 
@@ -38,8 +39,8 @@ img.logo-wecd{
 }
 
 @media (max-width: 576px) {
-    
-    
+
+
     .logo {
 
         display: flex;
@@ -49,7 +50,6 @@ img.logo-wecd{
     .awc-title {
 
         font-size: var(--awc-space-200) !important;
-        width: 209px !important;
     }
 
     .awc-subtitle {
@@ -61,8 +61,9 @@ img.logo-wecd{
     .subtitle {
         font-size: var(--awc-space-250) !important;
     }
-    .awc-mob-responsive{
+
+    .awc-mob-responsive {
         padding: var(--awc-space-150)var(--awc-space-150) var(--awc-space-150) var(--awc-space-150) !important;
     }
-  
+
 }
