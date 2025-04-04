@@ -13,11 +13,11 @@
 
 }
 
-.nd-btn-district {
+.nd-btn-district-btnn {
     color: var(--awc-off-black);
 }
 
-.nd-btn-district:hover {
+.nd-btn-district-btnn:hover {
     color: var(--awc-blue);
 }
 

@@ -12,7 +12,7 @@ function ExpenditureForm() {
   return (
     <>
       <Button className="awc-btn-money" onClick={handleShow}>
-        <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
+        <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
           <BsCurrencyRupee className="awc-dpo-add-icon" /> 0
         </span>
       </Button>
