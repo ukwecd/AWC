@@ -13,3 +13,12 @@
 .nd-Login-footer p{
     color: var(--awc-white) !important;
 }
+.nd-footer-data  a{
+    text-decoration: none;
+}
+.nd-footer-data  a:hover{
+    color: var(--awc-blue);
+}
+.nd-footer-data p:hover{
+    color: var(--awc-blue);
+}

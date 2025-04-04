@@ -97,6 +97,10 @@
   justify-content: center !important;
 } */
 
+.dhan-parwa-logo{
+  
+  max-width: 140px;
+}
 .shadow1 {
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.10);
 }
@@ -174,8 +178,17 @@ ul.awc-paging.pagination .page-item {
   opacity: 1;
 }
 
-
+.dpo-accordin-top{
+  margin-top: var(--awc-space-300);
+}
 @media only screen and (max-width: 568px) {
+ 
+  .wced-logo{
+    display: none;
+  }
+  .uk-logo{
+    display: none;
+  }
   .awc-pading-next {
     display: flex;
     justify-content: start;

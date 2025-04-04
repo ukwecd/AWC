@@ -110,10 +110,10 @@ const WorkerEditRequest = () => {
                       </td>
                       <td>tadikhet </td>
                       <td>Shama Parbeen</td>
-                      <td>984686030310</td>
+                      <td>9846xxxxxxxx</td>
                       <td>9756144497</td>
                       <td>AWW</td>
-                      <td>31557557514</td>
+                      <td>3155xxxxxxx</td>
                       <td>SBIN0005672</td>
                       <td>STATE BANK OF INDIA</td>
                       <td>MALROAD</td>

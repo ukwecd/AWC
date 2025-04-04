@@ -31,7 +31,7 @@ const AnganwadiKaryakarti = () => {
             <div className="box-container">
               <div className="awc-after-fillter">
                 <Accordion defaultActiveKey="0">
-                  <Accordion.Item eventKey="0">
+                  <Accordion.Item eventKey="0" className="dpo-accordin-top">
                     <Accordion.Header>
                       Waiting for Review by CDPO
                     </Accordion.Header>
@@ -162,7 +162,7 @@ const AnganwadiKaryakarti = () => {
                       </Row>
                     </Accordion.Body>
                   </Accordion.Item>
-                  <Accordion.Item eventKey="1" className="mt-3">
+                  <Accordion.Item eventKey="1" className="dpo-accordin-top">
                     <Accordion.Header>
                       Forwarded by CDPO to DPO
                     </Accordion.Header>
@@ -245,11 +245,10 @@ const AnganwadiKaryakarti = () => {
                               <td>ok</td>
                               <td>9837879462</td>
                               <td>
-                               
                                 <div className="dpo-p">
                                   <Button className="awc-edit-btn">
                                     <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                                      < FaIdCard className="awc-dpo-add-icon" />{" "}
+                                      <FaIdCard className="awc-dpo-add-icon" />{" "}
                                       AP-2024-0044
                                     </span>
                                   </Button>
@@ -296,7 +295,7 @@ const AnganwadiKaryakarti = () => {
                       </Row>
                     </Accordion.Body>
                   </Accordion.Item>
-                  <Accordion.Item eventKey="3" className="mt-3">
+                  <Accordion.Item eventKey="3" className=" dpo-accordin-top">
                     <Accordion.Header>
                       Forwarded by CDPO to DPO
                     </Accordion.Header>
@@ -354,7 +353,7 @@ const AnganwadiKaryakarti = () => {
                       <div className="table-responsive-lg">
                         <Table className="awc-sub-table" striped bordered hover>
                           <thead className="dpo-thead">
-                          <tr>
+                            <tr>
                               <th>S.No</th>
                               <th>Merit</th>
                               <th>Status</th>
@@ -372,18 +371,17 @@ const AnganwadiKaryakarti = () => {
                             </tr>
                           </thead>
                           <tbody>
-                          <tr>
+                            <tr>
                               <td>1</td>
                               <td>81</td>
                               <td>Approved</td>
                               <td>ok</td>
                               <td>9837879462</td>
                               <td>
-                               
                                 <div className="dpo-p">
                                   <Button className="awc-edit-btn">
                                     <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                                      < FaIdCard className="awc-dpo-add-icon" />{" "}
+                                      <FaIdCard className="awc-dpo-add-icon" />{" "}
                                       AP-2024-0044
                                     </span>
                                   </Button>

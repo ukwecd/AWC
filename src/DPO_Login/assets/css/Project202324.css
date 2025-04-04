@@ -45,6 +45,10 @@
     color: var(--awc-Primary);
 
 }
+.note-text p {
+    font-size: var(--awc-space-200);
+    color: var(--awc-Primary);
+}
 
 .m-right {
     margin-right: var(--awc-space-500);
@@ -54,3 +58,10 @@
     justify-content: center;
 }
 
+@media only screen and (max-width: 568px) {
+    .modal-body {
+        padding-top: var(--awc-space-0) !important;
+    }
+
+   
+}

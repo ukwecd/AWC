@@ -116,7 +116,7 @@ const AllWorker = () => {
                       <td>-</td>
 
                       <td>
-                        246475680948
+                        24647xxxxxx
                       </td>
                       <td>
 

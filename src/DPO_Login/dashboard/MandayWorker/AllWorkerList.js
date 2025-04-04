@@ -91,7 +91,7 @@ const AllWorkerList = () => {
                         </div>
                       </td>
 
-                      <td>558830682810</td>
+                      <td>5588xxxxxx</td>
                       <td>DWAR-AWW001 </td>
                       <td>GEN15</td>
                       <td>PUSHPA BISHT</td>
@@ -101,7 +101,7 @@ const AllWorkerList = () => {
                       <td>dwarahat</td>
                       <td>KULSIVI</td>
                       <td>5064050516</td>
-                      <td>11690511799</td>
+                      <td>1169xxxxxxx</td>
                       <td>SBIN0007312</td>
                       <td>STATE BANK OF INDIA</td>
                     </tr>

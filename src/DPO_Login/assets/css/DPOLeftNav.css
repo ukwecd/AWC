@@ -604,6 +604,7 @@ span.nav-label:hover {
     width: 41px;
   }
 
+
 }
 
 
@@ -647,6 +648,7 @@ span.nav-label:hover {
   .box-container {
     margin-top: var(--awc-space-450);
   }
+
 
   img.awc-logo-img {
     width: 50px;
@@ -771,8 +773,9 @@ span.nav-label:hover {
 
   .dpo-menu {
     font-size: 18px;
-    padding: 18px 0px 10px 18px;
+    padding: 16px 22px 8px 16px;
     display: flex;
+    justify-content: space-between;
   }
 
 }
@@ -794,10 +797,7 @@ span.nav-label:hover {
 }
 
 @media screen and (max-width: 844px) {
-  .dpo-user {
-    margin-left: 5% !important;
-    min-width: 250px;
-  }
+
 
   .dpo-log-icon-mob {
     background-color: var(--awc-blue-off);
@@ -1017,13 +1017,21 @@ span.nav-label:hover {
   }
 }
 
-/* @media screen and (max-width: 390px){
-  .dpo-nav {
-    min-height: 100vh;
-    width: 390px;
-  
+@media screen and (max-width: 390px) {
+  .dpo-user {
+    margin-left: 5% !important;
+    max-width: 250px;
   }
-} */
+
+}
+
+@media (min-width: 844px) and (max-width: 390px) {
+  .navclose {
+    width: 41px;
+  }
+
+
+}
 
 @media screen and (max-width: 320px) {
   .dpo-nav-option:hover {

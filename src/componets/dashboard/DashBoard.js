@@ -22,6 +22,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaUserTie } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
 import { MdOutlineElderlyWoman } from "react-icons/md";
+import LogoDhanparwa from "../../assets/images/LogoDhanParbaw.png";
 
 import { MdOutlinePendingActions } from "react-icons/md";
 import { MdGroupAdd } from "react-icons/md";
@@ -109,15 +110,11 @@ function DashBoard() {
           label: "Request Delete Edit",
           path: "/RequestDelete",
         },
-
-
       ],
-
     },
     {
       icon: <FaPhoneAlt />,
       label: "Technical Help: 7668151041",
-
     },
   ];
 
@@ -132,6 +129,13 @@ function DashBoard() {
             alt="menu-icon"
             onClick={toggleNav}
           />
+          <Link to="#" className="logo-page">
+            <img
+              src={LogoDhanparwa}
+              alt="logo"
+              className="dhan-parwa-logo img-fluid"
+            />
+          </Link>
           <Link to="#" className="logo-page">
             <img src={UKLogon} alt="logo" className="wced-logo" />
           </Link>
@@ -179,8 +183,8 @@ function DashBoard() {
                   <React.Fragment key={index}>
                     {option.download ? (
                       // ancore
-                      <Link to=
-                        {option.download}
+                      <Link
+                        to={option.download}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`nav-option option${index + 1}`}

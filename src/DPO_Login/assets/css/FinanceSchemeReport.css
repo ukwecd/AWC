@@ -32,7 +32,9 @@
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
-
+.awc-view-file{
+    color: var(--awc-blue-dark-bg);
+}
 .awc-dop-primary-btn {
     background-color: var(--awc-blue-off);
     columns: var(--awc-white);

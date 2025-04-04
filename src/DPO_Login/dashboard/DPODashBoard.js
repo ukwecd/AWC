@@ -14,7 +14,6 @@ import { MdExpandLess } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdOutlineReceiptLong } from "react-icons/md";
 import { FaReceipt } from "react-icons/fa";
-import { FaMoneyBill } from "react-icons/fa6";
 import { PiUsersFourFill } from "react-icons/pi";
 import { FaUserTie } from "react-icons/fa";
 import { FaUserEdit } from "react-icons/fa";
@@ -28,6 +27,8 @@ import { TbReceiptRupee } from "react-icons/tb";
 import { IoIosCall } from "react-icons/io";
 // import { FaPhoneAlt } from "react-icons/fa";
 import { MdPlaylistRemove } from "react-icons/md";
+import { AiOutlineFundView } from "react-icons/ai";
+import LogoDhanparwa from "../../assets/images/LogoDhanParbaw.png";
 
 function DPODashBoard() {
   const [isNavClosed, setIsNavClosed] = useState(false);
@@ -95,7 +96,7 @@ function DPODashBoard() {
     },
 
     {
-      icon: <FaMoneyBill />,
+      icon: <AiOutlineFundView />,
       label: "View Bills",
       subRoutes: [
         {
@@ -172,6 +173,9 @@ function DPODashBoard() {
             alt="menu-icon"
             onClick={toggleNav}
           />
+           <Link to="#" className="logo-page">
+                      <img src={LogoDhanparwa} alt="logo" className="dhan-parwa-logo img-fluid" />
+                    </Link>
           <Link to="#" className="logo-page">
             <img src={UKLogon} alt="logo" className="wced-logo" />
           </Link>

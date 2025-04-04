@@ -12,7 +12,7 @@ function DistrictHistory() {
   return (
     <>
       <Button className="awc-btn-money" onClick={handleShow}>
-        <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
+        <span className="badge  rounded-pill text-dark-white d-inline-block awc-view-file nd-btn-district1">
            TA
         </span>
       </Button>

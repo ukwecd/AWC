@@ -55,7 +55,7 @@ img.logo-wecd {
     .awc-subtitle {
 
         display: flex;
-        font-size: var(--awc-space-300) !important;
+        font-size: var(--awc-space-400) !important;
     }
 
     .subtitle {

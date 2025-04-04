@@ -96,12 +96,11 @@ function ExpenditureForm() {
                       <Form.Control as="textarea" rows={3} />
                     </Form.Group>
                   </Col>
-                  <Col lg={4} md={4} sm={12}>
+                  <Col lg={4} md={12} sm={12}>
                     <Form.Group controlId="formFileSm" className="mb-3">
                       <Form.Label className="awc-dpo-label-title">
-                        Upload Document <span className="note-text">
-                        (pdf):
-                      </span>
+                        Upload Document{" "}
+                        <span className="note-text">&nbsp; (pdf):</span>
                       </Form.Label>
                       <Form.Control
                         type="file"
@@ -110,7 +109,7 @@ function ExpenditureForm() {
                       />
                     </Form.Group>
                   </Col>
-                  <Col lg={8} md={8} sm={12}>
+                  <Col lg={4} md={12} sm={12}>
                     <Form.Group
                       className="mb-3"
                       controlId="exampleForm.ControlInput1"
@@ -124,11 +123,15 @@ function ExpenditureForm() {
                         disabled
                       />
                       <span className="note-text">
-                        Note: This Amount will be Deducted from Current Balance
+                        <p>
+                          {" "}
+                          Note: This Amount will be Deducted from Current
+                          Balance{" "}
+                        </p>
                       </span>
                     </Form.Group>
                   </Col>
-                  <Col lg={4} md={4} sm={12}>
+                  <Col lg={4} md={12} sm={12}>
                     <Form.Group
                       className="mb-3"
                       controlId="exampleForm.ControlTextarea1"
