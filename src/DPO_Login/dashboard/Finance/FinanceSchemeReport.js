@@ -63,7 +63,7 @@ const FinanceSchemeReport = () => {
                       <Form.Control
                         as="textarea"
                         rows={3}
-                        placeholder="Plasce Enter your Remark"
+                        placeholder="Please Enter your Remark"
                       />
                     </Form.Group>
                   </Col>

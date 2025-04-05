@@ -3,6 +3,16 @@
     text-align: center;
     padding-top: var(--awc-space-500) !important;
 }
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 250px;
+}
+.carousel-indicators {
+    opacity: 0.0;
+}
 .form-check{
     font-size: var(--awc-space-350);
 }

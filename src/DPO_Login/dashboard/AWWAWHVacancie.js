@@ -3,6 +3,7 @@ import { Button, Col, Pagination, Row, Table } from "react-bootstrap";
 import "../../DPO_Login/assets/css/AllWorkerList.css";
 import Footer from "../../componets/footer/Footer";
 import DPODashBoard from "./DPODashBoard";
+import { GiReturnArrow } from "react-icons/gi";
 
 import { IoIosCheckmarkCircle, IoMdCloseCircle } from "react-icons/io";
 
@@ -95,7 +96,7 @@ const AWWAWHVacancie = () => {
                         <div className="dpo-p">
                           <Button className="dpo-return-btn">
                             <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                              <IoMdCloseCircle className="awc-dpo-add-icon" /> Return to CDPO
+                              <GiReturnArrow className="awc-dpo-add-icon" /> Return to CDPO
                             </span>
                           </Button>
                         </div>

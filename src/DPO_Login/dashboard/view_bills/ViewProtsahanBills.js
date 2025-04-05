@@ -23,46 +23,16 @@ const ViewProtsahanBills = () => {
               <h1>View Generated Protsahan Bills</h1>
             </div>
             <div className="box-container">
-              <Row>
-                <div className="awc-dpo-mobresp">
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print11">
-                    <div className="search-container">
-                      <form>
-                        <input
-                          className="search"
-                          id="searchleft"
-                          type="search"
-                          name="q"
-                          placeholder="Search"
-                          aria-label="Search"
-                        />
-                        <label
-                          className="button search-btn-dpo "
-                          for="searchleft"
-                        >
-                          <span className="mglass">&#9906;</span>
-                        </label>
-                      </form>
-                    </div>
-                  </Col>
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print ">
-                    <Button className="awc-btn-copy">Copy</Button>
-
-                    <Button variant="secondary" className="awc-dpo-btn-prt">
-                      Print
-                    </Button>
-                  </Col>
+            <div class="awc-table-head">
+                <h1> Protsahan Bill View:</h1>
                 </div>
-              </Row>
-              <div className="box-container">
+            <div className="box-container">
               <div>
                 <Form>
-                  <Row>
+                  <Row className="mt-3">
                     <Col lg={6} md={6} sm={12}>
                       <Row>
-                        <div className="awc-label-title">
-                        Protsahan Bill View:
-                        </div>
+                        
 
                         <Col lg={5} md={5} sm={5}>
                           <Form.Group

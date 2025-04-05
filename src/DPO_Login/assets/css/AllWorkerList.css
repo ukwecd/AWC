@@ -117,6 +117,8 @@ margin: -3px;
     .awc-dpo-add-icon {
         font-size: var(--awc-space-350);
    margin-left: var(--awc-space-0);
+   margin-right: var(--awc-space-50);
+   margin-bottom: var(--awc-space-25);
     }
 
     .nd-btn-excel{

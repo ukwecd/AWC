@@ -31,37 +31,7 @@ const District202324 = () => {
                 <h1>District Amount Alloment Details 2023-24</h1>
               </div>
 
-              <Row>
-                <div className="awc-dpo-mobresp">
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print11">
-                    <div className="search-container">
-                      <form>
-                        <input
-                          className="search"
-                          id="searchleft"
-                          type="search"
-                          name="q"
-                          placeholder="Search"
-                          aria-label="Search"
-                        />
-                        <label
-                          className="button search-btn-dpo "
-                          for="searchleft"
-                        >
-                          <span className="mglass">&#9906;</span>
-                        </label>
-                      </form>
-                    </div>
-                  </Col>
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print ">
-                    <Button className="awc-btn-copy">Copy</Button>
-
-                    <Button variant="secondary" className="dpo-prnt-btn">
-                      Print
-                    </Button>
-                  </Col>
-                </div>
-              </Row>
+            
               <div className="table-responsive-lg table-container-box mt-1">
                 <Table className="dpo-sub-table" striped bordered hover>
                   <thead className="dpo-project">
@@ -72,8 +42,13 @@ const District202324 = () => {
                     </tr>
                     <tr>
                       <th>Grant</th>
-                      <th>Componet</th>
-                      <th>Balance Amount</th>
+                      <th>Component
+                        <span className="note-text-view"><br />Click to View History</span>
+                      </th>
+                      <th>Balance Amount
+
+                      <span className="note-text-view"><br />Click to Register Expenditure</span>
+                      </th>
                     </tr>
                   </thead>
                   <tbody>

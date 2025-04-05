@@ -49,7 +49,9 @@ const WorkerEditRequest = () => {
                     </div>
                   </Col>
                   <Col lg={6} md={6} sm={12} className="nd-staff-print ">
-                    <Button className="awc-btn-copy">Copy</Button>
+                    <Button variant="secondary" className="nd-btn-excel mx-2">
+                      Excel
+                    </Button>
 
                     <Button variant="secondary" className="awc-dpo-btn-prt">
                       Print
@@ -86,7 +88,7 @@ const WorkerEditRequest = () => {
                         <div className="dpo-p">
                           <Button className="awc-edit-btn">
                             <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                            <FaUserEdit className="awc-dpo-add-icon" />   Edit 
+                              <FaUserEdit className="awc-dpo-add-icon" /> Edit
                             </span>
                           </Button>
                         </div>
@@ -95,16 +97,16 @@ const WorkerEditRequest = () => {
                       <td>
                         <div className="dpo-table-remove">
                           <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                          <IoMdCloseCircle className="awc-dpo-add-icon" />   Remove{" "}
-                           
+                            <IoMdCloseCircle className="awc-dpo-add-icon" />{" "}
+                            Remove{" "}
                           </span>
                         </div>
                       </td>
                       <td>
                         <div className="dpo-table-add">
                           <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                          <IoIosCheckmarkCircle className="awc-dpo-add-icon" />   Nanki Devi{" "}
-                           
+                            <IoIosCheckmarkCircle className="awc-dpo-add-icon" />{" "}
+                            Nanki Devi{" "}
                           </span>
                         </div>
                       </td>

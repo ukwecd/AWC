@@ -48,7 +48,9 @@ const WorkerAddRequest = () => {
                     </div>
                   </Col>
                   <Col lg={6} md={6} sm={12} className="nd-staff-print ">
-                    <Button className="awc-btn-copy">Copy</Button>
+                    <Button variant="secondary" className="nd-btn-excel mx-2">
+                      Excel
+                    </Button>
 
                     <Button variant="secondary" className="awc-dpo-btn-prt">
                       Print

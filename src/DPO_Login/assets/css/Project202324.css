@@ -57,6 +57,10 @@
 .awc-buget-cls-btn {
     justify-content: center;
 }
+.note-text-view {
+    font-size: var(--awc-space-250);
+    color: var(--awc-black);
+}
 
 @media only screen and (max-width: 568px) {
     .modal-body {

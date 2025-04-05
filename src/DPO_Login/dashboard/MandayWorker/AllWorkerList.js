@@ -8,6 +8,7 @@ import "../../../DPO_Login/assets/css/AllWorkerList.css";
 import DPODashBoard from "../DPODashBoard";
 import Footer from "../../../componets/footer/Footer";
 import { FaUserEdit } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const AllWorkerList = () => {
   return (
@@ -48,7 +49,9 @@ const AllWorkerList = () => {
                     </div>
                   </Col>
                   <Col lg={6} md={6} sm={12} className="nd-staff-print ">
-                    <Button className="awc-btn-copy">Copy</Button>
+                    <Button variant="secondary" className="nd-btn-excel mx-2">
+                      Excel
+                    </Button>
 
                     <Button variant="secondary" className="awc-dpo-btn-prt">
                       Print
@@ -83,11 +86,14 @@ const AllWorkerList = () => {
                       <td>1</td>
                       <td>
                         <div className="dpo-p">
-                          <Button className="awc-edit-btn">
-                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                              <FaUserEdit className="awc-dpo-add-icon" /> Edit
-                            </span>
-                          </Button>
+                          <Link to="/WorkerAccountDetails">
+                            {" "}
+                            <Button className="awc-edit-btn">
+                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
+                                <FaUserEdit className="awc-dpo-add-icon" /> Edit
+                              </span>
+                            </Button>
+                          </Link>
                         </div>
                       </td>
 
