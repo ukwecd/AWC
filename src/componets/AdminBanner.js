@@ -5,15 +5,12 @@ import "font-awesome/css/font-awesome.min.css";
 // import News from "../assets/images/news.png";
 import Logo from "../assets/images/uklogo.png";
 import Wecdlogo from "../assets/images/wecdlogo.png";
-import Group from "../assets/images/Groupimg.png";
 import { Link } from "react-router-dom";
 import AdminLogin from "./AdminLogin";
 import Footer from "./footer/Footer";
 import BannerOne from "../assets/images/banner1.png"
 import BannerTwo from "../assets/images/banner2.png"
 import BannerThree from "../assets/images/banner3.png"
-
-import Login from "../assets/images/login.png";
 import LogoDanparbw from "../assets/images/LogoDhanParbaw.png"
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -33,8 +30,6 @@ const AdminBanner = () => {
             </div>
             
           </div>
-        
-
           <Carousel>
       <Carousel.Item>
         {/* <Group text="First slide" /> */}

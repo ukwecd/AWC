@@ -25,7 +25,7 @@ const MandayBills = () => {
               <h1>View Generated Manday Bill</h1>
             </div>
             <div className="box-container">
-              <Row>
+              {/* <Row>
                 <div className="awc-dpo-mobresp">
                   <Col lg={6} md={6} sm={12} className="nd-staff-print11">
                     <div className="search-container">
@@ -55,16 +55,17 @@ const MandayBills = () => {
                     </Button>
                   </Col>
                 </div>
-              </Row>
+              </Row> */}
+               <div class="awc-table-head">
+                <h1> Insurance Bill View:</h1>
+                </div>
               <div className="box-container">
               <div>
                 <Form>
-                  <Row>
+                  <Row className="mt-3">
                     <Col lg={6} md={6} sm={12}>
                       <Row>
-                        <div className="awc-label-title">
-                          Insurance Bill View:
-                        </div>
+                        
 
                         <Col lg={5} md={5} sm={5}>
                           <Form.Group

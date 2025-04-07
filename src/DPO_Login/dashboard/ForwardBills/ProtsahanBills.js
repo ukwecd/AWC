@@ -25,7 +25,10 @@ const ProtsahanBills = () => {
               <h1>View Generated Protsahan Bill</h1>
             </div>
             <div className="box-container">
-              <Row>
+            <div class="awc-table-head">
+                <h1> Protsahan Bill View:</h1>
+                </div>
+              {/* <Row>
                 <div className="awc-dpo-mobresp">
                   <Col lg={6} md={6} sm={12} className="nd-staff-print11">
                     <div className="search-container">
@@ -55,16 +58,14 @@ const ProtsahanBills = () => {
                     </Button>
                   </Col>
                 </div>
-              </Row>
+              </Row> */}
               <div className="box-container">
               <div>
                 <Form>
                   <Row>
                     <Col lg={6} md={6} sm={12}>
                       <Row>
-                        <div className="awc-label-title">
-                        Protsahan Bill View:
-                        </div>
+                       
 
                         <Col lg={5} md={5} sm={5}>
                           <Form.Group
