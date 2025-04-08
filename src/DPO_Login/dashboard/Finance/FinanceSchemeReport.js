@@ -92,7 +92,7 @@ const FinanceSchemeReport = () => {
                         <td>
                          <div>
                           <Button className="awc-btn-money">
-                            <span className="badge  rounded-pill text-dark-white d-inline-block awc-view-file">
+                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn awc-view-file">
                             <HiMiniViewfinderCircle  className="awc-dpo-add-icon"/>  View File
                             </span>
                           </Button>

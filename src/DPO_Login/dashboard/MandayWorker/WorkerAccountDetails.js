@@ -1,8 +1,5 @@
 import React from "react";
-// import Vector from "../../../assets/images/project_area_icon.png";
-// import AWCCenters from "../../../assets/images/awc-centers-icon.png";
-// import ReportIcon from "../../../assets/images/reported-icon.png";
-import { Button, Col, Pagination, Row, Table, Form } from "react-bootstrap";
+import { Button, Col,  Row,  Form } from "react-bootstrap";
 import "../../../DPO_Login/assets/css/AllWorkerList.css";
 import { FaAngleLeft } from "react-icons/fa6";
 import DPODashBoard from "../DPODashBoard";
@@ -95,7 +92,7 @@ const WorkerAccountDetails = () => {
                           <Form.Label className="awc-dpo-label-title">
                             Worker DOB
                             <span className="awc-allready">
-                              <p>&nbsp;(Already choosen)</p>
+                              <p>&nbsp;(Already chosen)</p>
                             </span>
                           </Form.Label>
 
@@ -132,7 +129,7 @@ const WorkerAccountDetails = () => {
                         >
                           <Form.Label className="awc-dpo-label-title">
                             Worker Aadhar Card No.
-                            {/* <span className="awc-allready"><p>&nbsp;(Already choosen)</p></span> */}
+                            {/* <span className="awc-allready"><p>&nbsp;(Already chosen)</p></span> */}
                           </Form.Label>
 
                           <Form.Control
@@ -149,7 +146,7 @@ const WorkerAccountDetails = () => {
                         >
                           <Form.Label className="awc-dpo-label-title">
                             Worker Mobile No.(if Known)
-                            {/* <span className="awc-allready"><p>&nbsp;(Already choosen)</p></span> */}
+                            {/* <span className="awc-allready"><p>&nbsp;(Already chosen)</p></span> */}
                           </Form.Label>
 
                           <Form.Control
@@ -168,7 +165,7 @@ const WorkerAccountDetails = () => {
                           <Form.Label className="awc-dpo-label-title">
                             Group Name
                             <span className="awc-allready">
-                              <p>&nbsp;(Already choosen)</p>
+                              <p>&nbsp;(Already chosen)</p>
                             </span>
                           </Form.Label>
 
@@ -206,7 +203,7 @@ const WorkerAccountDetails = () => {
                           <Form.Label className="awc-dpo-label-title">
                             Worker Type
                             <span className="awc-allready">
-                              <p>&nbsp;(Already choosen)</p>
+                              <p>&nbsp;(Already chosen)</p>
                             </span>
                           </Form.Label>
 
@@ -308,7 +305,7 @@ const WorkerAccountDetails = () => {
                           <Form.Label className="awc-dpo-label-title">
                             Bank Details
                             <span className="awc-allready">
-                              <p>&nbsp;(Already Choosen)</p>
+                              <p>&nbsp;(Already chosen)</p>
                             </span>
                           </Form.Label>
 
@@ -381,7 +378,7 @@ const WorkerAccountDetails = () => {
                           <Form.Label className="awc-dpo-label-title">
                             AWC Details
                             <span className="awc-allready">
-                              <p>&nbsp;(Already Choosen)</p>
+                              <p>&nbsp;(Already chosen)</p>
                             </span>
                           </Form.Label>
 
@@ -400,7 +397,7 @@ const WorkerAccountDetails = () => {
                           <Form.Label className="awc-dpo-label-title">
                           
                             <span className="awc-allready">
-                              <p>&nbsp;(Already Choosen)</p>
+                              <p>&nbsp;(Already chosen)</p>
                             </span>
                           </Form.Label>
 

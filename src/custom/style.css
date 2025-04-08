@@ -211,6 +211,10 @@ ul.awc-paging.pagination .page-item {
 
 }
 
+
+button.awc-btn-money.btn.btn-primary {
+  background-color: transparent;
+  }
 .awc-view-file {
   color: var(--awc-blue-dark-bg);
   padding: 0px;
