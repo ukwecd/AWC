@@ -1,6 +1,6 @@
 .awc-dpo-FSR-title {
     color: var(--awc-black);
-    padding: var(--awc-space-400) var(--awc-space-0) var(--awc-space-0) var(--awc-space-0);
+    padding: var(--awc-space-0) var(--awc-space-0) var(--awc-space-0) var(--awc-space-0);
     background-repeat: no-repeat;
     border-radius: var(--awc-space-200);
 }
@@ -41,7 +41,7 @@
 
 .awc-dop-primary-btn:hover {
     background-color: #091023;
-    border: var(--awc-space-25) #091023 solid ;
+    border: var(--awc-space-25) #091023 solid;
 }
 
 .awc-dele-icon {
