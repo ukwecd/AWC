@@ -146,7 +146,7 @@ const ViewMandayBills = () => {
                             <tr>
                               <th>S.No</th>
                               <th>Group Title</th>
-                              <th>Employee Nmae</th>
+                              <th>Employee Name</th>
                               <th>Grant Code</th>
                               <th>Emplyee Type</th>
                               <th>District</th>

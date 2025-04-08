@@ -1,17 +1,4 @@
-.awc-btn-money {
-    font-size: var(--awc-space-350);
-    background-color: transparent;
-    border: none;
-    height: 28px;
-    padding-left: var(--awc-space-100);
-}
 
-.awc-btn-money:hover {
-    background-color: transparent;
-    border: none;
-
-
-}
 
 .nd-btn-district-btnn {
     color: var(--awc-off-black);

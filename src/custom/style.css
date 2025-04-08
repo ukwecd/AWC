@@ -39,10 +39,10 @@
   --awc-gray-off: #767676;
   --awc-dark-gray: #4a525a;
   --awc-blue-off: #5886FF;
-  --awc-blue-dark-bg:  #0F1A34;
-  --awc-gray-light-bg:  #b4b4b4;
+  --awc-blue-dark-bg: #0F1A34;
+  --awc-gray-light-bg: #b4b4b4;
 
- 
+
 
 
   --awc-blue: #1976D2;
@@ -97,10 +97,11 @@
   justify-content: center !important;
 } */
 
-.dhan-parwa-logo{
-  
+.dhan-parwa-logo {
+
   max-width: 140px;
 }
+
 .shadow1 {
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.10);
 }
@@ -158,7 +159,7 @@ ul.awc-paging.pagination .page-item {
 }
 
 .awc-table-head {
-  padding: var(--awc-space-200) var(--awc-space-200)  var(--awc-space-0)  var(--awc-space-200) ;
+  padding: var(--awc-space-200) var(--awc-space-200) var(--awc-space-0) var(--awc-space-200);
 }
 
 .awc-table-head h1 {
@@ -169,7 +170,7 @@ ul.awc-paging.pagination .page-item {
 .awc-table-head p {
   font-size: var(--awc-space-300);
   color: var(--awc-black);
-  padding-bottom:var(--awc-space-0) !important;
+  padding-bottom: var(--awc-space-0) !important;
   margin-bottom: var(--awc-space-0) !important;
 }
 
@@ -178,22 +179,58 @@ ul.awc-paging.pagination .page-item {
   opacity: 1;
 }
 
-.dpo-accordin-top{
+.dpo-accordin-top {
   margin-top: var(--awc-space-300);
 }
+
+
+.awc-btn-copy {
+  font-size: 12px;
+  padding: 6px 12px 6px 12px;
+  background-color: var(--awc-blue-dark-bg);
+  color: var(--awc-white);
+  border: none;
+  margin-right: var(--awc-space-300);
+}
+
+.awc-btn-copy:hover {
+  color: var(--awc-white);
+  /* background-color: #dd791d; */
+}
+
+.awc-btn-money {
+  font-size: var(--awc-space-350);
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+}
+
+.awc-btn-money:hover {
+  background-color: transparent;
+  border: none;
+}
+
+.awc-view-file {
+  color: var(--awc-blue-dark-bg);
+  padding: 0px;
+}
+
 @media only screen and (max-width: 568px) {
- 
-  .wced-logo{
+
+  .wced-logo {
     display: none;
   }
-  .uk-logo{
+
+  .uk-logo {
     display: none;
   }
+
   .awc-pading-next {
     display: flex;
     justify-content: start;
-  
+
   }
+
   .m-t-0 {
     margin-top: var(--awc-space-0) !important;
   }

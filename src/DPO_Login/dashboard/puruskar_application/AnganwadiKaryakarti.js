@@ -227,14 +227,14 @@ const AnganwadiKaryakarti = () => {
                               <th>Review</th>
                               <th>Mobile No</th>
                               <th>Form ID</th>
-                              <th>Applicant Nmae</th>
+                              <th>Applicant Name</th>
                               <th>DOB</th>
-                              <th>Father/Husband Nmae</th>
+                              <th>Father/Husband Name</th>
                               <th>Education Qualification</th>
                               <th>District</th>
                               <th>Project</th>
                               <th>AWC Name</th>
-                              <th>Join Date</th>
+                              <th>Joining Date</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -360,9 +360,9 @@ const AnganwadiKaryakarti = () => {
                               <th>Review</th>
                               <th>Mobile No</th>
                               <th>Form ID</th>
-                              <th>Applicant Nmae</th>
+                              <th>Applicant Name</th>
                               <th>DOB</th>
-                              <th>Father/Husband Nmae</th>
+                              <th>Father/Husband Name</th>
                               <th>Education Qualification</th>
                               <th>District</th>
                               <th>Project</th>

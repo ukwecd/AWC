@@ -23,19 +23,7 @@
     margin-bottom: 0px !important;
 }
 
-.awc-btn-copy {
-    font-size: 12px;
-    padding: 6px 12px 6px 12px;
-    background-color: var(--awc-blue-dark-bg);
-    color: var(--awc-white);
-    border: none;
-    margin-right: var(--awc-space-300);
-}
 
-.awc-btn-copy:hover {
-    color: var(--awc-white);
-    /* background-color: #dd791d; */
-}
 
 .search {
     position: absolute;

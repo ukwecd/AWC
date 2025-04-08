@@ -43,7 +43,7 @@ const FinanceSchemeReport = () => {
                     <Form.Group controlId="formFileSm" className="mb-3">
                       <Form.Label className="awc-dpo-label-title">
                         Upload Document{" "}
-                        <span className="note-text"> &nbsp; (PDF Format)</span>:
+                        <span className="note-text"> &nbsp; (PDF Format Only)</span>:
                       </Form.Label>
                       <Form.Control
                         type="file"
