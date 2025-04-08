@@ -104,7 +104,7 @@ const AnganwadiKaryakarti = () => {
                               <th>District</th>
                               <th>Project</th>
                               <th>AWC Name</th>
-                              <th>Join Date</th>
+                              <th>Joining Date</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -367,7 +367,7 @@ const AnganwadiKaryakarti = () => {
                               <th>District</th>
                               <th>Project</th>
                               <th>AWC Name</th>
-                              <th>Join Date</th>
+                              <th>Joining Date</th>
                             </tr>
                           </thead>
                           <tbody>
