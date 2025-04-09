@@ -388,7 +388,7 @@ function AdminBanner() {
 
                   <Col lg={4} md={6} sm={6}>
                     <div className="form-check">
-                      <input
+                    <Link to="/FinanceInnerDashboard"> <input
                         className="form-check-input"
                         type="radio"
                         name="flexRadioDefault"
@@ -400,6 +400,7 @@ function AdminBanner() {
                       <label className="form-check-label" htmlFor="radio3">
                         Finance Login
                       </label>
+                      </Link>
                     </div>
                   </Col>
 

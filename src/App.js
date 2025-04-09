@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import NavBar from "./componets/topnav/NavBar";
 import "../../awc/src/custom/style.css";
 import Home from "./componets/Home";
-import 'font-awesome/css/font-awesome.min.css';
+import "font-awesome/css/font-awesome.min.css";
 import DashBoard from "./componets/dashboard/DashBoard";
 import InnerDashBoard from "./componets/dashboard/InnerDashBoard";
 import AWCInformation from "./componets/dashboard/AWCInformation";
@@ -48,18 +48,35 @@ import ViewProtsahanBills from "./DPO_Login/dashboard/view_bills/ViewProtsahanBi
 import DistrictHistory from "./DPO_Login/dashboard/Finance/DistrictHistory";
 import WorkerAccountDetails from "./DPO_Login/dashboard/MandayWorker/WorkerAccountDetails";
 
+/* // FinanceDasboard */
+
+import FinanceDashBoard from "./Finance_Login/Finance_dashboard/FinanceDashBoard";
+import FinanceInnerDashboard from "./Finance_Login/Finance_dashboard/FinanceInnerDashboard";
+import DisplayCDPOfile from "./Finance_Login/Finance_dashboard/DisplayCDPOfile";
+import FinanceDistrict202324 from "./Finance_Login/Finance_dashboard/AllotBudget2024-25/District202425";
+import Project202425 from "./Finance_Login/Finance_dashboard/AllotBudget2024-25/Project202425";
+import DistrictDatewise from "./Finance_Login/Finance_dashboard/CustomReports/DistrictDatewise";
+import ProjectDatewise from "./Finance_Login/Finance_dashboard/CustomReports/ProjectDatewise";
+import DistrictSummary from "./Finance_Login/Finance_dashboard/ExpenditureSummary/DistrictSummary";
+import ProjectSummary from "./Finance_Login/Finance_dashboard/ExpenditureSummary/ProjectSummary";
+import AllotProjectSummary from "./Finance_Login/Finance_dashboard/AllotmentSummary/AllotProjectSummary";
+import AllotDistrictSummary from "./Finance_Login/Finance_dashboard/AllotmentSummary/AllotDistrictSummary";
+import DemandSchemereport from "./Finance_Login/Finance_dashboard/DemandSummary/DemandSchemereport";
+
 
 function App() {
   return (
     <Router>
-      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/DashBoard" element={<DashBoard />} />
         <Route path="/NavBar" element={<NavBar />} />
         <Route path="/InnerDashBoard" element={<InnerDashBoard />} />
         <Route path="/AWCInformation" element={<AWCInformation />} />
-        <Route path="/PendingRemoveRequest" element={<PendingRemoveRequest />} />
+        <Route
+          path="/PendingRemoveRequest"
+          element={<PendingRemoveRequest />}
+        />
         <Route path="/PendingEditRequest" element={<PendingEditRequest />} />
         <Route path="/CreateGroup" element={<CreateGroup />} />
         <Route path="/GenerateBill" element={<GenerateBill />} />
@@ -81,26 +98,41 @@ function App() {
 
         {/* // DPODasboard */}
         <Route path="/DPODashBoard" element={<DPODashBoard />} />
-        <Route path="/DPOInnerDashBoard" element={< DPOInnerDashBoard />} />
-        <Route path="/AllWorkerList" element={< AllWorkerList />} />
-        <Route path="/WorkerAddRequest" element={< WorkerAddRequest />} />
-        <Route path="/WorkerEditRequest" element={< WorkerEditRequest />} />
-        <Route path="/WorkerRemoveRequest" element={< WorkerRemoveRequest />} />
-        <Route path="/ProtsahanBills" element={< ProtsahanBills />} />
-        <Route path="/MandayBills" element={< MandayBills />} />
-        <Route path="/AnganwadiKaryakarti" element={< AnganwadiKaryakarti />} />
-        <Route path="/TeluRoteliPuruskar" element={< TeluRoteliPuruskar />} />
-        <Route path="/AWWAWHVacancie" element={< AWWAWHVacancie />} />
+        <Route path="/DPOInnerDashBoard" element={<DPOInnerDashBoard />} />
+        <Route path="/AllWorkerList" element={<AllWorkerList />} />
+        <Route path="/WorkerAddRequest" element={<WorkerAddRequest />} />
+        <Route path="/WorkerEditRequest" element={<WorkerEditRequest />} />
+        <Route path="/WorkerRemoveRequest" element={<WorkerRemoveRequest />} />
+        <Route path="/ProtsahanBills" element={<ProtsahanBills />} />
+        <Route path="/MandayBills" element={<MandayBills />} />
+        <Route path="/AnganwadiKaryakarti" element={<AnganwadiKaryakarti />} />
+        <Route path="/TeluRoteliPuruskar" element={<TeluRoteliPuruskar />} />
+        <Route path="/AWWAWHVacancie" element={<AWWAWHVacancie />} />
         <Route path="/FinanceSchemeReport" element={<FinanceSchemeReport />} />
         <Route path="/Project202324" element={<Project202324 />} />
         <Route path="/District202324" element={<District202324 />} />
         <Route path="/ViewMandayBills" element={<ViewMandayBills />} />
         <Route path="/ViewProtsahanBills" element={<ViewProtsahanBills />} />
         <Route path="/DistrictHistory" element={<DistrictHistory />} />
-        <Route path="/WorkerAccountDetails" element={<WorkerAccountDetails />} />
-        
+        <Route
+          path="/WorkerAccountDetails"
+          element={<WorkerAccountDetails />}
+        />
+
+        {/* // FinanceDasboard */}
+        <Route path="/FinanceDashBoard" element={<FinanceDashBoard />} />
+        <Route  path="/FinanceInnerDashboard" element={<FinanceInnerDashboard />} />
+        <Route path="/DisplayCDPOfile" element={<DisplayCDPOfile />} />
+        <Route path="/FinanceDistrict202324" element={<FinanceDistrict202324 />} />
+        <Route path="/Project202425" element={<Project202425 />} />
+        <Route path="/DistrictDatewise" element={<DistrictDatewise />} />
+        <Route path="/ProjectDatewise" element={<ProjectDatewise />} />
+        <Route path="/DistrictSummary" element={<DistrictSummary />} />
+        <Route path="/ProjectSummary" element={<ProjectSummary />} />
+        <Route path="/AllotDistrictSummary" element={<AllotDistrictSummary />} />
+        <Route path="/AllotProjectSummary" element={<AllotProjectSummary />} />
+        <Route path="/DemandSchemereport" element={<DemandSchemereport />} />
       </Routes>
-      
     </Router>
   );
 }
