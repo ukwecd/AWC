@@ -16,7 +16,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const AdminBanner = () => {
   return (
-    <div className="container-fluid">
+    <div>
       <Row className="flex-fill">
         <Col
           lg={7}
