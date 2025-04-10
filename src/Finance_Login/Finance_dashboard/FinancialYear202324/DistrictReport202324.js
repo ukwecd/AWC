@@ -3,7 +3,7 @@ import React from "react";
 import Footer from "../../../componets/footer/Footer";
 import FinanceDashBoard from "../FinanceDashBoard";
 
-const ProjectSurrender = () => {
+const DistrictReport202324 = () => {
   return (
     <>
       <div>
@@ -39,4 +39,4 @@ const ProjectSurrender = () => {
   );
 };
 
-export default ProjectSurrender;
+export default DistrictReport202324;

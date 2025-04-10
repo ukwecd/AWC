@@ -61,7 +61,16 @@ import DistrictSummary from "./Finance_Login/Finance_dashboard/ExpenditureSummar
 import ProjectSummary from "./Finance_Login/Finance_dashboard/ExpenditureSummary/ProjectSummary";
 import AllotProjectSummary from "./Finance_Login/Finance_dashboard/AllotmentSummary/AllotProjectSummary";
 import AllotDistrictSummary from "./Finance_Login/Finance_dashboard/AllotmentSummary/AllotDistrictSummary";
-import DemandSchemereport from "./Finance_Login/Finance_dashboard/DemandSummary/DemandSchemereport";
+import StateSchemeReport from "./Finance_Login/Finance_dashboard/DemandSummary/StateSchemeReport";
+import ProjectSurrenderSummary from "./Finance_Login/Finance_dashboard/DemandSummary/ProjectSurrenderSummary";
+import ProjectDemandSummary from "./Finance_Login/Finance_dashboard/DemandSummary/ProjectDemandSummary";
+import DistrictOverview from "./Finance_Login/Finance_dashboard/FinancialYear202324/DistrictOverview";
+import ProjectReport202324 from "./Finance_Login/Finance_dashboard/FinancialYear202324/ProjectReport202324";
+import DistrictReport202324 from "./Finance_Login/Finance_dashboard/FinancialYear202324/DistrictReport202324";
+import FinanceProjectOverview from "./Finance_Login/Finance_dashboard/FinancialYear202223/FinanceProjectOverview";
+import FinanceDistrictOverview from "./Finance_Login/Finance_dashboard/FinancialYear202223/FinanceDistrictOverview";
+import DistrictReport202223 from "./Finance_Login/Finance_dashboard/FinancialYear202223/DistrictReport202223";
+import ProjectReport202223 from "./Finance_Login/Finance_dashboard/FinancialYear202223/ProjectReport202223";
 
 
 function App() {
@@ -131,7 +140,18 @@ function App() {
         <Route path="/ProjectSummary" element={<ProjectSummary />} />
         <Route path="/AllotDistrictSummary" element={<AllotDistrictSummary />} />
         <Route path="/AllotProjectSummary" element={<AllotProjectSummary />} />
-        <Route path="/DemandSchemereport" element={<DemandSchemereport />} />
+       
+        <Route path="/StateSchemeReport" element={<StateSchemeReport />} />
+        <Route path="/ProjectSurrenderSummary" element={<ProjectSurrenderSummary />} />
+        <Route path="/ProjectDemandSummary" element={<ProjectDemandSummary />} />
+        <Route path="/DistrictOverview" element={<DistrictOverview />} />
+        <Route path="/ProjectReport202324" element={<ProjectReport202324 />} />
+        <Route path="/DistrictReport202324" element={<DistrictReport202324 />} />
+        <Route path="/FinanceProjectOverview" element={<FinanceProjectOverview />} />
+        <Route path="/FinanceDistrictOverview" element={<FinanceDistrictOverview />} />
+        <Route path="/DistrictReport202223" element={<DistrictReport202223 />} /> 
+        <Route path="/ProjectReport202223" element={<ProjectReport202223/>} /> 
+        
       </Routes>
     </Router>
   );

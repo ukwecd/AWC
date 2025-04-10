@@ -25,6 +25,7 @@ import { LuFileText } from "react-icons/lu";
 import { BiRupee } from "react-icons/bi";
 import { TbReceiptRupee } from "react-icons/tb";
 import { IoIosCall } from "react-icons/io";
+
 // import { FaPhoneAlt } from "react-icons/fa";
 
 import { AiOutlineFundView } from "react-icons/ai";
@@ -132,17 +133,17 @@ function FinanceDashBoard() {
         {
           icon: <IoIosList  />,
           label: "Project Surrender Summary",
-          path: "/DemandSchemereport",
+          path: "/ProjectSurrenderSummary",
         },
         {
           icon: <FiFileText />,
           label: "State Scheme surr. report",
-          path: "/Project202324",
+          path: "/StateSchemeReport",
         },
         {
           icon: <LuFileText />,
           label: "Project Demand Summary",
-          path: "/District202324",
+          path: "/ProjectDemandSummary",
         },
       ],
     },
@@ -153,22 +154,22 @@ function FinanceDashBoard() {
         {
           icon: <IoIosList  />,
           label: "Project Overview",
-          path: "/FinanceSchemeReport",
+          path: "/ProjectOverview",
         },
         {
           icon: <FiFileText />,
           label: "District Overview",
-          path: "/Project202324",
+          path: "/DistrictOverview",
         },
         {
           icon: <LuFileText />,
           label: "Project Report 2023-24",
-          path: "/District202324",
+          path: "/ProjectReport202324",
         },
         {
           icon: <LuFileText />,
           label: "District Report 2023-24",
-          path: "/District202324",
+          path: "/DistrictReport202324",
         },
       ],
     },
@@ -179,22 +180,22 @@ function FinanceDashBoard() {
         {
           icon: <IoIosList  />,
           label: "Project Overview",
-          path: "/FinanceSchemeReport",
+          path: "/FinanceProjectOverview",
         },
         {
           icon: <FiFileText />,
           label: "District Overview",
-          path: "/Project202324",
+          path: "/FinanceDistrictOverview",
         },
         {
           icon: <LuFileText />,
           label: "Project Report 2022-23",
-          path: "/District202324",
+          path: "/ProjectReport202223",
         },
         {
           icon: <LuFileText />,
           label: "District Report 2022-23",
-          path: "/District202324",
+          path: "/DistrictReport202223",
         },
       ],
     },

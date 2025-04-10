@@ -3,7 +3,7 @@ import React from "react";
 import Footer from "../../../componets/footer/Footer";
 import FinanceDashBoard from "../FinanceDashBoard";
 
-const DemandSchemereport = () => {
+const StateSchemeReport = () => {
   return (
     <>
       <div>
@@ -39,4 +39,4 @@ const DemandSchemereport = () => {
   );
 };
 
-export default DemandSchemereport;
+export default StateSchemeReport;
