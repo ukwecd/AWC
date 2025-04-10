@@ -25,6 +25,8 @@ import { LuFileText } from "react-icons/lu";
 import { BiRupee } from "react-icons/bi";
 import { TbReceiptRupee } from "react-icons/tb";
 import { IoIosCall } from "react-icons/io";
+import { ImDisplay } from "react-icons/im";
+import { FaFile } from "react-icons/fa6";
 
 // import { FaPhoneAlt } from "react-icons/fa";
 
@@ -52,18 +54,18 @@ function FinanceDashBoard() {
       path: "/FinanceInnerDashboard",
     },
     {
-      icon: <RxDashboard />,
+      icon: <ImDisplay />,
       label: "Display file to CDPO/DPO",
       path: "/DisplayCDPOfile",
     },
 
     {
-      icon: <FaUserTie />,
+      icon: <FaFile />,
       label: "Allot Budget 2024-25",
       path: "/Manday Worker Info",
       subRoutes: [
         {
-          icon: <IoIosList />,
+          icon: <FaFile />,
           label: "To Project 2024-25",
           path: "/FinanceDistrict202324",
         },

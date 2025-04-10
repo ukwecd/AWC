@@ -1,0 +1,20 @@
+.awc-finance-body {
+    display: flex;
+    
+    justify-content: left;
+    margin-top: var(--awc-space-1000);
+    line-height: var(--awc-space-0);
+}
+.awc-finance-body p {
+    font-size: var(--awc-space-350);
+    color: var(--awc-blue-off);
+    font-weight: 600;
+}
+.awc-finance-body h3 {
+    font-size: var(--awc-space-400);
+    color: var(--awc-blue-dark-bg);
+}
+.finance-data{
+    display: flex;
+    justify-content: flex-end;
+}
