@@ -48,5 +48,16 @@
     font-weight: 500;
     vertical-align:bottom;
 }
-
+.clc-bnn{
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: blue;
+}
+.biil-submit1{
+    text-align: center;
+    padding: var(--awc-space-300);
+}
+.finace-label{
+    font-size: var(--awc-space-300);
+}
 

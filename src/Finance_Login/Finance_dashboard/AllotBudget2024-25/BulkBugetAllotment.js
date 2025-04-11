@@ -1,15 +1,23 @@
 import React from "react";
 
-import { Accordion, Button, Col, Form, Pagination, Row, Table } from "react-bootstrap";
+import {
+  Accordion,
+  Button,
+  Col,
+  Form,
+  Pagination,
+  Row,
+  Table,
+} from "react-bootstrap";
 import Footer from "../../../componets/footer/Footer";
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import { FaIdCard } from "react-icons/fa";
-import { IoIosCheckmarkCircle} from "react-icons/io";
+import { IoIosCheckmarkCircle } from "react-icons/io";
 import { IoCloseCircle } from "react-icons/io5";
 import { MdError } from "react-icons/md";
 import { FaCircleCheck } from "react-icons/fa6";
-import Badge from 'react-bootstrap/Badge';
-import ListGroup from 'react-bootstrap/ListGroup';
+import Badge from "react-bootstrap/Badge";
+import ListGroup from "react-bootstrap/ListGroup";
 import FinanceDashBoard from "../FinanceDashBoard";
 
 const BulkBugetAllotment = () => {
@@ -25,7 +33,7 @@ const BulkBugetAllotment = () => {
 
           <div className="main">
             <div className="awc-dpo-head">
-              <h1>View Generated Manday Bills</h1>
+              <h1>Bulk Budget 2024-25 Allotment Page (Project)</h1>
             </div>
             <div className="box-container">
               <div class="awc-table-head">
@@ -34,41 +42,54 @@ const BulkBugetAllotment = () => {
               <div className="box-container">
                 <div>
                   <Form>
-                    <Row className="mt-3">
-                      <Col lg={6} md={6} sm={12}>
+                    <Row>
+                      <Col lg={12} md={12} sm={12}>
                         <Row>
-                          <Col lg={5} md={5} sm={5}>
+                          <Col lg={4} md={4} sm={12}>
                             <Form.Group
                               className="mb-3"
                               controlId="exampleForm.ControlInput1"
                             >
+                                <Form.Label className="finace-label">Grant/Component</Form.Label>
+                                
                               <Form.Select className="mb-2">
-                                <option>Choose Month </option>
+                                <option>Choose Grant|Component </option>
                                 <option value="1">January 2024-25</option>
                                 <option value="2">February 2024-25</option>
                                 <option value="3">March 2024-25</option>
                               </Form.Select>
                             </Form.Group>
                           </Col>
-                          <Col lg={5} md={5} sm={5}>
+                          <Col lg={4} md={4} sm={12}>
                             <Form.Group
                               className="mb-3"
                               controlId="exampleForm.ControlInput1"
                             >
-                              <Form.Select className="mb-2">
-                                <option>Project Name </option>
-                                <option value="1">Chakrata1</option>
-                                <option value="1">Chakrata2</option>
-                              </Form.Select>
+                               <Form.Label className="finace-label">Letter No</Form.Label>
+                              <Form.Control type="text">
+
+                              </Form.Control>
                             </Form.Group>
                           </Col>
-                          <Col lg={2} md={2} sm={2} className="biil-submit">
-                            <Button className="awc-dop-primary-btn">
-                              Submit
-                            </Button>
+                          <Col lg={4} md={4} sm={12}>
+                            <Form.Group
+                              className="mb-3"
+                              controlId="exampleForm.ControlInput1"
+                            >
+                               <Form.Label className="finace-label">Allotment Date</Form.Label>
+                              <Form.Control type="date">
+
+                              </Form.Control>
+                            </Form.Group>
                           </Col>
+                         
                         </Row>
                       </Col>
+                      <div className="biil-submit1">
+                            <Button className="awc-dop-primary-btn">
+                             Next Step
+                            </Button>
+                          </div>
                     </Row>
                   </Form>
                 </div>
@@ -195,105 +216,94 @@ const BulkBugetAllotment = () => {
                           </div>{" "}
                         </Col>
                       </Row>
-                    
-<Row>
-  <Col lg={6} md={6} sm={12}>
-  <ListGroup as="ol" className="awc-d-flex">
-      <ListGroup.Item
-        as="li"
-        className="d-flex justify-content-between align-items-start"
-      >
-        <div className="me-auto">
-          <div>AWW</div>
-         
-        </div>
-        <Badge bg="primary" pill>
-          0
-        </Badge>
-      </ListGroup.Item>
-      <ListGroup.Item
-        as="li"
-        className="d-flex justify-content-between align-items-start"
-      >
-        <div className="me-auto">
-          <div>AWH</div>
-        
-        </div>
-        <Badge bg="primary" pill>
-          0
-        </Badge>
-      </ListGroup.Item>
-      <ListGroup.Item
-        as="li"
-        className="d-flex justify-content-between align-items-start"
-      >
-        <div className="me-auto">
-          <div>MINI</div>
-        
-        </div>
-        <Badge bg="primary" pill>
-          0
-        </Badge>
-      </ListGroup.Item>
-      <ListGroup.Item
-        as="li"
-        className="d-flex justify-content-between align-items-start"
-      >
-        <div className="me-auto">
-          <div>Total Worker</div>
-        
-        </div>
-        <Badge bg="primary" pill>
-          0
-        </Badge>
-      </ListGroup.Item>
-    </ListGroup>
-  </Col>
-<Col lg={6} sm={12} md={6}>
-<ListGroup as="ol" className="awc-d-flex">
-      <ListGroup.Item
-        as="li"
-        className="d-flex justify-content-between align-items-start"
-      >
-        <div className="me-auto">
-          <div>Center Share</div>
-         
-        </div>
-        <Badge bg="primary" pill>
-          0
-        </Badge>
-      </ListGroup.Item>
-      <ListGroup.Item
-        as="li"
-        className="d-flex justify-content-between align-items-start"
-      >
-        <div className=" me-auto">
-          <div>State Share</div>
-       
-        </div>
-        <Badge bg="primary" pill>
-         0
-        </Badge>
-      </ListGroup.Item>
-      <ListGroup.Item
-        as="li"
-        className="d-flex justify-content-between align-items-start"
-      >
-        <div className="me-auto">
-          <div>Total Amount</div>
-          
-        </div>
-        <Badge bg="primary" pill>
-          0
-        </Badge>
-      </ListGroup.Item>
-    </ListGroup>
-</Col>
-   
-</Row>
 
-
-
+                      <Row>
+                        <Col lg={6} md={6} sm={12}>
+                          <ListGroup as="ol" className="awc-d-flex">
+                            <ListGroup.Item
+                              as="li"
+                              className="d-flex justify-content-between align-items-start"
+                            >
+                              <div className="me-auto">
+                                <div>AWW</div>
+                              </div>
+                              <Badge bg="primary" pill>
+                                0
+                              </Badge>
+                            </ListGroup.Item>
+                            <ListGroup.Item
+                              as="li"
+                              className="d-flex justify-content-between align-items-start"
+                            >
+                              <div className="me-auto">
+                                <div>AWH</div>
+                              </div>
+                              <Badge bg="primary" pill>
+                                0
+                              </Badge>
+                            </ListGroup.Item>
+                            <ListGroup.Item
+                              as="li"
+                              className="d-flex justify-content-between align-items-start"
+                            >
+                              <div className="me-auto">
+                                <div>MINI</div>
+                              </div>
+                              <Badge bg="primary" pill>
+                                0
+                              </Badge>
+                            </ListGroup.Item>
+                            <ListGroup.Item
+                              as="li"
+                              className="d-flex justify-content-between align-items-start"
+                            >
+                              <div className="me-auto">
+                                <div>Total Worker</div>
+                              </div>
+                              <Badge bg="primary" pill>
+                                0
+                              </Badge>
+                            </ListGroup.Item>
+                          </ListGroup>
+                        </Col>
+                        <Col lg={6} sm={12} md={6}>
+                          <ListGroup as="ol" className="awc-d-flex">
+                            <ListGroup.Item
+                              as="li"
+                              className="d-flex justify-content-between align-items-start"
+                            >
+                              <div className="me-auto">
+                                <div>Center Share</div>
+                              </div>
+                              <Badge bg="primary" pill>
+                                0
+                              </Badge>
+                            </ListGroup.Item>
+                            <ListGroup.Item
+                              as="li"
+                              className="d-flex justify-content-between align-items-start"
+                            >
+                              <div className=" me-auto">
+                                <div>State Share</div>
+                              </div>
+                              <Badge bg="primary" pill>
+                                0
+                              </Badge>
+                            </ListGroup.Item>
+                            <ListGroup.Item
+                              as="li"
+                              className="d-flex justify-content-between align-items-start"
+                            >
+                              <div className="me-auto">
+                                <div>Total Amount</div>
+                              </div>
+                              <Badge bg="primary" pill>
+                                0
+                              </Badge>
+                            </ListGroup.Item>
+                          </ListGroup>
+                        </Col>
+                      </Row>
                       <div class="awc-table-head">
                         <h1> State For PMJJBY 2024-25</h1>
                       </div>
@@ -322,42 +332,38 @@ const BulkBugetAllotment = () => {
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
-                                    0{" "} <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
+                                    0{" "}
+                                    <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
                                   </span>
                                 </div>
-                                
                               </td>
                               <td>64</td>
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
-                                    0{" "} <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
+                                    0{" "}
+                                    <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
                                   </span>
                                 </div>
-                                
                               </td>
                               <td>64</td>
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
-                                    0{" "} <FaCircleCheck  className="awc-dpo-rmv-icon" />{" "}
+                                    0{" "}
+                                    <FaCircleCheck className="awc-dpo-rmv-icon" />{" "}
                                   </span>
                                 </div>
-                                
                               </td>
-                           
+
                               <td>180</td>
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
-                                    0{" "} <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
+                                    0{" "}
+                                    <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
                                   </span>
                                 </div>
-                                
                               </td>
 
                               <td>
@@ -387,42 +393,38 @@ const BulkBugetAllotment = () => {
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
-                                    0{" "} <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
+                                    0{" "}
+                                    <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
                                   </span>
                                 </div>
-                                
                               </td>
                               <td>64</td>
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
-                                    0{" "} <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
+                                    0{" "}
+                                    <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
                                   </span>
                                 </div>
-                                
                               </td>
                               <td>64</td>
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
-                                    0{" "} <FaCircleCheck  className="awc-dpo-rmv-icon" />{" "}
+                                    0{" "}
+                                    <FaCircleCheck className="awc-dpo-rmv-icon" />{" "}
                                   </span>
                                 </div>
-                                
                               </td>
-                           
+
                               <td>180</td>
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
-                                    0{" "} <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
+                                    0{" "}
+                                    <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
                                   </span>
                                 </div>
-                                
                               </td>
 
                               <td>

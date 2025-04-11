@@ -5,7 +5,7 @@ import FinanceDashBoard from "../FinanceDashBoard";
 import { Link } from "react-router-dom";
 
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
-const FinanceDistrict202324 = () => {
+const District202425 = () => {
   return (
     <>
       <div>
@@ -18,59 +18,40 @@ const FinanceDistrict202324 = () => {
 
           <div className="main">
             <div className="awc-dpo-head">
-              <h1>All Project Current Balance Financial Year 2024-25</h1>
+              <h1>All District Current Balance Financial Year 2024-25</h1>
             </div>
             <div className="box-container">
               <div className="awc-allot-heading">
                 <h2>Amount Allotment Details</h2>
                 <ol>
-                  <li>For Bulk Budget Allotment Click here !</li>
+                  <li>
+                    For Bulk Budget Allotment{" "}
+                    <Link to="/BulkBugetAllotment">
+                      <button className="clc-bnn">Click here !</button>
+                    </Link>
+                  </li>
                   <li>To allot Specific budget click on Amount.</li>
-                  <li>To View passbook click on Project.</li>
+                  <li>To View passbook click on District.</li>
                 </ol>
               </div>
               <div className="table-responsive-lg table-container-box mt-1">
                 <Table className="awc-sub-table" striped bordered hover>
                   <thead className="dpo-thead1">
                     <tr>
-                    <th rowSpan="2">S.No</th>
+                      <th rowSpan="2">S.No</th>
                       <th rowSpan="2">District</th>
-                      <th rowSpan="2">Project</th>
-                      <th colSpan="13" className="text-center">Grant 15</th>
-                      <th colSpan="5" className="text-center">Grant 30</th>
-                      <th colSpan="9" className="text-center">Grant 30</th>
-                      <th rowSpan="2">Project Balance</th>
+
+                      <th colSpan="6" className="text-center">
+                        Grant 15
+                      </th>
                     </tr>
                     <tr>
-                     
-                      <th>Awc_rent</th>
-                      <th>Ta</th>
+                      <th>TA</th>
                       <th>Medical</th>
                       <th>Petrol</th>
-                      <th>Contigency</th>
-                      <th>Thr</th>
-                      <th>Manday</th>
-                      <th>Cooked_food</th>
-                      <th>Preschool_kit</th>
-                      <th>Saree_suit</th>
-                      <th>Medicine_kit</th>
-                      <th>Construction_of_awc</th>
-                      <th>Contigency</th>
-                      <th>Thr</th>
-                      <th>Manday</th>
-                      <th>Cooked_food</th>
-                      <th>Construction_of_awc</th>
-                      <th>Awc_rent</th>
-                      <th>Ta</th>
-                      <th>Medical</th>
-                      <th>Petrol</th>
-                      <th>Contigency</th>
-                      <th>Thr</th>
-                      <th>Manday</th>
-                      <th>Cooked_food</th>
-                      <th>Construction_of_awc</th>
-                      <th>Project Balance</th>
-                      
+                      <th>Saree Suit</th>
+                      <th>Pre School Kit</th>
+                      <th>Medicine kit</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -79,7 +60,7 @@ const FinanceDistrict202324 = () => {
                       <td>Almora</td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
+                          <Link to="/BulkBugetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -91,7 +72,7 @@ const FinanceDistrict202324 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
+                          <Link to="/BulkBugetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -103,7 +84,7 @@ const FinanceDistrict202324 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
+                          <Link to="/BulkBugetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -115,7 +96,7 @@ const FinanceDistrict202324 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
+                          <Link to="/BulkBugetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -127,7 +108,7 @@ const FinanceDistrict202324 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
+                          <Link to="/BulkBugetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -139,7 +120,7 @@ const FinanceDistrict202324 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
+                          <Link to="/BulkBugetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -149,289 +130,6 @@ const FinanceDistrict202324 = () => {
                           </Link>
                         </div>
                       </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                              00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                            00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                             00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                              00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                              00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Link to="/WorkerAccountDetails">
-                            {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               00
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                      </td>
-                      
-
-                      
-
-
-                     
                     </tr>
                   </tbody>
                 </Table>
@@ -474,4 +172,4 @@ const FinanceDistrict202324 = () => {
   );
 };
 
-export default FinanceDistrict202324;
+export default District202425;

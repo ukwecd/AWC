@@ -14,9 +14,6 @@ import { MdExpandLess } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdOutlineReceiptLong } from "react-icons/md";
 import { FaReceipt } from "react-icons/fa";
-
-import { FaUserTie } from "react-icons/fa";
-
 import { IoPersonAdd } from "react-icons/io5";
 import { IoIosList } from "react-icons/io";
 import { FaAward } from "react-icons/fa";
@@ -67,12 +64,12 @@ function FinanceDashBoard() {
         {
           icon: <FaFile />,
           label: "To Project 2024-25",
-          path: "/FinanceDistrict202324",
+          path: "/Project202425",
         },
         {
           icon: <IoPersonAdd />,
           label: "To District 2024-25",
-          path: "/Project202425",
+          path: "/District202425",
         },
        
       ],

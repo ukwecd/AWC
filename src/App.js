@@ -53,7 +53,7 @@ import WorkerAccountDetails from "./DPO_Login/dashboard/MandayWorker/WorkerAccou
 import FinanceDashBoard from "./Finance_Login/Finance_dashboard/FinanceDashBoard";
 import FinanceInnerDashboard from "./Finance_Login/Finance_dashboard/FinanceInnerDashboard";
 import DisplayCDPOfile from "./Finance_Login/Finance_dashboard/DisplayCDPOfile";
-import FinanceDistrict202324 from "./Finance_Login/Finance_dashboard/AllotBudget2024-25/District202425";
+import District202425 from "./Finance_Login/Finance_dashboard/AllotBudget2024-25/District202425";
 import Project202425 from "./Finance_Login/Finance_dashboard/AllotBudget2024-25/Project202425";
 import DistrictDatewise from "./Finance_Login/Finance_dashboard/CustomReports/DistrictDatewise";
 import ProjectDatewise from "./Finance_Login/Finance_dashboard/CustomReports/ProjectDatewise";
@@ -133,7 +133,7 @@ function App() {
         <Route path="/FinanceDashBoard" element={<FinanceDashBoard />} />
         <Route  path="/FinanceInnerDashboard" element={<FinanceInnerDashboard />} />
         <Route path="/DisplayCDPOfile" element={<DisplayCDPOfile />} />
-        <Route path="/FinanceDistrict202324" element={<FinanceDistrict202324 />} />
+        <Route path="/District202425" element={<District202425 />} />
         <Route path="/Project202425" element={<Project202425 />} />
         <Route path="/DistrictDatewise" element={<DistrictDatewise />} />
         <Route path="/ProjectDatewise" element={<ProjectDatewise />} />
