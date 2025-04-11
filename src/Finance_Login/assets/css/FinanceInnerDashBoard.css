@@ -1,9 +1,15 @@
 .awc-finance-body {
-    display: flex;
-    
-    justify-content: left;
-    margin-top: var(--awc-space-1000);
-    line-height: var(--awc-space-0);
+  
+    margin-top: var(--awc-space-400);
+    line-height: var(--awc-space-500);
+      
+}
+.awc-dpo-icon-finace {
+    background-color: var(--awc-blue-off);
+    padding: var(--awc-space-200);
+    width: 52px;
+    font-size: var(--awc-space-750);
+    border-radius: var(--awc-space-200);
 }
 .awc-finance-body p {
     font-size: var(--awc-space-350);
@@ -18,3 +24,29 @@
     display: flex;
     justify-content: flex-end;
 }
+.awc-dashbord-data{
+    font-size: var(--awc-space-300);
+}
+.dpo-data1 {
+   
+    height: 170px;
+}
+.finace-icon-clr{
+    color: var(--awc-white);
+}
+.awc-allot-heading h2{
+    font-size:var(--awc-space-400)
+
+}
+.awc-allot-heading ol li{
+    font-size: var(--awc-space-300);
+}
+.dpo-thead1 th{
+    background-color: var(--awc-blue-off) !important;
+    font-size: var(--awc-space-300);
+    color: var(--awc-white);
+    font-weight: 500;
+    vertical-align:bottom;
+}
+
+

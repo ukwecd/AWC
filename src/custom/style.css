@@ -221,6 +221,9 @@ button.awc-btn-money.btn.btn-primary {
 }
 
 @media only screen and (max-width: 568px) {
+  .awc-dpo-icon-finace {
+    display: none;
+  }
 
   .wced-logo {
     display: none;
