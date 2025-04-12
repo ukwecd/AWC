@@ -23,7 +23,7 @@ const DemandSchemereport = () => {
           {/* Main Content */}
 
           <div className="main">
-            <div className="awc-dpo-title">
+            <div className="awc-finance-title">
               <div>
                 <h1>Dashboard Finance Login</h1>
                 <p>New Financial year i.e 2024-25 option added now!!</p>
@@ -32,7 +32,7 @@ const DemandSchemereport = () => {
 
             <div className="dpo-data-container"></div>
 
-            <div className="box-container-table mt-3">
+            <div className="mt-3">
               <Row>
                 <Col lg={6} xl={4} md={6} sm={12} className="my-2">
                   <div className="dpo-data dpo-data1">

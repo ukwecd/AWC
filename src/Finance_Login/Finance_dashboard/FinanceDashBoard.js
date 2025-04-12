@@ -248,10 +248,10 @@ function FinanceDashBoard() {
         </div>
       </header>
 
-      <div className="awc-lhs-nav">
+      <div className="finance-lhs-nav">
         <div>
           <div className={`navcontainer ${isNavClosed ? "navclose" : ""}`}>
-            <nav className="dpo-nav">
+            <nav className="finance-nav">
               <div className="nav-upper-options">
                 <div className="dpo-menu">
                   <div>
@@ -271,7 +271,7 @@ function FinanceDashBoard() {
                         to={option.download}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={`dpo-nav-option option${index + 1}`}
+                        className={`finance-nav-option option${index + 1}`}
                       >
                         <div className="nav-item">
                           <div className="d-flex">
@@ -283,7 +283,7 @@ function FinanceDashBoard() {
                     ) : option.subRoutes ? (
                       <>
                         <div
-                          className={`dpo-nav-option option${index + 1}`}
+                          className={`finance-nav-option option${index + 1}`}
                           onClick={() => toggleSubMenu(option.label)}
                           style={{ cursor: "pointer" }}
                         >
@@ -306,7 +306,7 @@ function FinanceDashBoard() {
                             <Link
                               key={subIndex}
                               to={subOption.path}
-                              className="dpo-sub-option"
+                              className="finance-sub-option"
                             >
                               <div className="nav-item">
                                 <div className="d-flex awc-sub-item">
@@ -324,7 +324,7 @@ function FinanceDashBoard() {
                     ) : (
                       <Link
                         to={option.path}
-                        className={`dpo-nav-option option${index + 1}`}
+                        className={`finance-nav-option option${index + 1}`}
                       >
                         <div className="nav-item">
                           <div className="d-flex">

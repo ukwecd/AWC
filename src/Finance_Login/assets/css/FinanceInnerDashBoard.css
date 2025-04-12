@@ -60,4 +60,21 @@
 .finace-label{
     font-size: var(--awc-space-300);
 }
+.awc-finance-title {
+    padding: var(--awc-space-400);
+    background-repeat: no-repeat;
+    border-radius: var(--awc-space-200);
+    background-color: var(--awc-blue-light-bg);
+}
+.awc-finance-title h1 {
+    font-size: var(--awc-space-700);
+    color: var(--awc-white);
+    font-weight: 600;
+}
+.awc-finance-title p {
+    font-size: var(--awc-space-300);
+    color: var(--awc-white);
+    text-align: justify;
+    word-wrap: break-word;
+}
 

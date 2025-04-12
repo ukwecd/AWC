@@ -46,12 +46,12 @@ img.awc-logo-img {
 
 }
 
-a.dpo-sub-option {
-  background-color: #091023;
+a.finance-sub-option {
+  background-color: var(--awc-blue-off);
   color: var(--awc-white) !important;
 }
 
-a.dpo-sub-option:hover {
+a.finance-sub-option:hover {
   /* custom */
   background-color: #0F1A34;
 }
@@ -235,10 +235,10 @@ a.dpo-sub-option:hover {
   box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
 }
 
-.dpo-nav {
+.finance-nav {
   min-height: 100vh;
   width: 250px;
-  background-color: #0F1A34 !important;
+  background: linear-gradient(-45deg, rgba(147, 26, 222, 0.83) 0%, rgba(28, 206, 234, 0.82) 100%);
   position: absolute;
   top: 0px;
   left: 00;
@@ -251,8 +251,8 @@ a.dpo-sub-option:hover {
   color: var(--awc-white);
 }
 
-.awc-lhs-nav {
-  background-color: #0F1A34;
+.finance-lhs-nav {
+  background: linear-gradient(-45deg, rgba(147, 26, 222, 0.83) 0%, rgba(28, 206, 234, 0.82) 100%);
   box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
 }
 
@@ -278,7 +278,7 @@ a.dpo-sub-option:hover {
   width: 50px;
 }
 
-.dpo-nav-option {
+.finance-nav-option {
   width: 250px;
   height: 50px;
   /* display: flex; */
@@ -289,7 +289,7 @@ a.dpo-sub-option:hover {
 }
 
 
-.dpo-nav-option:hover {
+.finance-nav-option:hover {
   /* custom */
   background-color: #091023 !important;
   cursor: pointer;
@@ -313,7 +313,7 @@ a.dpo-sub-option:hover {
 
 .option1 {
   /* background-color: #EA9343; custom css */
-  background-color: #091023 !important;
+  background-color: #4f8ecc !important;
   color: white !important;
   cursor: pointer;
   margin-top: 7%;
@@ -575,18 +575,18 @@ span.nav-label:hover {
     height: 25px;
   }
 
-  .dpo-nav {
+  .finance-nav {
 
     width: 100%;
     height: auto;
   }
 
-  .dpo-nav-option {
+  .finance-nav-option {
     gap: 30px;
 
   }
 
-  .dpo-nav-option h3 {
+  .finance-nav-option h3 {
     font-size: 15px;
   }
 
@@ -679,12 +679,12 @@ span.nav-label:hover {
     margin-top: 1% !important;
   }
 
-  .dpo-nav-option {
+  .finance-nav-option {
     gap: 30px;
     width: 100%;
   }
 
-  .dpo-nav-option h3 {
+  .finance-nav-option h3 {
     font-size: 20px;
   }
 
@@ -702,7 +702,7 @@ span.nav-label:hover {
     left: -100vw;
   }
 
-  .dpo-nav {
+  .finance-nav {
     width: 100%;
     position: absolute;
     z-index: 999;
@@ -876,7 +876,7 @@ span.nav-label:hover {
 }
 
 @media screen and (max-width: 490px) {
-  .dpo-nav-option:hover {
+  .finance-nav-option:hover {
     /* custom */
     background-color: #DE700A;
     cursor: pointer;
@@ -955,12 +955,12 @@ span.nav-label:hover {
     height: 25px;
   }
 
-  .dpo-nav-option {
+  .finance-nav-option {
     gap: 25px;
     width: 100%;
   }
 
-  .dpo-nav-option h3 {
+  .finance-nav-option h3 {
     font-size: 12px;
   }
 
@@ -976,7 +976,7 @@ span.nav-label:hover {
   }
 }
 
-/* a.dpo-nav-option.option1::before {
+/* a.finance-nav-option.option1::before {
   content: "\f04b";
   
 } */
@@ -1009,7 +1009,7 @@ span.nav-label:hover {
     color: var(--awc-white);
   }
 
-  .dpo-nav-option:hover {
+  .finance-nav-option:hover {
     /* custom */
     background-color: green;
     cursor: pointer;
@@ -1034,7 +1034,7 @@ span.nav-label:hover {
 }
 
 @media screen and (max-width: 320px) {
-  .dpo-nav-option:hover {
+  .finance-nav-option:hover {
     /* custom */
     background-color: #DE700A;
     cursor: pointer;
