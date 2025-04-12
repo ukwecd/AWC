@@ -1,89 +1,95 @@
 .awc-finance-body {
-  
+
     margin-top: var(--awc-space-400);
     line-height: var(--awc-space-500);
-      
+
 }
+
 .awc-dpo-icon-finace {
-    background-color: var(--awc-blue-off);
-  padding: var(--awc-space-200);
+    background-color: #b0b435;
+    padding: var(--awc-space-100) var(--awc-space-250) var(--awc-space-100) var(--awc-space-250);
     width: 52px;
     font-size: var(--awc-space-750);
     border-radius: var(--awc-space-200);
-   
 }
+
 .awc-finance-body p {
     font-size: var(--awc-space-350);
     color: var(--awc-blue-off);
     font-weight: 600;
 }
+
 .awc-finance-body h3 {
     font-size: var(--awc-space-400);
     color: var(--awc-blue-dark-bg);
 }
-.finance-data{
+
+.finance-data {
     display: flex;
     justify-content: flex-end;
 }
-.awc-dashbord-data{
+
+.awc-dashbord-data {
     font-size: var(--awc-space-300);
 }
+
 .dpo-data1 {
-   
+
     height: 170px;
 }
-.finace-icon-clr{
+
+.finace-icon-clr {
     color: var(--awc-white);
 }
-.awc-allot-heading h2{
-    font-size:var(--awc-space-400)
 
+.awc-allot-heading h2 {
+    font-size: var(--awc-space-400)
 }
-.awc-allot-heading ol li{
+
+.awc-allot-heading ol li {
     font-size: var(--awc-space-300);
 }
-.dpo-thead1 th{
+
+.dpo-thead1 th {
     background-color: var(--awc-blue-off) !important;
     font-size: var(--awc-space-300);
     color: var(--awc-white);
     font-weight: 500;
-    vertical-align:bottom;
+    vertical-align: bottom;
 }
-.clc-bnn{
+
+.clc-bnn {
     background-color: transparent;
     border: 1px solid transparent;
     color: blue;
 }
-.biil-submit1{
+
+.biil-submit1 {
     text-align: center;
     padding: var(--awc-space-300);
 }
-.finace-label{
+
+.finace-label {
     font-size: var(--awc-space-300);
 }
+
 .awc-finance-title {
     padding: var(--awc-space-400);
     background-repeat: no-repeat;
     border-radius: var(--awc-space-200);
-    background: linear-gradient(-45deg, rgba(147, 26, 222, 0.83) 0%, rgba(28, 206, 234, 0.82) 100%);;
+    /* background: linear-gradient(-45deg, rgba(147, 26, 222, 0.83) 0%, rgba(28, 206, 234, 0.82) 100%);; */
+    background-color: #b0b435;
 }
+
 .awc-finance-title h1 {
     font-size: var(--awc-space-700);
     color: var(--awc-white);
     font-weight: 600;
 }
+
 .awc-finance-title p {
     font-size: var(--awc-space-300);
     color: var(--awc-white);
     text-align: justify;
     word-wrap: break-word;
 }
-.control-wth{
-    width: 100px;
-}
-input#formBasicCheckbox {
-    float: none;
-    margin-right: var(--awc-space-300);
-    border: 1px gray solid;
-}
-
