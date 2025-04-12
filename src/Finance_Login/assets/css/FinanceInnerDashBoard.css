@@ -93,3 +93,8 @@
     text-align: justify;
     word-wrap: break-word;
 }
+input#formBasicCheckbox {
+    float: none;
+    margin-right: var(--awc-space-300);
+    border: 1px gray solid;
+}
