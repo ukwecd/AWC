@@ -41,7 +41,7 @@
   --awc-blue-off: #5886FF;
   --awc-blue-dark-bg: #0F1A34;
   --awc-gray-light-bg: #b4b4b4;
-  --awc-blue-light-bg:#4f8ecc;
+  --awc-blue-light-bg: #4f8ecc;
 
 
 
@@ -215,10 +215,15 @@ ul.awc-paging.pagination .page-item {
 
 button.awc-btn-money.btn.btn-primary {
   background-color: transparent;
-  }
+}
+
 .awc-view-file {
   color: var(--awc-blue-dark-bg);
   padding: 0px;
+}
+
+.finance-m-top {
+  margin-top: var(--awc-space-300);
 }
 
 @media only screen and (max-width: 568px) {
@@ -292,5 +297,17 @@ button.awc-btn-money.btn.btn-primary {
   .biil-submit {
 
     padding: var(--awc-space-200) var(--awc-space-300) var(--awc-space-300) var(--awc-space-300);
+  }
+
+  .finance-m-top {
+    margin-top: var(--awc-space-0);
+  }
+
+  .dpo-data1 {
+    height: auto !important;
+  }
+
+  .dpo-data {
+    padding-bottom: var(--awc-space-200) !important;
   }
 }

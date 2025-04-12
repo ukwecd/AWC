@@ -126,8 +126,8 @@ function FinanceDashBoard() {
     },
    
     {
-      icon: <BiRupee  />,
-      label: "Surrend/Demand Summary",
+      icon:  <span title="Surrender/Demand Summary"><BiRupee /></span>,
+      label: "Surrender/Demand Sum.",
       subRoutes: [
         {
           icon: <IoIosList  />,
@@ -228,7 +228,7 @@ function FinanceDashBoard() {
           </Link>
 
           <div className="awc-title">
-            <span className="awc-subtitle">WECDPANE</span>
+            <span className="awc-subtitle">WECD Admin Panel</span>
           </div>
         </div>
 
@@ -240,7 +240,7 @@ function FinanceDashBoard() {
             <span className="mx-2">Finance login :</span>
             <span>Almora</span>
           </div>
-          <div className="dpo-dp" alt="logout" title="Click to logout">
+          <div className="finance-dp" alt="logout" title="Click to logout">
             <div className="awc-log-icon">
               <LuLogOut className="awc-logout" />
             </div>
@@ -258,7 +258,7 @@ function FinanceDashBoard() {
                     <FaAlignLeft className="icn dpo-menuicn" onClick={toggleNav} />
                   </div>
                   <div className="dpo-user">Finance login : Almora</div>
-                  <div className="dpo-log-icon-mob">
+                  <div className="finance-log-icon-mob">
                     <LuLogOut className=" " title="Click to logout" />
                   </div>
                 </div>

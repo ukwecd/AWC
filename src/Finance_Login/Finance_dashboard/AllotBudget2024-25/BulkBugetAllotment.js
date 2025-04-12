@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 import FinanceDashBoard from "../FinanceDashBoard";
 import { FaAngleLeft } from "react-icons/fa";
+import { HiMiniArrowLongLeft } from "react-icons/hi2";
 
 const BulkBugetAllotment = () => {
   const navigate = useNavigate();
@@ -30,7 +31,7 @@ const BulkBugetAllotment = () => {
             </div>
             <div className="box-container">
               <div class="awc-table-head">
-                <h1> <FaAngleLeft className="go-back-arrow" onClick={goBack} /> Manday Bill View:</h1>
+                <h1> <HiMiniArrowLongLeft className="go-back-arrow" onClick={goBack} /> Manday Bill View:</h1>
               </div>
               <div className="box-container">
                 <div>
@@ -102,7 +103,7 @@ const BulkBugetAllotment = () => {
                 </div>
                 <div className="table-responsive-lg">
                   <Table className="awc-sub-table" striped bordered hover>
-                    <thead className="dpo-thead">
+                    <thead className="finance-thead">
                       <tr>
                         <th>Id</th>
                         <th>District</th>

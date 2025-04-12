@@ -5,7 +5,8 @@
 }
 .go-back-arrow{
     margin-right: 2px;
-    font-size: 20px;
+    font-size: 32px;
+    cursor: pointer;
 }
 .dpo-back-btn {
     font-size: var(--awc-space-300);

@@ -34,14 +34,20 @@
 }
 
 .awc-dop-primary-btn {
-    background-color: var(--awc-blue-off);
+    background-color: #b0b435;
     columns: var(--awc-white);
     font-size: var(--awc-space-300);
+    border: 1px solid #b0b435
 }
 
 .awc-dop-primary-btn:hover {
-    background-color: #091023;
-    border: var(--awc-space-25) #091023 solid;
+    background-color: var(--awc-black);
+    border: 1px solid var(--awc-black);
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+     transition-duration: 0.3s;
+     transform: perspective(1px) translateZ(0);
 }
 
 .awc-dele-icon {
@@ -55,4 +61,8 @@
     font-size: var(--awc-space-300);
     margin-bottom: var(--awc-space-100);
     font-weight: 500;
+}
+.awc-dop-primary-btn.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: var(--awc-black);
+
 }

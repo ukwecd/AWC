@@ -176,10 +176,10 @@ a.finance-sub-option:hover {
   justify-content: center;
   overflow: hidden;
 } */
-.dpo-dp {
+.finance-dp {
   font-size: var(--awc-space-500);
   /* custom */
-  background-color: var(--awc-blue-off);
+  background-color: #b0b435;
 
   border-radius: 50%;
   color: var(--awc-white);
@@ -661,7 +661,7 @@ span.nav-label:hover {
     height: 30px;
   }
 
-  .dpo-log-icon-mob {
+  .finance-log-icon-mob {
     /* custom */
     background-color: #EA9343;
     color: white;
@@ -719,7 +719,7 @@ span.nav-label:hover {
   }
 
   .main {
-    padding: 8px 8px 8px 8px;
+    padding: 12px 8px 8px 8px;
   }
 
   .searchbar2 {
@@ -783,7 +783,7 @@ span.nav-label:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .dpo-log-icon-mob {
+  .finance-log-icon-mob {
     /* custom */
     background-color: var(--awc-blue-off);
     width: 30px;
@@ -801,8 +801,8 @@ span.nav-label:hover {
 @media screen and (max-width: 844px) {
 
 
-  .dpo-log-icon-mob {
-    background-color: var(--awc-blue-off);
+  .finance-log-icon-mob {
+    background-color: #b0b435;;
     color: white;
     width: 30px;
     height: 30px;
@@ -885,9 +885,9 @@ span.nav-label:hover {
     color: var(--awc-white);
   }
 
-  .dpo-log-icon-mob {
+  .finance-log-icon-mob {
     /* custom */
-    background-color: var(--awc-blue-off);
+    background-color: #b0b435;;
     width: 30px;
     height: 30px;
     border-radius: 50%;

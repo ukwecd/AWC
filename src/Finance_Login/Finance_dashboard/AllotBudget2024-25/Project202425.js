@@ -31,7 +31,7 @@ const Project202425 = () => {
               </div>
               <div className="table-responsive-lg table-container-box mt-1">
                 <Table className="awc-sub-table" striped bordered hover>
-                  <thead className="dpo-thead1">
+                  <thead className="finance-thead">
                     <tr>
                     <th rowSpan="2">S.No</th>
                       <th rowSpan="2">District</th>
@@ -442,7 +442,7 @@ const Project202425 = () => {
                   {" "}
                   <div className="tech-staff-table">
                     {" "}
-                    <Pagination className="awc-paging">
+                    <Pagination className="finance-paging">
                       <Pagination.First />
                       <Pagination.Prev />
                       <Pagination.Item>{1}</Pagination.Item>

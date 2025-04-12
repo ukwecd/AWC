@@ -41,7 +41,7 @@ const DemandSchemereport = () => {
                     </div>
                     <div className="awc-finance-body">
                       <Row className="d-flex align-items-stretch">
-                        <div className="col-auto mt-3">
+                        <div className="col-auto finance-m-top">
                           <i className="awc-dpo-icon-finace">
                             {/* <img src={AWCCenters} alt="AWC Centers"></img> */} 
                             <BsBuildingAdd className="finace-icon-clr"/>
@@ -79,7 +79,7 @@ const DemandSchemereport = () => {
                     </div>
                     <div className="awc-finance-body">
                       <Row>
-                        <div className="col-auto mt-3">
+                        <div className="col-auto finance-m-top">
                         <i className="awc-dpo-icon-finace">
                           {/* <img src={AWCCenters} alt="AWC Centers"></img> */}
                          < FaUsers className="finace-icon-clr"/>
@@ -124,7 +124,7 @@ const DemandSchemereport = () => {
                     </div>
                     <div className="awc-finance-body">
                       <Row>
-                        <div className="col-auto mt-3">
+                        <div className="col-auto finance-m-top">
                         <i className="awc-dpo-icon-finace">
                           {/* <img src={ReportIcon} alt="Report"></img> */}
                           <FaAward  className="finace-icon-clr"/>
