@@ -794,11 +794,15 @@ span.nav-label:hover {
   .awc-check-btn {
     width: fit-content;
   }
+
+
 }
 
 @media screen and (max-width: 844px) {
 
-
+  .finance-nav {
+    background: linear-gradient(-45deg, rgb(147 26 222) 0%, rgb(28 206 234) 100%);
+}
   .dpo-log-icon-mob {
     background-color: var(--awc-blue-off);
     color: white;
@@ -817,6 +821,9 @@ span.nav-label:hover {
     font-size: 12px;
     display: none;
   }
+  .finance-nav {
+    background: linear-gradient(-45deg, rgb(147 26 222) 0%, rgb(28 206 234) 100%);
+}
 
   .awc-accordion {
     display: show;

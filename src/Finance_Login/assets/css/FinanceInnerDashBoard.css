@@ -6,10 +6,11 @@
 }
 .awc-dpo-icon-finace {
     background-color: var(--awc-blue-off);
-    padding: var(--awc-space-200);
+  padding: var(--awc-space-200);
     width: 52px;
     font-size: var(--awc-space-750);
     border-radius: var(--awc-space-200);
+   
 }
 .awc-finance-body p {
     font-size: var(--awc-space-350);
@@ -76,5 +77,13 @@
     color: var(--awc-white);
     text-align: justify;
     word-wrap: break-word;
+}
+.control-wth{
+    width: 100px;
+}
+input#formBasicCheckbox {
+    float: none;
+    margin-right: var(--awc-space-300);
+    border: 1px gray solid;
 }
 
