@@ -64,7 +64,7 @@
     padding: var(--awc-space-400);
     background-repeat: no-repeat;
     border-radius: var(--awc-space-200);
-    background-color: var(--awc-blue-light-bg);
+    background: linear-gradient(-45deg, rgba(147, 26, 222, 0.83) 0%, rgba(28, 206, 234, 0.82) 100%);;
 }
 .awc-finance-title h1 {
     font-size: var(--awc-space-700);
