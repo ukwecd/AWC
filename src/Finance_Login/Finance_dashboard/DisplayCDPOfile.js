@@ -26,7 +26,7 @@ const DisplayCDPOfile = () => {
               </div>
             </div>
             <div className="box-container mt-3">
-              <div class="awc-table-head">
+              <div class="awc-display-head">
                 <h1>1. Add new PDF to display</h1>
 
                 <Row className="awc-display-box">

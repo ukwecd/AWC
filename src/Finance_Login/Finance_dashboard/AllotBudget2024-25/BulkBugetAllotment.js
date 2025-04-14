@@ -1,12 +1,9 @@
 import React from "react";
-
 import { Button, Col, Form, Row, Table } from "react-bootstrap";
 import Footer from "../../../componets/footer/Footer";
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import { useNavigate } from "react-router-dom";
-
 import FinanceDashBoard from "../FinanceDashBoard";
-import { FaAngleLeft } from "react-icons/fa";
 import { HiMiniArrowLongLeft } from "react-icons/hi2";
 
 const BulkBugetAllotment = () => {

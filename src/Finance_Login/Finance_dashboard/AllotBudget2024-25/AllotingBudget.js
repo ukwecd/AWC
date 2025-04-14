@@ -1,47 +1,37 @@
-import React from "react";
-
-import { Button, Col, Form, Row } from "react-bootstrap";
+import { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+import { Col, Form, Pagination, Row, Table } from "react-bootstrap";
 import Footer from "../../../componets/footer/Footer";
-import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
-import { useNavigate } from "react-router-dom";
-
 import FinanceDashBoard from "../FinanceDashBoard";
-import { FaAngleLeft } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
-const ProjectBudgetAllotment = () => {
-  const navigate = useNavigate();
+import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
+const AllotingBudget = () => {
+  const [show, setShow] = useState(false);
 
-  const goBack = () => {
-    navigate(-1);
-  };
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <>
       <div>
         {/* Main Container */}
-        <div className="main-container">
-          {/* Navigation */}
-          <FinanceDashBoard />
 
-          {/* Main Content */}
+        <Button className="awc-btn-money" onClick={handleShow}>
+          <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
+          00
+          </span>
+        </Button>
 
-          <div className="main">
-            <div className="awc-dpo-head">
-              <h1>Project | Budget Allotment Page</h1>
-            </div>
-            <div className="box-container">
-              <div class="awc-table-head">
-                <h1>
-                  {" "}
-                  <FaAngleLeft
-                    className="go-back-arrow"
-                    onClick={goBack}
-                  />{" "}
-                 Budget Allotment Form for Financial Year 2024-25
-                </h1>
-              </div>
-              <div className="box-container">
-                <div>
-                  <Form>
+        <Modal show={show} onHide={handleClose} size="lg">
+        <Form>
+          <Modal.Header closeButton>
+            <Modal.Title className="History-heading">
+              History of budget 2024-25 allotment to Almora
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body className="p-t-0px">
+       
                     <Row>
                       <Col lg={12} md={12} sm={12}>
                         <Row>
@@ -66,26 +56,11 @@ const ProjectBudgetAllotment = () => {
                               controlId="exampleForm.ControlInput1"
                             >
                               <Form.Label className="finace-label">
-                                Project Name
-                              </Form.Label>
-                              <Form.Control
-                                type="text"
-                                placeholder="Bhaisiyachana"
-                                disabled
-                              ></Form.Control>
-                            </Form.Group>
-                          </Col>
-                          <Col lg={4} md={4} sm={12}>
-                            <Form.Group
-                              className="mb-3"
-                              controlId="exampleForm.ControlInput1"
-                            >
-                              <Form.Label className="finace-label">
                                 Scheme
                               </Form.Label>
                               <Form.Control
                                 type="text"
-                                placeholder="UK282"
+                                placeholder="UK182"
                                 disabled
                               ></Form.Control>
                             </Form.Group>
@@ -96,7 +71,7 @@ const ProjectBudgetAllotment = () => {
                               controlId="exampleForm.ControlInput1"
                             >
                               <Form.Label className="finace-label">
-                                Grant
+                               Grant
                               </Form.Label>
                               <Form.Control
                                 type="text"
@@ -111,27 +86,32 @@ const ProjectBudgetAllotment = () => {
                               controlId="exampleForm.ControlInput1"
                             >
                               <Form.Label className="finace-label">
-                                Choose Component
+                               choose Component
                               </Form.Label>
                               <Form.Control
                                 type="text"
-                                placeholder="AWC Rent | आंगनवाड़ी भवन किराया"
+                                placeholder="TA"
                                 disabled
                               ></Form.Control>
                             </Form.Group>
                           </Col>
-
                           <Col lg={4} md={4} sm={12}>
                             <Form.Group
                               className="mb-3"
                               controlId="exampleForm.ControlInput1"
                             >
                               <Form.Label className="finace-label">
-                                Letter No
+                               Letter No.
                               </Form.Label>
-                              <Form.Control type="number"></Form.Control>
+                              <Form.Control
+                                type="number"
+                               
+                                disabled
+                              ></Form.Control>
                             </Form.Group>
                           </Col>
+
+                         
                           <Col lg={4} md={4} sm={12}>
                             <Form.Group
                               className="mb-3"
@@ -143,13 +123,13 @@ const ProjectBudgetAllotment = () => {
                               <Form.Control type="date"></Form.Control>
                             </Form.Group>
                           </Col>
-                          <Col lg={4} md={4} sm={12}>
+                          <Col lg={6} md={6} sm={12}>
                             <Form.Group controlId="formFileSm" className="mb-3">
                               <Form.Label className="awc-dpo-label-title">
                                 Amount | {" "}
                                 <span className="note-text">
                                   {" "}
-                                  &nbsp; (Current Balance ( 63600.00 ))
+                                  &nbsp; (Current Balance ( 0.00 ))
                                 </span>
                                 :
                               </Form.Label>
@@ -159,7 +139,7 @@ const ProjectBudgetAllotment = () => {
                               </span>
                             </Form.Group>
                           </Col>
-                          <Col lg={4} md={4} sm={12}>
+                          <Col lg={6} md={6} sm={12}>
                             <Form.Group
                               className="mb-3"
                               controlId="exampleForm.ControlTextarea1"
@@ -176,24 +156,31 @@ const ProjectBudgetAllotment = () => {
                           </Col>
                         </Row>
                       </Col>
-                      <div className="biil-submit1">
-                        <Button className="awc-dop-primary-btn">
-                          Submit
-                        </Button>
-                      </div>
+                     
                     </Row>
-                  </Form>
-                </div>
-              </div>
-            </div>
-            <div>
-              <Footer />
-            </div>
-          </div>
-        </div>
+                 
+          </Modal.Body>
+          <Modal.Footer>
+            <Button
+              variant="secondary"
+              onClick={handleClose}
+              className="awc-close-primary-btn"
+            >
+              Close
+            </Button>
+            <Button
+              variant="primary"
+              onClick={handleClose}
+              className="awc-dop-primary-btn"
+            >
+             Submit
+            </Button>
+          </Modal.Footer>
+          </Form>
+        </Modal>
       </div>
     </>
   );
 };
 
-export default ProjectBudgetAllotment;
+export default AllotingBudget;

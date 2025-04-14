@@ -43,6 +43,24 @@ const Project202425 = () => {
                     </tr>
                     <tr>
                      
+                      <th>Awc_Rent</th>
+                      <th>Ta</th>
+                      <th>Medical</th>
+                      <th>Petrol</th>
+                      <th>Contigency</th>
+                      <th>Thr</th>
+                      <th>Manday</th>
+                      <th>Cooked_Food</th>
+                      <th>Preschool_Kit</th>
+                      <th>Saree_Suit</th>
+                      <th>Medicine_Kit</th>
+                      <th>Construction_of_Awc</th>
+                      <th>Contingency
+                      </th>
+                      <th>Thr</th>
+                      <th>Manday</th>
+                      <th>Cooked_Food</th>
+                      <th>Construction_of_Awc</th>
                       <th>Awc_rent</th>
                       <th>Ta</th>
                       <th>Medical</th>
@@ -50,25 +68,8 @@ const Project202425 = () => {
                       <th>Contigency</th>
                       <th>Thr</th>
                       <th>Manday</th>
-                      <th>Cooked_food</th>
-                      <th>Preschool_kit</th>
-                      <th>Saree_suit</th>
-                      <th>Medicine_kit</th>
-                      <th>Construction_of_awc</th>
-                      <th>Contigency</th>
-                      <th>Thr</th>
-                      <th>Manday</th>
-                      <th>Cooked_food</th>
-                      <th>Construction_of_awc</th>
-                      <th>Awc_rent</th>
-                      <th>Ta</th>
-                      <th>Medical</th>
-                      <th>Petrol</th>
-                      <th>Contigency</th>
-                      <th>Thr</th>
-                      <th>Manday</th>
-                      <th>Cooked_food</th>
-                      <th>Construction_of_awc</th>
+                      <th>Cooked_Food</th>
+                      <th>Construction_of_Awc</th>
                       <th>Project Balance</th>
                       
                     </tr>
@@ -76,10 +77,22 @@ const Project202425 = () => {
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>Almora</td>
+                      
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectPassbookFinancial">
+                            {" "}
+                            <Button className="awc-btn-money">
+                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
+                              Almora
+                              </span>
+                            </Button>
+                          </Link>
+                        </div>
+                      </td>
+                      <td>
+                        <div className="dpo-p">
+                          <Link to="/ProjectPassbookFinancial">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -91,7 +104,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -103,7 +116,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -115,7 +128,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -127,7 +140,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -139,7 +152,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -151,7 +164,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -163,7 +176,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -175,7 +188,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -187,7 +200,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -200,7 +213,7 @@ const Project202425 = () => {
                       
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -212,7 +225,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -224,7 +237,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -236,7 +249,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -248,7 +261,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -260,7 +273,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -272,7 +285,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -284,7 +297,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -296,7 +309,7 @@ const Project202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="/ProjectBudgetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">

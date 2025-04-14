@@ -5,6 +5,8 @@ import FinanceDashBoard from "../FinanceDashBoard";
 import { Link } from "react-router-dom";
 
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
+import HistoryBudget from "./HistoryBudget";
+import AllotingBudget from "./AllotingBudget";
 const District202425 = () => {
   return (
     <>
@@ -57,22 +59,27 @@ const District202425 = () => {
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>Almora</td>
+                      
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          
                             {" "}
-                            <Button className="awc-btn-money">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                Chakrata
-                              </span>
-                            </Button>
-                          </Link>
+                           <HistoryBudget />
+                          
+                        </div>
+                      </td>
+                      
+                      <td>
+                        <div className="dpo-p">
+                         
+                            {" "}
+                           <AllotingBudget />
+                        
                         </div>
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/ProjectBudgetAllotment">
+                          <Link to="/BulkBugetAllotment">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">

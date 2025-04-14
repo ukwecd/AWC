@@ -73,6 +73,8 @@ import DistrictReport202223 from "./Finance_Login/Finance_dashboard/FinancialYea
 import ProjectReport202223 from "./Finance_Login/Finance_dashboard/FinancialYear202223/ProjectReport202223";
 import BulkBugetAllotment from "./Finance_Login/Finance_dashboard/AllotBudget2024-25/BulkBugetAllotment";
 import ProjectBudgetAllotment from "./Finance_Login/Finance_dashboard/AllotBudget2024-25/ProjectBudgetAllotment";
+import ProjectPassbookFinancial from "./Finance_Login/Finance_dashboard/AllotBudget2024-25/ProjectPassbookFinancial";
+import ProjectPassbookFinancialYear from "./Finance_Login/Finance_dashboard/AllotBudget2024-25/ProjectPassbookFinancialYear";
 
 
 function App() {
@@ -155,6 +157,8 @@ function App() {
         <Route path="/ProjectReport202223" element={<ProjectReport202223/>} /> 
         <Route path="/BulkBugetAllotment" element={<BulkBugetAllotment/>} /> 
         <Route path="/ProjectBudgetAllotment" element={<ProjectBudgetAllotment/>} /> 
+        <Route path="/ProjectPassbookFinancial" element={<ProjectPassbookFinancial/>} /> 
+        <Route path="/ProjectPassbookFinancialYear" element={<ProjectPassbookFinancialYear/>} /> 
        
         
       </Routes>
