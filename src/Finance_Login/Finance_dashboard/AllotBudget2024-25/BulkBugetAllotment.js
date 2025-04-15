@@ -10,7 +10,7 @@ const BulkBugetAllotment = () => {
   const navigate = useNavigate();
 
   const goBack = () => {
-    navigate(-1); 
+    navigate(-1);
   }
   return (
     <>
@@ -42,7 +42,7 @@ const BulkBugetAllotment = () => {
                               controlId="exampleForm.ControlInput1"
                             >
                               <Form.Label className="finace-label">
-                                Grant/Component
+                                Grant/Component :
                               </Form.Label>
 
                               <Form.Select className="mb-2">
@@ -59,7 +59,7 @@ const BulkBugetAllotment = () => {
                               controlId="exampleForm.ControlInput1"
                             >
                               <Form.Label className="finace-label">
-                                Letter No
+                                Letter No :
                               </Form.Label>
                               <Form.Control type="text"></Form.Control>
                             </Form.Group>
@@ -70,7 +70,7 @@ const BulkBugetAllotment = () => {
                               controlId="exampleForm.ControlInput1"
                             >
                               <Form.Label className="finace-label">
-                                Allotment Date
+                                Allotment Date :
                               </Form.Label>
                               <Form.Control type="date"></Form.Control>
                             </Form.Group>
@@ -231,7 +231,7 @@ const BulkBugetAllotment = () => {
                             className="mb-3"
                             controlId="exampleForm.ControlInput1"
                           >
-                             <Form.Control as="textarea" rows={2} />
+                            <Form.Control as="textarea" rows={2} />
                           </Form.Group>
                         </td>
                       </tr>

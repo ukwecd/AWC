@@ -44,7 +44,7 @@ const ProjectPassbookFinancial = () => {
                   controlId="exampleForm.ControlInput1"
                 >
                   <Form.Label className="finace-label">
-                    Fatch Spasific
+                    Fatch Spasific :
                   </Form.Label>
                   <Form.Select aria-label="Default select example">
                     <option>ALL</option>
