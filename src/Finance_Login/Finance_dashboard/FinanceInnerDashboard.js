@@ -43,8 +43,8 @@ const DemandSchemereport = () => {
                       <Row className="d-flex align-items-stretch">
                         <div className="col-auto finance-m-top">
                           <i className="awc-dpo-icon-finace">
-                            {/* <img src={AWCCenters} alt="AWC Centers"></img> */} 
-                            <BsBuildingAdd className="finace-icon-clr"/>
+                            {/* <img src={AWCCenters} alt="AWC Centers"></img> */}
+                            <BsBuildingAdd className="finace-icon-clr" />
                           </i>
                         </div>
                         <Col lg={8} md={8} sm={8}>
@@ -80,10 +80,10 @@ const DemandSchemereport = () => {
                     <div className="awc-finance-body">
                       <Row>
                         <div className="col-auto finance-m-top">
-                        <i className="awc-dpo-icon-finace">
-                          {/* <img src={AWCCenters} alt="AWC Centers"></img> */}
-                         < FaUsers className="finace-icon-clr"/>
-                        </i>
+                          <i className="awc-dpo-icon-finace">
+                            {/* <img src={AWCCenters} alt="AWC Centers"></img> */}
+                            < FaUsers className="finace-icon-clr" />
+                          </i>
                         </div>
                         <Col lg={8} md={8} sm={8}>
                           <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
@@ -104,7 +104,7 @@ const DemandSchemereport = () => {
                             </div>
                             <div className="">20067</div>
                           </div>
-                          <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
+                          <div className="d-flex justify-content-between mb-1 awc-dashbord-data awc-amount">
                             <div className="d-flex align-items-center">
                               <span className="">Total</span>
                             </div>
@@ -116,8 +116,8 @@ const DemandSchemereport = () => {
                   </div>
                 </Col>
 
-                
-                <Col lg={6} xl={4} md={6} sm={12}className="my-2">
+
+                <Col lg={6} xl={4} md={6} sm={12} className="my-2">
                   <div className="dpo-data dpo-data1">
                     <div>
                       <h2>पुरुस्कार आवेदन का विवरण(new)</h2>
@@ -125,10 +125,10 @@ const DemandSchemereport = () => {
                     <div className="awc-finance-body">
                       <Row>
                         <div className="col-auto finance-m-top">
-                        <i className="awc-dpo-icon-finace">
-                          {/* <img src={ReportIcon} alt="Report"></img> */}
-                          <FaAward  className="finace-icon-clr"/>
-                        </i>
+                          <i className="awc-dpo-icon-finace">
+                            {/* <img src={ReportIcon} alt="Report"></img> */}
+                            <FaAward className="finace-icon-clr" />
+                          </i>
                         </div>
                         <Col lg={8} md={8} sm={8}>
                           <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
@@ -143,7 +143,7 @@ const DemandSchemereport = () => {
                             </div>
                             <div className="">20067</div>
                           </div>
-                         
+
                         </Col>
                       </Row>
                     </div>
