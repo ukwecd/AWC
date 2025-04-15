@@ -28,11 +28,11 @@ const Project202425 = () => {
                   <li>
                     For Bulk Budget Allotment{" "}
                     <Link to="/BulkBugetAllotment">
-                      <button className="clc-bnn">Click here !</button>
+                      <button className="clc-bnn">Click Here !</button>
                     </Link>
                   </li>
-                  <li>To allot Specific budget click on Amount.</li>
-                  <li>To View passbook click on Project.</li>
+                  <li>To Allot Specific Budget Click on Amount.</li>
+                  <li>To View Passbook Click on Project.</li>
                 </ol>
               </div>
               <div className="table-responsive-lg table-container-box mt-1">
