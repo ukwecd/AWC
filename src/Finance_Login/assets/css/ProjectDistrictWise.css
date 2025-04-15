@@ -1,0 +1,8 @@
+.awc-project-detail{
+    font-size: var(--awc-space-300);
+    line-height: 6px;
+    font-weight: 500; 
+}
+.awc-bold{
+    font-weight: bold;
+}
