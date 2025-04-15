@@ -102,7 +102,7 @@ const BulkBugetAllotment = () => {
                   <Table className="awc-sub-table" striped bordered hover>
                     <thead className="finance-thead">
                       <tr>
-                        <th>Id</th>
+                        <th>ID</th>
                         <th>District</th>
                         <th>Project</th>
                         <th>Scheme</th>
@@ -231,11 +231,7 @@ const BulkBugetAllotment = () => {
                             className="mb-3"
                             controlId="exampleForm.ControlInput1"
                           >
-                            <Form.Control
-                              type="text"
-                              placeholder=""
-                              className="control-wth"
-                            ></Form.Control>
+                             <Form.Control as="textarea" rows={2} />
                           </Form.Group>
                         </td>
                       </tr>

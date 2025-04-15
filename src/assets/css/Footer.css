@@ -1,9 +1,6 @@
 .nd-footer-data {
-
-
-    margin-top: var(--awc-space-300);
+ margin-top: var(--awc-space-300);
 }
-
 .nd-footer-data p {
     text-align: center;
     color: var(--awc-black);
@@ -15,6 +12,7 @@
 }
 .nd-footer-data  a{
     text-decoration: none;
+    color: var(--awc-black);
 }
 .nd-footer-data  a:hover{
     color: var(--awc-blue);

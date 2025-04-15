@@ -123,3 +123,13 @@ input#formBasicCheckbox {
 .p-t-0px{
     padding-top: var(--awc-space-0) !important;
 }
+.form-check-label {
+    color: var(--awc-black);
+    font-size: var(--awc-space-300);
+    font-weight: normal;
+}
+.awc-note-data{
+    color: var(--awc-Primary);
+    font-size: var(--awc-space-350);
+    font-weight: 600;
+}

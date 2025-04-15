@@ -2,6 +2,7 @@
 
 .nd-btn-district-btnn {
     color: var(--awc-off-black);
+    text-decoration: underline;
 }
 
 .nd-btn-district-btnn:hover {

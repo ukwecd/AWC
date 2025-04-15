@@ -1,10 +1,8 @@
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import { Col, Form, Pagination, Row, Table } from "react-bootstrap";
-import Footer from "../../../componets/footer/Footer";
-import FinanceDashBoard from "../FinanceDashBoard";
-import { Link } from "react-router-dom";
+import { Col, Form, Row} from "react-bootstrap";
+
 
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 const AllotingBudget = () => {
@@ -27,7 +25,7 @@ const AllotingBudget = () => {
         <Form>
           <Modal.Header closeButton>
             <Modal.Title className="History-heading">
-              History of budget 2024-25 allotment to Almora
+            Alloting budget to Almora District 2024-25
             </Modal.Title>
           </Modal.Header>
           <Modal.Body className="p-t-0px">

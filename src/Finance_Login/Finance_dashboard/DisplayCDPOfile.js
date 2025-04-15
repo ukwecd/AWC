@@ -1,13 +1,12 @@
 import React from "react";
-
 // import { Col, Pagination, Row, Table } from "react-bootstrap";
 import "../../Finance_Login/assets/css/DisplayFile.css";
-import "../../DPO_Login/assets/css/FinanceSchemeReport.css"
+import "../../DPO_Login/assets/css/FinanceSchemeReport.css";
 import { Button, Col, Row, Form, Table } from "react-bootstrap";
-import { RiDeleteBin6Line } from "react-icons/ri";
 import { HiMiniViewfinderCircle } from "react-icons/hi2";
 import FinanceDashBoard from "./FinanceDashBoard";
 import Footer from "../../componets/footer/Footer";
+import { MdOutlinePublishedWithChanges } from "react-icons/md";
 const DisplayCDPOfile = () => {
   return (
     <>
@@ -15,7 +14,7 @@ const DisplayCDPOfile = () => {
         {/* Main Container */}
         <div className="main-container">
           {/* Navigation */}
-          <FinanceDashBoard/>
+          <FinanceDashBoard />
 
           {/* Main Content */}
 
@@ -30,33 +29,42 @@ const DisplayCDPOfile = () => {
                 <h1>1. Add new PDF to display</h1>
 
                 <Row className="awc-display-box">
-                  <div className="awc-dpo-label-title">Heading to Display :</div>
+                  <div className="awc-dpo-label-title">
+                    Heading to Display :
+                  </div>
                   <Col lg={12} md={12} sm={12}>
                     <Form.Group
                       className="mb-3"
                       controlId="exampleForm.ControlInput1"
                     >
-                      <Form.Control type="text" placeholder="almora" />
+                      <Form.Control type="text" placeholder="" />
                     </Form.Group>
                   </Col>
                   <Col lg={12} md={12} sm={12}>
                     <Form.Group controlId="formFileSm" className="mb-3">
                       <Form.Label className="awc-dpo-label-title">
                         Upload Document{" "}
-                        <span className="note-text"> &nbsp; (PDF Format Only)</span>:
+                        <span className="note-text">
+                          {" "}
+                          &nbsp; (PDF Format Only)
+                        </span>
+                        :
                       </Form.Label>
                       <Form.Control
                         type="file"
                         size="sm"
                         className="awc-control  form-control custom-file-input"
-                       
                       />
-                       <span className="finance-pdf">Upload size upto 10kb to 100kb</span>
+                      <span className="finance-pdf">
+                        Upload size upto 10kb to 100kb
+                      </span>
                     </Form.Group>
                   </Col>
-                 
-                  <Col lg={12} md={12} sm={12}className="display-btn">
-                    <Button className="awc-dop-primary-btn">Add File to Display</Button>
+
+                  <Col lg={12} md={12} sm={12} className="display-btn">
+                    <Button className="awc-dop-primary-btn">
+                      Add File to Display
+                    </Button>
                   </Col>
                 </Row>
               </div>
@@ -78,17 +86,18 @@ const DisplayCDPOfile = () => {
                         <td>1</td>
                         <td>almora</td>
                         <td>
-                         <div>
-                          <Button className="awc-btn-money">
-                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn awc-view-file">
-                            <HiMiniViewfinderCircle  className="awc-dpo-add-icon"/>  View File
-                            </span>
-                          </Button>
+                          <div>
+                            <Button className="awc-btn-money">
+                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn awc-view-file">
+                                <HiMiniViewfinderCircle className="awc-dpo-add-icon" />{" "}
+                                View File
+                              </span>
+                            </Button>
                           </div>
                         </td>
                         <td>show</td>
                         <td className="awc-dele-icon">
-                          <RiDeleteBin6Line />{" "}
+                          <MdOutlinePublishedWithChanges />{" "}
                         </td>
                       </tr>
                     </tbody>

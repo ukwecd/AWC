@@ -1,10 +1,7 @@
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import { Col, Pagination, Row, Table } from "react-bootstrap";
-import Footer from "../../../componets/footer/Footer";
-import FinanceDashBoard from "../FinanceDashBoard";
-import { Link } from "react-router-dom";
+import { Table } from "react-bootstrap";
 
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 const HistoryBudget = () => {
@@ -46,7 +43,7 @@ const HistoryBudget = () => {
                   </tr>
                 </thead>
                 <tbody>
-                    
+
                 </tbody>
               </Table>
             </div>

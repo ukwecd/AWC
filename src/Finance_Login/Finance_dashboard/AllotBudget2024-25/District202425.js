@@ -25,6 +25,7 @@ const District202425 = () => {
             <div className="box-container">
               <div className="awc-allot-heading">
                 <h2>Amount Allotment Details</h2>
+                <span className="awc-note-data">Note:</span>
                 <ol>
                   <li>
                     For Bulk Budget Allotment{" "}
