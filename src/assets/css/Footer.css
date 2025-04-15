@@ -1,22 +1,16 @@
-.nd-footer-data {
- margin-top: var(--awc-space-300);
-}
-.nd-footer-data p {
+.awc-footer-main {
     text-align: center;
-    color: var(--awc-black);
     font-size: var(--awc-space-300);
     margin-bottom: var(--awc-space-0) !important;
+    padding-top: var(--awc-space-200);
 }
-.nd-Login-footer p{
-    color: var(--awc-white) !important;
-}
-.nd-footer-data  a{
+
+.awc-footer-main a {
     text-decoration: none;
     color: var(--awc-black);
 }
-.nd-footer-data  a:hover{
+
+.awc-footer-main a:hover {
     color: var(--awc-blue);
-}
-.nd-footer-data p:hover{
-    color: var(--awc-blue);
+
 }

@@ -223,7 +223,7 @@ button.awc-btn-money.btn.btn-primary {
 }
 
 .finance-m-top {
-  margin-top: var(--awc-space-300);
+  margin-top: var(--awc-space-100);
 }
 
 @media only screen and (max-width: 568px) {

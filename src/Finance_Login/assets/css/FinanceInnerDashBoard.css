@@ -33,10 +33,17 @@
     font-size: var(--awc-space-300);
 }
 
-.dpo-data1 {
-
-    height: 170px;
+.awc-card-data {
+    box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
 }
+
+.awc-card-data h2 {
+    font-size: var(--awc-space-450);
+    font-weight: 600;
+    color: var(--awc-blue-dark-bg);
+}
+
+
 
 .finace-icon-clr {
     color: var(--awc-white);
@@ -57,7 +64,9 @@
     font-weight: 500;
     vertical-align: bottom;
 }
-.finance-paging .active>.page-link, .page-link.active {
+
+.finance-paging .active>.page-link,
+.page-link.active {
     background-color: #b0b435;
     border: var(--awc-space-25) #b0b435 solid;
     color: var(--awc-white) !important;
@@ -98,38 +107,51 @@
     text-align: justify;
     word-wrap: break-word;
 }
+
 input#formBasicCheckbox {
     float: none;
     margin-right: var(--awc-space-300);
     border: 1px gray solid;
 }
-.awc-passbook-drop{
+
+.awc-passbook-drop {
     width: 350px;
 }
-.History-heading{
-   font-size: var(--awc-space-350);
-  
+
+.History-heading {
+    font-size: var(--awc-space-350);
+
 }
+
 .awc-close-primary-btn {
     background-color: var(--awc-gray);
     columns: var(--awc-white);
     font-size: var(--awc-space-300);
     border: 1px solid var(--awc-gray);
 }
-.awc-close-primary-btn:hover{
+
+.awc-close-primary-btn:hover {
     background-color: var(--awc-black);
     border: 1px solid var(--awc-black);
 }
-.p-t-0px{
+
+.p-t-0px {
     padding-top: var(--awc-space-0) !important;
 }
+
 .form-check-label {
     color: var(--awc-black);
     font-size: var(--awc-space-300);
     font-weight: normal;
 }
-.awc-note-data{
+
+.awc-note-data {
     color: var(--awc-Primary);
     font-size: var(--awc-space-350);
+    font-weight: 600;
+}
+
+.awc-amount {
+    color: red;
     font-weight: 600;
 }
