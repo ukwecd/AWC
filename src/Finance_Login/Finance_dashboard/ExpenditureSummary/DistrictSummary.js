@@ -23,7 +23,7 @@ const ProjectSummary = () => {
             </div>
             <div className="box-container">
             <div class="awc-display-head">
-                <h1>Amount Expenditure Details Financial 2024-25</h1>
+                <h1>Amount Expenditure Details Financial Year 2024-25</h1>
                 </div>
 
 
@@ -39,34 +39,20 @@ const ProjectSummary = () => {
                 <div className="table-responsive-lg mt-2">
                   <Table className="awc-sub-table" striped bordered hover>
                     <thead className="finance-thead">
-                     
                       <tr>
                         <th>SNo.</th>
                         <th>No. of Entry (Click here to View/Delete)</th>
-                        <th>Project </th>
+                        
                         <th>District</th>
-                       
-                       
                       </tr>
                     </thead>
                     <tbody>
+                    
                       <tr>
                         <td>1</td>
-                        <td className="text-primary awc-bold">5 Entries Found</td>
-                      
-                        <td >Bhaisiyachana</td>
-                        <td>Almora</td>
-                       
-                        
-                      </tr>
-                      <tr>
-                        <td>2</td>
                         <td className="text-danger awc-bold">No entries to View/Dalete</td>
-                      
-                        <td >Bhaisiyachana</td>
+                  
                         <td>Almora</td>
-                       
-                        
                       </tr>
                     </tbody>
                   </Table>

@@ -60,7 +60,7 @@ const ProjectSummary = () => {
                         
                       </tr>
                       <tr>
-                        <td>1</td>
+                        <td>2</td>
                         <td className="text-danger awc-bold">No entries to View/Dalete</td>
                       
                         <td >Bhaisiyachana</td>

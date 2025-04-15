@@ -5,9 +5,11 @@ import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 
 import FinanceDashBoard from "../FinanceDashBoard";
 import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
+import { MdCurrencyRupee } from "react-icons/md";
+import { IoDocumentTextSharp } from "react-icons/io5";
+import { FaCalendarAlt } from "react-icons/fa";
 
 const DistrictDatewise = () => {
- 
   return (
     <>
       <div>
@@ -79,9 +81,20 @@ const DistrictDatewise = () => {
                       </div>
                     </Row>
                     <div className="awc-project-detail">
-                      <p>Allotment Expenditure Details 2024-25</p>
-                      <p>AWC Rent</p>
-                      <p>Form Date: 3-Apr-2025- To date:02 Apr-2025</p>
+                      <p>
+                        <MdCurrencyRupee className="custom-icon" />
+                        Allotment Expenditure Details 2024-25
+                      </p>
+                      <p>
+                        {" "}
+                        <IoDocumentTextSharp className="custom-icon" />
+                        AWC Rent
+                      </p>
+                      <p>
+                        {" "}
+                        <FaCalendarAlt className="custom-icon" /> Start Date:
+                        3-Apr-2025- End Date:02 Apr-2025
+                      </p>
                     </div>
                   </Form>
                 </div>
@@ -114,9 +127,10 @@ const DistrictDatewise = () => {
                       <tr>
                         <th rowSpan="2">SNo.</th>
                         <th rowSpan="2">District</th>
-                       
-                        <th colSpan="5" className="text-center">Grant 15 (AWC Rent)</th>
-                     
+
+                        <th colSpan="5" className="text-center">
+                          Grant 15 (AWC Rent)
+                        </th>
                       </tr>
                       <tr>
                         <th>Allotment Date</th>
@@ -124,31 +138,28 @@ const DistrictDatewise = () => {
                         <th>Expenditure Date</th>
                         <th>Expenditure Amount</th>
                         <th>Current Balance</th>
-                      
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td>1</td>
                         <td>Almora</td>
-                       
+
                         <td className="text-success awc-bold">-</td>
                         <td className="text-success awc-bold">0</td>
                         <td className="text-danger awc-bold">-</td>
                         <td className="text-danger awc-bold">0</td>
                         <td className="text-primary awc-bold">0</td>
-                       
                       </tr>
                       <tr>
-                        <td>1</td>
+                        <td>2</td>
                         <td>Almora</td>
-                       
+
                         <td className="text-success awc-bold">-</td>
                         <td className="text-success awc-bold">0</td>
                         <td className="text-danger awc-bold">-</td>
                         <td className="text-danger awc-bold">0</td>
                         <td className="text-primary awc-bold">0</td>
-                       
                       </tr>
                     </tbody>
                   </Table>

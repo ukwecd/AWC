@@ -4,6 +4,11 @@ import Footer from "../../../componets/footer/Footer";
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import FinanceDashBoard from "../FinanceDashBoard";
 import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
+import { MdCurrencyRupee } from "react-icons/md";
+import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
+import { FaCalendarAlt } from "react-icons/fa";
+import { IoDocumentTextSharp } from "react-icons/io5";
+
 
 const ProjectDatewise = () => {
   
@@ -78,9 +83,9 @@ const ProjectDatewise = () => {
                       </div>
                     </Row>
                     <div className="awc-project-detail">
-                      <p>Allotment Expenditure Details 2024-25</p>
-                      <p>AWC Rent</p>
-                      <p>Form Date: 3-Apr-2025- To date:02 Apr-2025</p>
+                      <p><MdCurrencyRupee className="custom-icon" />Allotment Expenditure Details 2024-25</p>
+                      <p> <IoDocumentTextSharp className="custom-icon"  />AWC Rent</p>
+                      <p> <FaCalendarAlt className="custom-icon" /> Start Date: 3-Apr-2025- End Date:02 Apr-2025</p>
                     </div>
                   </Form>
                 </div>

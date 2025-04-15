@@ -1,8 +1,18 @@
-.awc-project-detail{
+.awc-project-detail p{
     font-size: var(--awc-space-300);
-    line-height: 6px;
-    font-weight: 500; 
+    font-weight: 500;
+    margin-bottom: var(--awc-space-200);
 }
 .awc-bold{
     font-weight: bold;
+}
+.custom-icon{
+    font-size: var(--awc-space-400);
+    margin-right:var(--awc-space-200);
+    color: var(--awc-black);
+}
+.awc-pdf-file{
+    color: var(--awc-green);
+    font-size: var(--awc-space-400)
+
 }

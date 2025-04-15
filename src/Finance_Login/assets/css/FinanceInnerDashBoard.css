@@ -80,7 +80,8 @@
 
 .biil-submit1 {
     text-align: center;
-    padding: var(--awc-space-300);
+    padding-bottom: var(--awc-space-200);
+    
 }
 
 .finace-label {

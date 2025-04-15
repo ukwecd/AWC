@@ -1,34 +1,64 @@
 import React from "react";
-// import { Col, Pagination, Row, Table } from "react-bootstrap";
+import { Table } from "react-bootstrap";
 import Footer from "../../../componets/footer/Footer";
+import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import FinanceDashBoard from "../FinanceDashBoard";
+import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
 
 const AllotProjectSummary = () => {
+  
   return (
     <>
       <div>
         {/* Main Container */}
         <div className="main-container">
           {/* Navigation */}
-       <FinanceDashBoard />
+          <FinanceDashBoard />
 
           {/* Main Content */}
 
           <div className="main">
-            <div className="awc-dpo-title">
-              <div>
-                <h1>Dashboard-DPO login</h1>
-                <p>
-                 District Date
-                </p>
+            <div className="awc-dpo-head">
+              <h1>All Project Allotment Summary 2024-25</h1>
+            </div>
+            <div className="box-container">
+            <div class="awc-display-head">
+                <h1>Amount Allotment Details Financial Year 2024-25</h1>
+                </div>
+
+
+              <div className="awc-after-fillter mt-3">
+                {/* <div className="awc-dpo-alert">
+                        <p>
+                          Click on the form ID to view Detailed Profile or
+                          Approve and Disapprove
+                        </p>
+                      </div> */}
+               
+
+                <div className="table-responsive-lg mt-2">
+                  <Table className="awc-sub-table" striped bordered hover>
+                    <thead className="finance-thead">
+                      <tr>
+                        <th>SNo.</th>
+                        <th>No. of Entry (Click here to View/Delete)</th>
+                        <th>District</th>
+                        <th>District</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td>1</td>
+                        <td className="text-primary awc-bold">12 Entries Found</td>
+                         <td>Bhaisiyachana</td>
+                        <td>Almora</td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                </div>
               </div>
             </div>
-
-            <div className="dpo-data-container">
-             District
-            </div>
-
-           
             <div>
               <Footer />
             </div>
