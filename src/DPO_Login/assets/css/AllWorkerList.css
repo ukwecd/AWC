@@ -139,7 +139,7 @@ button.awc-edit-btn.btn.btn-primary:hover {
 
 .awc-dpo-btn-prt:hover {
     background-color: var(--awc-blue-off);
-    
+
 }
 
 .dpo-sub-table td {
@@ -278,4 +278,12 @@ button.awc-edit-btn.btn.btn-primary:hover {
     margin-left: var(--awc-space-300);
     margin-bottom: var(--awc-space-25);
     color: var(--awc-bg-green);
+}
+
+@media only screen and (max-width: 568px) {
+    .awc-dpo-mobresp {
+        margin-top: var(--awc-space-200);
+    }
+
+
 }

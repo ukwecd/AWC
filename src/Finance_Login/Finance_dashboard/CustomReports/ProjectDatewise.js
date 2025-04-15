@@ -4,14 +4,14 @@ import Footer from "../../../componets/footer/Footer";
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import FinanceDashBoard from "../FinanceDashBoard";
 import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
-import { MdCurrencyRupee } from "react-icons/md";
 import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
 import { FaCalendarAlt } from "react-icons/fa";
 import { IoDocumentTextSharp } from "react-icons/io5";
+import { RiMoneyRupeeCircleFill } from "react-icons/ri";
 
 
 const ProjectDatewise = () => {
-  
+
   return (
     <>
       <div>
@@ -83,8 +83,8 @@ const ProjectDatewise = () => {
                       </div>
                     </Row>
                     <div className="awc-project-detail">
-                      <p><MdCurrencyRupee className="custom-icon" />Allotment Expenditure Details 2024-25</p>
-                      <p> <IoDocumentTextSharp className="custom-icon"  />AWC Rent</p>
+                      <p><RiMoneyRupeeCircleFill className="custom-icon" />Allotment Expenditure Details 2024-25</p>
+                      <p> <IoDocumentTextSharp className="custom-icon" />AWC Rent</p>
                       <p> <FaCalendarAlt className="custom-icon" /> Start Date: 3-Apr-2025- End Date:02 Apr-2025</p>
                     </div>
                   </Form>
@@ -157,7 +157,7 @@ const ProjectDatewise = () => {
                         <td>Salt</td>
                         <td className="text-success awc-bold">-</td>
                         <td className="text-success awc-bold">
-                         0
+                          0
                         </td>
                         <td className="text-danger awc-bold">-</td>
                         <td className="text-danger awc-bold">0</td>

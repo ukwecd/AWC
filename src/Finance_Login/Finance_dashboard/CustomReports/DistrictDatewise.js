@@ -5,9 +5,9 @@ import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 
 import FinanceDashBoard from "../FinanceDashBoard";
 import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
-import { MdCurrencyRupee } from "react-icons/md";
 import { IoDocumentTextSharp } from "react-icons/io5";
 import { FaCalendarAlt } from "react-icons/fa";
+import { RiMoneyRupeeCircleFill } from "react-icons/ri";
 
 const DistrictDatewise = () => {
   return (
@@ -82,7 +82,7 @@ const DistrictDatewise = () => {
                     </Row>
                     <div className="awc-project-detail">
                       <p>
-                        <MdCurrencyRupee className="custom-icon" />
+                        <RiMoneyRupeeCircleFill className="custom-icon" />
                         Allotment Expenditure Details 2024-25
                       </p>
                       <p>
