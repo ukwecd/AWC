@@ -56,7 +56,7 @@ const DisplayCDPOfile = () => {
                         className="awc-control  form-control custom-file-input"
                       />
                       <span className="finance-pdf">
-                        Upload size upto 10kb to 100kb
+                        Upload Size Upto 10KB to 100KB
                       </span>
                     </Form.Group>
                   </Col>

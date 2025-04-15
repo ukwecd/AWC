@@ -30,11 +30,11 @@ const District202425 = () => {
                   <li>
                     For Bulk Budget Allotment{" "}
                     <Link to="/BulkBugetAllotment">
-                      <button className="clc-bnn">Click here !</button>
+                      <button className="clc-bnn">Click Here !</button>
                     </Link>
                   </li>
-                  <li>To allot Specific budget click on Amount.</li>
-                  <li>To View passbook click on District.</li>
+                  <li>To Allot Specific Budget Click on Amount.</li>
+                  <li>To View Passbook Click on District.</li>
                 </ol>
               </div>
               <div className="table-responsive-lg table-container-box mt-1">
@@ -60,22 +60,22 @@ const District202425 = () => {
                   <tbody>
                     <tr>
                       <td>1</td>
-                      
+
                       <td>
                         <div className="dpo-p">
-                          
-                            {" "}
-                           <HistoryBudget />
-                          
+
+                          {" "}
+                          <HistoryBudget />
+
                         </div>
                       </td>
-                      
+
                       <td>
                         <div className="dpo-p">
-                         
-                            {" "}
-                           <AllotingBudget />
-                        
+
+                          {" "}
+                          <AllotingBudget />
+
                         </div>
                       </td>
                       <td>
