@@ -38,28 +38,22 @@ const DistrictOverview = () => {
                       <tr>
                         <th rowspan="2">SNo.</th>
                         <th rowspan="2">District</th>
-                        
                         <th colspan="6" className="text-center">
                           Grant 15
                         </th>
-                       
-                       
                       </tr>
                       <tr>
-                   
                         <th>TA.</th>
                         <th>Medical</th>
                         <th>Petrol</th>
                         <th>Petrol/ Oil/ Lubricant/ Maintainence etc | गाड़ियों के संचालन अनुरक्षण एवं इंधन आदि की खरीद</th>
                         <th>Pre School Kit | प्रीस्कूल किट</th>
                         <th>Medicine Kit | मेडिसिन किट</th>
-                        
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td>1</td>
-                     
                         <td>
                           <div className="dpo-p">
                             <Link to="#">
