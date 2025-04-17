@@ -51,7 +51,7 @@ const DistrictOverview = () => {
                         <th>Medical</th>
                         <th>Petrol</th>
                         <th>Petrol/ Oil/ Lubricant/ Maintainence etc | गाड़ियों के संचालन अनुरक्षण एवं इंधन आदि की खरीद</th>
-                        <th>Pre school Kit | प्रीस्कूल किट</th>
+                        <th>Pre School Kit | प्रीस्कूल किट</th>
                         <th>Medicine Kit | मेडिसिन किट</th>
                         
                       </tr>

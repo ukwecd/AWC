@@ -68,7 +68,7 @@ const ProjectPassbookFinancial = () => {
                       <th>Letter No.</th>
                       <th>Type</th>
                       <th>Alloted/Spend Amount</th>
-                      <th>Uploaded file</th>
+                      <th>Uploaded File</th>
                     </tr>
                   </thead>
                   <tbody>
