@@ -9,9 +9,7 @@ import { FaCalendarAlt } from "react-icons/fa";
 import { IoDocumentTextSharp } from "react-icons/io5";
 import { RiMoneyRupeeCircleFill } from "react-icons/ri";
 
-
 const ProjectReport202324 = () => {
-
   return (
     <>
       <div>
@@ -83,32 +81,36 @@ const ProjectReport202324 = () => {
                       </div>
                     </Row>
                     <div className="awc-project-detail">
-                      <p><RiMoneyRupeeCircleFill className="custom-icon" />Allotment/Expenditure Details 2022-23</p>
-                      <p> <IoDocumentTextSharp className="custom-icon" />Saree Suit | साड़ी सूट</p>
-                      <p> <FaCalendarAlt className="custom-icon" /> Start Date: 3-Apr-2025- End Date:02 Apr-2025</p>
+                      <p>
+                        <RiMoneyRupeeCircleFill className="custom-icon" />
+                        Allotment/Expenditure Details 2022-23
+                      </p>
+                      <p>
+                        {" "}
+                        <IoDocumentTextSharp className="custom-icon" />
+                        Saree Suit | साड़ी सूट
+                      </p>
+                      <p>
+                        {" "}
+                        <FaCalendarAlt className="custom-icon" /> Start Date:
+                        3-Apr-2025- End Date:02 Apr-2025
+                      </p>
                     </div>
                   </Form>
                 </div>
               </div>
 
               <div className="awc-after-fillter mt-3">
-                {/* <div className="awc-dpo-alert">
-                        <p>
-                          Click on the form ID to view Detailed Profile or
-                          Approve and Disapprove
-                        </p>
-                      </div> */}
-                
-
                 <div className="table-responsive-lg mt-2">
                   <Table className="awc-sub-table" striped bordered hover>
                     <thead className="finance-thead">
                       <tr>
                         <th rowSpan="2">SNo.</th>
                         <th rowSpan="2">District</th>
-                      
-                        <th colSpan="5" className="text-center">Saree Suit | साड़ी सूट</th>
-                       
+
+                        <th colSpan="5" className="text-center">
+                          Saree Suit | साड़ी सूट
+                        </th>
                       </tr>
                       <tr>
                         <th>Allotment Date</th>
@@ -116,31 +118,28 @@ const ProjectReport202324 = () => {
                         <th>Expenditure Date</th>
                         <th>Expenditure Amount</th>
                         <th>Current Balance</th>
-                       
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td>1</td>
                         <td>Almora</td>
-                       
+
                         <td className="text-success awc-bold">-</td>
                         <td className="text-success awc-bold">0</td>
                         <td className="text-danger awc-bold">-</td>
                         <td className="text-danger awc-bold">0</td>
                         <td className="text-primary awc-bold">0</td>
-                        
                       </tr>
                       <tr>
                         <td>2</td>
                         <td>Bageshwar</td>
-                       
+
                         <td className="text-success awc-bold">-</td>
                         <td className="text-success awc-bold">0</td>
                         <td className="text-danger awc-bold">-</td>
                         <td className="text-danger awc-bold">0</td>
                         <td className="text-primary awc-bold">0</td>
-                        
                       </tr>
                     </tbody>
                   </Table>

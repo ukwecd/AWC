@@ -9,9 +9,7 @@ import { FaCalendarAlt } from "react-icons/fa";
 import { IoDocumentTextSharp } from "react-icons/io5";
 import { RiMoneyRupeeCircleFill } from "react-icons/ri";
 
-
 const ProjectReport202223 = () => {
-
   return (
     <>
       <div>
@@ -83,26 +81,33 @@ const ProjectReport202223 = () => {
                       </div>
                     </Row>
                     <div className="awc-project-detail">
-                      <p><RiMoneyRupeeCircleFill className="custom-icon" />Allotment/Expenditure Details 2022-23</p>
-                      <p> <IoDocumentTextSharp className="custom-icon" />TA</p>
-                      <p> <FaCalendarAlt className="custom-icon" /> Start Date: 7-Apr-2025- End Date:02 Apr-2025</p>
+                      <p>
+                        <RiMoneyRupeeCircleFill className="custom-icon" />
+                        Allotment/Expenditure Details 2022-23
+                      </p>
+                      <p>
+                        {" "}
+                        <IoDocumentTextSharp className="custom-icon" />
+                        TA
+                      </p>
+                      <p>
+                        {" "}
+                        <FaCalendarAlt className="custom-icon" /> Start Date:
+                        7-Apr-2025- End Date:02 Apr-2025
+                      </p>
                     </div>
                   </Form>
                 </div>
               </div>
 
               <div className="awc-after-fillter mt-3">
-                {/* <div className="awc-dpo-alert">
-                        <p>
-                          Click on the form ID to view Detailed Profile or
-                          Approve and Disapprove
-                        </p>
-                      </div> */}
-                
- <Row>
+                <Row>
                   <div className="awc-dpo-mobresp">
                     <Col lg={12} md={12} sm={12} className="nd-staff-print ">
-                      <Button variant="secondary" className="awc-btn-excel-print mx-2">
+                      <Button
+                        variant="secondary"
+                        className="awc-btn-excel-print mx-2"
+                      >
                         Export Data in Excel
                       </Button>
 
@@ -119,11 +124,13 @@ const ProjectReport202223 = () => {
                         <th rowSpan="2">SNo.</th>
                         <th rowSpan="2">District</th>
                         <th rowSpan="2">Project</th>
-                       
-                      
-                        <th colSpan="5" className="text-center">grant 15(TA)</th>
-                        <th colSpan="5" className="text-center">grant 31(TA)</th>
-                       
+
+                        <th colSpan="5" className="text-center">
+                          grant 15(TA)
+                        </th>
+                        <th colSpan="5" className="text-center">
+                          grant 31(TA)
+                        </th>
                       </tr>
                       <tr>
                         <th>Allotment Date</th>
@@ -136,7 +143,6 @@ const ProjectReport202223 = () => {
                         <th>Expenditure Date</th>
                         <th>Expenditure Amount</th>
                         <th>Current Balance</th>
-                       
                       </tr>
                     </thead>
                     <tbody>
@@ -144,7 +150,7 @@ const ProjectReport202223 = () => {
                         <td>1</td>
                         <td>Almora</td>
                         <td>Project</td>
-                       
+
                         <td className="text-success awc-bold">-</td>
                         <td className="text-success awc-bold">0</td>
                         <td className="text-danger awc-bold">-</td>
@@ -155,9 +161,7 @@ const ProjectReport202223 = () => {
                         <td className="text-danger awc-bold">-</td>
                         <td className="text-danger awc-bold">0</td>
                         <td className="text-primary awc-bold">0</td>
-                        
                       </tr>
-                     
                     </tbody>
                   </Table>
                 </div>

@@ -24,7 +24,7 @@ const ProjectDatewise = () => {
 
           <div className="main">
             <div className="awc-dpo-head">
-              <h1>Project-wise Custom Date Report 2024-25</h1>
+              <h1>Project-Wise Custom Date Report 2024-25</h1>
             </div>
             <div className="box-container">
               <div className="box-container1">

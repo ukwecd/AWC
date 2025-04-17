@@ -21,7 +21,7 @@ const DistrictDatewise = () => {
 
           <div className="main">
             <div className="awc-dpo-head">
-              <h1>District-wise Custom Date Report 2024-25</h1>
+              <h1>District-Wise Custom Date Report 2024-25</h1>
             </div>
             <div className="box-container">
               <div className="box-container1">

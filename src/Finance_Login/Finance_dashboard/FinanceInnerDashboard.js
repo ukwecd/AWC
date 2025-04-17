@@ -1,10 +1,7 @@
 import React from "react";
-// import AWCCenters from "../../assets/images/awc-centers-icon.png";
-// import ReportIcon from "../../assets/images/reported-icon.png";
 import { Card, Col, Row } from "react-bootstrap";
 import "../assets/css/FinaceLeftNav.css";
 import Footer from "../../componets/footer/Footer";
-
 import FinanceDashBoard from "./FinanceDashBoard";
 import "../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import { BsBuildingAdd } from "react-icons/bs";
