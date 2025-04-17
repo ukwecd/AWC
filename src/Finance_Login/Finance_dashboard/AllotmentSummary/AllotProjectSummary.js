@@ -1,9 +1,11 @@
 import React from "react";
-import { Table } from "react-bootstrap";
+import { Table,Button } from "react-bootstrap";
 import Footer from "../../../componets/footer/Footer";
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import FinanceDashBoard from "../FinanceDashBoard";
 import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
+import { Link } from "react-router-dom";
+
 
 const AllotProjectSummary = () => {
   
@@ -50,7 +52,20 @@ const AllotProjectSummary = () => {
                     
                       <tr>
                         <td>1</td>
-                        <td className="text-primary awc-bold">12 Entries Found</td>
+                        <td className="text-primary awc-bold">
+
+
+                        <div className="dpo-p">
+                          <Link to="/ProjectCurrentBalance">
+                            {" "}
+                            <Button className="awc-btn-money text-primary">
+                              <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                              12 Entries Found 
+                              </span>
+                            </Button>
+                          </Link>
+                        </div>
+                        </td>
                          <td>Bhaisiyachana</td>
                         <td>Almora</td>
                       </tr>

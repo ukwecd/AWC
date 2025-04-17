@@ -1,12 +1,14 @@
 import React from "react";
-import { Button, Table } from "react-bootstrap";
+import { Table,Button } from "react-bootstrap";
 import Footer from "../../../componets/footer/Footer";
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import FinanceDashBoard from "../FinanceDashBoard";
 import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
 import { Link } from "react-router-dom";
+import { FaFilePdf } from "react-icons/fa";
 
-const ProjectSummary = () => {
+
+const ProjectExpenditureReport = () => {
   
   return (
     <>
@@ -20,11 +22,11 @@ const ProjectSummary = () => {
 
           <div className="main">
             <div className="awc-dpo-head">
-              <h1>All Project Expenditure Summary 2024-25</h1>
+              <h1>Project Expenditure Report 2024-25</h1>
             </div>
             <div className="box-container">
             <div class="awc-display-head">
-                <h1>Amount Expenditure Details Financial 2024-25</h1>
+                <h1>Expenditure Summary of Bhaisiyachana(project) 2024-25</h1>
                 </div>
 
 
@@ -42,45 +44,58 @@ const ProjectSummary = () => {
                     <thead className="finance-thead">
                      
                       <tr>
-                        <th>SNo.</th>
-                        <th>No. of Entry (Click here to View/Delete)</th>
-                        <th>Project </th>
-                        <th>District</th>
+                        <th>Project Name</th>
+                        <th>Scheme</th>
+                        <th>Grant </th>
+                        <th>Component</th>
+                        <th>Date</th>
+                        <th>Expenditure Amount</th>
+                        <th>Uploaded file</th>
+                        <th>click to delete</th>
                        
                        
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>1</td>
+                        <td>Bhaisiyachana</td>
+                        <td >UK282</td>
                       
-                        <td>
-                        <div className="dpo-p">
-                          <Link to="/ProjectExpenditureReport">
+                        <td >30</td>
+                        <td>Cooked Food| मानदेय</td>
+                        <td>27-Jul-2024</td>
+                        <td className="text-danger awc-bold">-115500.00	
+                        </td>
+                       <td>
+
+                       <div className="dpo-p">
+                          <Link to="#">
                             {" "}
                             <Button className="awc-btn-money text-primary">
-                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
-                              5 Entries Found
+                              <span className="badge  rounded-pill text-success d-inline-block nd-btn-district-btnn nd-btn-district1">
+                              <FaFilePdf className="awc-pdf-file" />
                               </span>
                             </Button>
                           </Link>
                         </div>
-                      </td>
-                      
-                        <td >Bhaisiyachana</td>
-                        <td>Almora</td>
-                       
+                       </td>
+                       <td>
+
+                       <div className="dpo-p">
+                          <Link to="#">
+                            {" "}
+                            <Button className="awc-btn-money text-primary">
+                              <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
+                              Delete This Expenditure
+                              </span>
+                            </Button>
+                          </Link>
+                        </div>
+                       </td>
+
                         
                       </tr>
-                      <tr>
-                        <td>2</td>
-                        <td className="text-danger awc-bold">No entries to View/Dalete</td>
-                      
-                        <td >Bhaisiyachana</td>
-                        <td>Almora</td>
-                       
-                        
-                      </tr>
+                     
                     </tbody>
                   </Table>
                 </div>
@@ -96,4 +111,4 @@ const ProjectSummary = () => {
   );
 };
 
-export default ProjectSummary;
+export default ProjectExpenditureReport;

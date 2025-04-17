@@ -47,6 +47,7 @@ import ViewMandayBills from "./DPO_Login/dashboard/view_bills/ViewMandayBills";
 import ViewProtsahanBills from "./DPO_Login/dashboard/view_bills/ViewProtsahanBills";
 import DistrictHistory from "./DPO_Login/dashboard/Finance/DistrictHistory";
 import WorkerAccountDetails from "./DPO_Login/dashboard/MandayWorker/WorkerAccountDetails";
+import ProjectOverview from "./Finance_Login/Finance_dashboard/FinancialYear202324/ProjectOverview1";
 
 /* // FinanceDasboard */
 
@@ -75,6 +76,12 @@ import BulkBugetAllotment from "./Finance_Login/Finance_dashboard/AllotBudget202
 import ProjectBudgetAllotment from "./Finance_Login/Finance_dashboard/AllotBudget2024-25/ProjectBudgetAllotment";
 import ProjectPassbookFinancial from "./Finance_Login/Finance_dashboard/AllotBudget2024-25/ProjectPassbookFinancial";
 import ProjectPassbookFinancialYear from "./Finance_Login/Finance_dashboard/AllotBudget2024-25/ProjectPassbookFinancialYear";
+import ProjectExpenditureReport from "./Finance_Login/Finance_dashboard/ExpenditureSummary/ProjectExpenditureReport";
+import ProjectCurrentBalance from "./Finance_Login/Finance_dashboard/AllotmentSummary/ProjectCurrentBalance";
+import DistrictCurrentBalance from "./Finance_Login/Finance_dashboard/AllotmentSummary/DistrictCurrentBalance";
+import ProjectOverview1 from "./Finance_Login/Finance_dashboard/FinancialYear202324/ProjectOverview1"; 
+import PassbookOverview from "./Finance_Login/Finance_dashboard/FinancialYear202324/PassbookOverview";
+
 
 
 function App() {
@@ -159,7 +166,11 @@ function App() {
         <Route path="/ProjectBudgetAllotment" element={<ProjectBudgetAllotment/>} /> 
         <Route path="/ProjectPassbookFinancial" element={<ProjectPassbookFinancial/>} /> 
         <Route path="/ProjectPassbookFinancialYear" element={<ProjectPassbookFinancialYear/>} /> 
-       
+        <Route path="/ProjectExpenditureReport" element={<ProjectExpenditureReport/>} /> 
+        <Route path="/ProjectCurrentBalance" element={<ProjectCurrentBalance/>} /> 
+        <Route path="/DistrictCurrentBalance" element={<DistrictCurrentBalance/>} /> 
+        <Route path="/ProjectOverview1" element={<ProjectOverview1/>} /> 
+        <Route path="/PassbookOverview" element={<PassbookOverview/>} /> 
         
       </Routes>
     </Router>

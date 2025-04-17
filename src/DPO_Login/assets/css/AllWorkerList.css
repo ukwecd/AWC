@@ -17,7 +17,7 @@
 }
 
 .awc-dpo-alert p {
-    font-size: var(--awc-space-300);
+    font-size: var(--awc-space-250);
     color: var(--awc-Primary);
     padding: var(--awc-space-100);
     margin-bottom: 0px !important;

@@ -200,7 +200,7 @@ ul.awc-paging.pagination .page-item {
 }
 
 .awc-btn-money {
-  font-size: var(--awc-space-350);
+  font-size: var(--awc-space-400);
   background-color: transparent;
   border: none;
   padding: 0px;

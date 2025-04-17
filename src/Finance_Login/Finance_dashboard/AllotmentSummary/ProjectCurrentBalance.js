@@ -1,13 +1,18 @@
 import React from "react";
-import { Table,Button } from "react-bootstrap";
+import { Table } from "react-bootstrap";
 import Footer from "../../../componets/footer/Footer";
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import FinanceDashBoard from "../FinanceDashBoard";
 import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { HiMiniArrowLongLeft } from "react-icons/hi2";
 
+const ProjectCurrentBalance = () => {
+  const navigate = useNavigate();
 
-const AllotDistrictSummary = () => {
+  const goBack = () => {
+    navigate(-1);
+  }
   
   return (
     <>
@@ -21,11 +26,11 @@ const AllotDistrictSummary = () => {
 
           <div className="main">
             <div className="awc-dpo-head">
-              <h1>All District Expenditure Summary 2024-25</h1>
+              <h1>All Project Current Balance 2024-25</h1>
             </div>
             <div className="box-container">
             <div class="awc-display-head">
-                <h1>Amount Expenditure Details Financial Year 2024-25</h1>
+                <h1><HiMiniArrowLongLeft className="go-back-arrow" onClick={goBack} />Allotment Summary of Bhaisiyachana 2024-25</h1>
                 </div>
 
 
@@ -41,38 +46,35 @@ const AllotDistrictSummary = () => {
                 <div className="table-responsive-lg mt-2">
                   <Table className="awc-sub-table" striped bordered hover>
                     <thead className="finance-thead">
+                     
                       <tr>
-                        <th>SNo.</th>
-                        <th>No. of Entry (Click here to View/Delete)</th>
-                        <th>District</th>
-                      
+                        <th>Project Name</th>
+                        <th>Scheme</th>
+                        <th>Grant</th>
+                        <th>Component</th>
+                        <th>Date</th>
+                        <th>Allotment Amount</th>
+                       
+                       
+                       
                       </tr>
                     </thead>
                     <tbody>
-                    
                       <tr>
-                        <td>1</td>
-                        <td className="text-danger awc-bold">No. Entries to View/ Delete</td>
-                        <td>Almora</td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td className="text-primary awc-bold">
-                        <div className="dpo-p">
-                          <Link to="/DistrictCurrentBalance">
-                            {" "}
-                            <Button className="awc-btn-money text-primary">
-                              <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                              1 Entries Found
-                              </span>
-                            </Button>
-                          </Link>
-                        </div>
-                          
-                         </td>
+                        <td>Bhaisiyachana</td>
+                        <td >UK321</td>
+                      
+                        <td >15</td>
+                        <td>Cooked Food| मानदेय</td>
+                        <td>20-May-2024</td>
+                        <td className="text-success awc-bold">+488250.00
+                        </td>
                        
-                        <td>Bageshwar</td>
+                       
+
+                        
                       </tr>
+                     
                     </tbody>
                   </Table>
                 </div>
@@ -88,4 +90,4 @@ const AllotDistrictSummary = () => {
   );
 };
 
-export default AllotDistrictSummary;
+export default ProjectCurrentBalance;

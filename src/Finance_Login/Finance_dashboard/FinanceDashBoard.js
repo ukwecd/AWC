@@ -24,7 +24,7 @@ import { TbReceiptRupee } from "react-icons/tb";
 import { IoIosCall } from "react-icons/io";
 import { ImDisplay } from "react-icons/im";
 import { FaFile } from "react-icons/fa6";
-
+import { GiCalendarHalfYear } from "react-icons/gi";
 // import { FaPhoneAlt } from "react-icons/fa";
 
 import { AiOutlineFundView } from "react-icons/ai";
@@ -153,7 +153,7 @@ function FinanceDashBoard() {
         {
           icon: <IoIosList  />,
           label: "Project Overview",
-          path: "/ProjectOverview",
+          path: "/ProjectOverview1",
         },
         {
           icon: <FiFileText />,
@@ -173,7 +173,7 @@ function FinanceDashBoard() {
       ],
     },
     {
-      icon: <BiRupee  />,
+      icon: <GiCalendarHalfYear  />,
       label: "Financial Year 2022-23",
       subRoutes: [
         {
