@@ -1,5 +1,5 @@
 import React from "react";
-import { Table, Button } from "react-bootstrap";
+import { Table} from "react-bootstrap";
 import Footer from "../../../componets/footer/Footer";
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import FinanceDashBoard from "../FinanceDashBoard";
@@ -29,7 +29,7 @@ const DistrictOverview = () => {
                   <h2>Amount Allotment Details</h2>
                   <span className="awc-note-data">Note:</span>
                   <ol>
-                    <li>To View Passbook Click On Project. </li>
+                    <li>To View Passbook Click On District. </li>
                   </ol>
                 </div>
                 <div className="table-responsive-lg mt-2">

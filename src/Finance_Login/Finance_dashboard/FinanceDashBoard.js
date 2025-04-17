@@ -8,8 +8,6 @@ import { FaAlignLeft} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import LogoCDPO from "../../assets/images/Logo-cdpo.png";
 import { RxDashboard } from "react-icons/rx";
-// import { MdCenterFocusWeak } from "react-icons/md";
-// import { RiFileEditLine } from "react-icons/ri";
 import { MdExpandLess } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdOutlineReceiptLong } from "react-icons/md";
@@ -25,8 +23,6 @@ import { IoIosCall } from "react-icons/io";
 import { ImDisplay } from "react-icons/im";
 import { FaFile } from "react-icons/fa6";
 import { GiCalendarHalfYear } from "react-icons/gi";
-// import { FaPhoneAlt } from "react-icons/fa";
-
 import { AiOutlineFundView } from "react-icons/ai";
 import LogoDhanparwa from "../../assets/images/LogoDhanParbaw.png";
 
@@ -80,12 +76,12 @@ function FinanceDashBoard() {
       subRoutes: [
         {
           icon: <MdOutlineReceiptLong />,
-          label: "Project Date-wise",
+          label: "Project Date-Wise",
           path: "/ProjectDatewise",
         },
         {
           icon: <FaReceipt />,
-          label: "District Date-wise",
+          label: "District Date-Wise",
           path: "/DistrictDatewise",
         },
       ],
@@ -136,7 +132,7 @@ function FinanceDashBoard() {
         },
         {
           icon: <FiFileText />,
-          label: "State Scheme surr. report",
+          label: "State Scheme Surr. Report",
           path: "/StateSchemeReport",
         },
         {

@@ -2,9 +2,9 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { Table } from "react-bootstrap";
-
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
-const HistoryBudget = () => {
+import { IoMdCloseCircle } from "react-icons/io";
+const History202223 = () => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -14,8 +14,8 @@ const HistoryBudget = () => {
       <div>
         {/* Main Container */}
 
-        <Button className="awc-btn-money" onClick={handleShow}>
-          <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
+        <Button className="awc-btn-money text-primary" onClick={handleShow}>
+          <span className="badge  rounded-pill text-success d-inline-block nd-btn-district-btnn nd-btn-district1">
             Almora
           </span>
         </Button>
@@ -23,10 +23,10 @@ const HistoryBudget = () => {
         <Modal show={show} onHide={handleClose} size="lg">
           <Modal.Header closeButton>
             <Modal.Title className="History-heading">
-              History of Budget 2024-25 Allotment to Almora
+              History of budget Allotment to Almora
             </Modal.Title>
           </Modal.Header>
-          <Modal.Body className="p-t-0px">
+          <Modal.Body>
             <div className="table-responsive-lg table-container-box mt-1">
               <Table className="awc-sub-table" striped bordered hover>
                 <thead className="finance-thead">
@@ -43,7 +43,26 @@ const HistoryBudget = () => {
                   </tr>
                 </thead>
                 <tbody>
-
+                  <tr>
+                    <td>Almora</td>
+                    <td>UK282</td>
+                    <td>15</td>
+                    <td>Petrol/ Oil/ Lubricant/ Maintainence etc</td>
+                    <td>15-03-2023</td>
+                    <td>0.00</td>
+                    <td>+150000.00</td>
+                    <td>150000.00</td>
+                    <td>
+                      <div className="dpo-p">
+                        <Button className="awc-btn-money text-primary">
+                          <span className="badge  rounded-pill text-success d-inline-block nd-btn-district-btnn nd-btn-district1">
+                            <IoMdCloseCircle className="close-icon" />
+                          </span>
+                        </Button>
+                      </div>
+                    </td>
+                  </tr>
+                  
                 </tbody>
               </Table>
             </div>
@@ -56,7 +75,6 @@ const HistoryBudget = () => {
             >
               Close
             </Button>
-          
           </Modal.Footer>
         </Modal>
       </div>
@@ -64,4 +82,4 @@ const HistoryBudget = () => {
   );
 };
 
-export default HistoryBudget;
+export default History202223;

@@ -4,7 +4,7 @@ import Footer from "../../../componets/footer/Footer";
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import FinanceDashBoard from "../FinanceDashBoard";
 import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
-import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
+
 import { FaCalendarAlt } from "react-icons/fa";
 import { IoDocumentTextSharp } from "react-icons/io5";
 import { RiMoneyRupeeCircleFill } from "react-icons/ri";
@@ -27,7 +27,7 @@ const ProjectDatewise = () => {
               <h1>Project-wise Custom Date Report 2024-25</h1>
             </div>
             <div className="box-container">
-              <div className="box-container">
+              <div className="box-container1">
                 <div>
                   <Form>
                     <Row>
@@ -101,11 +101,11 @@ const ProjectDatewise = () => {
                 <Row>
                   <div className="awc-dpo-mobresp">
                     <Col lg={12} md={12} sm={12} className="nd-staff-print ">
-                      <Button variant="secondary" className="nd-btn-excel mx-2">
+                      <Button variant="secondary" className="awc-btn-excel-print mx-2">
                         Export Data in Excel
                       </Button>
 
-                      <Button variant="secondary" className="awc-dpo-btn-prt">
+                      <Button variant="secondary" className="awc-dpo-btn-execl">
                         Print Data
                       </Button>
                     </Col>

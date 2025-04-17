@@ -2,7 +2,6 @@ import React from "react";
 import { Button, Col, Form, Row, Table } from "react-bootstrap";
 import Footer from "../../../componets/footer/Footer";
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
-
 import FinanceDashBoard from "../FinanceDashBoard";
 import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
 import { IoDocumentTextSharp } from "react-icons/io5";
@@ -25,7 +24,7 @@ const DistrictDatewise = () => {
               <h1>District-wise Custom Date Report 2024-25</h1>
             </div>
             <div className="box-container">
-              <div className="box-container">
+              <div className="box-container1">
                 <div>
                   <Form>
                     <Row>
@@ -110,11 +109,11 @@ const DistrictDatewise = () => {
                 <Row>
                   <div className="awc-dpo-mobresp">
                     <Col lg={12} md={12} sm={12} className="nd-staff-print ">
-                      <Button variant="secondary" className="nd-btn-excel mx-2">
+                      <Button variant="secondary" className="awc-btn-excel-print mx-2">
                         Export Data in Excel
                       </Button>
 
-                      <Button variant="secondary" className="awc-dpo-btn-prt">
+                      <Button variant="secondary" className="awc-dpo-btn-execl">
                         Print Data
                       </Button>
                     </Col>

@@ -16,3 +16,23 @@
     font-size: var(--awc-space-400)
 
 }
+.awc-btn-excel-print{
+    font-size: var(--awc-space-300);
+    padding: 6px 12px 6px 12px;
+    background-color: purple;
+    color: var(--awc-white);
+    border: none;
+}
+.awc-btn-excel-print:hover{
+    background-color: var(--awc-black);
+}
+.awc-dpo-btn-execl{
+    font-size: var(--awc-space-300);
+        padding: 6px 12px 6px 12px;
+        background-color: var(--awc-gray);
+        color: var(--awc-white);
+        border: none;
+    }
+.awc-dpo-btn-execl:hover{
+    background-color: var(--awc-black);
+}

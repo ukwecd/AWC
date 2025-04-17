@@ -80,7 +80,7 @@ const District202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="#">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -92,7 +92,7 @@ const District202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="#">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -104,7 +104,7 @@ const District202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="#">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -116,7 +116,7 @@ const District202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="#">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">
@@ -128,7 +128,7 @@ const District202425 = () => {
                       </td>
                       <td>
                         <div className="dpo-p">
-                          <Link to="/BulkBugetAllotment">
+                          <Link to="#">
                             {" "}
                             <Button className="awc-btn-money">
                               <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district-btnn nd-btn-district1">

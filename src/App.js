@@ -47,7 +47,7 @@ import ViewMandayBills from "./DPO_Login/dashboard/view_bills/ViewMandayBills";
 import ViewProtsahanBills from "./DPO_Login/dashboard/view_bills/ViewProtsahanBills";
 import DistrictHistory from "./DPO_Login/dashboard/Finance/DistrictHistory";
 import WorkerAccountDetails from "./DPO_Login/dashboard/MandayWorker/WorkerAccountDetails";
-import ProjectOverview from "./Finance_Login/Finance_dashboard/FinancialYear202324/ProjectOverview1";
+// import ProjectOverview from "./Finance_Login/Finance_dashboard/FinancialYear202324/ProjectOverview1";
 
 /* // FinanceDasboard */
 
@@ -81,6 +81,7 @@ import ProjectCurrentBalance from "./Finance_Login/Finance_dashboard/AllotmentSu
 import DistrictCurrentBalance from "./Finance_Login/Finance_dashboard/AllotmentSummary/DistrictCurrentBalance";
 import ProjectOverview1 from "./Finance_Login/Finance_dashboard/FinancialYear202324/ProjectOverview1"; 
 import PassbookOverview from "./Finance_Login/Finance_dashboard/FinancialYear202324/PassbookOverview";
+import ProjectPassbookFinancial202223 from "./Finance_Login/Finance_dashboard/FinancialYear202223/ProjectPassbookFinancial202223";
 
 
 
@@ -171,6 +172,8 @@ function App() {
         <Route path="/DistrictCurrentBalance" element={<DistrictCurrentBalance/>} /> 
         <Route path="/ProjectOverview1" element={<ProjectOverview1/>} /> 
         <Route path="/PassbookOverview" element={<PassbookOverview/>} /> 
+        <Route path="/ProjectPassbookFinancial202223" element={<ProjectPassbookFinancial202223/>} /> 
+       
         
       </Routes>
     </Router>

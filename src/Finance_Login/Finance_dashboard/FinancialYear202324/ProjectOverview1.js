@@ -54,7 +54,7 @@ const ProjectOverview1 = () => {
                         <th>TA.</th>
                         <th>Medical</th>
                         <th>Petrol</th>
-                        <th>Contigency</th>
+                        <th>Contingency</th>
                         <th>THR</th>
                         <th>Manday</th>
                         <th>Cooked_food</th>
@@ -63,7 +63,7 @@ const ProjectOverview1 = () => {
                         <th>Medicine_kit</th>
                         <th>Construction_of_awc</th>
                         <th>Saksham_awc</th>
-                        <th>Contigency</th>
+                        <th>Contingency</th>
                         <th>THR</th>
                         <th>Manday</th>
                         <th>Cooked food</th>
@@ -72,7 +72,7 @@ const ProjectOverview1 = () => {
                         <th>Ta</th>
                         <th>Medical</th>
                         <th>Petrol</th>
-                        <th>Contigency</th>
+                        <th>Contingency</th>
                         <th>THR</th>
                         <th>Manday</th>
                         <th>Cooked_food</th>
