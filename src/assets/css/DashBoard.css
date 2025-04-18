@@ -318,7 +318,7 @@ a.nav-option.option1 {
   background-color: #DE700A !important;
 }
 
-.option1 {
+ .option1 {
   /* background-color: #EA9343; custom css */
   background-color: #EA9343 !important;
   color: white !important;
@@ -326,7 +326,7 @@ a.nav-option.option1 {
   margin-top: 7%;
 }
 
-.option1:hover {
+ .option1:hover {
   /* custom */
   background-color: #DE700A !important;
   color: var(--awc-white);

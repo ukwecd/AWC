@@ -234,6 +234,7 @@ a.finance-sub-option:hover {
   padding: var(--awc-space-200) var(--awc-space-400) var(--awc-space-200) var(--awc-space-400);
   box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
 }
+
 .box-container1 {
   flex-wrap: wrap;
   border: 1px solid var(--awc-border);
@@ -298,6 +299,9 @@ a.finance-sub-option:hover {
   transition: all 0.1s ease-in-out;
 }
 
+.finance-nav-option .option1 {
+  background-color: #b0b435 !important;
+}
 
 .finance-nav-option:hover {
   /* custom */
@@ -321,7 +325,7 @@ a.finance-sub-option:hover {
   color: var(--awc-white) !important;
 }
 
-.option1 {
+a.finance-nav-option .option1 {
   /* background-color: #EA9343; custom css */
   background-color: #b0b435 !important;
   color: white !important;
@@ -329,7 +333,14 @@ a.finance-sub-option:hover {
   margin-top: 7%;
 }
 
-.option1:hover {
+.option1 {
+  /* background-color: #EA9343; custom css */
+  background-color: #b0b435 !important;
+  color: white !important;
+  cursor: pointer;
+  margin-top: 7%;
+}
+ .option1:hover {
   /* custom */
   background-color: #7d7f3d !important;
   color: var(--awc-white);
@@ -658,6 +669,7 @@ span.nav-label:hover {
   .box-container {
     margin-top: var(--awc-space-450);
   }
+
   .box-container1 {
     margin-top: var(--awc-space-0);
   }
@@ -813,7 +825,8 @@ span.nav-label:hover {
 
 
   .finance-log-icon-mob {
-    background-color: #b0b435;;
+    background-color: #b0b435;
+    ;
     color: white;
     width: 30px;
     height: 30px;
@@ -875,6 +888,7 @@ span.nav-label:hover {
     padding: var(--awc-space-200) var(--awc-space-200) var(--awc-space-200) var(--awc-space-200);
     position: relative !important;
   }
+
   .box-container1 {
     padding: var(--awc-space-200) var(--awc-space-200) var(--awc-space-200) var(--awc-space-200);
     position: relative !important;
@@ -902,7 +916,8 @@ span.nav-label:hover {
 
   .finance-log-icon-mob {
     /* custom */
-    background-color: #b0b435;;
+    background-color: #b0b435;
+    ;
     width: 30px;
     height: 30px;
     border-radius: 50%;

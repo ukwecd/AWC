@@ -311,6 +311,14 @@ a.dpo-sub-option:hover {
   color: var(--awc-white) !important;
 }
 
+a.dpo-nav-option.option1 {
+  /* background-color: #EA9343; custom css */
+  background-color: #091023 !important;
+  color: white !important;
+  cursor: pointer;
+  margin-top: 7%;
+}
+
 .option1 {
   /* background-color: #EA9343; custom css */
   background-color: #091023 !important;
@@ -321,7 +329,7 @@ a.dpo-sub-option:hover {
 
 .option1:hover {
   /* custom */
-  background-color: #091023 !important;
+  background-color: #12265d !important;
   color: var(--awc-white);
 }
 
