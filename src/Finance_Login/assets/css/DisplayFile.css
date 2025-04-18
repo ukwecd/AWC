@@ -19,6 +19,9 @@
   }
   @media only screen and (max-width: 568px) {
     .awc-display-head h1{
-        padding: var(--awc-space-300);
+        padding: var(--awc-space-200);
     }
+   .awc-display-box {
+    padding: var(--awc-space-200);
+   }
   }

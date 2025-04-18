@@ -29,7 +29,7 @@ const ProjectPassbookFinancialYear = () => {
               <h1>Project Passbook Financial Year 2022-23</h1>
             </div>
             <div className="box-container">
-              <div className="awc-allot-heading">
+              <div className="awc-sub-heading">
                 <h2>
                   <HiMiniArrowLongLeft
                     className="go-back-arrow"
