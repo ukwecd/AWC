@@ -26,8 +26,8 @@ const ProjectDemandSummary = () => {
               <h1> All Project Demand Summary </h1>
             </div>
             <div className="box-container">
-            <div class="awc-display-head">
-                <h1>Demand Summary</h1>
+            <div class="awc-sub-heading">
+                <h2>Demand Summary</h2>
                 </div>
              
 
