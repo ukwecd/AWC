@@ -23,7 +23,7 @@ const District202425 = () => {
               <h1>All District Current Balance Financial Year 2024-25</h1>
             </div>
             <div className="box-container">
-              <div className="awc-allot-heading">
+              <div className="awc-display-head">
                 <h2>Amount Allotment Details</h2>
                 <span className="awc-note-data">Note:</span>
                 <ol>

@@ -11,8 +11,14 @@
 .awc-display-head h1 {
     font-size: var(--awc-space-350);
     color: var(--awc-black);
+    
 }
 .finance-pdf{
     font-size: var(--awc-space-250);
     color: var(--awc-Primary);
+  }
+  @media only screen and (max-width: 568px) {
+    .awc-display-head h1{
+        padding: var(--awc-space-300);
+    }
   }

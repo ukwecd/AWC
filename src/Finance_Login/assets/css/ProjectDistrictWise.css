@@ -36,3 +36,11 @@
 .awc-dpo-btn-execl:hover{
     background-color: var(--awc-black);
 }
+.awc-display-sub h1{
+    font-size: var(--awc-space-400);
+}
+@media only screen and (max-width: 568px) {
+.awc-allot-heading{
+padding: var(--awc-space-200);
+}
+}

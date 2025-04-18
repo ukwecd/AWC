@@ -24,7 +24,7 @@ const ProjectSurrenderSummary = () => {
             </div>
             <div className="box-container">
              
-              <div className="box-container">
+              <div className="box-container1">
                 <div>
                   <Form>
                     <Row>

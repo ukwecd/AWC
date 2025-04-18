@@ -24,7 +24,7 @@ const StateSchemeReport = () => {
             </div>
 
             <div className="awc-after-fillter mt-3">
-              <div class="awc-display-head">
+              <div class="awc-display-head ">
                 <h1>State Scheme Surrender Report</h1>
               </div>
 

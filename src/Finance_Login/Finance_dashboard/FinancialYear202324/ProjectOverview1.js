@@ -4,7 +4,7 @@ import Footer from "../../../componets/footer/Footer";
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import FinanceDashBoard from "../FinanceDashBoard";
 import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
-import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
+
 import { Link } from "react-router-dom";
 
 const ProjectOverview1 = () => {
@@ -31,7 +31,7 @@ const ProjectOverview1 = () => {
                     <li>To View passbook click on Project. </li>
                   </ol>
                 </div>
-                <div className="table-responsive-lg mt-2">
+                <div className="table-responsive-lg">
                   <Table className="awc-sub-table" striped bordered hover>
                     <thead className="finance-thead">
                       <tr>

@@ -114,6 +114,12 @@ input#formBasicCheckbox {
     margin-right: var(--awc-space-300);
     border: 1px gray solid;
 }
+.awc-display-head h2{
+   font-size: var(--awc-space-400); 
+}
+.awc-display-head ol li{
+    font-size: var(--awc-space-300);
+}
 
 .awc-passbook-drop {
     width: 350px;

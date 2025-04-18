@@ -25,7 +25,7 @@ const ProjectReport202223 = () => {
               <h1>Project-wise Custom Date Report 2022-23</h1>
             </div>
             <div className="box-container">
-              <div className="box-container">
+              <div className="box-container1">
                 <div>
                   <Form>
                     <Row>

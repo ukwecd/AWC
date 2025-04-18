@@ -124,7 +124,7 @@ const DemandSchemereport = () => {
 
                   <Card className="awc-card-data flex-fill">
                     <Card.Body>
-                      <Card.Title><h2>पुरुस्कार आवेदन का विवरण(new)</h2></Card.Title>
+                      <Card.Title><h2>पुरुस्कार आवेदन का विवरण<span className="awc-amount">(new)</span></h2></Card.Title>
 
                       <Card.Text>
                         <Row>

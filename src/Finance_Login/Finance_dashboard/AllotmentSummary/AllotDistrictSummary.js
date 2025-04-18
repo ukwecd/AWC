@@ -24,7 +24,7 @@ const AllotDistrictSummary = () => {
               <h1>All District Expenditure Summary 2024-25</h1>
             </div>
             <div className="box-container">
-            <div class="awc-display-head">
+            <div class="awc-display-sub">
                 <h1>Amount Expenditure Details Financial Year 2024-25</h1>
                 </div>
 

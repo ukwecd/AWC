@@ -27,7 +27,7 @@ const DistrictReport202223 = () => {
               <h1>District-wise Custom Date Report 2022-23</h1>
             </div>
             <div className="box-container">
-              <div className="box-container">
+              <div className="box-container1">
                 <div>
                   <Form>
                     <Row>
