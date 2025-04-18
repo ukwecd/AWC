@@ -1,30 +1,31 @@
 import UKLOGO from "../../assets/images/uklogo.png";
 import UKLogon from "../..//assets/images/wecdlogo.png";
 import MenuIcon from "../../assets/images/menu_icon.png";
-import { LuLogOut } from "react-icons/lu";
+import { LuLogOut, LuMapPinned } from "react-icons/lu";
 import React, { useState } from "react";
 import "../../DPO_Login/assets/css/DPOLeftNav.css";
-import { FaAlignLeft} from "react-icons/fa";
+import { FaAlignLeft, FaMapMarkerAlt} from "react-icons/fa";
+import { LiaClipboardListSolid } from "react-icons/lia";
 import { Link } from "react-router-dom";
 import LogoCDPO from "../../assets/images/Logo-cdpo.png";
 import { RxDashboard } from "react-icons/rx";
 import { MdExpandLess } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import { MdOutlineReceiptLong } from "react-icons/md";
 import { FaReceipt } from "react-icons/fa";
-import { IoPersonAdd } from "react-icons/io5";
+import { IoFileTrayFull} from "react-icons/io5";
 import { IoIosList } from "react-icons/io";
-import { FaAward } from "react-icons/fa";
-import { FiFileText } from "react-icons/fi";
 import { LuFileText } from "react-icons/lu";
 import { BiRupee } from "react-icons/bi";
-import { TbReceiptRupee } from "react-icons/tb";
 import { IoIosCall } from "react-icons/io";
 import { ImDisplay } from "react-icons/im";
 import { FaFile } from "react-icons/fa6";
-import { GiCalendarHalfYear } from "react-icons/gi";
-import { AiOutlineFundView } from "react-icons/ai";
+import { GiMoneyStack, GiTowerFlag } from "react-icons/gi";
 import LogoDhanparwa from "../../assets/images/LogoDhanParbaw.png";
+import { BiSolidReport } from "react-icons/bi";
+import { FaCalendarAlt } from "react-icons/fa";
+import { PiPlantFill } from "react-icons/pi";
+import { RiSlideshowLine } from "react-icons/ri";
+
 
 function FinanceDashBoard() {
   const [isNavClosed, setIsNavClosed] = useState(false);
@@ -58,12 +59,12 @@ function FinanceDashBoard() {
       path: "/Manday Worker Info",
       subRoutes: [
         {
-          icon: <FaFile />,
+          icon: <RiSlideshowLine />,
           label: "To Project 2024-25",
           path: "/Project202425",
         },
         {
-          icon: <IoPersonAdd />,
+          icon: <FaMapMarkerAlt />,
           label: "To District 2024-25",
           path: "/District202425",
         },
@@ -71,16 +72,16 @@ function FinanceDashBoard() {
       ],
     },
     {
-      icon: <TbReceiptRupee />,
+      icon: <BiSolidReport />,
       label: "Custom Reports",
       subRoutes: [
         {
-          icon: <MdOutlineReceiptLong />,
+          icon: <FaCalendarAlt />,
           label: "Project Date-Wise",
           path: "/ProjectDatewise",
         },
         {
-          icon: <FaReceipt />,
+          icon: <FaMapMarkerAlt />,
           label: "District Date-Wise",
           path: "/DistrictDatewise",
         },
@@ -88,11 +89,11 @@ function FinanceDashBoard() {
     },
 
     {
-      icon: <AiOutlineFundView />,
+      icon: <IoFileTrayFull />,
       label: "Expenditure Summary",
       subRoutes: [
         {
-          icon: <MdOutlineReceiptLong />,
+          icon: <LiaClipboardListSolid />,
           label: "Project Summary",
           path: "/ProjectSummary",
         },
@@ -105,11 +106,11 @@ function FinanceDashBoard() {
     },
 
     {
-      icon: <FaAward />,
+      icon: <PiPlantFill />,
       label: "Allotment Summary",
       subRoutes: [
         {
-          icon: <MdOutlineReceiptLong />,
+          icon: <LiaClipboardListSolid />,
           label: "Project Summary",
           path: "/AllotProjectSummary",
         },
@@ -122,7 +123,7 @@ function FinanceDashBoard() {
     },
    
     {
-      icon:  <span title="Surrender/Demand Summary"><BiRupee /></span>,
+      icon:  <span title="Surrender/Demand Summary"><GiTowerFlag /></span>,
       label: "Surrender/Demand Sum.",
       subRoutes: [
         {
@@ -131,7 +132,7 @@ function FinanceDashBoard() {
           path: "/ProjectSurrenderSummary",
         },
         {
-          icon: <FiFileText />,
+          icon: <LuMapPinned />,
           label: "State Scheme Surr. Report",
           path: "/StateSchemeReport",
         },
@@ -152,7 +153,7 @@ function FinanceDashBoard() {
           path: "/ProjectOverview1",
         },
         {
-          icon: <FiFileText />,
+          icon: <FaMapMarkerAlt />,
           label: "District Overview",
           path: "/DistrictOverview",
         },
@@ -162,14 +163,14 @@ function FinanceDashBoard() {
           path: "/ProjectReport202324",
         },
         {
-          icon: <LuFileText />,
+          icon: <LuMapPinned />,
           label: "District Report 2023-24",
           path: "/DistrictReport202324",
         },
       ],
     },
     {
-      icon: <GiCalendarHalfYear  />,
+      icon: <GiMoneyStack  />,
       label: "Financial Year 2022-23",
       subRoutes: [
         {
@@ -178,7 +179,7 @@ function FinanceDashBoard() {
           path: "/FinanceProjectOverview",
         },
         {
-          icon: <FiFileText />,
+          icon: <FaMapMarkerAlt />,
           label: "District Overview",
           path: "/FinanceDistrictOverview",
         },
@@ -188,7 +189,7 @@ function FinanceDashBoard() {
           path: "/ProjectReport202223",
         },
         {
-          icon: <LuFileText />,
+          icon: <LuMapPinned />,
           label: "District Report 2022-23",
           path: "/DistrictReport202223",
         },
