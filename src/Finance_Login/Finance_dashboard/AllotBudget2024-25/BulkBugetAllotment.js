@@ -26,11 +26,11 @@ const BulkBugetAllotment = () => {
             <div className="awc-dpo-head">
               <h1>Bulk Budget 2024-25 Allotment Page (Project)</h1>
             </div>
-            <div className="box-container">
-              <div class="awc-table-head">
-                <h1> <HiMiniArrowLongLeft className="go-back-arrow" onClick={goBack} /> Manday Bill View:</h1>
+            <div className="box-container1">
+              <div class="awc-sub-heading">
+                <h2> <HiMiniArrowLongLeft className="go-back-arrow" onClick={goBack} /> Manday Bill View:</h2>
               </div>
-              <div className="box-container">
+              <div className="box-container1">
                 <div>
                   <Form>
                     <Row>
@@ -239,7 +239,7 @@ const BulkBugetAllotment = () => {
                   </Table>
                 </div>
 
-                <div className="text-center awc-dna mt-2">
+                <div className="text-center awc-dna mt-2 pb-2">
                   {" "}
                   <Form>
                     <Form.Group controlId="formBasicCheckbox">

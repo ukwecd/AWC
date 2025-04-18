@@ -6,9 +6,14 @@ import FinanceDashBoard from "../FinanceDashBoard";
 import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
 import { Link } from "react-router-dom";
 import { FaFilePdf } from "react-icons/fa";
-
-
+import { HiMiniArrowLongLeft } from "react-icons/hi2";
+import { useNavigate } from "react-router-dom";
 const ProjectExpenditureReport = () => {
+  const navigate = useNavigate();
+
+  const goBack = () => {
+    navigate(-1);
+  }
   
   return (
     <>
@@ -25,8 +30,10 @@ const ProjectExpenditureReport = () => {
               <h1>Project Expenditure Report 2024-25</h1>
             </div>
             <div className="box-container">
-            <div class="awc-display-head">
-                <h1>Expenditure Summary of Bhaisiyachana(project) 2024-25</h1>
+            <div class="awc-sub-heading">
+                <h2><HiMiniArrowLongLeft className="go-back-arrow"
+                    onClick={goBack}
+                  />Expenditure Summary of Bhaisiyachana(project) 2024-25</h2>
                 </div>
 
 

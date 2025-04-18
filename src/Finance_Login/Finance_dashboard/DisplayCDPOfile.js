@@ -69,7 +69,7 @@ const DisplayCDPOfile = () => {
                 </Row>
               </div>
               <div class="awc-table-head">
-                <h1>2. View added PDF to display</h1>
+                <h1>2. View added PDF to Display</h1>
                 <div className="table-responsive-lg table-container-box">
                   <Table className="awc-Finance-tables">
                     <thead className="finance-thead">

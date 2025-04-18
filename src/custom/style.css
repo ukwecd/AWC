@@ -94,9 +94,9 @@
     margin: -3px;
   } */
 
-/* .modal-footer {
+.modal-footer {
   justify-content: center !important;
-} */
+}
 
 .dhan-parwa-logo {
 
@@ -225,10 +225,12 @@ button.awc-btn-money.btn.btn-primary {
 .finance-m-top {
   margin-top: var(--awc-space-100);
 }
-.close-icon{
+
+.close-icon {
   font-size: var(--awc-space-450);
-  color:var(--awc-Primary);
+  color: var(--awc-Primary);
 }
+
 @media only screen and (max-width: 568px) {
   .awc-dpo-icon-finace {
     display: none;

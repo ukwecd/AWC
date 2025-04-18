@@ -30,8 +30,8 @@ const DistrictCurrentBalance = () => {
               <h1>All District Current Balance 2024-25</h1>
             </div>
             <div className="box-container">
-            <div class="awc-display-head">
-                <h1><HiMiniArrowLongLeft className="go-back-arrow" onClick={goBack} />Expenditure Summary of Bageshwar (District) 2024-25</h1>
+            <div class="awc-sub-heading">
+                <h2><HiMiniArrowLongLeft className="go-back-arrow" onClick={goBack} />Expenditure Summary of Bageshwar (District) 2024-25</h2>
                 </div>
 
 

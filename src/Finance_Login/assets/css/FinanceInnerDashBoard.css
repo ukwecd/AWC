@@ -162,3 +162,7 @@ input#formBasicCheckbox {
     color: red;
     font-weight: 600;
 }
+.awc-sub-heading h2{
+font-size: var(--awc-space-400);
+word-wrap: break-word;
+}

@@ -1,12 +1,10 @@
 import React from "react";
-
 import { Button, Col, Form, Row } from "react-bootstrap";
 import Footer from "../../../componets/footer/Footer";
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import { useNavigate } from "react-router-dom";
-
+import { HiMiniArrowLongLeft } from "react-icons/hi2";
 import FinanceDashBoard from "../FinanceDashBoard";
-import { FaAngleLeft } from "react-icons/fa";
 
 const ProjectBudgetAllotment = () => {
   const navigate = useNavigate();
@@ -29,15 +27,14 @@ const ProjectBudgetAllotment = () => {
               <h1>Project | Budget Allotment Page</h1>
             </div>
             <div className="box-container">
-              <div class="awc-table-head">
-                <h1>
+              <div class="awc-sub-heading">
+                <h2>
                   {" "}
-                  <FaAngleLeft
-                    className="go-back-arrow"
+                 <HiMiniArrowLongLeft className="go-back-arrow"
                     onClick={goBack}
                   />{" "}
                  Budget Allotment Form for Financial Year 2024-25
-                </h1>
+                </h2>
               </div>
               <div className="box-container">
                 <div>
