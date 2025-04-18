@@ -32,7 +32,7 @@ const DisplayCDPOfile = () => {
                   <div className="awc-dpo-label-title">
                     Heading to Display :
                   </div>
-                  <Col lg={12} md={12} sm={12}>
+                  <Col lg={12} md={12} sm={12} className="p-0">
                     <Form.Group
                       className="mb-3"
                       controlId="exampleForm.ControlInput1"
@@ -40,7 +40,7 @@ const DisplayCDPOfile = () => {
                       <Form.Control type="text" placeholder="" />
                     </Form.Group>
                   </Col>
-                  <Col lg={12} md={12} sm={12}>
+                  <Col lg={12} md={12} sm={12} className="p-0">
                     <Form.Group controlId="formFileSm" className="mb-3">
                       <Form.Label className="awc-dpo-label-title">
                         Upload Document{" "}
