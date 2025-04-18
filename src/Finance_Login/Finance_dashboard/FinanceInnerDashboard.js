@@ -29,7 +29,7 @@ const DemandSchemereport = () => {
 
             <div className="dpo-data-container"></div>
 
-            <div className="mt-3">
+            <div className="mt-2">
               <Row>
                 <Col lg={6} xl={4} md={6} sm={12} className="my-2 d-flex">
                   <Card className="awc-card-data flex-fill" >
