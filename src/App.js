@@ -83,7 +83,21 @@ import ProjectOverview1 from "./Finance_Login/Finance_dashboard/FinancialYear202
 import PassbookOverview from "./Finance_Login/Finance_dashboard/FinancialYear202324/PassbookOverview";
 import ProjectPassbookFinancial202223 from "./Finance_Login/Finance_dashboard/FinancialYear202223/ProjectPassbookFinancial202223";
 
+/* // PurskarDasboard */
 
+import PuruskarDashBoard from "./Puruskar_Login/Puruskar_dashboard/PuruskarDashBoard";
+import PuruskarInnerDashBoard from "./Puruskar_Login/Puruskar_dashboard/PuruskarInnerDashBoard";
+import AllEntry202425 from "./Puruskar_Login/Puruskar_dashboard/Ang_Karyakarti/AllEntry202425";
+import SelectedCandidate202425 from "./Puruskar_Login/Puruskar_dashboard/Ang_Karyakarti/SelectedCandidate202425";
+import AllEntry202324 from "./Puruskar_Login/Puruskar_dashboard/Ang_Karyakarti/AllEntry202324";
+import ApprovedEntry202324 from "./Puruskar_Login/Puruskar_dashboard/Ang_Karyakarti/ApprovedEntry202324";
+import AllEntry202223 from "./Puruskar_Login/Puruskar_dashboard/Ang_Karyakarti/AllEntry202223";
+import ApprovedEntry202223 from "./Puruskar_Login/Puruskar_dashboard/Ang_Karyakarti/ApprovedEntry202223";
+import TeluAllEntry202425 from "./Puruskar_Login/Puruskar_dashboard/TeluRoteli_Award/TeluAllEntry202425";
+import TeluAllEntry202324 from "./Puruskar_Login/Puruskar_dashboard/TeluRoteli_Award/TeluAllEntry202324";
+import TeluSelectedCandidate202324 from "./Puruskar_Login/Puruskar_dashboard/TeluRoteli_Award/TeluSelectedCandidate202324";
+import TeluAllEntry202223 from "./Puruskar_Login/Puruskar_dashboard/TeluRoteli_Award/TeluAllEntry202223";
+import TeluSelectedCandidate202223 from "./Puruskar_Login/Puruskar_dashboard/TeluRoteli_Award/TeluSelectedCandidate202223";
 
 function App() {
   return (
@@ -173,8 +187,25 @@ function App() {
         <Route path="/ProjectOverview1" element={<ProjectOverview1/>} /> 
         <Route path="/PassbookOverview" element={<PassbookOverview/>} /> 
         <Route path="/ProjectPassbookFinancial202223" element={<ProjectPassbookFinancial202223/>} /> 
-       
+         {/* // PurskarDasboard */}
+         <Route path="/PuruskarDashBoard" element={<PuruskarDashBoard/>} /> 
+         <Route path="/PuruskarInnerDashBoard" element={<PuruskarInnerDashBoard/>} /> 
+         <Route path="/AllEntry202425" element={<AllEntry202425/>} /> 
+         <Route path="/SelectedCandidate202425" element={<SelectedCandidate202425/>} /> 
+         <Route path="/AllEntry202324" element={<AllEntry202324/>} /> 
+         <Route path="/ApprovedEntry202324" element={<ApprovedEntry202324/>} /> 
+         <Route path="/AllEntry202223" element={<AllEntry202223/>} /> 
+         <Route path="/ApprovedEntry202223" element={<ApprovedEntry202223/>} /> 
+         <Route path="/TeluAllEntry202425" element={<TeluAllEntry202425/>} /> 
+         <Route path="/TeluAllEntry202324" element={<TeluAllEntry202324/>} /> 
+         <Route path="/TeluSelectedCandidate202324" element={<TeluSelectedCandidate202324/>} /> 
+         <Route path="/TeluAllEntry202223" element={<TeluAllEntry202223/>} /> 
+         <Route path="/TeluSelectedCandidate202223" element={< TeluSelectedCandidate202223/>} /> 
         
+
+         
+         
+       
       </Routes>
     </Router>
   );

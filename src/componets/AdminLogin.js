@@ -369,7 +369,7 @@ function AdminBanner() {
                   </Col>
                   <Col lg={4} md={6} sm={6}>
                     <div className="form-check">
-                      <Link to="#">
+                      <Link to="PuruskarInnerDashBoard">
                         <input
                           className="form-check-input"
                           type="radio"
