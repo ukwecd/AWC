@@ -3,7 +3,6 @@ import { Button, Col, Pagination, Row, Table } from "react-bootstrap";
 import Footer from "../../../componets/footer/Footer";
 import FinanceDashBoard from "../FinanceDashBoard";
 import { Link } from "react-router-dom";
-
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import HistoryBudget from "./HistoryBudget";
 import AllotingBudget from "./AllotingBudget";

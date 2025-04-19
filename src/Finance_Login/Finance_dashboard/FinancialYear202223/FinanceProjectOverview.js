@@ -77,7 +77,6 @@ const FinanceProjectOverview = () => {
                         <th>Manday</th>
                         <th>Cooked Food</th>
                         <th>Construction AWC</th>
-                        
                       </tr>
                     </thead>
                     <tbody>

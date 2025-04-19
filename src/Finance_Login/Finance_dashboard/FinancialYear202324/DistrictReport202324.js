@@ -116,31 +116,26 @@ const DistrictReport202324 = () => {
                         <th>Expenditure Date</th>
                         <th>Expenditure Amount</th>
                         <th>Current Balance</th>
-                       
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td>1</td>
                         <td>Almora</td>
-                       
                         <td className="text-success awc-bold">-</td>
                         <td className="text-success awc-bold">0</td>
                         <td className="text-danger awc-bold">-</td>
                         <td className="text-danger awc-bold">0</td>
                         <td className="text-primary awc-bold">0</td>
-                        
                       </tr>
                       <tr>
                         <td>2</td>
                         <td>Bageshwar</td>
-                       
                         <td className="text-success awc-bold">-</td>
                         <td className="text-success awc-bold">0</td>
                         <td className="text-danger awc-bold">-</td>
                         <td className="text-danger awc-bold">0</td>
                         <td className="text-primary awc-bold">0</td>
-                        
                       </tr>
                     </tbody>
                   </Table>

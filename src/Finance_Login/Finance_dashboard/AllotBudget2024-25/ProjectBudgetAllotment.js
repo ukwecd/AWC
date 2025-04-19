@@ -96,7 +96,7 @@ const ProjectBudgetAllotment = () => {
                                 Grant
                               </Form.Label>
                               <Form.Control
-                                type="text"
+                                type="number"
                                 placeholder="15"
                                 disabled
                               ></Form.Control>

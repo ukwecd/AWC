@@ -3,10 +3,9 @@ import React from "react";
 import "../../Finance_Login/assets/css/DisplayFile.css";
 import "../../DPO_Login/assets/css/FinanceSchemeReport.css";
 import { Button, Col, Row, Form, Table } from "react-bootstrap";
-import { HiMiniViewfinderCircle } from "react-icons/hi2";
 import FinanceDashBoard from "./FinanceDashBoard";
 import Footer from "../../componets/footer/Footer";
-import { MdOutlinePublishedWithChanges } from "react-icons/md";
+import { MdError } from "react-icons/md";
 const DisplayCDPOfile = () => {
   return (
     <>
@@ -82,7 +81,7 @@ const DisplayCDPOfile = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
+                      {/* <tr>
                         <td>1</td>
                         <td>almora</td>
                         <td>
@@ -99,9 +98,13 @@ const DisplayCDPOfile = () => {
                         <td className="awc-dele-icon">
                           <MdOutlinePublishedWithChanges />{" "}
                         </td>
-                      </tr>
+                      </tr> */}
                     </tbody>
                   </Table>
+                </div>
+                <div className="text-center awc-dna mt-2">
+                  {" "}
+                  <MdError /> Data Not Available
                 </div>
               </div>
             </div>

@@ -32,8 +32,6 @@ const ProjectCurrentBalance = () => {
             <div class="awc-sub-heading">
                 <h2><HiMiniArrowLongLeft className="go-back-arrow" onClick={goBack} />Allotment Summary of Bhaisiyachana 2024-25</h2>
                 </div>
-
-
               <div className="awc-after-fillter mt-3">
                 {/* <div className="awc-dpo-alert">
                         <p>
@@ -41,12 +39,9 @@ const ProjectCurrentBalance = () => {
                           Approve and Disapprove
                         </p>
                       </div> */}
-               
-
                 <div className="table-responsive-lg mt-2">
                   <Table className="awc-sub-table" striped bordered hover>
                     <thead className="finance-thead">
-                     
                       <tr>
                         <th>Project Name</th>
                         <th>Scheme</th>
@@ -54,9 +49,6 @@ const ProjectCurrentBalance = () => {
                         <th>Component</th>
                         <th>Date</th>
                         <th>Allotment Amount</th>
-                       
-                       
-                       
                       </tr>
                     </thead>
                     <tbody>
@@ -69,12 +61,7 @@ const ProjectCurrentBalance = () => {
                         <td>20-May-2024</td>
                         <td className="text-success awc-bold">+488250.00
                         </td>
-                       
-                       
-
-                        
                       </tr>
-                     
                     </tbody>
                   </Table>
                 </div>

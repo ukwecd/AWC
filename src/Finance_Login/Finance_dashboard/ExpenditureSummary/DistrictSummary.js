@@ -24,7 +24,6 @@ const ProjectSummary = () => {
               <div class="awc-display-sub">
                 <h1>Amount Expenditure Details Financial Year 2024-25</h1>
               </div>
-
               <div className="awc-after-fillter mt-3">
                 {/* <div className="awc-dpo-alert">
                         <p>
@@ -39,7 +38,6 @@ const ProjectSummary = () => {
                       <tr>
                         <th>SNo.</th>
                         <th>No. of Entry (Click here to View/Delete)</th>
-
                         <th>District</th>
                       </tr>
                     </thead>
@@ -49,7 +47,6 @@ const ProjectSummary = () => {
                         <td className="text-danger awc-bold">
                           No entries to View/Dalete
                         </td>
-
                         <td>Almora</td>
                       </tr>
                     </tbody>

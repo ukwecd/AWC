@@ -51,11 +51,9 @@ const ProjectPassbookFinancial202223 = () => {
                     <option value="1">15(AWC Rent)</option>
                     <option value="2">15(Petrol/Oil/Lubricant etc)</option>
                     <option value="3">15(Cooked Food)</option>
-                    
                   </Form.Select>
                 </Form.Group>
               </Col>
-
               <div className="table-responsive-lg table-container-box mt-3">
                 <Table className="awc-sub-table" striped bordered hover>
                   <thead className="finance-thead">

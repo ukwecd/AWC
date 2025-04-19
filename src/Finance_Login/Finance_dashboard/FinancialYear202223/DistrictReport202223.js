@@ -9,7 +9,6 @@ import { FaCalendarAlt } from "react-icons/fa";
 import { IoDocumentTextSharp } from "react-icons/io5";
 import { RiMoneyRupeeCircleFill } from "react-icons/ri";
 
-
 const DistrictReport202223 = () => {
 
   return (
@@ -90,7 +89,6 @@ const DistrictReport202223 = () => {
                   </Form>
                 </div>
               </div>
-
               <div className="awc-after-fillter mt-3">
                 {/* <div className="awc-dpo-alert">
                         <p>
@@ -98,14 +96,12 @@ const DistrictReport202223 = () => {
                           Approve and Disapprove
                         </p>
                       </div> */}
-                
                 <Row>
                   <div className="awc-dpo-mobresp">
                     <Col lg={12} md={12} sm={12} className="nd-staff-print ">
                       <Button variant="secondary" className="awc-btn-excel-print mx-2">
                         Export Data in Excel
                       </Button>
-
                       <Button variant="secondary" className="awc-dpo-btn-execl">
                         Print Data
                       </Button>
@@ -118,9 +114,7 @@ const DistrictReport202223 = () => {
                       <tr>
                         <th rowSpan="2">SNo.</th>
                         <th rowSpan="2">District</th>
-                      
                         <th colSpan="5" className="text-center"> grant 15(Saree Suit | साड़ी सूट)</th>
-                       
                       </tr>
                       <tr>
                         <th>Allotment Date</th>
@@ -128,31 +122,26 @@ const DistrictReport202223 = () => {
                         <th>Expenditure Date</th>
                         <th>Expenditure Amount</th>
                         <th>Current Balance</th>
-                       
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td>1</td>
                         <td>Almora</td>
-                       
                         <td className="text-success awc-bold">-</td>
                         <td className="text-success awc-bold">0</td>
                         <td className="text-danger awc-bold">-</td>
                         <td className="text-danger awc-bold">0</td>
-                        <td className="text-primary awc-bold">0</td>
-                        
+                        <td className="text-primary awc-bold">0</td>  
                       </tr>
                       <tr>
                         <td>2</td>
                         <td>Bageshwar</td>
-                       
                         <td className="text-success awc-bold">-</td>
                         <td className="text-success awc-bold">0</td>
                         <td className="text-danger awc-bold">-</td>
                         <td className="text-danger awc-bold">0</td>
                         <td className="text-primary awc-bold">0</td>
-                        
                       </tr>
                     </tbody>
                   </Table>

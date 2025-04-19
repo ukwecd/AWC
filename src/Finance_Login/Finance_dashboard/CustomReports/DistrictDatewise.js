@@ -98,7 +98,6 @@ const DistrictDatewise = () => {
                   </Form>
                 </div>
               </div>
-
               <div className="awc-after-fillter mt-3">
                 {/* <div className="awc-dpo-alert">
                         <p>
@@ -119,7 +118,6 @@ const DistrictDatewise = () => {
                     </Col>
                   </div>
                 </Row>
-
                 <div className="table-responsive-lg mt-2">
                   <Table className="awc-sub-table" striped bordered hover>
                     <thead className="finance-thead">

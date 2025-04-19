@@ -4,7 +4,6 @@ import Footer from "../../../componets/footer/Footer";
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 import FinanceDashBoard from "../FinanceDashBoard";
 import "../../../Finance_Login/assets/css/ProjectDistrictWise.css";
-
 import { useNavigate } from "react-router-dom";
 import { HiMiniArrowLongLeft } from "react-icons/hi2";
 
@@ -33,8 +32,6 @@ const DistrictCurrentBalance = () => {
             <div class="awc-sub-heading">
                 <h2><HiMiniArrowLongLeft className="go-back-arrow" onClick={goBack} />Expenditure Summary of Bageshwar (District) 2024-25</h2>
                 </div>
-
-
               <div className="awc-after-fillter mt-3">
                 {/* <div className="awc-dpo-alert">
                         <p>
@@ -55,16 +52,12 @@ const DistrictCurrentBalance = () => {
                         <th>Component</th>
                         <th>Date</th>
                         <th>Expenditure Amount</th>
-                       
-                       
-                       
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td>Bageshwar</td>
                         <td >UK32</td>
-                      
                         <td >15</td>
                         <td>Cooked Food| मानदेय</td>
                         <td>20-May-2024</td>

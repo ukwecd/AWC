@@ -29,14 +29,11 @@ const ProjectDemandSummary = () => {
             <div class="awc-sub-heading">
                 <h2>Demand Summary</h2>
                 </div>
-             
-
               <div className="awc-after-fillter mt-3">
              
                 <div className="table-responsive-lg mt-2">
                   <Table className="awc-sub-table" striped bordered hover>
                     <thead className="finance-thead">
-                     
                       <tr>
                         <th>District Name</th>
                         <th>Project Name</th>

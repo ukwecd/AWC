@@ -19,7 +19,6 @@ const History202223 = () => {
             Almora
           </span>
         </Button>
-
         <Modal show={show} onHide={handleClose} size="lg">
           <Modal.Header closeButton>
             <Modal.Title className="History-heading">

@@ -6,8 +6,6 @@ import FinanceDashBoard from "../FinanceDashBoard";
 
 const ProjectSurrenderSummary = () => {
  
-
- 
   return (
     <>
       <div>
@@ -48,7 +46,6 @@ const ProjectSurrenderSummary = () => {
                               <div className="awc-dpo-alert">
                         <p>
                          Only those Component will be visible Which have Surrender entry 
-                         
                         </p>
                       </div>
                             </Form.Group>
@@ -65,10 +62,7 @@ const ProjectSurrenderSummary = () => {
                   </Form>
                 </div>
               </div>
-
               <div className="awc-after-fillter mt-3">
-                
-
                 <div class="awc-table-head">
                   <h1>Surrender Summary 2024-25 | All</h1>
                 </div>
@@ -91,13 +85,10 @@ const ProjectSurrenderSummary = () => {
                     </thead>
                     <tbody>
                      <tr>
-                      
                      </tr>
                     </tbody>
                   </Table>
                 </div>
-
-              
               </div>
             </div>
             <div>

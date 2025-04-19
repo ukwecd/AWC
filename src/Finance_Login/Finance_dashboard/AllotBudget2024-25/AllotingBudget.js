@@ -2,12 +2,9 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { Col, Form, Row } from "react-bootstrap";
-
-
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 const AllotingBudget = () => {
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
@@ -108,8 +105,6 @@ const AllotingBudget = () => {
                         ></Form.Control>
                       </Form.Group>
                     </Col>
-
-
                     <Col lg={4} md={4} sm={12}>
                       <Form.Group
                         className="mb-3"
@@ -154,9 +149,7 @@ const AllotingBudget = () => {
                     </Col>
                   </Row>
                 </Col>
-
               </Row>
-
             </Modal.Body>
             <Modal.Footer>
               <Button

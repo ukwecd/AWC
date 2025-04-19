@@ -35,8 +35,6 @@ const ProjectExpenditureReport = () => {
                     onClick={goBack}
                   />Expenditure Summary of Bhaisiyachana(project) 2024-25</h2>
                 </div>
-
-
               <div className="awc-after-fillter mt-3">
                 {/* <div className="awc-dpo-alert">
                         <p>
@@ -44,12 +42,10 @@ const ProjectExpenditureReport = () => {
                           Approve and Disapprove
                         </p>
                       </div> */}
-               
-
+              
                 <div className="table-responsive-lg mt-2">
                   <Table className="awc-sub-table" striped bordered hover>
                     <thead className="finance-thead">
-                     
                       <tr>
                         <th>Project Name</th>
                         <th>Scheme</th>
@@ -59,22 +55,18 @@ const ProjectExpenditureReport = () => {
                         <th>Expenditure Amount</th>
                         <th>Uploaded file</th>
                         <th>click to delete</th>
-                       
-                       
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td>Bhaisiyachana</td>
                         <td >UK282</td>
-                      
                         <td >30</td>
                         <td>Cooked Food| मानदेय</td>
                         <td>27-Jul-2024</td>
                         <td className="text-danger awc-bold">-115500.00	
                         </td>
                        <td>
-
                        <div className="dpo-p">
                           <Link to="#">
                             {" "}
@@ -87,7 +79,6 @@ const ProjectExpenditureReport = () => {
                         </div>
                        </td>
                        <td>
-
                        <div className="dpo-p">
                           <Link to="#">
                             {" "}
@@ -99,10 +90,7 @@ const ProjectExpenditureReport = () => {
                           </Link>
                         </div>
                        </td>
-
-                        
                       </tr>
-                     
                     </tbody>
                   </Table>
                 </div>

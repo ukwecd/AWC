@@ -3,7 +3,6 @@ import { Button, Col, Pagination, Row, Table } from "react-bootstrap";
 import Footer from "../../../componets/footer/Footer";
 import FinanceDashBoard from "../FinanceDashBoard";
 import { Link } from "react-router-dom";
-
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 const Project202425 = () => {
   return (
@@ -86,7 +85,6 @@ const Project202425 = () => {
                   <tbody>
                     <tr>
                       <td>1</td>
-
                       <td>
                         <div className="dpo-p">
                           <Link to="/ProjectPassbookFinancial">
@@ -219,7 +217,6 @@ const Project202425 = () => {
                           </Link>
                         </div>
                       </td>
-
                       <td>
                         <div className="dpo-p">
                           <Link to="#">

@@ -54,7 +54,6 @@ const ProjectPassbookFinancialYear = () => {
                   </Form.Select>
                 </Form.Group>
               </Col>
-
               <div className="table-responsive-lg table-container-box mt-3">
                 <Table className="awc-sub-table" striped bordered hover>
                   <thead className="finance-thead">

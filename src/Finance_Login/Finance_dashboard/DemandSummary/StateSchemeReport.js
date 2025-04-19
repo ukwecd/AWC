@@ -60,7 +60,6 @@ const StateSchemeReport = () => {
                 </Table>
               </div>
             </div>
-
             <div>
               <Footer />
             </div>

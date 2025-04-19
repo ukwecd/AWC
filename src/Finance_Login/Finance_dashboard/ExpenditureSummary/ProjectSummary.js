@@ -14,7 +14,6 @@ const ProjectSummary = () => {
         <div className="main-container">
           {/* Navigation */}
           <FinanceDashBoard />
-
           {/* Main Content */}
 
           <div className="main">
@@ -25,7 +24,6 @@ const ProjectSummary = () => {
               <div class="awc-display-sub">
                 <h1>Amount Expenditure Details Financial 2024-25</h1>
               </div>
-
               <div className="awc-after-fillter mt-3">
                 {/* <div className="awc-dpo-alert">
                         <p>
@@ -47,7 +45,6 @@ const ProjectSummary = () => {
                     <tbody>
                       <tr>
                         <td>1</td>
-
                         <td>
                           <div className="dpo-p">
                             <Link to="/ProjectExpenditureReport">
@@ -60,7 +57,6 @@ const ProjectSummary = () => {
                             </Link>
                           </div>
                         </td>
-
                         <td>Bhaisiyachana</td>
                         <td>Almora</td>
                       </tr>

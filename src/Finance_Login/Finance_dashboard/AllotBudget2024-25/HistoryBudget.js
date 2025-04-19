@@ -2,11 +2,9 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { Table } from "react-bootstrap";
-
 import "../../../Finance_Login/assets/css/FinanceInnerDashBoard.css";
 const HistoryBudget = () => {
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
@@ -42,9 +40,7 @@ const HistoryBudget = () => {
                     <th>Uploaded File</th>
                   </tr>
                 </thead>
-                <tbody>
-
-                </tbody>
+                <tbody></tbody>
               </Table>
             </div>
           </Modal.Body>
@@ -56,7 +52,6 @@ const HistoryBudget = () => {
             >
               Close
             </Button>
-          
           </Modal.Footer>
         </Modal>
       </div>

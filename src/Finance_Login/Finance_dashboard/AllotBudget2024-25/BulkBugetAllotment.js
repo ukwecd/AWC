@@ -161,7 +161,7 @@ const BulkBugetAllotment = () => {
                             controlId="exampleForm.ControlInput1"
                           >
                             <Form.Control
-                              type="text"
+                              type="number"
                               placeholder="15"
                               className="control-wth"
                             ></Form.Control>
@@ -196,7 +196,7 @@ const BulkBugetAllotment = () => {
                             controlId="exampleForm.ControlInput1"
                           >
                             <Form.Control
-                              type="text"
+                              type="number"
                               placeholder="123"
                               className="control-wth"
                             ></Form.Control>
@@ -208,7 +208,7 @@ const BulkBugetAllotment = () => {
                             controlId="exampleForm.ControlInput1"
                           >
                             <Form.Control
-                              type="text"
+                              type="number"
                               placeholder="63600.00"
                               className="control-wth"
                             ></Form.Control>
@@ -220,7 +220,7 @@ const BulkBugetAllotment = () => {
                             controlId="exampleForm.ControlInput1"
                           >
                             <Form.Control
-                              type="text"
+                              type="number"
                               placeholder="0"
                               className="control-wth"
                             ></Form.Control>
