@@ -58,7 +58,7 @@ const PuruskarInnerDashBoard = () => {
                   </Row>
                   <div className="table-responsive-lg table-container-box mt-1">
                     <Table className="dpo-sub-table" striped bordered hover>
-                      <thead className="dpo-thead">
+                      <thead className="purskar-thead">
                         <tr>
                           <th>District</th>
                           <th className="table-th-w">Applicable Project</th>
@@ -121,7 +121,7 @@ const PuruskarInnerDashBoard = () => {
                       {" "}
                       <div className="tech-staff-table">
                         {" "}
-                        <Pagination className="awc-paging">
+                        <Pagination className="purskar-paging">
                           <Pagination.First />
                           <Pagination.Prev />
                           <Pagination.Item>{1}</Pagination.Item>
@@ -178,7 +178,7 @@ const PuruskarInnerDashBoard = () => {
                   </Row>
                   <div className="table-responsive-lg table-container-box mt-1">
                     <Table className="dpo-sub-table" striped bordered hover>
-                      <thead className="dpo-thead">
+                      <thead className="purskar-thead">
                         <tr>
                           <th>District</th>
 
@@ -239,7 +239,7 @@ const PuruskarInnerDashBoard = () => {
                       {" "}
                       <div className="tech-staff-table">
                         {" "}
-                        <Pagination className="awc-paging">
+                        <Pagination className="purskar-paging">
                           <Pagination.First />
                           <Pagination.Prev />
                           <Pagination.Item>{1}</Pagination.Item>

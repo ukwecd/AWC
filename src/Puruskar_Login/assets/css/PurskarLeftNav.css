@@ -46,14 +46,14 @@ img.awc-logo-img {
 
 }
 
-a.finance-sub-option {
-  background-color: #7d7f3d;
+a.purskar-sub-option {
+  background-color: #52468c;
   color: var(--awc-white) !important;
 }
 
-a.finance-sub-option:hover {
+a.purskar-sub-option:hover {
   /* custom */
-  background-color: #b0b435;
+  background-color: #7264b9;
 }
 
 .user-awc-header {
@@ -176,10 +176,10 @@ a.finance-sub-option:hover {
   justify-content: center;
   overflow: hidden;
 } */
-.finance-dp {
+.purskar-dp {
   font-size: var(--awc-space-500);
   /* custom */
-  background-color: #b0b435;
+  background-color: #52468c;
 
   border-radius: 50%;
   color: var(--awc-white);
@@ -244,11 +244,11 @@ a.finance-sub-option:hover {
   box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
 }
 
-.finance-nav {
+.purskar-nav {
   min-height: 100vh;
   width: 250px;
   /* background: linear-gradient(-45deg, rgba(147, 26, 222, 0.83) 0%, rgba(28, 206, 234, 0.82) 100%); */
-  background-color: var(--awc-black);
+  background-color: #5b4da4;
   position: absolute;
   top: 0px;
   left: 00;
@@ -261,10 +261,10 @@ a.finance-sub-option:hover {
   color: var(--awc-white);
 }
 
-.finance-lhs-nav {
+.purskar-lhs-nav {
   /* background: linear-gradient(-45deg, rgba(147, 26, 222, 0.83) 0%, rgba(28, 206, 234, 0.82) 100%); */
   box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
-  background-color: var(--awc-black);
+  background-color: #5b4da4;
 }
 
 .navcontainer,
@@ -289,7 +289,7 @@ a.finance-sub-option:hover {
   width: 50px;
 }
 
-.finance-nav-option {
+.purskar-nav-option {
   width: 250px;
   height: 50px;
   /* display: flex; */
@@ -299,13 +299,13 @@ a.finance-sub-option:hover {
   transition: all 0.1s ease-in-out;
 }
 
-.finance-nav-option .option1 {
-  background-color: #b0b435 !important;
+.purskar-nav-option .option1 {
+  background-color: #7264b9 !important;
 }
 
-.finance-nav-option:hover {
+.purskar-nav-option:hover {
   /* custom */
-  background-color: #b0b435 !important;
+  background-color: #7264b9 !important;
   cursor: pointer;
   color: var(--awc-white);
 }
@@ -325,9 +325,9 @@ a.finance-sub-option:hover {
   color: var(--awc-white) !important;
 }
 
-a.finance-nav-option .option1 {
+a.purskar-nav-option .option1 {
   /* background-color: #EA9343; custom css */
-  background-color: #b0b435 !important;
+  background-color: #7264b9 !important;
   color: white !important;
   cursor: pointer;
   margin-top: 7%;
@@ -335,14 +335,14 @@ a.finance-nav-option .option1 {
 
 .option1 {
   /* background-color: #EA9343; custom css */
-  background-color: #b0b435 !important;
+  background-color: #7264b9 !important;
   color: white !important;
   cursor: pointer;
   margin-top: 7%;
 }
  .option1:hover {
   /* custom */
-  background-color: #7d7f3d !important;
+  background-color: #7264b9 !important;
   color: var(--awc-white);
 }
 
@@ -596,18 +596,18 @@ span.nav-label:hover {
     height: 25px;
   }
 
-  .finance-nav {
+  .purskar-nav {
 
     width: 100%;
     height: auto;
   }
 
-  .finance-nav-option {
+  .purskar-nav-option {
     gap: 30px;
 
   }
 
-  .finance-nav-option h3 {
+  .purskar-nav-option h3 {
     font-size: 15px;
   }
 
@@ -704,12 +704,12 @@ span.nav-label:hover {
     margin-top: 1% !important;
   }
 
-  .finance-nav-option {
+  .purskar-nav-option {
     gap: 30px;
     width: 100%;
   }
 
-  .finance-nav-option h3 {
+  .purskar-nav-option h3 {
     font-size: 20px;
   }
 
@@ -727,7 +727,7 @@ span.nav-label:hover {
     left: -100vw;
   }
 
-  .finance-nav {
+  .purskar-nav {
     width: 100%;
     position: absolute;
     z-index: 999;
@@ -907,7 +907,7 @@ span.nav-label:hover {
 }
 
 @media screen and (max-width: 490px) {
-  .finance-nav-option:hover {
+  .purskar-nav-option:hover {
     /* custom */
     background-color: #DE700A;
     cursor: pointer;
@@ -987,12 +987,12 @@ span.nav-label:hover {
     height: 25px;
   }
 
-  .finance-nav-option {
+  .purskar-nav-option {
     gap: 25px;
     width: 100%;
   }
 
-  .finance-nav-option h3 {
+  .purskar-nav-option h3 {
     font-size: 12px;
   }
 
@@ -1008,7 +1008,7 @@ span.nav-label:hover {
   }
 }
 
-/* a.finance-nav-option.option1::before {
+/* a.purskar-nav-option.option1::before {
   content: "\f04b";
   
 } */
@@ -1041,7 +1041,7 @@ span.nav-label:hover {
     color: var(--awc-white);
   }
 
-  .finance-nav-option:hover {
+  .purskar-nav-option:hover {
     /* custom */
     background-color: green;
     cursor: pointer;
@@ -1066,7 +1066,7 @@ span.nav-label:hover {
 }
 
 @media screen and (max-width: 320px) {
-  .finance-nav-option:hover {
+  .purskar-nav-option:hover {
     /* custom */
     background-color: #DE700A;
     cursor: pointer;

@@ -36,7 +36,6 @@ const AllEntry202425 = () => {
                       <thead className="dpo-thead">
                         <tr>
                           <th>Status</th>
-
                           <th>Almora</th>
                           <th>Bageshwar</th>
                           <th>Chamoli</th>

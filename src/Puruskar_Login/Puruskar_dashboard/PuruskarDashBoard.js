@@ -155,7 +155,7 @@ function PuruskarDashBoard() {
             <span className="mx-2">Finance login :</span>
             <span>Almora</span>
           </div>
-          <div className="finance-dp" alt="logout" title="Click to logout">
+          <div className="purskar-dp" alt="logout" title="Click to logout">
             <div className="awc-log-icon">
               <LuLogOut className="awc-logout" />
             </div>
@@ -163,10 +163,10 @@ function PuruskarDashBoard() {
         </div>
       </header>
 
-      <div className="finance-lhs-nav">
+      <div className="purskar-lhs-nav">
         <div>
           <div className={`navcontainer ${isNavClosed ? "navclose" : ""}`}>
-            <nav className="finance-nav">
+            <nav className="purskar-nav">
               <div className="nav-upper-options">
                 <div className="dpo-menu">
                   <div>
@@ -186,7 +186,7 @@ function PuruskarDashBoard() {
                         to={option.download}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={`finance-nav-option option${index + 1}`}
+                        className={`purskar-nav-option option${index + 1}`}
                       >
                         <div className="nav-item">
                           <div className="d-flex">
@@ -198,7 +198,7 @@ function PuruskarDashBoard() {
                     ) : option.subRoutes ? (
                       <>
                         <div
-                          className={`finance-nav-option option${index + 1}`}
+                          className={`purskar-nav-option option${index + 1}`}
                           onClick={() => toggleSubMenu(option.label)}
                           style={{ cursor: "pointer" }}
                         >
@@ -221,7 +221,7 @@ function PuruskarDashBoard() {
                             <Link
                               key={subIndex}
                               to={subOption.path}
-                              className="finance-sub-option"
+                              className="purskar-sub-option"
                             >
                               <div className="nav-item">
                                 <div className="d-flex awc-sub-item">
@@ -239,7 +239,7 @@ function PuruskarDashBoard() {
                     ) : (
                       <Link
                         to={option.path}
-                        className={`finance-nav-option option${index + 1}`}
+                        className={`purskar-nav-option option${index + 1}`}
                       >
                         <div className="nav-item">
                           <div className="d-flex">
