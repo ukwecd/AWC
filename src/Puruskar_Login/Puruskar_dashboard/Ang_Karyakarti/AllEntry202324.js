@@ -277,12 +277,12 @@ const AllEntry202324 = () => {
                         </div>
                       </Col>
                       <Col lg={6} md={6} sm={12} className="nd-staff-print ">
-                      <Button variant="secondary" className="dpo-prnt-btn mx-3">
+                      <Button variant="secondary" className="dpo-copy-puru-btn mx-3">
                           Copy
                         </Button>
-                        <Button className="awc-btn-copy">Excel</Button>
+                        <Button className="awc-btn-puru-exl">Excel</Button>
 
-                        <Button variant="secondary" className="dpo-prnt-btn">
+                        <Button variant="secondary" className="dpo-prnt-puru-btn">
                           Print
                         </Button>
                       </Col>

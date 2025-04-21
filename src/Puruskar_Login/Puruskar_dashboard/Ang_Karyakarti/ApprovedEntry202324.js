@@ -247,8 +247,8 @@ const ApprovedEntry202324 = () => {
                 <div className="box-container">
                   <Row>
                     <div className="awc-finance-mobresp">
-                      <Col lg={12} md={12} sm={12} className="nd-staff-print ">
-                      <Button variant="secondary" className="dpo-prnt-btn mx-3">
+                      <Col lg={12} md={12} sm={12} className="nd-staff-print m-1">
+                      <Button variant="secondary" className="awc-btn-puru-exl">
                            Download Excel 
                         </Button>
                        

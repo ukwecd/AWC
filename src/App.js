@@ -82,6 +82,7 @@ import DistrictCurrentBalance from "./Finance_Login/Finance_dashboard/AllotmentS
 import ProjectOverview1 from "./Finance_Login/Finance_dashboard/FinancialYear202324/ProjectOverview1"; 
 import PassbookOverview from "./Finance_Login/Finance_dashboard/FinancialYear202324/PassbookOverview";
 import ProjectPassbookFinancial202223 from "./Finance_Login/Finance_dashboard/FinancialYear202223/ProjectPassbookFinancial202223";
+import TeluSelectedCandidate202425 from "./Puruskar_Login/Puruskar_dashboard/TeluRoteli_Award/TeluSelectedCandidate202425";
 
 /* // PurskarDasboard */
 
@@ -200,7 +201,9 @@ function App() {
          <Route path="/TeluAllEntry202324" element={<TeluAllEntry202324/>} /> 
          <Route path="/TeluSelectedCandidate202324" element={<TeluSelectedCandidate202324/>} /> 
          <Route path="/TeluAllEntry202223" element={<TeluAllEntry202223/>} /> 
-         <Route path="/TeluSelectedCandidate202223" element={< TeluSelectedCandidate202223/>} /> 
+         <Route path="/TeluSelectedCandidate202223" element={<TeluSelectedCandidate202223/>} /> 
+         <Route path="/TeluSelectedCandidate202425" element={<TeluSelectedCandidate202425/>} /> 
+         
         
 
          

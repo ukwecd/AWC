@@ -152,7 +152,7 @@ function PuruskarDashBoard() {
             <i>
               <img src={LogoCDPO} alt="WECD-LOGO" className="awc-logo-img" />
             </i>
-            <span className="mx-2">Finance login :</span>
+            <span className="mx-2">Purskar login :</span>
             <span>Almora</span>
           </div>
           <div className="purskar-dp" alt="logout" title="Click to logout">
@@ -172,7 +172,7 @@ function PuruskarDashBoard() {
                   <div>
                     <FaAlignLeft className="icn dpo-menuicn" onClick={toggleNav} />
                   </div>
-                  <div className="dpo-user">Finance login : Almora</div>
+                  <div className="dpo-user">Purskar login : Almora</div>
                   <div className="finance-log-icon-mob">
                     <LuLogOut className=" " title="Click to logout" />
                   </div>
