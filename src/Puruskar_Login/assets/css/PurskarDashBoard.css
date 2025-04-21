@@ -1,16 +1,18 @@
-.text-bold-clr{
+.text-bold-clr {
     font-weight: bold;
 }
 
-.awc-purskar-alert h2{
+.awc-purskar-alert h2 {
     font-size: var(--awc-space-350);
     padding: 8px;
-    
+
 }
+
 .awc-finance-mobresp {
     display: flex;
     justify-content: space-between;
 }
+
 .purskar-thead th {
     background-color: #52468c !important;
     font-size: var(--awc-space-300);
@@ -18,6 +20,7 @@
     font-weight: 500;
     vertical-align: top;
 }
+
 .search-btn-dpo {
     background-color: #5b4da4 !important;
     display: inline-block;
@@ -38,7 +41,9 @@
     border-radius: 50%;
     transform: rotateZ(45deg);
 }
-.purskar-paging .active>.page-link, .page-link.active {
+
+.purskar-paging .active>.page-link,
+.page-link.active {
     background-color: #52468c;
     border: var(--awc-space-25) #52468c solid;
     color: var(--awc-white) !important;
@@ -52,3 +57,34 @@
     border: none;
     margin-right: var(--awc-space-300);
 } */
+
+.awc-btn-puru-exl {
+    font-size: 12px;
+    padding: 6px 12px 6px 12px;
+    background-color: #a091ec;
+    color: var(--awc-white);
+    border: none;
+    margin-right: var(--awc-space-300);
+}
+
+.awc-btn-puru-exl:hover {
+    font-size: 12px;
+    padding: 6px 12px 6px 12px;
+    background-color: #7468b5;
+    color: var(--awc-white);
+    border: none;
+    margin-right: var(--awc-space-300);
+}
+
+.dpo-prnt-puru-btn {
+    font-size: 12px;
+    padding: 6px 12px 4px 12px;
+    color: #000000;
+    background-color: #f3f2f9;
+    border: 1px #5b4da4 solid;
+}
+
+.dpo-prnt-puru-btn:hover {
+    background-color: #5b4da4;
+    color: #fff;
+}
