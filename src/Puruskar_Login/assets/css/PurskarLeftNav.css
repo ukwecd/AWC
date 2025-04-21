@@ -299,7 +299,7 @@ a.purskar-sub-option:hover {
   transition: all 0.1s ease-in-out;
 }
 
-.purskar-nav-option .option1 {
+.purskar-nav-option.option1 {
   background-color: #7264b9 !important;
 }
 
@@ -325,7 +325,7 @@ a.purskar-sub-option:hover {
   color: var(--awc-white) !important;
 }
 
-a.purskar-nav-option .option1 {
+a.purskar-nav-option.option1 {
   /* background-color: #EA9343; custom css */
   background-color: #7264b9 !important;
   color: white !important;

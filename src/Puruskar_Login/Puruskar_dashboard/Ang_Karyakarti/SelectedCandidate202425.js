@@ -4,8 +4,7 @@ import "../../../Puruskar_Login/assets/css/PurskarLeftNav.css";
 import PuruskarDashBoard from "../PuruskarDashBoard";
 import Footer from "../../../componets/footer/Footer";
 import { Link } from "react-router-dom";
-import { GiReturnArrow } from "react-icons/gi";
-import { IoIosCheckmarkCircle, IoMdCloseCircle } from "react-icons/io";
+import { IoMdCloseCircle } from "react-icons/io";
 
 
 const SelectedCandidate202425 = () => {
@@ -31,10 +30,9 @@ const SelectedCandidate202425 = () => {
                   
                   <div className="table-responsive-lg table-container-box mt-1">
                     <Table className="dpo-sub-table" striped bordered hover>
-                      <thead className="dpo-thead">
+                      <thead className="purskar-thead">
                         <tr>
                           <th>Status</th>
-
                           <th>Almora</th>
                           <th>Bageshwar</th>
                           <th>Chamoli</th>
@@ -292,7 +290,7 @@ const SelectedCandidate202425 = () => {
                   </Row>
                   <div className="table-responsive-lg table-container-box mt-1">
                     <Table className="dpo-sub-table" striped bordered hover>
-                      <thead className="dpo-thead">
+                      <thead className="purskar-thead">
                         <tr>
                           <th>SNo.</th>
                           <th>Form ID</th>
@@ -413,7 +411,7 @@ const SelectedCandidate202425 = () => {
                       {" "}
                       <div className="tech-staff-table">
                         {" "}
-                        <Pagination className="awc-paging">
+                        <Pagination className="purskar-paging">
                           <Pagination.First />
                           <Pagination.Prev />
                           <Pagination.Item>{1}</Pagination.Item>

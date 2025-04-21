@@ -33,7 +33,7 @@ const AllEntry202425 = () => {
                  
                   <div className="table-responsive-lg table-container-box mt-1">
                     <Table className="dpo-sub-table" striped bordered hover>
-                      <thead className="dpo-thead">
+                      <thead className="purskar-thead">
                         <tr>
                           <th>Status</th>
                           <th>Almora</th>
@@ -293,7 +293,7 @@ const AllEntry202425 = () => {
                   </Row>
                   <div className="table-responsive-lg table-container-box mt-1">
                     <Table className="dpo-sub-table" striped bordered hover>
-                      <thead className="dpo-thead">
+                      <thead className="purskar-thead">
                         <tr>
                           <th>SNo.</th>
                           <th>Status</th>
@@ -373,7 +373,7 @@ const AllEntry202425 = () => {
                       {" "}
                       <div className="tech-staff-table">
                         {" "}
-                        <Pagination className="awc-paging">
+                        <Pagination className="purskar-paging">
                           <Pagination.First />
                           <Pagination.Prev />
                           <Pagination.Item>{1}</Pagination.Item>

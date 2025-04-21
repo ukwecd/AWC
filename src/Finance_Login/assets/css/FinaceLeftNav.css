@@ -325,7 +325,7 @@ a.finance-sub-option:hover {
   color: var(--awc-white) !important;
 }
 
-a.finance-nav-option .option1 {
+a.finance-nav-option.option1 {
   /* background-color: #EA9343; custom css */
   background-color: #b0b435 !important;
   color: white !important;
