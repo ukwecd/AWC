@@ -64,7 +64,7 @@ const PuruskarInnerDashBoard = () => {
                           <th className="table-th-w">Applicable Project</th>
                           <th className="table-th-w">Final Submit</th>
                           <th>Rejected</th>
-                          <th className="table-th-w">Approved by cdpo</th>
+                          <th className="table-th-w">Approved by CDPO</th>
                           <th className="table-th-w">Approved by District</th>
                           <th>Choosen</th>
                         </tr>

@@ -1,6 +1,14 @@
 .text-bold-clr{
     font-weight: bold;
 }
-th.table-th-w{
-    min-width: 150px;
+
+.awc-purskar-alert h2{
+    font-size: var(--awc-space-350);
+    padding: 8px;
+    
+}
+.awc-finance-mobresp {
+    display: flex
+;
+    justify-content: space-between;
 }
