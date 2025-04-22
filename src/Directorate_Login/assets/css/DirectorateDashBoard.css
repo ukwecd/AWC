@@ -1,0 +1,7 @@
+.direct-thead th {
+    background-color: #52468c !important;
+    font-size: var(--awc-space-300);
+    color: var(--awc-white);
+    font-weight: 500;
+    vertical-align: top;
+}
