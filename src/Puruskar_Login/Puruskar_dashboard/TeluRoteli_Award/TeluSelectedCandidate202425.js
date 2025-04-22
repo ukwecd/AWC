@@ -21,13 +21,15 @@ const TeluSelectedCandidate202425 = () => {
           <div className="main">
 
           <div className="awc-dpo-head">
-              <h1>Rajay Stree Shakti Telu Roteli Purskar  Applicant List 2023-24</h1>
+              <h1>Rajay Stree Shakti Tilu Rauteli Puraskar  Applicant List 2023-24</h1>
             </div>
             <Row>
              
               <Col lg={12} md={12} sm={12}>
                 <div className="box-container1">
-                  
+                <div class="awc-purskar-alert">
+                    <h2>Please Click on the District Name to Filter.</h2>
+                  </div>
                   <div className="table-responsive-lg table-container-box mt-1">
                     <Table className="dpo-sub-table" striped bordered hover>
                       <thead className="purskar-thead">
@@ -248,7 +250,7 @@ const TeluSelectedCandidate202425 = () => {
               </Col>
             </Row>
             <div className="awc-dpo-head">
-              <h1>Rajay Stree Shakti Telu Roteli Purskar  2023-24: All List</h1>
+              <h1>Rajay Stree Shakti Tilu Rauteli Puraskar  2023-24: All List</h1>
             </div>
             <Row>
              
@@ -300,7 +302,7 @@ const TeluSelectedCandidate202425 = () => {
                           <th>Education</th>
                           <th>Address</th>
                           <th>District</th>
-                          <th>Social Media Link/URl</th>
+                          <th>Social Media Link/URL</th>
                           <th>Remark</th>
                       
                           
@@ -341,7 +343,7 @@ const TeluSelectedCandidate202425 = () => {
                             </Link>
                           </div>
                         </td>
-                       
+                       <td>-</td>
                         
                        
                         </tr>
@@ -377,6 +379,7 @@ const TeluSelectedCandidate202425 = () => {
                             </Link>
                           </div>
                         </td>
+                        <td>-</td>
                         </tr>
                       </tbody>
                     </Table>

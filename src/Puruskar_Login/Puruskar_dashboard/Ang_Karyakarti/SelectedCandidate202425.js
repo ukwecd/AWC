@@ -303,7 +303,7 @@ const SelectedCandidate202425 = () => {
                           <th>Education</th>
                           <th>Address</th>
                           <th>District</th>
-                          <th>Social Media Link/URl</th>
+                          <th>Social Media Link/URL</th>
                           <th>Remark</th>
                           
                         </tr>

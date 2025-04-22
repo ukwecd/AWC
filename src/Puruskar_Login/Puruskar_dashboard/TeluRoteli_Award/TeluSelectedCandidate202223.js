@@ -4,8 +4,6 @@ import "../../../Puruskar_Login/assets/css/PurskarLeftNav.css";
 import PuruskarDashBoard from "../PuruskarDashBoard";
 import Footer from "../../../componets/footer/Footer";
 import { Link } from "react-router-dom";
-import { IoMdCloseCircle } from "react-icons/io";
-
 
 const TeluSelectedCandidate202223 = () => {
   return (
