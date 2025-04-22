@@ -19,7 +19,7 @@ const ApprovedEntry202223 = () => {
           <div className="main">
 
           <div className="awc-dpo-head">
-              <h1>Anganwadi Purskar Applicant List 2021-22</h1>
+              <h1>Anganwadi Puraskar Applicant List 2021-22</h1>
             </div>
             <Row>
              

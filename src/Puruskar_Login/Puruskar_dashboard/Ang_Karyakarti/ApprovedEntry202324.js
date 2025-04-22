@@ -291,7 +291,7 @@ const ApprovedEntry202324 = () => {
                           </div>
                         </td>
                           
-                       <td>Aaganwadi karykarti Purskar hetu</td>
+                       <td>Aaganwadi karykarti Puraskar hetu</td>
                        <td>93</td>
                           <td><input type="radio"  name="gender"/></td>
                           <td>
