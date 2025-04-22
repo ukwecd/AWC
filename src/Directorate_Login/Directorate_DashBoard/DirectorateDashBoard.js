@@ -249,7 +249,7 @@ function DirectorateDashBoard() {
                     />
                   </div>
                   <div className="dpo-user">Directorate login </div>
-                  <div className="finance-log-icon-mob">
+                  <div className="direct-log-icon-mob">
                     <LuLogOut className=" " title="Click to logout" />
                   </div>
                 </div>

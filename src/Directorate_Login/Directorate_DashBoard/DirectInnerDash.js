@@ -50,7 +50,7 @@ const DirectInnerDash = () => {
                                   aria-label="Search"
                                 />
                                 <label
-                                  className="button search-btn-dpo "
+                                  className="button search-btn-direct "
                                   for="searchleft"
                                 >
                                   <span className="mglass">&#9906;</span>
@@ -64,10 +64,10 @@ const DirectInnerDash = () => {
                             sm={12}
                             className="nd-staff-print "
                           >
-                            <Button className="awc-btn-puru-exl">Excel</Button>
+                            <Button className="direct-btn-exl">Excel</Button>
                             <Button
                               variant="secondary"
-                              className="dpo-prnt-puru-btn"
+                              className="direct-prnt-btn"
                             >
                               Print
                             </Button>
@@ -141,7 +141,7 @@ const DirectInnerDash = () => {
                           {" "}
                           <div className="tech-staff-table">
                             {" "}
-                            <Pagination className="purskar-paging">
+                            <Pagination className="direct-paging">
                               <Pagination.First />
                               <Pagination.Prev />
                               <Pagination.Item>{1}</Pagination.Item>
@@ -187,7 +187,7 @@ const DirectInnerDash = () => {
                                   aria-label="Search"
                                 />
                                 <label
-                                  className="button search-btn-dpo "
+                                  className="button search-btn-direct "
                                   for="searchleft1"
                                 >
                                   <span className="mglass">&#9906;</span>
@@ -201,11 +201,11 @@ const DirectInnerDash = () => {
                             sm={12}
                             className="nd-staff-print "
                           >
-                            <Button className="awc-btn-puru-exl">Excel</Button>
+                            <Button className="direct-btn-exl">Excel</Button>
 
                             <Button
                               variant="secondary"
-                              className="dpo-prnt-puru-btn"
+                              className="direct-prnt-btn"
                             >
                               Print
                             </Button>
@@ -275,7 +275,7 @@ const DirectInnerDash = () => {
                           {" "}
                           <div className="tech-staff-table">
                             {" "}
-                            <Pagination className="purskar-paging">
+                            <Pagination className="direct-paging">
                               <Pagination.First />
                               <Pagination.Prev />
                               <Pagination.Item>{1}</Pagination.Item>

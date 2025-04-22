@@ -685,7 +685,7 @@ span.nav-label:hover {
     height: 30px;
   }
 
-  .finance-log-icon-mob {
+  .direct-log-icon-mob {
     /* custom */
     background-color: #EA9343;
     color: white;
@@ -807,7 +807,7 @@ span.nav-label:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .finance-log-icon-mob {
+  .direct-log-icon-mob {
     /* custom */
     background-color: var(--awc-blue-off);
     width: 30px;
@@ -825,8 +825,8 @@ span.nav-label:hover {
 @media screen and (max-width: 844px) {
 
 
-  .finance-log-icon-mob {
-    background-color: #7264b9;
+  .direct-log-icon-mob {
+    background-color: #307880;
     ;
     color: white;
     width: 30px;
@@ -915,9 +915,9 @@ span.nav-label:hover {
     color: var(--awc-white);
   }
 
-  .finance-log-icon-mob {
+  .direct-log-icon-mob {
     /* custom */
-    background-color: #7264b9;
+    background-color: #307880;
     ;
     width: 30px;
     height: 30px;
