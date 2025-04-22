@@ -4,7 +4,7 @@ import MenuIcon from "../../assets/images/menu_icon.png";
 import { LuLogOut } from "react-icons/lu";
 import React, { useState } from "react";
 import "../../DPO_Login/assets/css/DPOLeftNav.css";
-import { FaAlignLeft} from "react-icons/fa";
+import { FaAlignLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import LogoCDPO from "../../assets/images/Logo-cdpo.png";
 import { RxDashboard } from "react-icons/rx";
@@ -67,7 +67,7 @@ function DPODashBoard() {
           path: "/WorkerAddRequest",
         },
         {
-          icon: <FaUserEdit  />,
+          icon: <FaUserEdit />,
           label: "Worker Edit Request",
           path: "/WorkerEditRequest",
         },
@@ -123,7 +123,7 @@ function DPODashBoard() {
         },
         {
           icon: <FaReceipt />,
-          label: "Telu Roteli Puruskar",
+          label: "Teli Rauteli Puruskar",
           path: "/TeluRoteliPuruskar",
         },
       ],
@@ -134,11 +134,11 @@ function DPODashBoard() {
       path: "/AWWAWHVacancie",
     },
     {
-      icon: <BiRupee  />,
+      icon: <BiRupee />,
       label: "Finance",
       subRoutes: [
         {
-          icon: <IoIosList  />,
+          icon: <IoIosList />,
           label: "State Scheme Surr. Report",
           path: "/FinanceSchemeReport",
         },
@@ -155,11 +155,10 @@ function DPODashBoard() {
       ],
     },
 
-     {
-          icon: <IoIosCall />,
-          label: "Technical Help: 7668151041",
-    
-        },
+    {
+      icon: <IoIosCall />,
+      label: "Technical Help: 7668151041",
+    },
   ];
 
   return (
@@ -173,9 +172,13 @@ function DPODashBoard() {
             alt="menu-icon"
             onClick={toggleNav}
           />
-           <Link to="#" className="logo-page">
-                      <img src={LogoDhanparwa} alt="logo" className="dhan-parwa-logo img-fluid" />
-                    </Link>
+          <Link to="#" className="logo-page">
+            <img
+              src={LogoDhanparwa}
+              alt="logo"
+              className="dhan-parwa-logo img-fluid"
+            />
+          </Link>
           <Link to="#" className="logo-page">
             <img src={UKLogon} alt="logo" className="wced-logo" />
           </Link>
@@ -211,7 +214,10 @@ function DPODashBoard() {
               <div className="nav-upper-options">
                 <div className="dpo-menu">
                   <div>
-                    <FaAlignLeft className="icn dpo-menuicn" onClick={toggleNav} />
+                    <FaAlignLeft
+                      className="icn dpo-menuicn"
+                      onClick={toggleNav}
+                    />
                   </div>
                   <div className="dpo-user">DPO login : Almora</div>
                   <div className="dpo-log-icon-mob">

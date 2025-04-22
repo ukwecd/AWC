@@ -22,7 +22,7 @@ const TeluSelectedCandidate202324 = () => {
               </div>
             </div>
             <div className="box-container mt-3">
-            TeluSelectedCandidate202324
+              TiluSelectedCandidate202324
             </div>
 
             <div>

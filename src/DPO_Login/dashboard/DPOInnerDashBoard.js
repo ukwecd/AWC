@@ -162,7 +162,7 @@ const DPOInnerDashBoard = () => {
               <Row>
                 <Col lg={6} md={6} sm={12} className="mb-3">
                   <div className="awc-dpo-heading">
-                    <h1>Telu Roteli Application Real time Status 2023-24</h1>
+                    <h1>Tilu Rauteli Application Real time Status 2023-24</h1>
                   </div>
                   <div className="awc-table-data">
                     <div className="table-responsive-lg table-container-box">

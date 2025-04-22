@@ -18,18 +18,25 @@ const PuruskarInnerDashBoard = () => {
 
           <div className="main">
             <div className="awc-dpo-head">
-              <h1>Dashboard-Puruskar login</h1>
+              <h1>Dashboard-Puraskar login</h1>
             </div>
 
             <Row>
               <Col lg={6} md={6} sm={12} className="d-flex">
                 <div className="awc-card-data flex-fill card">
                   <div className="card-body">
-                    <div className="card-title awc-table-head"><h1>AWW Award Application Real time Status 2023-24</h1></div>
+                    <div className="card-title awc-table-head">
+                      <h1>AWW Award Application Real time Status 2023-24</h1>
+                    </div>
                     <p className="card-text">
                       <Row>
                         <div className="awc-dpo-mobresp">
-                          <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                          <Col
+                            lg={6}
+                            md={6}
+                            sm={12}
+                            className="nd-staff-print11"
+                          >
                             <div className="search-container">
                               <form>
                                 <input
@@ -49,9 +56,17 @@ const PuruskarInnerDashBoard = () => {
                               </form>
                             </div>
                           </Col>
-                          <Col lg={6} md={6} sm={12} className="nd-staff-print ">
+                          <Col
+                            lg={6}
+                            md={6}
+                            sm={12}
+                            className="nd-staff-print "
+                          >
                             <Button className="awc-btn-puru-exl">Excel</Button>
-                            <Button variant="secondary" className="dpo-prnt-puru-btn">
+                            <Button
+                              variant="secondary"
+                              className="dpo-prnt-puru-btn"
+                            >
                               Print
                             </Button>
                           </Col>
@@ -66,7 +81,9 @@ const PuruskarInnerDashBoard = () => {
                               <th className="table-th-w">Final Submit</th>
                               <th>Rejected</th>
                               <th className="table-th-w">Approved by CDPO</th>
-                              <th className="table-th-w">Approved by District</th>
+                              <th className="table-th-w">
+                                Approved by District
+                              </th>
                               <th>Chosen</th>
                             </tr>
                           </thead>
@@ -137,19 +154,26 @@ const PuruskarInnerDashBoard = () => {
                             </Pagination>
                           </div>{" "}
                         </Col>
-                      </Row></p>
-
+                      </Row>
+                    </p>
                   </div>
                 </div>
               </Col>
               <Col lg={6} md={6} sm={12} className="d-flex">
                 <div className="awc-card-data flex-fill card">
                   <div className="card-body">
-                    <div className="card-title awc-table-head"><h1>Telu Roteli Application Real time Status 2023-24</h1></div>
+                    <div className="card-title awc-table-head">
+                      <h1>Tilu Rauteli Application Real time Status 2023-24</h1>
+                    </div>
                     <p className="card-text">
                       <Row>
                         <div className="awc-dpo-mobresp">
-                          <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                          <Col
+                            lg={6}
+                            md={6}
+                            sm={12}
+                            className="nd-staff-print11"
+                          >
                             <div className="search-container">
                               <form>
                                 <input
@@ -169,10 +193,18 @@ const PuruskarInnerDashBoard = () => {
                               </form>
                             </div>
                           </Col>
-                          <Col lg={6} md={6} sm={12} className="nd-staff-print ">
+                          <Col
+                            lg={6}
+                            md={6}
+                            sm={12}
+                            className="nd-staff-print "
+                          >
                             <Button className="awc-btn-puru-exl">Excel</Button>
 
-                            <Button variant="secondary" className="dpo-prnt-puru-btn">
+                            <Button
+                              variant="secondary"
+                              className="dpo-prnt-puru-btn"
+                            >
                               Print
                             </Button>
                           </Col>
@@ -261,9 +293,7 @@ const PuruskarInnerDashBoard = () => {
                   </div>
                 </div>
               </Col>
-
             </Row>
-
 
             <div>
               <Footer />

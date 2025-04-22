@@ -1,10 +1,10 @@
 import UKLOGO from "../../assets/images/uklogo.png";
 import UKLogon from "../..//assets/images/wecdlogo.png";
 import MenuIcon from "../../assets/images/menu_icon.png";
-import { LuLogOut} from "react-icons/lu";
+import { LuLogOut } from "react-icons/lu";
 import React, { useState } from "react";
 import "../../Puruskar_Login/assets/css/PurskarLeftNav.css";
-import { FaAlignLeft} from "react-icons/fa";
+import { FaAlignLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import LogoCDPO from "../../assets/images/Logo-cdpo.png";
 import { RxDashboard } from "react-icons/rx";
@@ -54,31 +54,30 @@ function PuruskarDashBoard() {
           path: "/SelectedCandidate202425",
         },
         {
-            icon: <RiSlideshowLine />,
-            label: "All Entry (2023-24)",
-            path: "/AllEntry202324",
-          },
-          {
-            icon: <MdOutlineCheckCircle />,
-            label: "Approved Entry (2023-24)",
-            path: "/ApprovedEntry202324",
-          },
-          {
-            icon: <RiSlideshowLine />,
-            label: "All Entry (2022-23)",
-            path: "/AllEntry202223",
-          },
-          {
-            icon: <MdOutlineCheckCircle />,
-            label: "Approved Entry (2022-23)",
-            path: "/ApprovedEntry202223",
-          },
-       
+          icon: <RiSlideshowLine />,
+          label: "All Entry (2023-24)",
+          path: "/AllEntry202324",
+        },
+        {
+          icon: <MdOutlineCheckCircle />,
+          label: "Approved Entry (2023-24)",
+          path: "/ApprovedEntry202324",
+        },
+        {
+          icon: <RiSlideshowLine />,
+          label: "All Entry (2022-23)",
+          path: "/AllEntry202223",
+        },
+        {
+          icon: <MdOutlineCheckCircle />,
+          label: "Approved Entry (2022-23)",
+          path: "/ApprovedEntry202223",
+        },
       ],
     },
     {
       icon: <GiTrophyCup />,
-      label: "Telu Roteli Award",
+      label: "Tilu Rauteli Award",
       subRoutes: [
         {
           icon: <RiSlideshowLine />,
@@ -91,34 +90,32 @@ function PuruskarDashBoard() {
           path: "/TeluSelectedCandidate202425",
         },
         {
-            icon: <RiSlideshowLine />,
-            label: "All Entry (2023-24)",
-            path: "/TeluAllEntry202324",
-          },
-          {
-            icon: <BiSelectMultiple />,
-            label: "Selected Candidate (2023-24)",
-            path: "/TeluSelectedCandidate202324",
-          },
-          {
-            icon: <RiSlideshowLine />,
-            label: "All Entry (2022-23)",
-            path: "/TeluAllEntry202223",
-          },
-          {
-            icon: <BiSelectMultiple />,
-            label: "Selected Candidate(2022-23)",
-            path: "/TeluSelectedCandidate202223",
-          },
+          icon: <RiSlideshowLine />,
+          label: "All Entry (2023-24)",
+          path: "/TeluAllEntry202324",
+        },
+        {
+          icon: <BiSelectMultiple />,
+          label: "Selected Candidate (2023-24)",
+          path: "/TeluSelectedCandidate202324",
+        },
+        {
+          icon: <RiSlideshowLine />,
+          label: "All Entry (2022-23)",
+          path: "/TeluAllEntry202223",
+        },
+        {
+          icon: <BiSelectMultiple />,
+          label: "Selected Candidate(2022-23)",
+          path: "/TeluSelectedCandidate202223",
+        },
       ],
     },
 
-
-     {
-          icon: <IoIosCall />,
-          label: "Technical Help: 7668151041",
-    
-        },
+    {
+      icon: <IoIosCall />,
+      label: "Technical Help: 7668151041",
+    },
   ];
 
   return (
@@ -132,9 +129,13 @@ function PuruskarDashBoard() {
             alt="menu-icon"
             onClick={toggleNav}
           />
-           <Link to="#" className="logo-page">
-                      <img src={LogoDhanparwa} alt="logo" className="dhan-parwa-logo img-fluid" />
-                    </Link>
+          <Link to="#" className="logo-page">
+            <img
+              src={LogoDhanparwa}
+              alt="logo"
+              className="dhan-parwa-logo img-fluid"
+            />
+          </Link>
           <Link to="#" className="logo-page">
             <img src={UKLogon} alt="logo" className="wced-logo" />
           </Link>
@@ -170,7 +171,10 @@ function PuruskarDashBoard() {
               <div className="nav-upper-options">
                 <div className="dpo-menu">
                   <div>
-                    <FaAlignLeft className="icn dpo-menuicn" onClick={toggleNav} />
+                    <FaAlignLeft
+                      className="icn dpo-menuicn"
+                      onClick={toggleNav}
+                    />
                   </div>
                   <div className="dpo-user">Purskar login : Almora</div>
                   <div className="finance-log-icon-mob">
