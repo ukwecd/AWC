@@ -102,3 +102,27 @@
     background-color: #374b9d;
     color: #fff;
 }
+
+.pur-p-right{
+    padding-right: var(--awc-space-450);
+}
+.awc-sub-heading {
+    padding: var(--awc-space-0);
+   
+}
+.awc-sub-heading h1{
+    font-size: var(--awc-space-350);
+    color: var(--awc-black);
+}
+.m-t-2{
+    margin-top: var(--awc-space-200);
+}
+@media only screen and (max-width: 568px) {
+    .pur-p-right{
+        padding-right: var(--awc-space-300);
+        margin-top: var(--awc-space-300);
+    }
+    .m-t-2{
+        margin-top: var(--awc-space-0) !important;
+    }
+}

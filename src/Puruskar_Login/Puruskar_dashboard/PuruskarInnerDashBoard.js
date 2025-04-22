@@ -25,7 +25,7 @@ const PuruskarInnerDashBoard = () => {
               <Col lg={6} md={6} sm={12} className="d-flex">
                 <div className="awc-card-data flex-fill card">
                   <div className="card-body">
-                    <div className="card-title awc-table-head">
+                    <div className="card-title awc-sub-heading">
                       <h1>AWW Award Application Real time Status 2023-24</h1>
                     </div>
                     <p className="card-text">
@@ -159,10 +159,10 @@ const PuruskarInnerDashBoard = () => {
                   </div>
                 </div>
               </Col>
-              <Col lg={6} md={6} sm={12} className="d-flex">
+              <Col lg={6} md={6} sm={12} className="d-flex pur-p-right">
                 <div className="awc-card-data flex-fill card">
                   <div className="card-body">
-                    <div className="card-title awc-table-head">
+                    <div className="card-title awc-sub-heading">
                       <h1>Tilu Rauteli Application Real time Status 2023-24</h1>
                     </div>
                     <p className="card-text">

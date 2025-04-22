@@ -71,7 +71,7 @@ const ApprovedEntry202223 = () => {
             {/* <div className="awc-dpo-head">
               <h1>Rajay Stree Sahkti Telu Roteli Purskar  Applicant List 23-24: All List</h1>
             </div> */}
-            <Row className="mt-2">
+            <Row className="m-t-2">
              
               <Col lg={12} md={12} sm={12}>
                 <div className="box-container">

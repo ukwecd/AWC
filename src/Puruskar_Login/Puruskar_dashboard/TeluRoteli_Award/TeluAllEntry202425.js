@@ -255,7 +255,7 @@ const TeluAllEntry202425 = () => {
             <Row>
              
               <Col lg={12} md={12} sm={12}>
-                <div className="box-container">
+                <div className="box-container1">
                   <Row>
                     <div className="awc-finance-mobresp">
                       <Col lg={6} md={6} sm={12} className="nd-staff-print11">

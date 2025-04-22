@@ -74,10 +74,10 @@ const TeluSelectedCandidate202223 = () => {
             {/* <div className="awc-dpo-head">
               <h1>Rajay Stree Shakti Tilu Rauteli Puraskar  2023-24: All List</h1>
             </div> */}
-            <Row className="mt-2">
+            <Row className="mt-3">
              
               <Col lg={12} md={12} sm={12}>
-                <div className="box-container">
+                <div className="box-container1">
                   <Row>
                     <div className="awc-finance-mobresp">
                       <Col lg={6} md={6} sm={12} className="nd-staff-print11">
