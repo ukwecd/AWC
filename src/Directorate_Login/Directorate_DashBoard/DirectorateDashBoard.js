@@ -236,10 +236,10 @@ function DirectorateDashBoard() {
         </div>
       </header>
 
-      <div className="purskar-lhs-nav">
+      <div className="direct-lhs-nav">
         <div>
           <div className={`navcontainer ${isNavClosed ? "navclose" : ""}`}>
-            <nav className="purskar-nav">
+            <nav className="direct-nav">
               <div className="nav-upper-options">
                 <div className="dpo-menu">
                   <div>
@@ -262,7 +262,7 @@ function DirectorateDashBoard() {
                         to={option.download}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={`purskar-nav-option option${index + 1}`}
+                        className={`direct-nav-option option${index + 1}`}
                       >
                         <div className="nav-item">
                           <div className="d-flex">
@@ -274,7 +274,7 @@ function DirectorateDashBoard() {
                     ) : option.subRoutes ? (
                       <>
                         <div
-                          className={`purskar-nav-option option${index + 1}`}
+                          className={`direct-nav-option option${index + 1}`}
                           onClick={() => toggleSubMenu(option.label)}
                           style={{ cursor: "pointer" }}
                         >
@@ -297,7 +297,7 @@ function DirectorateDashBoard() {
                             <Link
                               key={subIndex}
                               to={subOption.path}
-                              className="purskar-sub-option"
+                              className="direct-sub-option"
                             >
                               <div className="nav-item">
                                 <div className="d-flex awc-sub-item">
@@ -315,7 +315,7 @@ function DirectorateDashBoard() {
                     ) : (
                       <Link
                         to={option.path}
-                        className={`purskar-nav-option option${index + 1}`}
+                        className={`direct-nav-option option${index + 1}`}
                       >
                         <div className="nav-item">
                           <div className="d-flex">
