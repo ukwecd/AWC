@@ -350,7 +350,7 @@ function AdminBanner() {
             <Row className="nd-p-18">
               <Col lg={4} md={6} sm={6}>
                 <div className="form-check">
-                  <Link to="#">
+                  <Link to="/DirectInnerDash">
                     {" "}
                     <input
                       className="form-check-input"

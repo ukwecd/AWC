@@ -100,6 +100,10 @@ import TeluSelectedCandidate202324 from "./Puruskar_Login/Puruskar_dashboard/Tel
 import TeluAllEntry202223 from "./Puruskar_Login/Puruskar_dashboard/TeluRoteli_Award/TeluAllEntry202223";
 import TeluSelectedCandidate202223 from "./Puruskar_Login/Puruskar_dashboard/TeluRoteli_Award/TeluSelectedCandidate202223";
 
+/* // Directorate DashBoard */
+import DirectorateDashBoard from "./Directorate_Login/Directorate_DashBoard/DirectorateDashBoard";
+import DirectInnerDash from "./Directorate_Login/Directorate_DashBoard/DirectInnerDash";
+
 function App() {
   return (
     <Router>
@@ -204,9 +208,10 @@ function App() {
         <Route path="/TeluSelectedCandidate202223" element={<TeluSelectedCandidate202223 />} />
         <Route path="/TeluSelectedCandidate202425" element={<TeluSelectedCandidate202425 />} />
 
+          {/* // DirectorateDasboard */}
 
-
-
+          <Route path="/DirectorateDashBoard" element={<DirectorateDashBoard />} />
+          <Route path="/DirectInnerDash" element={<DirectInnerDash />} />
 
 
       </Routes>
