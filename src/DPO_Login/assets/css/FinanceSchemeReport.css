@@ -12,7 +12,7 @@
 }
 
 .awc-dpo-head h1 {
-    font-size: var(--awc-space-400);
+    font-size: var(--awc-space-500);
     color: var(--awc-black);
 }
 
@@ -46,8 +46,8 @@
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
-     transition-duration: 0.3s;
-     transform: perspective(1px) translateZ(0);
+    transition-duration: 0.3s;
+    transform: perspective(1px) translateZ(0);
 }
 
 .awc-dele-icon {
@@ -62,7 +62,12 @@
     margin-bottom: var(--awc-space-100);
     font-weight: 500;
 }
-.awc-dop-primary-btn.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+
+.awc-dop-primary-btn.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
     background-color: var(--awc-black);
 
 }
