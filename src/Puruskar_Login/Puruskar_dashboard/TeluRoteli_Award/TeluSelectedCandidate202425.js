@@ -21,7 +21,7 @@ const TeluSelectedCandidate202425 = () => {
           <div className="main">
 
           <div className="awc-dpo-head">
-              <h1>Rajay Stree Shakti Telu Roteli Purskar  Applicant List 23-24</h1>
+              <h1>Rajay Stree Shakti Telu Roteli Purskar  Applicant List 2023-24</h1>
             </div>
             <Row>
              

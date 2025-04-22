@@ -302,8 +302,6 @@ const TeluAllEntry202324 = () => {
                           <th>District</th>
                           <th>Social Media Link/URl</th>
                          
-                      
-                          
                         </tr>
                       </thead>
                       <tbody>
@@ -323,9 +321,9 @@ const TeluAllEntry202324 = () => {
                           </div>
                         </td>
                           <td>Ekta arya</td>
-                          <td>01-Oct-1993</td>
+                          <td>15-Oct-1993</td>
                           <td>Graduation</td>
-                          <td>Joshikhola </td>
+                          <td>Joshikhola Rajpur almora </td>
                           <td>Almora</td>
                           <td className="text-primary awc-bold">
                           <div className="dpo-p">
@@ -349,17 +347,17 @@ const TeluAllEntry202324 = () => {
                               {" "}
                               <Button className="awc-btn-money text-primary">
                                 <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               TR-2023-0003
+                               TR-2023-00037
                                 </span>
                               </Button>
                             </Link>
                           </div>
                         </td>
-                          <td>Ekta arya</td>
-                          <td>15-Oct-2000</td>
+                          <td>Sanggeeta Verma</td>
+                          <td>25-Jan-1962</td>
                           <td>Graduation</td>
                        
-                          <td>Bimola, Almora Uttarakhand</td>
+                          <td>Prem Vatika Sudama puri Ranikhet</td>
                         
                           <td>Almora</td>
                           <td className="text-primary awc-bold">
