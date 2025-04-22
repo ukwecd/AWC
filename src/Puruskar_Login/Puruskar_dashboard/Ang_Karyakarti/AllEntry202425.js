@@ -27,7 +27,7 @@ const AllEntry202425 = () => {
               <Col lg={12} md={12} sm={12}>
                 <div className="box-container1">
                   <div class="awc-purskar-alert">
-                    <h2>Click On District Name to Filter</h2>
+                    <h2>Please Click on the District Name to Filter.</h2>
                   </div>
 
                  

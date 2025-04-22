@@ -28,7 +28,9 @@ const SelectedCandidate202425 = () => {
              
               <Col lg={12} md={12} sm={12}>
                 <div className="box-container1">
-                  
+                <div class="awc-purskar-alert">
+                    <h2>Please Click on the District Name to Filter.</h2>
+                  </div>
                   <div className="table-responsive-lg table-container-box mt-1">
                     <Table className="dpo-sub-table" striped bordered hover>
                       <thead className="purskar-thead">

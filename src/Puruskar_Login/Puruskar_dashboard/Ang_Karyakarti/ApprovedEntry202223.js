@@ -25,7 +25,6 @@ const ApprovedEntry202223 = () => {
              
               <Col lg={12} md={12} sm={12}>
                 <div className="box-container1">
-                  
                   <div className="table-responsive-lg table-container-box mt-1">
                     <Table className="dpo-sub-table" striped bordered hover>
                       <thead className="purskar-thead">

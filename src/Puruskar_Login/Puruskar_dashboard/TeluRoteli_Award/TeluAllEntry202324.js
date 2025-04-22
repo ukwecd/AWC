@@ -307,8 +307,41 @@ const TeluAllEntry202324 = () => {
                         </tr>
                       </thead>
                       <tbody>
-                        <tr>
+                      <tr>
                           <td>1</td>
+                        
+                          <td className="text-primary awc-bold">
+                          <div className="dpo-p">
+                            <Link to="#">
+                              {" "}
+                              <Button className="awc-btn-money text-primary">
+                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                AP-2024-0003
+                                </span>
+                              </Button>
+                            </Link>
+                          </div>
+                        </td>
+                          <td>Ekta arya</td>
+                          <td>01-Oct-1993</td>
+                          <td>Graduation</td>
+                          <td>Joshikhola </td>
+                          <td>Almora</td>
+                          <td className="text-primary awc-bold">
+                          <div className="dpo-p">
+                            <Link to="#">
+                              {" "}
+                              <Button className="awc-btn-money text-primary">
+                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                               Open Link
+                                </span>
+                              </Button>
+                            </Link>
+                          </div>
+                        </td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
                         
                           <td className="text-primary awc-bold">
                           <div className="dpo-p">
@@ -345,39 +378,7 @@ const TeluAllEntry202324 = () => {
                         
                        
                         </tr>
-                        <tr>
-                          <td>2</td>
-                        
-                          <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                AP-2024-00056
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                          <td>Deepa Gurwant</td>
-                          <td>01-Jan-1993</td>
-                          <td>Post-Graduation</td>
-                          <td>Village Sola-2 post Offic Kotar Tarikhet Almora </td>
-                          <td>Almora</td>
-                          <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               Open Link
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        </tr>
+                       
                       </tbody>
                     </Table>
                   </div>

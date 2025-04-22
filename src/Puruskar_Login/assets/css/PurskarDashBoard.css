@@ -3,8 +3,9 @@
 }
 
 .awc-purskar-alert h2 {
-    font-size: var(--awc-space-350);
-    padding: 8px;
+    font-size: var(--awc-space-250);
+    padding: var(--awc-space-100);
+    color: var(--awc-Primary);
 
 }
 
