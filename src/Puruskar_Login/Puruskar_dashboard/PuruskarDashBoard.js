@@ -149,7 +149,7 @@ function PuruskarDashBoard() {
         </div>
 
         <div className="message">
-          <div className="awc-msg p-2">
+          <div className="awc-msg">
             <i>
               <img src={LogoCDPO} alt="WECD-LOGO" className="awc-logo-img" />
             </i>

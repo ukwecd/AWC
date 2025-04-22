@@ -142,7 +142,7 @@ a.purskar-sub-option:hover {
 }
 
 .message {
-  gap: 18px;
+  gap: 2px;
   position: relative;
   cursor: pointer;
   font-size: var(--awc-space-350);
