@@ -47,13 +47,13 @@ img.awc-logo-img {
 }
 
 a.direct-sub-option {
-  background-color: #52468c;
+  background-color: #307880;
   color: var(--awc-white) !important;
 }
 
 a.direct-sub-option:hover {
   /* custom */
-  background-color: #7264b9;
+  background-color: #1c8f9c;
 }
 
 .user-awc-header {
@@ -179,7 +179,7 @@ a.direct-sub-option:hover {
 .purskar-dp {
   font-size: var(--awc-space-500);
   /* custom */
-  background-color: #52468c;
+  background-color: #089bab;
 
   border-radius: 50%;
   color: var(--awc-white);
@@ -248,7 +248,7 @@ a.direct-sub-option:hover {
   min-height: 100vh;
   width: 250px;
   /* background: linear-gradient(-45deg, rgba(147, 26, 222, 0.83) 0%, rgba(28, 206, 234, 0.82) 100%); */
-  background-color: #5b4da4;
+  background-color: #089bab;
   position: absolute;
   top: 0px;
   left: 00;
@@ -264,7 +264,7 @@ a.direct-sub-option:hover {
 .direct-lhs-nav {
   /* background: linear-gradient(-45deg, rgba(147, 26, 222, 0.83) 0%, rgba(28, 206, 234, 0.82) 100%); */
   box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
-  background-color: #5b4da4;
+  background-color: #089bab;
 }
 
 .navcontainer,
@@ -305,7 +305,7 @@ a.direct-sub-option:hover {
 
 .direct-nav-option:hover {
   /* custom */
-  background-color: #7264b9 !important;
+  background-color: #1c8f9c !important;
   cursor: pointer;
   color: var(--awc-white);
 }
@@ -327,7 +327,7 @@ a.direct-sub-option:hover {
 
 a.direct-nav-option.option1 {
   /* background-color: #EA9343; custom css */
-  background-color: #7264b9 !important;
+  background-color: hsl(0deg 0% 100% / 36%) !important;
   color: white !important;
   cursor: pointer;
   margin-top: 7%;
