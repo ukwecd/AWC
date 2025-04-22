@@ -5,7 +5,7 @@ import "../../Puruskar_Login/assets/css/PurskarLeftNav.css";
 import "../../Puruskar_Login/assets/css/PurskarDashBoard.css";
 import PuruskarDashBoard from "./PuruskarDashBoard";
 
-const PuruskarInnerDashBoard = () => {
+const PuraskarInnerDashBoard = () => {
   return (
     <>
       <div>
@@ -305,4 +305,4 @@ const PuruskarInnerDashBoard = () => {
   );
 };
 
-export default PuruskarInnerDashBoard;
+export default PuraskarInnerDashBoard;

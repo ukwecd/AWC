@@ -79,7 +79,7 @@ import ProjectPassbookFinancialYear from "./Finance_Login/Finance_dashboard/Allo
 import ProjectExpenditureReport from "./Finance_Login/Finance_dashboard/ExpenditureSummary/ProjectExpenditureReport";
 import ProjectCurrentBalance from "./Finance_Login/Finance_dashboard/AllotmentSummary/ProjectCurrentBalance";
 import DistrictCurrentBalance from "./Finance_Login/Finance_dashboard/AllotmentSummary/DistrictCurrentBalance";
-import ProjectOverview1 from "./Finance_Login/Finance_dashboard/FinancialYear202324/ProjectOverview1"; 
+import ProjectOverview1 from "./Finance_Login/Finance_dashboard/FinancialYear202324/ProjectOverview1";
 import PassbookOverview from "./Finance_Login/Finance_dashboard/FinancialYear202324/PassbookOverview";
 import ProjectPassbookFinancial202223 from "./Finance_Login/Finance_dashboard/FinancialYear202223/ProjectPassbookFinancial202223";
 import TeluSelectedCandidate202425 from "./Puruskar_Login/Puruskar_dashboard/TeluRoteli_Award/TeluSelectedCandidate202425";
@@ -87,7 +87,7 @@ import TeluSelectedCandidate202425 from "./Puruskar_Login/Puruskar_dashboard/Tel
 /* // PurskarDasboard */
 
 import PuruskarDashBoard from "./Puruskar_Login/Puruskar_dashboard/PuruskarDashBoard";
-import PuruskarInnerDashBoard from "./Puruskar_Login/Puruskar_dashboard/PuruskarInnerDashBoard";
+import PuraskarInnerDashBoard from "./Puruskar_Login/Puruskar_dashboard/PuraskarInnerDashBoard";
 import AllEntry202425 from "./Puruskar_Login/Puruskar_dashboard/Ang_Karyakarti/AllEntry202425";
 import SelectedCandidate202425 from "./Puruskar_Login/Puruskar_dashboard/Ang_Karyakarti/SelectedCandidate202425";
 import AllEntry202324 from "./Puruskar_Login/Puruskar_dashboard/Ang_Karyakarti/AllEntry202324";
@@ -157,7 +157,7 @@ function App() {
 
         {/* // FinanceDasboard */}
         <Route path="/FinanceDashBoard" element={<FinanceDashBoard />} />
-        <Route  path="/FinanceInnerDashboard" element={<FinanceInnerDashboard />} />
+        <Route path="/FinanceInnerDashboard" element={<FinanceInnerDashboard />} />
         <Route path="/DisplayCDPOfile" element={<DisplayCDPOfile />} />
         <Route path="/District202425" element={<District202425 />} />
         <Route path="/Project202425" element={<Project202425 />} />
@@ -167,7 +167,7 @@ function App() {
         <Route path="/ProjectSummary" element={<ProjectSummary />} />
         <Route path="/AllotDistrictSummary" element={<AllotDistrictSummary />} />
         <Route path="/AllotProjectSummary" element={<AllotProjectSummary />} />
-       
+
         <Route path="/StateSchemeReport" element={<StateSchemeReport />} />
         <Route path="/ProjectSurrenderSummary" element={<ProjectSurrenderSummary />} />
         <Route path="/ProjectDemandSummary" element={<ProjectDemandSummary />} />
@@ -176,39 +176,39 @@ function App() {
         <Route path="/DistrictReport202324" element={<DistrictReport202324 />} />
         <Route path="/FinanceProjectOverview" element={<FinanceProjectOverview />} />
         <Route path="/FinanceDistrictOverview" element={<FinanceDistrictOverview />} />
-        <Route path="/DistrictReport202223" element={<DistrictReport202223 />} /> 
-        <Route path="/ProjectReport202223" element={<ProjectReport202223/>} /> 
-        <Route path="/BulkBugetAllotment" element={<BulkBugetAllotment/>} /> 
-        <Route path="/ProjectBudgetAllotment" element={<ProjectBudgetAllotment/>} /> 
-        <Route path="/ProjectPassbookFinancial" element={<ProjectPassbookFinancial/>} /> 
-        <Route path="/ProjectPassbookFinancialYear" element={<ProjectPassbookFinancialYear/>} /> 
-        <Route path="/ProjectExpenditureReport" element={<ProjectExpenditureReport/>} /> 
-        <Route path="/ProjectCurrentBalance" element={<ProjectCurrentBalance/>} /> 
-        <Route path="/DistrictCurrentBalance" element={<DistrictCurrentBalance/>} /> 
-        <Route path="/ProjectOverview1" element={<ProjectOverview1/>} /> 
-        <Route path="/PassbookOverview" element={<PassbookOverview/>} /> 
-        <Route path="/ProjectPassbookFinancial202223" element={<ProjectPassbookFinancial202223/>} /> 
-         {/* // PurskarDasboard */}
-         <Route path="/PuruskarDashBoard" element={<PuruskarDashBoard/>} /> 
-         <Route path="/PuruskarInnerDashBoard" element={<PuruskarInnerDashBoard/>} /> 
-         <Route path="/AllEntry202425" element={<AllEntry202425/>} /> 
-         <Route path="/SelectedCandidate202425" element={<SelectedCandidate202425/>} /> 
-         <Route path="/AllEntry202324" element={<AllEntry202324/>} /> 
-         <Route path="/ApprovedEntry202324" element={<ApprovedEntry202324/>} /> 
-         <Route path="/AllEntry202223" element={<AllEntry202223/>} /> 
-         <Route path="/ApprovedEntry202223" element={<ApprovedEntry202223/>} /> 
-         <Route path="/TeluAllEntry202425" element={<TeluAllEntry202425/>} /> 
-         <Route path="/TeluAllEntry202324" element={<TeluAllEntry202324/>} /> 
-         <Route path="/TeluSelectedCandidate202324" element={<TeluSelectedCandidate202324/>} /> 
-         <Route path="/TeluAllEntry202223" element={<TeluAllEntry202223/>} /> 
-         <Route path="/TeluSelectedCandidate202223" element={<TeluSelectedCandidate202223/>} /> 
-         <Route path="/TeluSelectedCandidate202425" element={<TeluSelectedCandidate202425/>} /> 
-         
-        
+        <Route path="/DistrictReport202223" element={<DistrictReport202223 />} />
+        <Route path="/ProjectReport202223" element={<ProjectReport202223 />} />
+        <Route path="/BulkBugetAllotment" element={<BulkBugetAllotment />} />
+        <Route path="/ProjectBudgetAllotment" element={<ProjectBudgetAllotment />} />
+        <Route path="/ProjectPassbookFinancial" element={<ProjectPassbookFinancial />} />
+        <Route path="/ProjectPassbookFinancialYear" element={<ProjectPassbookFinancialYear />} />
+        <Route path="/ProjectExpenditureReport" element={<ProjectExpenditureReport />} />
+        <Route path="/ProjectCurrentBalance" element={<ProjectCurrentBalance />} />
+        <Route path="/DistrictCurrentBalance" element={<DistrictCurrentBalance />} />
+        <Route path="/ProjectOverview1" element={<ProjectOverview1 />} />
+        <Route path="/PassbookOverview" element={<PassbookOverview />} />
+        <Route path="/ProjectPassbookFinancial202223" element={<ProjectPassbookFinancial202223 />} />
+        {/* // PurskarDasboard */}
+        <Route path="/PuruskarDashBoard" element={<PuruskarDashBoard />} />
+        <Route path="/PuraskarInnerDashBoard" element={<PuraskarInnerDashBoard />} />
+        <Route path="/AllEntry202425" element={<AllEntry202425 />} />
+        <Route path="/SelectedCandidate202425" element={<SelectedCandidate202425 />} />
+        <Route path="/AllEntry202324" element={<AllEntry202324 />} />
+        <Route path="/ApprovedEntry202324" element={<ApprovedEntry202324 />} />
+        <Route path="/AllEntry202223" element={<AllEntry202223 />} />
+        <Route path="/ApprovedEntry202223" element={<ApprovedEntry202223 />} />
+        <Route path="/TeluAllEntry202425" element={<TeluAllEntry202425 />} />
+        <Route path="/TeluAllEntry202324" element={<TeluAllEntry202324 />} />
+        <Route path="/TeluSelectedCandidate202324" element={<TeluSelectedCandidate202324 />} />
+        <Route path="/TeluAllEntry202223" element={<TeluAllEntry202223 />} />
+        <Route path="/TeluSelectedCandidate202223" element={<TeluSelectedCandidate202223 />} />
+        <Route path="/TeluSelectedCandidate202425" element={<TeluSelectedCandidate202425 />} />
 
-         
-         
-       
+
+
+
+
+
       </Routes>
     </Router>
   );

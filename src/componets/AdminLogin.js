@@ -337,112 +337,112 @@ function AdminBanner() {
 
   return (
     <div className="container-fluid nd-login-banner">
-      
-        <Row className="nd-admin-login">
-         
-            <div className="mt-4 nd-admin-form">
-              <Form className="nd-form">
-                {/* <h1 className="nd-login-title">
+
+      <Row className="nd-admin-login">
+
+        <div className="mt-4 nd-admin-form">
+          <Form className="nd-form">
+            {/* <h1 className="nd-login-title">
                   <img src={Login} alt="sign" className="p-2" />
                   Login Panel
                 </h1> */}
 
-                <Row className="nd-p-18">
-                  <Col lg={4} md={6} sm={6}>
-                    <div className="form-check">
-                      <Link to="#">
-                        {" "}
-                        <input
-                          className="form-check-input"
-                          type="radio"
-                          name="flexRadioDefault"
-                          id="radio1"
-                          value={1}
-                          onChange={handleChange}
-                          checked={isRadio === 1}
-                        />
-                      </Link>
-                      <label className="form-check-label" htmlFor="radio1">
-                        Directorate Login
-                      </label>
-                    </div>
-                  </Col>
-                  <Col lg={4} md={6} sm={6}>
-                    <div className="form-check">
-                      <Link to="PuruskarInnerDashBoard">
-                        <input
-                          className="form-check-input"
-                          type="radio"
-                          name="flexRadioDefault"
-                          id="radio2"
-                          value={2}
-                          onChange={handleChange}
-                          checked={isRadio === 2}
-                        />
-                      </Link>
-                      <label className="form-check-label" htmlFor="radio2">
-                        Puruskar login 
-                      </label>
-                    </div>
-                  </Col>
+            <Row className="nd-p-18">
+              <Col lg={4} md={6} sm={6}>
+                <div className="form-check">
+                  <Link to="#">
+                    {" "}
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="radio1"
+                      value={1}
+                      onChange={handleChange}
+                      checked={isRadio === 1}
+                    />
+                  </Link>
+                  <label className="form-check-label" htmlFor="radio1">
+                    Directorate Login
+                  </label>
+                </div>
+              </Col>
+              <Col lg={4} md={6} sm={6}>
+                <div className="form-check">
+                  <Link to="PuraskarInnerDashBoard">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="radio2"
+                      value={2}
+                      onChange={handleChange}
+                      checked={isRadio === 2}
+                    />
+                  </Link>
+                  <label className="form-check-label" htmlFor="radio2">
+                    Puruskar login
+                  </label>
+                </div>
+              </Col>
 
-                  <Col lg={4} md={6} sm={6}>
-                    <div className="form-check">
-                    <Link to="/FinanceInnerDashboard"> <input
-                        className="form-check-input"
-                        type="radio"
-                        name="flexRadioDefault"
-                        id="radio3"
-                        value={3}
-                        onChange={handleChange}
-                        checked={isRadio === 3}
-                      />
-                      <label className="form-check-label" htmlFor="radio3">
-                        Finance Login
-                      </label>
-                      </Link>
-                    </div>
-                  </Col>
+              <Col lg={4} md={6} sm={6}>
+                <div className="form-check">
+                  <Link to="/FinanceInnerDashboard"> <input
+                    className="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="radio3"
+                    value={3}
+                    onChange={handleChange}
+                    checked={isRadio === 3}
+                  />
+                    <label className="form-check-label" htmlFor="radio3">
+                      Finance Login
+                    </label>
+                  </Link>
+                </div>
+              </Col>
 
-                  <Col lg={4} md={6} sm={6} className="nd-admin-top m-t-0">
-                    <div className="form-check form-check1">
-                      <Link to="/DPOInnerDashBoard">
-                        {" "}
-                        <input
-                          className="form-check-input"
-                          type="radio"
-                          name="flexRadioDefault"
-                          id="radio4"
-                          value={4}
-                          onChange={handleChange}
-                          checked={isRadio === 4}
-                        />
-                      </Link>
-                      <label className="form-check-label" htmlFor="radio4">
-                        DPO login 
-                      </label>
-                    </div>
-                  </Col>
-                  <Col lg={4} md={6} sm={6} className="mt-3 m-t-0">
-                    <div className="form-check">
-                      <Link to="/InnerDashBoard">
-                        {" "}
-                        <input
-                          className="form-check-input"
-                          type="radio"
-                          name="flexRadioDefault"
-                          id="radio5"
-                          value={5}
-                          onChange={handleChange}
-                          checked={isRadio === 5}
-                        />
-                      </Link>
-                      <label className="form-check-label" htmlFor="radio5">
-                        CDPO login
-                      </label>
-                    </div>
-                  </Col>
-                  {/* <Col lg={4} md={6} sm={3} className="mt-3 m-t-0">
+              <Col lg={4} md={6} sm={6} className="nd-admin-top m-t-0">
+                <div className="form-check form-check1">
+                  <Link to="/DPOInnerDashBoard">
+                    {" "}
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="radio4"
+                      value={4}
+                      onChange={handleChange}
+                      checked={isRadio === 4}
+                    />
+                  </Link>
+                  <label className="form-check-label" htmlFor="radio4">
+                    DPO login
+                  </label>
+                </div>
+              </Col>
+              <Col lg={4} md={6} sm={6} className="mt-3 m-t-0">
+                <div className="form-check">
+                  <Link to="/InnerDashBoard">
+                    {" "}
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="radio5"
+                      value={5}
+                      onChange={handleChange}
+                      checked={isRadio === 5}
+                    />
+                  </Link>
+                  <label className="form-check-label" htmlFor="radio5">
+                    CDPO login
+                  </label>
+                </div>
+              </Col>
+              {/* <Col lg={4} md={6} sm={3} className="mt-3 m-t-0">
                     <div className="form-check">
                       <Link to="#">
                         <input
@@ -460,7 +460,7 @@ function AdminBanner() {
                       </label>
                     </div>
                   </Col> */}
-                  {/* <Col lg={4} md={6} sm={3} className="mt-3 m-t-0">
+              {/* <Col lg={4} md={6} sm={3} className="mt-3 m-t-0">
                     <div className="form-check">
                       <input
                         className="form-check-input"
@@ -476,32 +476,32 @@ function AdminBanner() {
                       </label>
                     </div>
                   </Col> */}
-                </Row>
+            </Row>
 
-                <div className="nd-login-title">
-                  <h1>
-                    {isRadio === 1
-                      ? "Directorate Login"
-                      : isRadio === 2
-                      ? "Puruskar login "
-                      : isRadio === 3
+            <div className="nd-login-title">
+              <h1>
+                {isRadio === 1
+                  ? "Directorate Login"
+                  : isRadio === 2
+                    ? "Puruskar login "
+                    : isRadio === 3
                       ? "Finance Login"
                       : isRadio === 4
-                      ? "DPO login "
-                      : isRadio === 5
-                      ? "CDPO login"
-                      : isRadio === 6
-                      ? "Sector Login"
-                      : "AWC Login"}
-                  </h1>
-                </div>
-
-                {renderForm()}
-              </Form>
+                        ? "DPO login "
+                        : isRadio === 5
+                          ? "CDPO login"
+                          : isRadio === 6
+                            ? "Sector Login"
+                            : "AWC Login"}
+              </h1>
             </div>
-         
-        </Row>
-      
+
+            {renderForm()}
+          </Form>
+        </div>
+
+      </Row>
+
     </div>
   );
 }

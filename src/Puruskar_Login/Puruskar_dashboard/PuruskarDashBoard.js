@@ -35,7 +35,7 @@ function PuruskarDashBoard() {
     {
       icon: <RxDashboard />,
       label: "DashBoard",
-      path: "/PuruskarInnerDashBoard",
+      path: "/PuraskarInnerDashBoard",
     },
 
     {
