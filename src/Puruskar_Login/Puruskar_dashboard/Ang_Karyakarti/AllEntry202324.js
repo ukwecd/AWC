@@ -21,7 +21,7 @@ const AllEntry202324 = () => {
           <div className="main">
 
           <div className="awc-dpo-head">
-              <h1>Rajay Stree Shakti Tilu Rauteli Puraskar  Applicant List 23-24</h1>
+              <h1>Rajay Stree Shakti Tilu Rauteli Puraskar  Applicant List 2023-24</h1>
             </div>
             <Row>
              

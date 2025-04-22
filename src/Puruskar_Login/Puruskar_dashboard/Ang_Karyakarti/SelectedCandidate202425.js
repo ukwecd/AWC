@@ -22,7 +22,7 @@ const SelectedCandidate202425 = () => {
 
           <div className="awc-dpo-head">
               <h1>Rajay Stree Sahkti Tilu Rauteli Puraskar
-              Applicant List 23-24</h1>
+              Applicant List 2023-24</h1>
             </div>
             <Row>
              
@@ -249,7 +249,7 @@ const SelectedCandidate202425 = () => {
               </Col>
             </Row>
             <div className="awc-dpo-head">
-              <h1>Rajay Stree Sahkti Tilu Rauteli Puraskar  Applicant List 23-24: All List</h1>
+              <h1>Rajay Stree Sahkti Tilu Rauteli Puraskar  Applicant List 2023-24: All List</h1>
             </div>
             <Row>
              

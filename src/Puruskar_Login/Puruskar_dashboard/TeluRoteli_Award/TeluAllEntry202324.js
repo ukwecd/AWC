@@ -301,7 +301,7 @@ const TeluAllEntry202324 = () => {
                           <th>Address</th>
                           <th>District</th>
                           <th>Social Media Link/URl</th>
-                          <th>Remark</th>
+                         
                       
                           
                         </tr>
@@ -316,15 +316,15 @@ const TeluAllEntry202324 = () => {
                               {" "}
                               <Button className="awc-btn-money text-primary">
                                 <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               TR-2024-00010
+                               TR-2023-0003
                                 </span>
                               </Button>
                             </Link>
                           </div>
                         </td>
-                          <td>Sunita</td>
-                          <td>15-Sep-1975</td>
-                          <td>Post-Graduation</td>
+                          <td>Ekta arya</td>
+                          <td>15-Oct-2000</td>
+                          <td>Graduation</td>
                        
                           <td>Bimola, Almora Uttarakhand</td>
                         
