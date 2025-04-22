@@ -5,6 +5,7 @@ import "../../Directorate_Login/assets/css/DirectorateLeftNav.css";
 import "../../Puruskar_Login/assets/css/PurskarDashBoard.css";
 
 import DirectorateDashBoard from "./DirectorateDashBoard";
+import "../../Directorate_Login/assets/css/DirectorateDashBoard.css";
 
 const DirectInnerDash = () => {
   return (
@@ -75,7 +76,7 @@ const DirectInnerDash = () => {
                       </Row>
                       <div className="table-responsive-lg table-container-box mt-1">
                         <Table className="dpo-sub-table" striped bordered hover>
-                          <thead className="purskar-thead">
+                          <thead className="direct-thead">
                             <tr>
                               <th>District</th>
                               <th className="table-th-w">Applicable Project</th>
@@ -213,7 +214,7 @@ const DirectInnerDash = () => {
                       </Row>
                       <div className="table-responsive-lg table-container-box mt-1">
                         <Table className="dpo-sub-table" striped bordered hover>
-                          <thead className="purskar-thead">
+                          <thead className="direct-thead">
                             <tr>
                               <th>District</th>
 
