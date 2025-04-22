@@ -90,13 +90,14 @@
 }
 
 .dpo-copy-puru-btn {
-    font-size: 12px;
-    padding: 6px 12px 4px 12px;
-    color: #000000;
-    background-color: #f3f2f9;
+    font-size: 12px !important;
+    padding: 6px 12px 6px 12px;
+    color: #ffffff;
+    background-color: #566ece;
     border: 1px #5b4da4 solid;
 }
+
 .dpo-copy-puru-btn:hover {
-    background-color: #5b4da4;
+    background-color: #374b9d;
     color: #fff;
 }

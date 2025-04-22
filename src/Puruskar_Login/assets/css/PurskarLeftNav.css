@@ -340,7 +340,8 @@ a.purskar-nav-option.option1 {
   cursor: pointer;
   margin-top: 7%;
 }
- .option1:hover {
+
+.option1:hover {
   /* custom */
   background-color: #7264b9 !important;
   color: var(--awc-white);
@@ -825,7 +826,7 @@ span.nav-label:hover {
 
 
   .finance-log-icon-mob {
-    background-color: #b0b435;
+    background-color: #7264b9;
     ;
     color: white;
     width: 30px;
