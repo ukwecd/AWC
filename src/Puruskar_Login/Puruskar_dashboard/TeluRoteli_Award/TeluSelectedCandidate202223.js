@@ -22,10 +22,8 @@ const TeluSelectedCandidate202223 = () => {
               <h1>Rajay Stree Shakti Tilu Rauteli Puraskar  Applicant List</h1>
             </div>
             <Row>
-             
               <Col lg={12} md={12} sm={12}>
-                <div className="box-container1">
-                  
+                <div className="box-container1"> 
                   <div className="table-responsive-lg table-container-box mt-1">
                     <Table className="dpo-sub-table" striped bordered hover>
                       <thead className="purskar-thead">
@@ -63,11 +61,9 @@ const TeluSelectedCandidate202223 = () => {
                         <td>1</td>
                         <td>1</td>
                        </tr>
-                        
                       </tbody>
                     </Table>
                   </div>
-                  
                 </div>
               </Col>
             </Row>
@@ -124,14 +120,11 @@ const TeluSelectedCandidate202223 = () => {
                            <th>Account No.</th>
                           <th>IFSC Code</th>
                           <th>Bank Name</th>
-                          
-                         
                         </tr>
                       </thead>
                       <tbody>
                       <tr>
                           <td>1</td>
-                        
                           <td className="text-primary awc-bold">
                           <div className="dpo-p">
                             <Link to="#">
@@ -152,8 +145,6 @@ const TeluSelectedCandidate202223 = () => {
                           <td>State Bank Of India MoleKhal</td>
                          
                         </tr>
-
-                       
                        
                       </tbody>
                     </Table>

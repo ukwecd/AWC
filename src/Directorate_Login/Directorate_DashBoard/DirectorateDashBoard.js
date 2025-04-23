@@ -40,148 +40,214 @@ function DirectorateDashBoard() {
 
     {
       icon: <FaAward />,
-      label: "Ang. Karyakarti Award",
-      path: "/DirectInnerDash",
+      label: "Verified Worker (31935)",
+      path: "/DirectAWWVacancies",
       subRoutes: [
         {
           icon: <RiSlideshowLine />,
-          label: "All Entry (2024-25)",
-          path: "/DirectInnerDash",
+          label: "AWW/AWH Vacancies",
+          path: "/DirectAWWVacancies",
         },
         {
           icon: <BiSelectMultiple />,
-          label: "Selected Candidate (2024-25)",
-          path: "/DirectInnerDash",
+          label: "Verification Log",
+          path: "/VerificationLog",
         },
         {
           icon: <RiSlideshowLine />,
-          label: "All Entry (2023-24)",
-          path: "/DirectInnerDash",
+          label: "Verified Worker List All",
+          path: "/VerifiedWorkerListAll",
         },
         {
           icon: <MdOutlineCheckCircle />,
-          label: "Approved Entry (2023-24)",
-          path: "/DirectInnerDash",
+          label: "Add Worker Request",
+          path: "/AddWorkerRequest",
         },
         {
           icon: <RiSlideshowLine />,
-          label: "All Entry (2022-23)",
-          path: "/DirectInnerDash",
+          label: "District Wise Report",
+          path: "/DistrictWiseReport",
         },
         {
           icon: <MdOutlineCheckCircle />,
-          label: "Approved Entry (2022-23)",
-          path: "/DirectInnerDash",
+          label: "Project Wise Report",
+          path: "/ProjectWiseReport",
         },
+       
+          {
+            icon: <MdOutlineCheckCircle />,
+            label: "Duplicate Account number",
+            path: "/DuplicateAccountNo",
+          },
+          {
+            icon: <MdOutlineCheckCircle />,
+            label: "Duplicate Adhar info",
+            path: "/DuplicateAdharinfo",
+          },
+          {
+            icon: <MdOutlineCheckCircle />,
+            label: "Worker DOB List",
+            path: "/WorkerDOBList",
+          },
       ],
     },
     {
       icon: <GiTrophyCup />,
-      label: "Tilu Rauteli Award",
+      label: "Anganwadi Center Info",
       subRoutes: [
         {
           icon: <RiSlideshowLine />,
-          label: "All Entry (2024-25)",
-          path: "/DirectInnerDash",
+          label: "Center Info",
+          path: "/CenterInfo",
         },
-        {
-          icon: <BiSelectMultiple />,
-          label: "Selected Candidate (2024-25)",
-          path: "/DirectInnerDash",
-        },
-        {
-          icon: <RiSlideshowLine />,
-          label: "All Entry (2023-24)",
-          path: "/DirectInnerDash",
-        },
-        {
-          icon: <BiSelectMultiple />,
-          label: "Selected Candidate (2023-24)",
-          path: "/DirectInnerDash",
-        },
-        {
-          icon: <RiSlideshowLine />,
-          label: "All Entry (2022-23)",
-          path: "/DirectInnerDash",
-        },
-        {
-          icon: <BiSelectMultiple />,
-          label: "Selected Candidate(2022-23)",
-          path: "/DirectInnerDash",
-        },
+       
+       
       ],
     },
     {
         icon: <GiTrophyCup />,
-        label: "Tilu Rauteli Award",
+        label: "Bills",
         subRoutes: [
           {
             icon: <RiSlideshowLine />,
-            label: "All Entry (2024-25)",
-            path: "/DirectInnerDash",
+            label: "Non-Forwarded Bills",
+            path: "/NonForwardedBills",
           },
           {
             icon: <BiSelectMultiple />,
-            label: "Selected Candidate (2024-25)",
-            path: "/DirectInnerDash",
+            label: "Show/Hide Bills",
+            path: "/ShowHideBills",
           },
           {
             icon: <RiSlideshowLine />,
-            label: "All Entry (2023-24)",
-            path: "/DirectInnerDash",
+            label: "Check Duplicate Entry",
+            path: "/CheckDuplicateEntry",
           },
           {
             icon: <BiSelectMultiple />,
-            label: "Selected Candidate (2023-24)",
-            path: "/DirectInnerDash",
+            label: "Generated Bill",
+            path: "/DirectGeneratedBill",
           },
           {
             icon: <RiSlideshowLine />,
-            label: "All Entry (2022-23)",
-            path: "/DirectInnerDash",
+            label: "View Bill Log",
+            path: "/ViewBillLog",
           },
           {
             icon: <BiSelectMultiple />,
-            label: "Selected Candidate(2022-23)",
-            path: "/DirectInnerDash",
+            label: "View Request Log",
+            path: "/ViewRequestLog",
           },
         ],
       },
       {
         icon: <GiTrophyCup />,
-        label: "Tilu Rauteli Award",
+        label: "Reports",
         subRoutes: [
           {
             icon: <RiSlideshowLine />,
-            label: "All Entry (2024-25)",
-            path: "/DirectInnerDash",
+            label: "worker with Grant",
+            path: "/WorkerWithGrant",
           },
           {
             icon: <BiSelectMultiple />,
-            label: "Selected Candidate (2024-25)",
-            path: "/DirectInnerDash",
+            label: "Kalyan-kosh Report",
+            path: "/KalyankoshReport",
           },
           {
             icon: <RiSlideshowLine />,
-            label: "All Entry (2023-24)",
-            path: "/DirectInnerDash",
+            label: "Budget Report",
+            path: "/BudgetReport",
           },
           {
             icon: <BiSelectMultiple />,
-            label: "Selected Candidate (2023-24)",
-            path: "/DirectInnerDash",
+            label: "Grant-wise Report",
+            path: "/GrantwiseReport",
           },
           {
             icon: <RiSlideshowLine />,
-            label: "All Entry (2022-23)",
-            path: "/DirectInnerDash",
+            label: "Month-wise Report",
+            path: "/MonthwiseReport",
           },
           {
             icon: <BiSelectMultiple />,
-            label: "Selected Candidate(2022-23)",
-            path: "/DirectInnerDash",
+            label: "View Custom Report",
+            path: "/ViewCustomReport",
+          },
+          {
+            icon: <BiSelectMultiple />,
+            label: "View Grant/share Report",
+            path: "/ViewshareReport",
+          },
+          {
+            icon: <BiSelectMultiple />,
+            label: "Total Protsahan Report",
+            path: "/TotalProtsahanReport",
           },
         ],
+      },
+      {
+        icon: <GiTrophyCup />,
+        label: "Rejection Report",
+        subRoutes: [
+          {
+            icon: <RiSlideshowLine />,
+            label: "Sept-Dec 21 Report",
+            path: "/DirectInnerDash",
+          },
+          {
+            icon: <BiSelectMultiple />,
+            label: "January 21-22 Report",
+            path: "/DirectInnerDash",
+          },
+         
+          
+        ],
+      },
+
+      {
+        icon: <GiTrophyCup />,
+        label: "Generate Manday Excel",
+        subRoutes: [
+          {
+            icon: <RiSlideshowLine />,
+            label: "State Manday Bank format",
+            path: "/DirectInnerDash",
+          },
+          {
+            icon: <RiSlideshowLine />,
+            label: "State Manday PFMS format",
+            path: "/DirectInnerDash",
+          },
+          {
+            icon: <RiSlideshowLine />,
+            label: "Center Manday PFMS Format",
+            path: "/DirectInnerDash",
+          },
+         
+        ],
+      },
+
+      {
+        icon: <RxDashboard />,
+        label: "Insurance PFMS Format",
+        path: "/DirectInnerDash",
+      },
+      {
+        icon: <RxDashboard />,
+        label: "Generate Protsahan Excel",
+        path: "/DirectInnerDash",
+      },
+
+      {
+        icon: <RxDashboard />,
+        label: "Bank Names",
+        path: "/BankNames",
+      },
+      {
+        icon: <RxDashboard />,
+        label: "Send Manday SMS",
+        path: "/SendMandaySMS",
       },
 
     {

@@ -1,13 +1,13 @@
 import React from "react";
 import { Col, Pagination, Row, Table, Button } from "react-bootstrap";
-import Footer from "../../componets/footer/Footer";
-import "../../Directorate_Login/assets/css/DirectorateLeftNav.css";
-import "../../Puruskar_Login/assets/css/PurskarDashBoard.css";
 
-import DirectorateDashBoard from "./DirectorateDashBoard";
-import "../../Directorate_Login/assets/css/DirectorateDashBoard.css";
+import "../../../Directorate_Login/assets/css/DirectorateLeftNav.css";
 
-const DirectInnerDash = () => {
+import "../../../Directorate_Login/assets/css/DirectorateDashBoard.css";
+import DirectorateDashBoard from "../DirectorateDashBoard";
+import Footer from "../../../componets/footer/Footer";
+
+const DirectAWWVacancies = () => {
   return (
     <>
       <div>
@@ -307,4 +307,4 @@ const DirectInnerDash = () => {
   );
 };
 
-export default DirectInnerDash;
+export default DirectAWWVacancies;

@@ -220,32 +220,10 @@ const TeluAllEntry202324 = () => {
                             </Link>
                           </div>
                         </td>
-                          
-
-                          {/* <td>
-                        <div className="dpo-p">
-                          <Button className="dpo-approved-btn">
-                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                              <IoIosCheckmarkCircle className="awc-dpo-add-icon" /> Approved By CDPO
-                            </span>
-                          </Button>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Button className="dpo-return-btn">
-                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                              <GiReturnArrow className="awc-dpo-add-icon" /> Return to CDPO
-                            </span>
-                          </Button>
-                        </div>
-                      </td> */}
                         </tr>
-                        
                       </tbody>
                     </Table>
                   </div>
-                  
                 </div>
               </Col>
             </Row>
@@ -253,7 +231,6 @@ const TeluAllEntry202324 = () => {
               <h1>Rajay Stree Shakti Tilu Rauteli Puraskar  2023-24: All List</h1>
             </div>
             <Row>
-             
               <Col lg={12} md={12} sm={12}>
                 <div className="box-container1">
                   <Row>
@@ -298,18 +275,15 @@ const TeluAllEntry202324 = () => {
                           <th>Form ID</th>
                           <th>Applicant Name</th>
                           <th>DOB</th>
-
                           <th>Education</th>
                           <th>Address</th>
                           <th>District</th>
                           <th>Social Media Link/URL</th>
-                         
                         </tr>
                       </thead>
                       <tbody>
                       <tr>
                           <td>1</td>
-                        
                           <td className="text-primary awc-bold">
                           <div className="dpo-p">
                             <Link to="#">
@@ -342,7 +316,6 @@ const TeluAllEntry202324 = () => {
                         </tr>
                         <tr>
                           <td>2</td>
-                        
                           <td className="text-primary awc-bold">
                           <div className="dpo-p">
                             <Link to="#">
@@ -358,9 +331,7 @@ const TeluAllEntry202324 = () => {
                           <td>Sanggeeta Verma</td>
                           <td>25-Jan-1962</td>
                           <td>Graduation</td>
-                       
                           <td>Prem Vatika Sudama puri Ranikhet</td>
-                        
                           <td>Almora</td>
                           <td className="text-primary awc-bold">
                           <div className="dpo-p">
@@ -374,11 +345,7 @@ const TeluAllEntry202324 = () => {
                             </Link>
                           </div>
                         </td>
-                       
-                        
-                       
                         </tr>
-                       
                       </tbody>
                     </Table>
                   </div>
@@ -412,7 +379,6 @@ const TeluAllEntry202324 = () => {
                 </div>
               </Col>
             </Row>
-
             <div>
               <Footer />
             </div>

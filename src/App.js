@@ -103,6 +103,32 @@ import TeluSelectedCandidate202223 from "./Puruskar_Login/Puruskar_dashboard/Tel
 /* // Directorate DashBoard */
 import DirectorateDashBoard from "./Directorate_Login/Directorate_DashBoard/DirectorateDashBoard";
 import DirectInnerDash from "./Directorate_Login/Directorate_DashBoard/DirectInnerDash";
+import DirectAWWVacancies from "./Directorate_Login/Directorate_DashBoard/Verified_Worker(31935)/DirectAWWVacancies";
+import VerificationLog from "./Directorate_Login/Directorate_DashBoard/Verified_Worker(31935)/VerificationLog";
+import VerifiedWorkerListAll from "./Directorate_Login/Directorate_DashBoard/Verified_Worker(31935)/VerifiedWorkerListAll";
+import AddWorkerRequest from "./Directorate_Login/Directorate_DashBoard/Verified_Worker(31935)/AddWorkerRequest";
+import DistrictWiseReport from "./Directorate_Login/Directorate_DashBoard/Verified_Worker(31935)/DistrictWiseReport";
+import ProjectWiseReport from "./Directorate_Login/Directorate_DashBoard/Verified_Worker(31935)/ProjectWiseReport";
+import DuplicateAccountNo from "./Directorate_Login/Directorate_DashBoard/Verified_Worker(31935)/DuplicateAccountNo";
+import DuplicateAdharinfo from "./Directorate_Login/Directorate_DashBoard/Verified_Worker(31935)/DuplicateAdharinfo";
+import WorkerDOBList from "./Directorate_Login/Directorate_DashBoard/Verified_Worker(31935)/WorkerDOBList";
+import CenterInfo from "./Directorate_Login/Directorate_DashBoard/Anganwadi_CenterInfo/CenterInfo";
+import NonForwardedBills from "./Directorate_Login/Directorate_DashBoard/Direct_Bills/NonForwardedBills";
+import ShowHideBills from "./Directorate_Login/Directorate_DashBoard/Direct_Bills/ShowHideBills";
+import CheckDuplicateEntry from "./Directorate_Login/Directorate_DashBoard/Direct_Bills/CheckDuplicateEntry";
+import DirectGeneratedBill from "./Directorate_Login/Directorate_DashBoard/Direct_Bills/DirectGeneratedBill";
+import ViewBillLog from "./Directorate_Login/Directorate_DashBoard/Direct_Bills/ViewBillLog";
+import ViewRequestLog from "./Directorate_Login/Directorate_DashBoard/Direct_Bills/ViewRequestLog";
+import WorkerWithGrant from "./Directorate_Login/Directorate_DashBoard/Reports/WorkerWithGrant";
+import KalyankoshReport from "./Directorate_Login/Directorate_DashBoard/Reports/KalyankoshReport";
+import BudgetReport from "./Directorate_Login/Directorate_DashBoard/Reports/BudgetReport";
+import GrantwiseReport from "./Directorate_Login/Directorate_DashBoard/Reports/GrantwiseReport";
+import MonthwiseReport from "./Directorate_Login/Directorate_DashBoard/Reports/MonthwiseReport";
+import ViewCustomReport from "./Directorate_Login/Directorate_DashBoard/Reports/ViewCustomReport";
+import ViewshareReport from "./Directorate_Login/Directorate_DashBoard/Reports/ViewshareReport";
+import TotalProtsahanReport from "./Directorate_Login/Directorate_DashBoard/Reports/TotalProtsahanReport";
+import SendMandaySMS from "./Directorate_Login/Directorate_DashBoard/SendMandaySMS";
+import BankNames from "./Directorate_Login/Directorate_DashBoard/BankNames";
 
 function App() {
   return (
@@ -212,6 +238,64 @@ function App() {
 
           <Route path="/DirectorateDashBoard" element={<DirectorateDashBoard />} />
           <Route path="/DirectInnerDash" element={<DirectInnerDash />} />
+          <Route path="/DirectAWWVacancies" element={<DirectAWWVacancies />} />
+          <Route path="/VerificationLog" element={<VerificationLog />} />
+          <Route path="/VerifiedWorkerListAll" element={<VerifiedWorkerListAll />} />
+          <Route path="/AddWorkerRequest" element={<AddWorkerRequest />} />
+          <Route path="/DistrictWiseReport" element={<DistrictWiseReport />} />
+          <Route path="/ProjectWiseReport" element={<ProjectWiseReport />} />
+          <Route path="/DuplicateAccountNo" element={<DuplicateAccountNo />} />
+          <Route path="/DuplicateAdharinfo" element={<DuplicateAdharinfo />} />
+          <Route path="/WorkerDOBList" element={<WorkerDOBList />} />
+          <Route path="/CenterInfo" element={<CenterInfo />} />
+          <Route path="/NonForwardedBills" element={<NonForwardedBills />} />
+          <Route path="/ShowHideBills" element={<ShowHideBills />} />
+          <Route path="/CheckDuplicateEntry" element={<CheckDuplicateEntry />} />
+          <Route path="/DirectGeneratedBill" element={<DirectGeneratedBill />} />
+          <Route path="/ViewBillLog" element={<ViewBillLog />} />
+          <Route path="/ViewRequestLog" element={<ViewRequestLog />} />
+          <Route path="/WorkerWithGrant" element={<WorkerWithGrant />} />
+          <Route path="/KalyankoshReport" element={<KalyankoshReport />} />
+          <Route path="/BudgetReport" element={<BudgetReport />} />
+          <Route path="/GrantwiseReport" element={<GrantwiseReport />} />
+          <Route path="/MonthwiseReport" element={<MonthwiseReport />} />
+          <Route path="/ViewCustomReport" element={<ViewCustomReport />} />
+          <Route path="/ViewshareReport" element={<ViewshareReport />} />
+          <Route path="/TotalProtsahanReport" element={<TotalProtsahanReport />} />
+          <Route path="/SendMandaySMS" element={<SendMandaySMS />} />
+          <Route path="/BankNames" element={<BankNames />} />
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+          
+          
+
+          
+          
+          
+          
+
+          
+          
+          
+
+          
+         
+
+          
+          
+
+        
 
 
       </Routes>

@@ -97,24 +97,6 @@ const PuraskarInnerDashBoard = () => {
                               <td className="text-bold-clr">78</td>
                               <td className="text-bold-clr">0</td>
 
-                              {/* <td>
-                        <div className="dpo-p">
-                          <Button className="dpo-approved-btn">
-                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                              <IoIosCheckmarkCircle className="awc-dpo-add-icon" /> Approved By CDPO
-                            </span>
-                          </Button>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Button className="dpo-return-btn">
-                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                              <GiReturnArrow className="awc-dpo-add-icon" /> Return to CDPO
-                            </span>
-                          </Button>
-                        </div>
-                      </td> */}
                             </tr>
                             <tr>
                               <td>Almora</td>
@@ -231,25 +213,6 @@ const PuraskarInnerDashBoard = () => {
                               <td className="text-bold-clr">36</td>
                               <td className="text-bold-clr">78</td>
                               <td className="text-bold-clr">0</td>
-
-                              {/* <td>
-                        <div className="dpo-p">
-                          <Button className="dpo-approved-btn">
-                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                              <IoIosCheckmarkCircle className="awc-dpo-add-icon" /> Approved By CDPO
-                            </span>
-                          </Button>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Button className="dpo-return-btn">
-                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                              <GiReturnArrow className="awc-dpo-add-icon" /> Return to CDPO
-                            </span>
-                          </Button>
-                        </div>
-                      </td> */}
                             </tr>
                             <tr>
                               <td>Almora</td>

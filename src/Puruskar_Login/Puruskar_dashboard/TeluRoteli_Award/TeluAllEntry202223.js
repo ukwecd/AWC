@@ -128,14 +128,11 @@ const TeluAllEntry202223 = () => {
                           <th>Address</th>
                           <th>District</th>
                           <th>Social Media Link/URL</th>
-                         
-                         
                         </tr>
                       </thead>
                       <tbody>
                       <tr>
                           <td>1</td>
-                        
                           <td className="text-primary awc-bold">
                           <div className="dpo-p">
                             <Link to="#">
@@ -165,11 +162,9 @@ const TeluAllEntry202223 = () => {
                             </Link>
                           </div>
                         </td>
-                      
                         </tr>
                         <tr>
                           <td>2</td>
-                        
                           <td className="text-primary awc-bold">
                           <div className="dpo-p">
                             <Link to="#">
@@ -185,9 +180,7 @@ const TeluAllEntry202223 = () => {
                           <td>Sunita Tiwari</td>
                           <td>15-Sep-1975</td>
                           <td>Post-Graduation</td>
-                       
                           <td>Kosi almora Uttrakhand</td>
-                        
                           <td>Almora</td>
                           <td className="text-primary awc-bold">
                           <div className="dpo-p">
@@ -201,9 +194,7 @@ const TeluAllEntry202223 = () => {
                             </Link>
                           </div>
                         </td>
-                       
                         </tr>
-                       
                       </tbody>
                     </Table>
                   </div>
@@ -223,11 +214,9 @@ const TeluAllEntry202223 = () => {
                           <Pagination.Prev />
                           <Pagination.Item>{1}</Pagination.Item>
                           <Pagination.Ellipsis />
-
                           <Pagination.Item>{10}</Pagination.Item>
                           <Pagination.Item>{11}</Pagination.Item>
                           <Pagination.Item active>{12}</Pagination.Item>
-
                           <Pagination.Next />
                           <Pagination.Last />
                         </Pagination>
@@ -237,7 +226,6 @@ const TeluAllEntry202223 = () => {
                 </div>
               </Col>
             </Row>
-
             <div>
               <Footer />
             </div>
