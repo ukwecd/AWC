@@ -47,7 +47,7 @@
 .search-btn-sector {
     display: inline-block;
     margin: var(--awc-space-150) var(--awc-space-50);
-    background-color: var(--awc-orange) !important;
+    background-color: rgb(13 26 102 / 83%) !important;
     font-size: var(--awc-space-700);
     padding: var(--awc-space-0) var(--awc-space-100);
     height: 35px;

@@ -533,7 +533,7 @@ span.nav-label:hover {
 
 .accordion-button:not(.collapsed) {
   color: var(--awc-white) !important;
-  background-color: #283d51 !important;
+  background-color: rgb(21 31 91) !important;
   border-radius: 8px 8px 0px 0px;
 }
 
