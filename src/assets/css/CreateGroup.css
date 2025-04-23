@@ -32,7 +32,7 @@
 }
 
 button.accordion-button.collapsed {
-    background-color: #4a525a;
+    background-color: rgb(18 33 120 / 83%) !important;
     box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
     color: var(--awc-white);
     border-radius: var(--awc-space-200);
@@ -45,13 +45,13 @@ button.accordion-button.collapsed {
 }
 
 .create-submit-btn {
-    background-color: var(--awc-orange);
+    background-color: rgb(13 26 102 / 83%) !important;
     border: var(--awc-space-25) var(--awc-orange);
     font-size: var(--awc-space-300);
 }
 
 .create-submit-btn:hover {
-    background-color: #dd791d !important;
+    background-color: rgb(30 49 155 / 80%) !important;
 }
 
 .create-group-btn {

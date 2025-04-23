@@ -47,13 +47,15 @@ img.awc-logo-img {
 }
 
 a.nav-sub-option {
-  background-color: #e78f3d;
+  /* background-color: #e78f3d; */
   color: var(--awc-white) !important;
+  background-color: rgb(96 108 179 / 30%) !important;
 }
 
 a.nav-sub-option:hover {
   /* custom */
-  background-color: #DE700A;
+  /* background-color: #DE700A; */
+  background-color: rgb(30 49 155 / 30%) !important;
 }
 
 .user-awc-header {
@@ -179,7 +181,7 @@ a.nav-sub-option:hover {
 .dp {
   font-size: var(--awc-space-500);
   /* custom */
-  background-color: #DE700A;
+  background-color: rgb(13 26 102 / 83%) !important;
 
   border-radius: 50%;
   color: var(--awc-white);
@@ -238,7 +240,8 @@ a.nav-sub-option:hover {
 .nav {
   min-height: 100vh;
   width: 250px;
-  background-color: var(--awc-orange);
+  /* background-color: var(--awc-orange); */
+  background-image: radial-gradient(circle at bottom right, #3c9add, #191452);
   position: absolute;
   top: 0px;
   left: 00;
@@ -256,7 +259,7 @@ a.nav-sub-option:hover {
 }
 
 .cdpo-lhs-nav {
-  background-color: var(--awc-orange);
+  background-image: radial-gradient(circle at bottom right, #3c9add, #191452);
   box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
 }
 
@@ -294,7 +297,8 @@ a.nav-sub-option:hover {
 
 .nav-option:hover {
   /* custom */
-  background-color: #DE700A;
+  /* background-color: #DE700A; */
+  background-color: rgb(22 34 102 / 30%) !important;
   cursor: pointer;
   color: var(--awc-white);
 }
@@ -311,14 +315,16 @@ a.nav-sub-option:hover {
 }
 
 .awc-menu {
-  color: var(--awc-black) !important;
+  color: var(--awc-white) !important;
 }
 
 a.nav-option.option1 {
-  background-color: #DE700A !important;
+  /* background-color: #DE700A !important; */
+  background-color: rgb(94 114 228 / 0.3) !important;
+  border-radius: 8px;
 }
 
- .option1 {
+.option1 {
   /* background-color: #EA9343; custom css */
   background-color: #EA9343 !important;
   color: white !important;
@@ -326,7 +332,7 @@ a.nav-option.option1 {
   margin-top: 7%;
 }
 
- .option1:hover {
+.option1:hover {
   /* custom */
   background-color: #DE700A !important;
   color: var(--awc-white);
@@ -796,7 +802,7 @@ span.nav-label:hover {
   }
 
   .awc-log-icon-mob {
-    background-color: #EA9343;
+    background-color: rgb(179 190 250 / 56%) !important;
     color: white;
     width: 30px;
     height: 30px;
@@ -874,14 +880,15 @@ span.nav-label:hover {
 @media screen and (max-width: 490px) {
   .nav-option:hover {
     /* custom */
-    background-color: #DE700A;
+    /* background-color: #DE700A; */
     cursor: pointer;
     color: var(--awc-white);
+    background-color: rgb(30 49 155 / 30%) !important;
   }
 
   .awc-log-icon-mob {
     /* custom */
-    background-color: #EA9343;
+    background-color: rgb(179 190 250 / 56%) !important;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -909,7 +916,7 @@ span.nav-label:hover {
 
     text-align: right;
     font-size: 14px;
-    color: var(--awc-black);
+    color: var(--awc-white);
   }
 
   .message {
@@ -944,7 +951,7 @@ span.nav-label:hover {
 
   .menuicn {
     height: 25px;
-    color: var(--awc-black);
+    color: var(--awc-white);
   }
 
   .nav-img {
