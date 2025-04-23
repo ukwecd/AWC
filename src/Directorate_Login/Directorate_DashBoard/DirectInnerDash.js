@@ -220,7 +220,7 @@ const DirectInnerDash = () => {
 
                               <th>Final Submit</th>
                               <th>Rejected</th>
-                              <th>Approved by cdpo</th>
+                              <th>Approved by CDPO</th>
                               <th>Approved by District</th>
                               <th>Chosen</th>
                             </tr>
