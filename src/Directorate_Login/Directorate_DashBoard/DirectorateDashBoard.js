@@ -193,12 +193,12 @@ function DirectorateDashBoard() {
           {
             icon: <RiSlideshowLine />,
             label: "Sept-Dec 21 Report",
-            path: "/DirectInnerDash",
+            path: "/SeptDec21Report",
           },
           {
             icon: <BiSelectMultiple />,
             label: "January 21-22 Report",
-            path: "/DirectInnerDash",
+            path: "/January2122Report",
           },
          
           
@@ -211,18 +211,18 @@ function DirectorateDashBoard() {
         subRoutes: [
           {
             icon: <RiSlideshowLine />,
-            label: "State Manday Bank format",
-            path: "/DirectInnerDash",
+            label: "State Manday Bank Format",
+            path: "/StateMandayBankFormat",
           },
           {
             icon: <RiSlideshowLine />,
             label: "State Manday PFMS format",
-            path: "/DirectInnerDash",
+            path: "/StateMandayPFMSFormat",
           },
           {
             icon: <RiSlideshowLine />,
             label: "Center Manday PFMS Format",
-            path: "/DirectInnerDash",
+            path: "/CenterMandayPFMSFormat",
           },
          
         ],
@@ -231,12 +231,12 @@ function DirectorateDashBoard() {
       {
         icon: <RxDashboard />,
         label: "Insurance PFMS Format",
-        path: "/DirectInnerDash",
+        path: "/InsurancePFMSFormat",
       },
       {
         icon: <RxDashboard />,
         label: "Generate Protsahan Excel",
-        path: "/DirectInnerDash",
+        path: "/GenerateProtsahanExcel",
       },
 
       {

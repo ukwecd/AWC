@@ -129,6 +129,13 @@ import ViewshareReport from "./Directorate_Login/Directorate_DashBoard/Reports/V
 import TotalProtsahanReport from "./Directorate_Login/Directorate_DashBoard/Reports/TotalProtsahanReport";
 import SendMandaySMS from "./Directorate_Login/Directorate_DashBoard/SendMandaySMS";
 import BankNames from "./Directorate_Login/Directorate_DashBoard/BankNames";
+import GenerateProtsahanExcel from "./Directorate_Login/Directorate_DashBoard/GenerateProtsahanExcel";
+import InsurancePFMSFormat from "./Directorate_Login/Directorate_DashBoard/InsurancePFMSFormat";
+import StateMandayBankFormat from "./Directorate_Login/Directorate_DashBoard/Generate_Manday_Excel/StateMandayBankFormat";
+import StateMandayPFMSFormat from "./Directorate_Login/Directorate_DashBoard/Generate_Manday_Excel/StateMandayPFMSFormat";
+import CenterMandayPFMSFormat from "./Directorate_Login/Directorate_DashBoard/Generate_Manday_Excel/CenterMandayPFMSFormat";
+import SeptDec21Report from "./Directorate_Login/Directorate_DashBoard/Rejection_Report/SeptDec21Report";
+import January2122Report from "./Directorate_Login/Directorate_DashBoard/Rejection_Report/January2122Report";
 
 function App() {
   return (
@@ -264,6 +271,19 @@ function App() {
           <Route path="/TotalProtsahanReport" element={<TotalProtsahanReport />} />
           <Route path="/SendMandaySMS" element={<SendMandaySMS />} />
           <Route path="/BankNames" element={<BankNames />} />
+          <Route path="/GenerateProtsahanExcel" element={<GenerateProtsahanExcel />} />
+          <Route path="/InsurancePFMSFormat" element={<InsurancePFMSFormat />} />
+          <Route path="/StateMandayBankFormat" element={<StateMandayBankFormat />} />
+          <Route path="/StateMandayPFMSFormat" element={<StateMandayPFMSFormat />} />
+          <Route path="/CenterMandayPFMSFormat" element={<CenterMandayPFMSFormat />} />
+          <Route path="/January2122Report" element={<January2122Report />} />
+          <Route path="/SeptDec21Report" element={<SeptDec21Report/>} />
+
+          
+          
+          
+          
+          
 
           
 

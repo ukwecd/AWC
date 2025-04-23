@@ -5,7 +5,7 @@ import "../../../Directorate_Login/assets/css/DirectorateLeftNav.css";
 import "../../../Directorate_Login/assets/css/DirectorateDashBoard.css";
 import DirectorateDashBoard from "../DirectorateDashBoard";
 import Footer from "../../../componets/footer/Footer";
-import { Row } from "react-bootstrap";
+
 
 
 const ViewRequestLog = () => {

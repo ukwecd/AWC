@@ -8,7 +8,7 @@ import Footer from "../../../componets/footer/Footer";
 
 
 
-const WorkerWithGrant = () => {
+const January2122Report = () => {
   return (
     <>
       <div>
@@ -27,7 +27,7 @@ const WorkerWithGrant = () => {
        
                 <div className="box-container">
                   
-                AddWorkerRequest
+                BudgetReport
                   
                 </div>
              
@@ -46,4 +46,4 @@ const WorkerWithGrant = () => {
   );
 };
 
-export default WorkerWithGrant;
+export default January2122Report;

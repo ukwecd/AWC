@@ -8,7 +8,7 @@ import Footer from "../../../componets/footer/Footer";
 
 
 
-const WorkerWithGrant = () => {
+const StateMandayBankFormat = () => {
   return (
     <>
       <div>
@@ -46,4 +46,4 @@ const WorkerWithGrant = () => {
   );
 };
 
-export default WorkerWithGrant;
+export default StateMandayBankFormat;

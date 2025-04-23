@@ -1,14 +1,14 @@
 import React from "react";
 // import { Col, Pagination, Row, Table, Button } from "react-bootstrap";
 
-import "../../../Directorate_Login/assets/css/DirectorateLeftNav.css";
-import "../../../Directorate_Login/assets/css/DirectorateDashBoard.css";
-import DirectorateDashBoard from "../DirectorateDashBoard";
-import Footer from "../../../componets/footer/Footer";
+import "../../Directorate_Login/assets/css/DirectorateLeftNav.css";
+import "../../Directorate_Login/assets/css/DirectorateDashBoard.css";
+import DirectorateDashBoard from "./DirectorateDashBoard";
+import Footer from "../../componets/footer/Footer";
 
 
 
-const WorkerWithGrant = () => {
+const InsurancePFMSFormat = () => {
   return (
     <>
       <div>
@@ -27,7 +27,7 @@ const WorkerWithGrant = () => {
        
                 <div className="box-container">
                   
-                AddWorkerRequest
+                InsurancePFMSFormat
                   
                 </div>
              
@@ -46,4 +46,4 @@ const WorkerWithGrant = () => {
   );
 };
 
-export default WorkerWithGrant;
+export default InsurancePFMSFormat;
