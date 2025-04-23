@@ -51,7 +51,7 @@ const InsuranceBillView = () => {
                             </Form.Select>
                           </Form.Group>
                         </Col>
-                        <Col lg={2} md={2} sm={2} className="biil-submit">
+                        <Col lg={2} md={2} sm={2} className="biil-submit awc-btn-bill">
                           <Button className="create-submit-btn">Submit</Button>
                         </Col>
                       </Row>

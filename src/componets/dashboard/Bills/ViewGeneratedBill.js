@@ -68,7 +68,7 @@ const ViewGeneratedBill = () => {
                             </Form.Select>
                           </Form.Group>
                         </Col>
-                        <Col lg={6} md={6} sm={6}>
+                        <Col lg={6} md={6} sm={6} className="awc-btn-bill">
                           <Button className="create-submit-btn">Submit</Button>
                         </Col>
                       </Row>
@@ -105,7 +105,7 @@ const ViewGeneratedBill = () => {
                             </Form.Select>
                           </Form.Group>
                         </Col>
-                        <Col lg={6} md={6} sm={6}>
+                        <Col lg={6} md={6} sm={6} className="awc-btn-bill">
                           <Button className="create-submit-btn">Submit</Button>
                         </Col>
                       </Row>
