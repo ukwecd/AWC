@@ -1,11 +1,14 @@
 import React from "react";
-import { Col, Pagination, Row, Table, Button } from "react-bootstrap";
+import { Col, Row, Card } from "react-bootstrap";
 import Footer from "../../componets/footer/Footer";
 import "../../Directorate_Login/assets/css/DirectorateLeftNav.css";
 import "../../Puruskar_Login/assets/css/PurskarDashBoard.css";
 
 import DirectorateDashBoard from "./DirectorateDashBoard";
 import "../../Directorate_Login/assets/css/DirectorateDashBoard.css";
+import { BsBuildingAdd } from "react-icons/bs";
+import { GrWorkshop } from "react-icons/gr";
+import { FaUsers } from "react-icons/fa";
 
 const DirectInnerDash = () => {
   return (
@@ -24,277 +27,140 @@ const DirectInnerDash = () => {
             </div>
 
             <Row>
-              <Col lg={6} md={6} sm={12} className="d-flex">
-                <div className="awc-card-data flex-fill card">
-                  <div className="card-body">
-                    <div className="card-title awc-sub-heading">
-                      <h1>AWW Award Application Real time Status 2023-24</h1>
-                    </div>
-                    <p className="card-text">
-                      <Row>
-                        <div className="awc-dpo-mobresp">
-                          <Col
-                            lg={6}
-                            md={6}
-                            sm={12}
-                            className="nd-staff-print11"
-                          >
-                            <div className="search-container">
-                              <form>
-                                <input
-                                  className="search"
-                                  id="searchleft"
-                                  type="search"
-                                  name="q"
-                                  placeholder="Search"
-                                  aria-label="Search"
-                                />
-                                <label
-                                  className="button search-btn-direct "
-                                  for="searchleft"
-                                >
-                                  <span className="mglass">&#9906;</span>
-                                </label>
-                              </form>
+              <div className="mt-2">
+                <Row>
+                  <Col lg={6} xl={4} md={6} sm={12} className="my-2 d-flex">
+                    <Card className="awc-card-data flex-fill" >
+                      <Card.Body>
+                        <Card.Title><h2>केंद्रों का विवरण</h2></Card.Title>
+
+                        <Card.Text>
+                          <Row className="d-flex align-items-stretch">
+                            <div className="col-auto finance-m-top">
+                              <i className="awc-directorate-icon">
+                                {/* <img src={AWCCenters} alt="AWC Centers"></img> */}
+                                <BsBuildingAdd className="finace-icon-clr" />
+                              </i>
                             </div>
-                          </Col>
-                          <Col
-                            lg={6}
-                            md={6}
-                            sm={12}
-                            className="nd-staff-print "
-                          >
-                            <Button className="direct-btn-exl">Excel</Button>
-                            <Button
-                              variant="secondary"
-                              className="direct-prnt-btn"
-                            >
-                              Print
-                            </Button>
-                          </Col>
-                        </div>
-                      </Row>
-                      <div className="table-responsive-lg table-container-box mt-1">
-                        <Table className="dpo-sub-table" striped bordered hover>
-                          <thead className="direct-thead">
-                            <tr>
-                              <th>District</th>
-                              <th className="table-th-w">Applicable Project</th>
-                              <th className="table-th-w">Final Submit</th>
-                              <th>Rejected</th>
-                              <th className="table-th-w">Approved by CDPO</th>
-                              <th className="table-th-w">
-                                Approved by District
-                              </th>
-                              <th>Chosen</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>*</td>
-                              <td className="text-bold-clr">Total</td>
-                              <td className="text-bold-clr">12</td>
-                              <td className="text-bold-clr">11</td>
-                              <td className="text-bold-clr">36</td>
-                              <td className="text-bold-clr">78</td>
-                              <td className="text-bold-clr">0</td>
+                            <Col lg={8} md={8} sm={8}>
+                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
+                                <div className="d-flex align-items-center">
+                                  <span className="">कुल पूर्ण आँगनवाड़ी केंद्र :</span>
+                                </div>
+                                <div className="">20077</div>
+                              </div>
+                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
+                                <div className="d-flex align-items-center">
+                                  <span className="">कुल मिनी आंगनवाड़ी केंद्र :</span>
+                                </div>
+                                <div className="">0</div>
+                              </div>
+                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
+                                <div className="d-flex align-items-center">
+                                  <span className="">कुल केंद्र :</span>
+                                </div>
+                                <div className="">20077</div>
+                              </div>
+                            </Col>
+                          </Row>
+                        </Card.Text>
 
-                              {/* <td>
-                        <div className="dpo-p">
-                          <Button className="dpo-approved-btn">
-                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                              <IoIosCheckmarkCircle className="awc-dpo-add-icon" /> Approved By CDPO
-                            </span>
-                          </Button>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Button className="dpo-return-btn">
-                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                              <GiReturnArrow className="awc-dpo-add-icon" /> Return to CDPO
-                            </span>
-                          </Button>
-                        </div>
-                      </td> */}
-                            </tr>
-                            <tr>
-                              <td>Almora</td>
-                              <td>Bhikiyasain</td>
-                              <td>0</td>
-                              <td>0</td>
-                              <td>1</td>
-                              <td>2</td>
-                              <td>0</td>
-                            </tr>
-                          </tbody>
-                        </Table>
-                      </div>
-                      <Row className="awc-m-t">
-                        <Col lg={6} md={6} sm={12}>
-                          {" "}
-                          <div className="tech-staff-perviose">
-                            <div>Showing 1 to 10 of 105 entries</div>
-                          </div>{" "}
-                        </Col>
-                        <Col lg={6} md={6} sm={12} className="awc-pading-next">
-                          {" "}
-                          <div className="tech-staff-table">
-                            {" "}
-                            <Pagination className="direct-paging">
-                              <Pagination.First />
-                              <Pagination.Prev />
-                              <Pagination.Item>{1}</Pagination.Item>
-                              <Pagination.Ellipsis />
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                  <Col lg={6} xl={4} md={6} sm={12} className="my-2 d-flex">
 
-                              <Pagination.Item>{10}</Pagination.Item>
-                              <Pagination.Item>{11}</Pagination.Item>
-                              <Pagination.Item active>{12}</Pagination.Item>
+                    <Card className="awc-card-data flex-fill" >
+                      <Card.Body>
+                        <Card.Title><h2>कार्यरत कार्यकर्त्रियां का विवरण</h2></Card.Title>
 
-                              <Pagination.Next />
-                              <Pagination.Last />
-                            </Pagination>
-                          </div>{" "}
-                        </Col>
-                      </Row>
-                    </p>
-                  </div>
-                </div>
-              </Col>
-              <Col lg={6} md={6} sm={12} className="d-flex pur-p-right">
-                <div className="awc-card-data flex-fill card">
-                  <div className="card-body">
-                    <div className="card-title awc-sub-heading">
-                      <h1>Tilu Rauteli Application Real time Status 2023-24</h1>
-                    </div>
-                    <p className="card-text">
-                      <Row>
-                        <div className="awc-dpo-mobresp">
-                          <Col
-                            lg={6}
-                            md={6}
-                            sm={12}
-                            className="nd-staff-print11"
-                          >
-                            <div className="search-container">
-                              <form>
-                                <input
-                                  className="search"
-                                  id="searchleft1"
-                                  type="search"
-                                  name="q"
-                                  placeholder="Search"
-                                  aria-label="Search"
-                                />
-                                <label
-                                  className="button search-btn-direct "
-                                  for="searchleft1"
-                                >
-                                  <span className="mglass">&#9906;</span>
-                                </label>
-                              </form>
+                        <Card.Text>
+                          <Row>
+                            <div className="col-auto finance-m-top">
+                              <i className="awc-directorate-icon">
+                                {/* <img src={AWCCenters} alt="AWC Centers"></img> */}
+                                < FaUsers className="finace-icon-clr" />
+                              </i>
                             </div>
-                          </Col>
-                          <Col
-                            lg={6}
-                            md={6}
-                            sm={12}
-                            className="nd-staff-print "
-                          >
-                            <Button className="direct-btn-exl">Excel</Button>
+                            <Col lg={8} md={8} sm={8}>
+                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
+                                <div className="d-flex align-items-center">
+                                  <span className="">केंद्रों में कुल कार्यरत कार्यकर्त्रियां :</span>
+                                </div>
+                                <div className="">19126</div>
+                              </div>
+                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
+                                <div className="d-flex align-items-center">
+                                  <span className="">कुल कार्यरत सहायिकाएं :</span>
+                                </div>
+                                <div className="">12808</div>
+                              </div>
+                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
+                                <div className="d-flex align-items-center">
+                                  <span className="">मिनी केंद्रों में कुल कार्यरत कार्यकर्त्रियां :</span>
+                                </div>
+                                <div className="">1</div>
+                              </div>
 
-                            <Button
-                              variant="secondary"
-                              className="direct-prnt-btn"
-                            >
-                              Print
-                            </Button>
-                          </Col>
-                        </div>
-                      </Row>
-                      <div className="table-responsive-lg table-container-box mt-1">
-                        <Table className="dpo-sub-table" striped bordered hover>
-                          <thead className="direct-thead">
-                            <tr>
-                              <th>District</th>
+                            </Col>
+                          </Row>
+                        </Card.Text>
 
-                              <th>Final Submit</th>
-                              <th>Rejected</th>
-                              <th>Approved by CDPO</th>
-                              <th>Approved by District</th>
-                              <th>Chosen</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>*</td>
-                              <td className="text-bold-clr">12</td>
-                              <td className="text-bold-clr">11</td>
-                              <td className="text-bold-clr">36</td>
-                              <td className="text-bold-clr">78</td>
-                              <td className="text-bold-clr">0</td>
+                      </Card.Body>
+                    </Card>
 
-                              {/* <td>
-                        <div className="dpo-p">
-                          <Button className="dpo-approved-btn">
-                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                              <IoIosCheckmarkCircle className="awc-dpo-add-icon" /> Approved By CDPO
-                            </span>
-                          </Button>
-                        </div>
-                      </td>
-                      <td>
-                        <div className="dpo-p">
-                          <Button className="dpo-return-btn">
-                            <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
-                              <GiReturnArrow className="awc-dpo-add-icon" /> Return to CDPO
-                            </span>
-                          </Button>
-                        </div>
-                      </td> */}
-                            </tr>
-                            <tr>
-                              <td>Almora</td>
-                              <td>Bhikiyasain</td>
-                              <td>0</td>
-                              <td>0</td>
-                              <td>1</td>
-                              <td>2</td>
-                            </tr>
-                          </tbody>
-                        </Table>
-                      </div>
-                      <Row className="awc-m-t">
-                        <Col lg={6} md={6} sm={12}>
-                          {" "}
-                          <div className="tech-staff-perviose">
-                            <div>Showing 1 to 10 of 105 entries</div>
-                          </div>{" "}
-                        </Col>
-                        <Col lg={6} md={6} sm={12} className="awc-pading-next">
-                          {" "}
-                          <div className="tech-staff-table">
-                            {" "}
-                            <Pagination className="direct-paging">
-                              <Pagination.First />
-                              <Pagination.Prev />
-                              <Pagination.Item>{1}</Pagination.Item>
-                              <Pagination.Ellipsis />
 
-                              <Pagination.Item>{10}</Pagination.Item>
-                              <Pagination.Item>{11}</Pagination.Item>
-                              <Pagination.Item active>{12}</Pagination.Item>
 
-                              <Pagination.Next />
-                              <Pagination.Last />
-                            </Pagination>
-                          </div>{" "}
-                        </Col>
-                      </Row>
-                    </p>
-                  </div>
-                </div>
-              </Col>
+
+                  </Col>
+                  <Col lg={6} xl={4} md={6} sm={12} className="my-2 d-flex">
+
+                    <Card className="awc-card-data flex-fill">
+                      <Card.Body>
+                        <Card.Title><h2>रिक्त पद का विवरण</h2></Card.Title>
+
+                        <Card.Text>
+                          <Row>
+                            <div className="col-auto finance-m-top">
+                              <i className="awc-directorate-icon">
+                                {/* <img src={ReportIcon} alt="Report"></img> */}
+                                <GrWorkshop className="finace-icon-clr" />
+                              </i>
+                            </div>
+                            <Col lg={8} md={8} sm={8}>
+                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
+                                <div className="d-flex align-items-center">
+                                  <span className="">आंगनबाड़ी कार्यकर्त्रियां के रिक्त पद :</span>
+                                </div>
+                                <div className="">373</div>
+                              </div>
+                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
+                                <div className="d-flex align-items-center">
+                                  <span className="">मिनी आंगनबाड़ी कार्यकर्त्रियां के रिक्त पद :</span>
+                                </div>
+                                <div className="">157</div>
+                              </div>
+                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
+                                <div className="d-flex align-items-center">
+                                  <span className="">सहायिकाओं के रिक्त पद :</span>
+                                </div>
+                                <div className="">612</div>
+                              </div>
+
+                            </Col>
+                          </Row>
+                        </Card.Text>
+
+                      </Card.Body>
+                    </Card>
+
+
+
+
+                  </Col>
+                </Row>
+
+              </div>
             </Row>
 
             <div>
