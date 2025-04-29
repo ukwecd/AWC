@@ -1,0 +1,25 @@
+.accordion-button::after {
+    display: none;
+}
+
+.aws-accor-bg button.accordion-button.collapsed {
+    background-color: #089bab !important;
+}
+
+.aws-accor-bg .accordion-button:not(.collapsed) {
+    background-color: #086e7a !important;
+}
+
+.aws-wroker-total {
+    background-color: #089bab;
+    padding: 8px;
+    color: #fff;
+    font-size: var(--awc-space-300);
+}
+
+.aws-wroker-dob {
+    background-color: #21b0c0;
+    padding: 8px;
+    color: #fff;
+    font-size: var(--awc-space-300);
+}
