@@ -21,21 +21,21 @@ const BudgetReport = () => {
 
           <div className="main">
 
-          <div className="awc-dpo-head">
+            <div className="awc-dpo-head">
               <h1>Rajay Stree Shakti Tilu Rauteli Puraskar  Applicant List</h1>
             </div>
-       
-                <div className="box-container">
-                  
-                BudgetReport
-                  
-                </div>
-             
-          
+
+            <div className="box-container">
+
+              BudgetReport
+
+            </div>
+
+
             {/* <div className="awc-dpo-head">
               <h1>Rajay Stree Shakti Tilu Rauteli Puraskar  2023-24: All List</h1>
             </div> */}
-           
+
             <div>
               <Footer />
             </div>
