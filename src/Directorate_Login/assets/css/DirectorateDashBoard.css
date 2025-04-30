@@ -82,6 +82,11 @@
     font-weight: 500;
 }
 
+.awc-after-fillter p {
+    font-size: var(--awc-space-250);
+    line-height: var(--awc-space-400);
+}
+
 .search-btn-Directorate {
     background-color: #307880 !important;
     display: inline-block;
