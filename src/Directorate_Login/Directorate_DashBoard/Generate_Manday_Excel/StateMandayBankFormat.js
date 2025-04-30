@@ -38,7 +38,7 @@ const StateMandayBankFormat = () => {
                     <Col lg={12} md={12} sm={12} >
 
                       <Row className="awc-bills-box1">
-                        <div className="awc-label-title">Protsahan Bill View:</div>
+
                         <Col lg={3} md={3} sm={3}>
                           <Form.Group
                             className="mb-3"
