@@ -13,9 +13,8 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 import { IoIosCall, IoIosPeople } from "react-icons/io";
 import LogoDhanparwa from "../../assets/images/LogoDhanParbaw.png";
-import { RiBankFill, RiFileExcel2Fill, RiFileExcel2Line, RiFilePpt2Fill, RiFilePpt2Line, RiSlideshowLine } from "react-icons/ri";
-import { GiTrophyCup } from "react-icons/gi";
-import { BiBuildingHouse, BiSelectMultiple } from "react-icons/bi";
+import { RiBankFill, RiFileExcel2Fill, RiFileExcel2Line, RiFilePpt2Fill, RiFilePpt2Line } from "react-icons/ri";
+import { BiBuildingHouse } from "react-icons/bi";
 import { FaFileCircleCheck, FaIndianRupeeSign, FaUsersBetweenLines } from "react-icons/fa6";
 import { HiOutlineDocumentDuplicate, HiOutlineDocumentReport } from "react-icons/hi";
 import { TbReport, TbReportAnalytics } from "react-icons/tb";
@@ -24,7 +23,7 @@ import { HiCalendarDays, HiClipboardDocumentList, HiMiniBuildingOffice2 } from "
 import { SiAdblock } from "react-icons/si";
 import { BsFileEarmarkPerson } from "react-icons/bs";
 import { LiaAwardSolid } from "react-icons/lia";
-import { PiBankBold, PiMicrosoftExcelLogo } from "react-icons/pi";
+import { PiMicrosoftExcelLogo } from "react-icons/pi";
 
 function DirectorateDashBoard() {
   const [isNavClosed, setIsNavClosed] = useState(false);
