@@ -42,7 +42,7 @@ const CenterMandayPFMSFormat = () => {
 
                         <Col lg={3} md={3} sm={3}>
                           <Form.Group
-                            className="mb-3"
+                            className=" "
                             controlId="exampleForm.ControlInput1"
                           >
                             <Form.Select className="mb-2">
@@ -137,7 +137,7 @@ const CenterMandayPFMSFormat = () => {
                         </Col>
                         <Col lg={3} md={3} sm={3}>
                           <Form.Group
-                            className="mb-3"
+                            className=" "
                             controlId="exampleForm.ControlInput1"
                           >
                             <Form.Select className="mb-2">
@@ -160,7 +160,7 @@ const CenterMandayPFMSFormat = () => {
                         </Col>
                         <Col lg={3} md={3} sm={3}>
                           <Form.Group
-                            className="mb-3"
+                            className=" "
                             controlId="exampleForm.ControlInput1"
                           >
                             <Form.Select className="mb-2">
@@ -191,7 +191,7 @@ const CenterMandayPFMSFormat = () => {
 
                       <Col lg={3} md={3} sm={3}>
                         <Form.Group
-                          className="mb-3"
+                          className=" "
                           controlId="exampleForm.ControlInput1"
                         >
                           <Form.Control
@@ -203,7 +203,7 @@ const CenterMandayPFMSFormat = () => {
                       </Col>
                       <Col lg={3} md={3} sm={3}>
                         <Form.Group
-                          className="mb-3"
+                          className=" "
                           controlId="exampleForm.ControlInput1"
                         >
                           <Form.Control

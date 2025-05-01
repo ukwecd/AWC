@@ -40,7 +40,7 @@ const GenerateProtsahanExcel = () => {
                       <Row className="awc-bills-box1">
                         <Col lg={3} md={3} sm={3}>
                           <Form.Group
-                            className="mb-3"
+                            className=""
                             controlId="exampleForm.ControlInput1"
                           >
                             <Form.Select className="mb-2">
@@ -135,7 +135,7 @@ const GenerateProtsahanExcel = () => {
                         </Col>
                         <Col lg={3} md={3} sm={3}>
                           <Form.Group
-                            className="mb-3"
+                            className=""
                             controlId="exampleForm.ControlInput1"
                           >
                             <Form.Select className="mb-2">
@@ -158,7 +158,7 @@ const GenerateProtsahanExcel = () => {
                         </Col>
                         <Col lg={3} md={3} sm={3}>
                           <Form.Group
-                            className="mb-3"
+                            className=""
                             controlId="exampleForm.ControlInput1"
                           >
                             <Form.Select className="mb-2">
@@ -188,7 +188,7 @@ const GenerateProtsahanExcel = () => {
 
                       <Col lg={3} md={3} sm={3}>
                         <Form.Group
-                          className="mb-3"
+                          className=""
                           controlId="exampleForm.ControlInput1"
                         >
                           <Form.Control
@@ -200,7 +200,7 @@ const GenerateProtsahanExcel = () => {
                       </Col>
                       <Col lg={3} md={3} sm={3}>
                         <Form.Group
-                          className="mb-3"
+                          className=""
                           controlId="exampleForm.ControlInput1"
                         >
                           <Form.Control

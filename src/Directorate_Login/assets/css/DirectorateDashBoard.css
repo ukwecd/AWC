@@ -176,3 +176,7 @@
     font-weight: 500;
     padding-top: var(--awc-space-200);
 }
+
+.display td {
+    font-size: var(--awc-space-300);
+}
