@@ -4,7 +4,7 @@ import MenuIcon from "../../assets/images/menu_icon.png";
 import { LuFileSliders, LuLogOut } from "react-icons/lu";
 import React, { useState } from "react";
 import "../../Puruskar_Login/assets/css/PurskarLeftNav.css";
-import { FaAlignLeft, FaChartLine, FaHandHoldingMedical, FaRegAddressCard, FaRegFileExcel, FaRegListAlt, FaSlideshare, FaSms, FaUserCheck, FaUserGraduate, FaUserPlus } from "react-icons/fa";
+import { FaAlignLeft, FaChartLine, FaHandHoldingMedical, FaRegAddressCard, FaRegFileExcel, FaRegListAlt, FaSlideshare, FaSms, FaUserCheck, FaUserGraduate, FaUserPlus, FaUserShield } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import LogoCDPO from "../../assets/images/Logo-cdpo.png";
 import { RxDashboard } from "react-icons/rx";
@@ -47,7 +47,7 @@ function DirectorateDashBoard() {
     },
 
     {
-      icon: <IoIosPeople />,
+      icon: <FaUserShield />,
       label: "Verified Worker (31935)",
       path: "/DirectAWWVacancies",
       subRoutes: [
