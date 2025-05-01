@@ -1,21 +1,30 @@
 import UKLOGO from "../../assets/images/uklogo.png";
 import UKLogon from "../..//assets/images/wecdlogo.png";
 import MenuIcon from "../../assets/images/menu_icon.png";
-import { LuLogOut } from "react-icons/lu";
+import { LuFileSliders, LuLogOut } from "react-icons/lu";
 import React, { useState } from "react";
 import "../../Puruskar_Login/assets/css/PurskarLeftNav.css";
-import { FaAlignLeft } from "react-icons/fa";
+import { FaAlignLeft, FaChartLine, FaHandHoldingMedical, FaRegAddressCard, FaRegFileExcel, FaRegListAlt, FaSlideshare, FaSms, FaUserCheck, FaUserGraduate, FaUserPlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import LogoCDPO from "../../assets/images/Logo-cdpo.png";
 import { RxDashboard } from "react-icons/rx";
-import { MdExpandLess, MdOutlineCheckCircle } from "react-icons/md";
+import { MdCalendarMonth, MdExpandLess, MdOutlineDashboardCustomize, MdOutlinePendingActions, MdOutlineToday } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import { FaAward } from "react-icons/fa";
-import { IoIosCall } from "react-icons/io";
+
+import { IoIosCall, IoIosPeople } from "react-icons/io";
 import LogoDhanparwa from "../../assets/images/LogoDhanParbaw.png";
-import { RiSlideshowLine } from "react-icons/ri";
+import { RiBankFill, RiFileExcel2Fill, RiFileExcel2Line, RiFilePpt2Fill, RiFilePpt2Line, RiSlideshowLine } from "react-icons/ri";
 import { GiTrophyCup } from "react-icons/gi";
-import { BiSelectMultiple } from "react-icons/bi";
+import { BiBuildingHouse, BiSelectMultiple } from "react-icons/bi";
+import { FaFileCircleCheck, FaIndianRupeeSign, FaUsersBetweenLines } from "react-icons/fa6";
+import { HiOutlineDocumentDuplicate, HiOutlineDocumentReport } from "react-icons/hi";
+import { TbReport, TbReportAnalytics } from "react-icons/tb";
+import { GrDuplicate, GrOverview, GrUserWorker } from "react-icons/gr";
+import { HiCalendarDays, HiClipboardDocumentList, HiMiniBuildingOffice2 } from "react-icons/hi2";
+import { SiAdblock } from "react-icons/si";
+import { BsFileEarmarkPerson } from "react-icons/bs";
+import { LiaAwardSolid } from "react-icons/lia";
+import { PiBankBold, PiMicrosoftExcelLogo } from "react-icons/pi";
 
 function DirectorateDashBoard() {
   const [isNavClosed, setIsNavClosed] = useState(false);
@@ -39,216 +48,216 @@ function DirectorateDashBoard() {
     },
 
     {
-      icon: <FaAward />,
+      icon: <IoIosPeople />,
       label: "Verified Worker (31935)",
       path: "/DirectAWWVacancies",
       subRoutes: [
         {
-          icon: <RiSlideshowLine />,
+          icon: <FaUserGraduate />,
           label: "AWW/AWH Vacancies",
           path: "/DirectAWWVacancies",
         },
         {
-          icon: <BiSelectMultiple />,
+          icon: <FaUserCheck />,
           label: "Verification Log",
           path: "/VerificationLog",
         },
         {
-          icon: <RiSlideshowLine />,
+          icon: <FaUsersBetweenLines />,
           label: "Verified Worker List All",
           path: "/VerifiedWorkerListAll",
         },
         {
-          icon: <MdOutlineCheckCircle />,
+          icon: <FaUserPlus />,
           label: "Add Worker Request",
           path: "/AddWorkerRequest",
         },
         {
-          icon: <RiSlideshowLine />,
+          icon: <HiOutlineDocumentReport />,
           label: "District Wise Report",
           path: "/DistrictWiseReport",
         },
         {
-          icon: <MdOutlineCheckCircle />,
+          icon: <TbReport />,
           label: "Project Wise Report",
           path: "/ProjectWiseReport",
         },
-       
-          {
-            icon: <MdOutlineCheckCircle />,
-            label: "Duplicate Account number",
-            path: "/DuplicateAccountNo",
-          },
-          {
-            icon: <MdOutlineCheckCircle />,
-            label: "Duplicate Adhar info",
-            path: "/DuplicateAdharinfo",
-          },
-          {
-            icon: <MdOutlineCheckCircle />,
-            label: "Worker DOB List",
-            path: "/WorkerDOBList",
-          },
+
+        {
+          icon: <GrDuplicate />,
+          label: "Duplicate Account number",
+          path: "/DuplicateAccountNo",
+        },
+        {
+          icon: <FaRegAddressCard />,
+          label: "Duplicate Aadhar info",
+          path: "/DuplicateAdharinfo",
+        },
+        {
+          icon: <HiClipboardDocumentList />,
+          label: "Worker DOB List",
+          path: "/WorkerDOBList",
+        },
       ],
     },
     {
-      icon: <GiTrophyCup />,
+      icon: <HiMiniBuildingOffice2 />,
       label: "Anganwadi Center Info",
       subRoutes: [
         {
-          icon: <RiSlideshowLine />,
+          icon: <BiBuildingHouse />,
           label: "Center Info",
           path: "/CenterInfo",
         },
-       
-       
+
+
       ],
     },
     {
-        icon: <GiTrophyCup />,
-        label: "Bills",
-        subRoutes: [
-          {
-            icon: <RiSlideshowLine />,
-            label: "Non-Forwarded Bills",
-            path: "/NonForwardedBills",
-          },
-          {
-            icon: <BiSelectMultiple />,
-            label: "Show/Hide Bills",
-            path: "/ShowHideBills",
-          },
-          {
-            icon: <RiSlideshowLine />,
-            label: "Check Duplicate Entry",
-            path: "/CheckDuplicateEntry",
-          },
-          {
-            icon: <BiSelectMultiple />,
-            label: "Generated Bill",
-            path: "/DirectGeneratedBill",
-          },
-          {
-            icon: <RiSlideshowLine />,
-            label: "View Bill Log",
-            path: "/ViewBillLog",
-          },
-          {
-            icon: <BiSelectMultiple />,
-            label: "View Request Log",
-            path: "/ViewRequestLog",
-          },
-        ],
-      },
-      {
-        icon: <GiTrophyCup />,
-        label: "Reports",
-        subRoutes: [
-          {
-            icon: <RiSlideshowLine />,
-            label: "worker with Grant",
-            path: "/WorkerWithGrant",
-          },
-          {
-            icon: <BiSelectMultiple />,
-            label: "Kalyan-kosh Report",
-            path: "/KalyankoshReport",
-          },
-          {
-            icon: <RiSlideshowLine />,
-            label: "Budget Report",
-            path: "/BudgetReport",
-          },
-          {
-            icon: <BiSelectMultiple />,
-            label: "Grant-wise Report",
-            path: "/GrantwiseReport",
-          },
-          {
-            icon: <RiSlideshowLine />,
-            label: "Month-wise Report",
-            path: "/MonthwiseReport",
-          },
-          {
-            icon: <BiSelectMultiple />,
-            label: "View Custom Report",
-            path: "/ViewCustomReport",
-          },
-          {
-            icon: <BiSelectMultiple />,
-            label: "View Grant/share Report",
-            path: "/ViewshareReport",
-          },
-          {
-            icon: <BiSelectMultiple />,
-            label: "Total Protsahan Report",
-            path: "/TotalProtsahanReport",
-          },
-        ],
-      },
-      {
-        icon: <GiTrophyCup />,
-        label: "Rejection Report",
-        subRoutes: [
-          {
-            icon: <RiSlideshowLine />,
-            label: "Sept-Dec 21 Report",
-            path: "/SeptDec21Report",
-          },
-          {
-            icon: <BiSelectMultiple />,
-            label: "January 21-22 Report",
-            path: "/January2122Report",
-          },
-         
-          
-        ],
-      },
+      icon: <FaIndianRupeeSign />,
+      label: "Bills",
+      subRoutes: [
+        {
+          icon: <SiAdblock />,
+          label: "Non-Forwarded Bills",
+          path: "/NonForwardedBills",
+        },
+        {
+          icon: <FaRegListAlt />,
+          label: "Show/Hide Bills",
+          path: "/ShowHideBills",
+        },
+        {
+          icon: <HiOutlineDocumentDuplicate />,
+          label: "Check Duplicate Entry",
+          path: "/CheckDuplicateEntry",
+        },
+        {
+          icon: <FaFileCircleCheck />,
+          label: "Generated Bill",
+          path: "/DirectGeneratedBill",
+        },
+        {
+          icon: <GrOverview />,
+          label: "View Bill Log",
+          path: "/ViewBillLog",
+        },
+        {
+          icon: <MdOutlinePendingActions />,
+          label: "View Request Log",
+          path: "/ViewRequestLog",
+        },
+      ],
+    },
+    {
+      icon: <BsFileEarmarkPerson />,
+      label: "Reports",
+      subRoutes: [
+        {
+          icon: <GrUserWorker />,
+          label: "Worker with Grant",
+          path: "/WorkerWithGrant",
+        },
+        {
+          icon: <TbReportAnalytics />,
+          label: "Kalyan kosh Report",
+          path: "/KalyankoshReport",
+        },
+        {
+          icon: <FaChartLine />,
+          label: "Budget Report",
+          path: "/BudgetReport",
+        },
+        {
+          icon: <LiaAwardSolid />,
+          label: "Grant Wise Report",
+          path: "/GrantwiseReport",
+        },
+        {
+          icon: <MdCalendarMonth />,
+          label: "Month Wise Report",
+          path: "/MonthwiseReport",
+        },
+        {
+          icon: <MdOutlineDashboardCustomize />,
+          label: "View Custom Report",
+          path: "/ViewCustomReport",
+        },
+        {
+          icon: <FaSlideshare />,
+          label: "View Grant/share Report",
+          path: "/ViewshareReport",
+        },
+        {
+          icon: <LuFileSliders />,
+          label: "Total Protsahan Report",
+          path: "/TotalProtsahanReport",
+        },
+      ],
+    },
+    {
+      icon: <FaRegFileExcel />,
+      label: "Rejection Report",
+      subRoutes: [
+        {
+          icon: <HiCalendarDays />,
+          label: "Sept-Dec 21 Report",
+          path: "/SeptDec21Report",
+        },
+        {
+          icon: <MdOutlineToday />,
+          label: "January 21-22 Report",
+          path: "/January2122Report",
+        },
 
-      {
-        icon: <GiTrophyCup />,
-        label: "Generate Manday Excel",
-        subRoutes: [
-          {
-            icon: <RiSlideshowLine />,
-            label: "State Manday Bank Format",
-            path: "/StateMandayBankFormat",
-          },
-          {
-            icon: <RiSlideshowLine />,
-            label: "State Manday PFMS format",
-            path: "/StateMandayPFMSFormat",
-          },
-          {
-            icon: <RiSlideshowLine />,
-            label: "Center Manday PFMS Format",
-            path: "/CenterMandayPFMSFormat",
-          },
-         
-        ],
-      },
 
-      {
-        icon: <RxDashboard />,
-        label: "Insurance PFMS Format",
-        path: "/InsurancePFMSFormat",
-      },
-      {
-        icon: <RxDashboard />,
-        label: "Generate Protsahan Excel",
-        path: "/GenerateProtsahanExcel",
-      },
+      ],
+    },
 
-      {
-        icon: <RxDashboard />,
-        label: "Bank Names",
-        path: "/BankNames",
-      },
-      {
-        icon: <RxDashboard />,
-        label: "Send Manday SMS",
-        path: "/SendMandaySMS",
-      },
+    {
+      icon: <RiFileExcel2Line />,
+      label: "Generate Manday Excel",
+      subRoutes: [
+        {
+          icon: <PiMicrosoftExcelLogo />,
+          label: "State Manday Bank Format",
+          path: "/StateMandayBankFormat",
+        },
+        {
+          icon: <RiFilePpt2Line />,
+          label: "State Manday PFMS format",
+          path: "/StateMandayPFMSFormat",
+        },
+        {
+          icon: <RiFilePpt2Fill />,
+          label: "Center Manday PFMS Format",
+          path: "/CenterMandayPFMSFormat",
+        },
+
+      ],
+    },
+
+    {
+      icon: <FaHandHoldingMedical />,
+      label: "Insurance PFMS Format",
+      path: "/InsurancePFMSFormat",
+    },
+    {
+      icon: <RiFileExcel2Fill />,
+      label: "Generate Protsahan Excel",
+      path: "/GenerateProtsahanExcel",
+    },
+
+    {
+      icon: <RiBankFill />,
+      label: "Bank Names",
+      path: "/BankNames",
+    },
+    {
+      icon: <FaSms />,
+      label: "Send Manday SMS",
+      path: "/SendMandaySMS",
+    },
 
     {
       icon: <IoIosCall />,
