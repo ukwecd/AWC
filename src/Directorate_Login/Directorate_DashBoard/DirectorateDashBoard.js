@@ -11,7 +11,7 @@ import { RxDashboard } from "react-icons/rx";
 import { MdCalendarMonth, MdExpandLess, MdOutlineDashboardCustomize, MdOutlinePendingActions, MdOutlineToday } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
-import { IoIosCall, IoIosPeople } from "react-icons/io";
+import { IoIosCall } from "react-icons/io";
 import LogoDhanparwa from "../../assets/images/LogoDhanParbaw.png";
 import { RiBankFill, RiFileExcel2Fill, RiFileExcel2Line, RiFilePpt2Fill, RiFilePpt2Line } from "react-icons/ri";
 import { BiBuildingHouse } from "react-icons/bi";

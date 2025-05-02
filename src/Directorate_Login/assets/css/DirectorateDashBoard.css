@@ -233,3 +233,21 @@
     border: #761c19 1px solid;
 
 }
+
+.aws-top-btn {
+    text-align: end;
+    padding: 0px;
+}
+
+.aws-grant-btn {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    font-size: var(--awc-space-250);
+    padding: 6px 12px 6px 12px;
+}
+
+.aws-grant-btn:hover {
+    color: #fff;
+    background-color: #c77d16;
+}

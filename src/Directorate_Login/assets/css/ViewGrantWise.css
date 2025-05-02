@@ -1,0 +1,74 @@
+.workergrant-thead th {
+
+    font-size: var(--awc-space-300);
+    color: var(--awc-black);
+    font-weight: 500;
+    vertical-align: bottom;
+}
+
+table {
+    border-spacing: 0.5rem;
+}
+
+th {
+    padding: 0.5rem;
+}
+
+th:nth-child(1) {
+    background: #ecb3df;
+}
+
+th:nth-child(2) {
+    background: #96f596;
+}
+
+th:nth-child(3) {
+    background: #96f596;
+}
+
+th:nth-child(4) {
+    background: #96f596;
+}
+
+th:nth-child(5) {
+    background: #96f596;
+}
+
+th:nth-child(6) {
+    background: #c4cbf7;
+}
+
+th:nth-child(7) {
+    background: #c4cbf7;
+}
+
+th:nth-child(8) {
+    background: #c4cbf7;
+}
+
+th:nth-child(9) {
+    background: #c4cbf7;
+}
+
+th:nth-child(10) {
+    background: #f8dea9;
+}
+
+th:nth-child(11) {
+    background: #f8dea9;
+}
+
+th:nth-child(12) {
+    background: #f8dea9;
+}
+
+th:nth-child(13) {
+    background: #f8dea9;
+}
+
+.bill-data {
+    text-align: start;
+    font-size: var(--awc-space-300);
+    padding-top: var(--awc-space-200);
+    line-height: var(--awc-space-600);
+}
