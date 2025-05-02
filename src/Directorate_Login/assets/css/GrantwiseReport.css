@@ -1,0 +1,87 @@
+.GrantwiseReport-thead th {
+
+    font-size: var(--awc-space-300) !important;
+    color: var(--awc-black);
+    font-weight: 500;
+    vertical-align: bottom;
+}
+
+table {
+    border-spacing: 0.5rem;
+}
+
+th {
+    padding: 0.5rem;
+}
+
+.GrantwiseReport-thead th:nth-child(1) {
+    background: #ecb3df;
+}
+
+.GrantwiseReport-thead th:nth-child(2) {
+    background: #ecb3df;
+}
+
+.GrantwiseReport-thead th:nth-child(3) {
+    background: #96f596;
+}
+
+.GrantwiseReport-thead th:nth-child(4) {
+    background: #96f596;
+}
+
+.GrantwiseReport-thead th:nth-child(5) {
+    background: #96f596;
+}
+
+.GrantwiseReport-thead th:nth-child(6) {
+    background: #96f596;
+}
+
+.GrantwiseReport-thead th:nth-child(7) {
+    background: #c4cbf7;
+}
+
+.GrantwiseReport-thead th:nth-child(8) {
+    background: #c4cbf7;
+}
+
+.GrantwiseReport-thead th:nth-child(9) {
+    background: #c4cbf7;
+}
+
+.GrantwiseReport-thead th:nth-child(10) {
+    background: #96f596;
+}
+
+.GrantwiseReport-thead th:nth-child(11) {
+    background: #f8dea9;
+}
+
+.GrantwiseReport-thead th:nth-child(12) {
+    background: #f8dea9;
+}
+
+.GrantwiseReport-thead th:nth-child(13) {
+    background: #c4cbf7;
+}
+
+.GrantwiseReport-thead th:nth-child(14) {
+    background: #96f596;
+}
+
+.GrantwiseReport-thead th:nth-child(15) {
+    background: #bbc9d2;
+}
+
+.GrantwiseReport-thead th:nth-child(16) {
+    background: #bbc9d2;
+}
+
+
+.bill-data {
+    text-align: start;
+    font-size: var(--awc-space-300);
+    padding-top: var(--awc-space-200);
+    line-height: var(--awc-space-600);
+}

@@ -1,0 +1,74 @@
+.ViewCustomReport-thead th {
+
+    font-size: 12px;
+    color: var(--awc-black);
+    font-weight: 500;
+    vertical-align: bottom;
+}
+
+table {
+    border-spacing: 0.5rem;
+}
+
+th {
+    padding: 0.5rem;
+
+}
+
+.ViewCustomReport-thead th:nth-child(1) {
+    background: #ecb3df;
+
+}
+
+.ViewCustomReport-thead th:nth-child(2) {
+    background: #96f596;
+}
+
+.ViewCustomReport-thead th:nth-child(3) {
+    background: #96f596;
+}
+
+.ViewCustomReport-thead th:nth-child(4) {
+    background: #c4cbf7;
+}
+
+.ViewCustomReport-thead th:nth-child(5) {
+    background: #c4cbf7;
+}
+
+.ViewCustomReport-thead th:nth-child(6) {
+    background: #f8dea9;
+}
+
+.ViewCustomReport-thead th:nth-child(7) {
+    background: #f8dea9;
+}
+
+.ViewCustomReport-thead th:nth-child(8) {
+    background: #bbc9d2;
+}
+
+.ViewCustomReport-thead th:nth-child(9) {
+    background: #bbc9d2;
+}
+
+.ViewCustomReport-thead th:nth-child(10) {
+    background: #bbc9d2;
+}
+
+.ViewCustomReport-thead th:nth-child(11) {
+    background: #bbc9d2;
+}
+
+.ViewCustomReport-thead th:nth-child(12) {
+    background: #ecb3df;
+}
+
+
+
+.bill-data {
+    text-align: start;
+    font-size: var(--awc-space-300);
+    padding-top: var(--awc-space-200);
+    line-height: var(--awc-space-600);
+}
