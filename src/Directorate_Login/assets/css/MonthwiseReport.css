@@ -1,0 +1,72 @@
+.MonthwiseReport th {
+
+    font-size: 12px;
+    color: var(--awc-black);
+    font-weight: 500;
+    vertical-align: bottom;
+}
+
+table {
+    border-spacing: 0.5rem;
+}
+
+th {
+    padding: 0.5rem;
+
+}
+
+
+
+.MonthwiseReport th:nth-child(1) {
+    background: #ecb3df;
+    min-width: 190px !important;
+}
+
+.MonthwiseReport th:nth-child(2) {
+    background: #96f596;
+}
+
+.MonthwiseReport th:nth-child(3) {
+    background: #96f596;
+}
+
+.MonthwiseReport th:nth-child(4) {
+    background: #c4cbf7;
+}
+
+.MonthwiseReport th:nth-child(5) {
+    background: #c4cbf7;
+}
+
+.MonthwiseReport th:nth-child(6) {
+    background: #f7dc5e;
+}
+
+.MonthwiseReport th:nth-child(7) {
+    background: #f7dc5e;
+}
+
+.MonthwiseReport th:nth-child(8) {
+    background: #9efae8;
+}
+
+.MonthwiseReport th:nth-child(9) {
+    background: #9efae8;
+}
+
+.MonthwiseReport th:nth-child(10) {
+    background: #9efae8;
+}
+
+
+.bill-data {
+    text-align: start;
+    font-size: var(--awc-space-300);
+    padding-top: var(--awc-space-200);
+    line-height: var(--awc-space-600);
+}
+
+.month-total {
+    color: red !important;
+    font-weight: 600;
+}
