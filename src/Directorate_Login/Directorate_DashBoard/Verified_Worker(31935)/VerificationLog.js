@@ -1,7 +1,6 @@
 import React from "react";
 import { Table, Button, Row, Col, Pagination } from "react-bootstrap";
 import "../../../Directorate_Login/assets/css/DirectorateLeftNav.css";
-
 import "../../../Directorate_Login/assets/css/DirectorateDashBoard.css";
 import DirectorateDashBoard from "../DirectorateDashBoard";
 import Footer from "../../../componets/footer/Footer";
