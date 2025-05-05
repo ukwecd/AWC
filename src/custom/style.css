@@ -315,7 +315,7 @@ button.awc-btn-money.btn.btn-primary {
   .biil-submit {
 
     padding: var(--awc-space-200) var(--awc-space-300) var(--awc-space-300) var(--awc-space-300);
-    text-align: start !important;
+    text-align: center !important;
   }
 
   .finance-m-top {

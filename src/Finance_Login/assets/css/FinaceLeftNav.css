@@ -192,7 +192,7 @@ a.finance-sub-option:hover {
 .main-container {
   display: flex;
   width: 100vw;
-  position: relative;
+  position: fixed;
   /* top: 70px; */
   z-index: 1;
 }
@@ -340,7 +340,8 @@ a.finance-nav-option.option1 {
   cursor: pointer;
   margin-top: 7%;
 }
- .option1:hover {
+
+.option1:hover {
   /* custom */
   background-color: #7d7f3d !important;
   color: var(--awc-white);

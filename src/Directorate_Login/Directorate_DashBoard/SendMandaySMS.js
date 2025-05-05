@@ -71,7 +71,7 @@ const SendMandaySMS = () => {
                       <Col lg={1} md={1} sm={1} className="biil-submit">
                         <Button className="aws-copy-Directorate-btn">Submit</Button>
                       </Col>
-                      <Col lg={2} md={2} sm={2}> <Button className="awc-btn-Directorate-exl">View SMS send Log</Button></Col>
+                      <Col lg={2} md={2} sm={2} className="mb-2"> <Button className="awc-btn-Directorate-exl">View SMS send Log</Button></Col>
                     </Row>
                   </Col>
 

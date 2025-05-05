@@ -163,7 +163,7 @@ const NonForwardedBills = () => {
                           </Form.Select>
                         </Form.Group>
                       </Col>
-                      <Col lg={3} md={3} sm={3} className="biil-submit">
+                      <Col lg={3} md={5} sm={5} className="biil-submit">
                         <Button className="aws-copy-Directorate-btn">Project-wise Fetch</Button>
                       </Col>
                     </Row>
