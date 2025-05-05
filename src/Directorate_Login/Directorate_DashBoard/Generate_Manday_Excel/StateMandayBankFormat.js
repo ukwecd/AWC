@@ -187,7 +187,7 @@ const StateMandayBankFormat = () => {
 
                     <Row className="p-2">
 
-                      <Col lg={3} md={3} sm={3}>
+                      <Col lg={3} md={3} sm={3} className="mb-2">
                         <Form.Group
                           className=" "
                           controlId="exampleForm.ControlInput1"

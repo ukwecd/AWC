@@ -6,6 +6,10 @@
     vertical-align: top;
 }
 
+.biil-submit {
+    text-align: start;
+}
+
 .direct-paging .active>.page-link,
 .page-link.active {
     background-color: #089bab;

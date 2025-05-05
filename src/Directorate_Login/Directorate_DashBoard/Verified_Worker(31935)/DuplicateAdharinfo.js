@@ -30,10 +30,10 @@ const DuplicateAdharinfo = () => {
                 <Accordion>
                   <Accordion.Item eventKey="0">
                     <Accordion.Header className="aws-accor-bg">
-                      <Row className="w-100">
-                        <Col lg={5}>Champawat</Col>
-                        <Col lg={7} className="text-end">2860/0</Col>
-                      </Row>
+                      <div className="w-100 aws-accordion ">
+                        <Col lg={5} md={5} sm={5}>Champawat</Col>
+                        <Col lg={7} md={7} sm={7} className="text-end">2860/0</Col>
+                      </div>
                     </Accordion.Header>
                     <Accordion.Body>
                       <div className="table-responsive-lg">
@@ -96,10 +96,11 @@ const DuplicateAdharinfo = () => {
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1" className="mt-3">
-                    <Accordion.Header className="aws-accor-bg">    <Row className="w-100">
-                      <Col lg={5}>Dehradun</Col>
-                      <Col lg={7} className="text-end">1307/0</Col>
-                    </Row></Accordion.Header>
+                    <Accordion.Header className="aws-accor-bg">
+                      <div className="w-100 aws-accordion ">
+                        <Col lg={5} md={5} sm={5}>Dehradun</Col>
+                        <Col lg={7} md={7} sm={7} className="text-end">1307/0</Col>
+                      </div></Accordion.Header>
                     <Accordion.Body>
                       <div className="table-responsive-lg">
                         <Table className="awc-sub-table" striped bordered hover>
