@@ -94,7 +94,7 @@ const MandayBills = () => {
                           <Col
                             lg={6}
                             md={6}
-                            sm={12}
+                            sm={6}
                             className="nd-staff-print11"
                           >
                             <div className="search-container">
@@ -119,7 +119,7 @@ const MandayBills = () => {
                           <Col
                             lg={6}
                             md={6}
-                            sm={12}
+                            sm={6}
                             className="nd-staff-print "
                           >
                             <Button className="awc-btn-copy">Copy</Button>
@@ -437,7 +437,7 @@ const MandayBills = () => {
                     </Accordion.Body>
                   </Accordion.Item>
 
-                 
+
                 </Accordion>
               </div>
             </div>

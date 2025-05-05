@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col,  Row,  Form } from "react-bootstrap";
+import { Button, Col, Row, Form } from "react-bootstrap";
 import "../../../DPO_Login/assets/css/AllWorkerList.css";
 import { FaAngleLeft } from "react-icons/fa6";
 import DPODashBoard from "../DPODashBoard";
@@ -34,7 +34,7 @@ const WorkerAccountDetails = () => {
                   <h1> <FaAngleLeft className="go-back-arrow" onClick={goBack} />Edit Worker Account Details</h1>
                 </div>
                 <div className="awc-dpo-mobresp">
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print11">
                     <div className="search-container">
                       <form>
                         <input
@@ -54,7 +54,7 @@ const WorkerAccountDetails = () => {
                       </form>
                     </div>
                   </Col>
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print ">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print ">
                     <Button className="awc-btn-copy">Copy</Button>
 
                     <Button variant="secondary" className="awc-dpo-btn-prt">
@@ -117,7 +117,7 @@ const WorkerAccountDetails = () => {
                           <Form.Control
                             type="date"
                             placeholder="0000-00-00"
-                           
+
                           />
                         </Form.Group>
                       </Col>
@@ -135,7 +135,7 @@ const WorkerAccountDetails = () => {
                           <Form.Control
                             type="number"
                             placeholder="9864xxxxxx"
-                            
+
                           />
                         </Form.Group>
                       </Col>
@@ -152,7 +152,7 @@ const WorkerAccountDetails = () => {
                           <Form.Control
                             type="text"
                             placeholder="6364xxxxxx"
-                           
+
                           />
                         </Form.Group>
                       </Col>
@@ -246,7 +246,7 @@ const WorkerAccountDetails = () => {
                             </span>
                           </Form.Label>
 
-                          <Form.Control type="text" placeholder="0"  />
+                          <Form.Control type="text" placeholder="0" />
                         </Form.Group>
                       </Col>
 
@@ -261,7 +261,7 @@ const WorkerAccountDetails = () => {
                             </span>
                           </Form.Label>
 
-                          <Form.Control type="text" placeholder="0"/>
+                          <Form.Control type="text" placeholder="0" />
                         </Form.Group>
                       </Col>
                       <Col lg={4} md={4} sm={12}>
@@ -342,8 +342,8 @@ const WorkerAccountDetails = () => {
                           controlId="exampleForm.ControlInput1"
                         >
                           <Form.Label className="awc-dpo-label-title">
-                           District Name
-                            
+                            District Name
+
                           </Form.Label>
 
                           <Form.Control
@@ -359,8 +359,8 @@ const WorkerAccountDetails = () => {
                           controlId="exampleForm.ControlInput1"
                         >
                           <Form.Label className="awc-dpo-label-title">
-                           Project Name
-                            
+                            Project Name
+
                           </Form.Label>
 
                           <Form.Control
@@ -387,15 +387,15 @@ const WorkerAccountDetails = () => {
                             placeholder="5064654587"
                             disabled
                           />
-                           </Form.Group>
-                           </Col>
-                          <Col lg={4} md={4} sm={12}>
+                        </Form.Group>
+                      </Col>
+                      <Col lg={4} md={4} sm={12}>
                         <Form.Group
                           className="mb-3"
                           controlId="exampleForm.ControlInput1"
                         >
                           <Form.Label className="awc-dpo-label-title">
-                          
+
                             <span className="awc-allready">
                               <p>&nbsp;(Already chosen)</p>
                             </span>
@@ -415,7 +415,7 @@ const WorkerAccountDetails = () => {
                           controlId="exampleForm.ControlInput1"
                         >
                           <Form.Label className="awc-dpo-label-title">
-                          
+
                             <span className="awc-allready">
                               <p>&nbsp;(Change to New)</p>
                             </span>
@@ -439,7 +439,7 @@ const WorkerAccountDetails = () => {
                         Go Back
                       </Button>
                       <Button className="awc-dop-primary-btn m-right">
-                         <FaUserEdit className="awc-dpo-add-icon" /> Account Details
+                        <FaUserEdit className="awc-dpo-add-icon" /> Account Details
                       </Button>
                     </div>
                   </Form>

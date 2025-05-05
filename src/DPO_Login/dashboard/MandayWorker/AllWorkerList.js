@@ -28,7 +28,7 @@ const AllWorkerList = () => {
             <div className="box-container">
               <Row>
                 <div className="awc-dpo-mobresp">
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print11">
                     <div className="search-container">
                       <form>
                         <input
@@ -48,7 +48,7 @@ const AllWorkerList = () => {
                       </form>
                     </div>
                   </Col>
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print ">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print ">
                     <Button variant="secondary" className="nd-btn-excel mx-2">
                       Excel
                     </Button>

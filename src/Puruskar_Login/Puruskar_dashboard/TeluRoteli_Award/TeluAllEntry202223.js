@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row,Button, Pagination, Table} from "react-bootstrap";
+import { Col, Row, Button, Pagination, Table } from "react-bootstrap";
 import "../../../Puruskar_Login/assets/css/PurskarLeftNav.css";
 import PuruskarDashBoard from "../PuruskarDashBoard";
 import Footer from "../../../componets/footer/Footer";
@@ -20,14 +20,14 @@ const TeluAllEntry202223 = () => {
 
           <div className="main">
 
-          <div className="awc-dpo-head">
+            <div className="awc-dpo-head">
               <h1>Rajay Stree Shakti Tilu Rauteli Puraskar  Applicant List</h1>
             </div>
             <Row>
-             
+
               <Col lg={12} md={12} sm={12}>
                 <div className="box-container1">
-                  
+
                   <div className="table-responsive-lg table-container-box mt-1">
                     <Table className="dpo-sub-table" striped bordered hover>
                       <thead className="purskar-thead">
@@ -64,13 +64,13 @@ const TeluAllEntry202223 = () => {
                           <td>1</td>
                           <td>11</td>
                           <td>6</td>
-                         
+
                         </tr>
-                        
+
                       </tbody>
                     </Table>
                   </div>
-                  
+
                 </div>
               </Col>
             </Row>
@@ -78,12 +78,12 @@ const TeluAllEntry202223 = () => {
               <h1>Rajay Stree Shakti Tilu Rauteli Puraskar  2023-24: All List</h1>
             </div> */}
             <Row className="mt-3">
-             
+
               <Col lg={12} md={12} sm={12}>
                 <div className="box-container1">
                   <Row>
                     <div className="awc-finance-mobresp">
-                      <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                      <Col lg={6} md={6} sm={6} className="nd-staff-print11">
                         <div className="search-container">
                           <form>
                             <input
@@ -103,8 +103,8 @@ const TeluAllEntry202223 = () => {
                           </form>
                         </div>
                       </Col>
-                      <Col lg={6} md={6} sm={12} className="nd-staff-print ">
-                      <Button variant="secondary" className="dpo-copy-puru-btn mx-3">
+                      <Col lg={6} md={6} sm={6} className="nd-staff-print ">
+                        <Button variant="secondary" className="dpo-copy-puru-btn mx-3">
                           Copy
                         </Button>
                         <Button className="awc-btn-puru-exl">Excel</Button>
@@ -131,69 +131,69 @@ const TeluAllEntry202223 = () => {
                         </tr>
                       </thead>
                       <tbody>
-                      <tr>
+                        <tr>
                           <td>1</td>
                           <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                TR-2023-00040
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    TR-2023-00040
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
                           <td>Vandanan Bhandari </td>
                           <td>16-Jan-1995</td>
                           <td>Post-Graduation</td>
                           <td>Talakholta Sarkari ki Aalilower Mall Road Almora 263601 </td>
                           <td>Almora</td>
                           <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               Open Link
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    Open Link
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
                         </tr>
                         <tr>
                           <td>2</td>
                           <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               TR-2022-00059
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    TR-2022-00059
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
                           <td>Sunita Tiwari</td>
                           <td>15-Sep-1975</td>
                           <td>Post-Graduation</td>
                           <td>Kosi almora Uttrakhand</td>
                           <td>Almora</td>
                           <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               <IoMdCloseCircle className="close-icon" />
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    <IoMdCloseCircle className="close-icon" />
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
                         </tr>
                       </tbody>
                     </Table>

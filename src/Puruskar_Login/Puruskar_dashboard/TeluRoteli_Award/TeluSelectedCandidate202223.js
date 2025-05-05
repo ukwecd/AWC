@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row,Button, Pagination, Table} from "react-bootstrap";
+import { Col, Row, Button, Pagination, Table } from "react-bootstrap";
 import "../../../Puruskar_Login/assets/css/PurskarLeftNav.css";
 import PuruskarDashBoard from "../PuruskarDashBoard";
 import Footer from "../../../componets/footer/Footer";
@@ -18,12 +18,12 @@ const TeluSelectedCandidate202223 = () => {
 
           <div className="main">
 
-          <div className="awc-dpo-head">
+            <div className="awc-dpo-head">
               <h1>Rajay Stree Shakti Tilu Rauteli Puraskar  Applicant List</h1>
             </div>
             <Row>
               <Col lg={12} md={12} sm={12}>
-                <div className="box-container1"> 
+                <div className="box-container1">
                   <div className="table-responsive-lg table-container-box mt-1">
                     <Table className="dpo-sub-table" striped bordered hover>
                       <thead className="purskar-thead">
@@ -45,22 +45,22 @@ const TeluSelectedCandidate202223 = () => {
                         </tr>
                       </thead>
                       <tbody>
-                       <tr>
-                        <td>Approved</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>0</td>
-                        <td>1</td>
-                        <td>1</td>
-                       </tr>
+                        <tr>
+                          <td>Approved</td>
+                          <td>1</td>
+                          <td>1</td>
+                          <td>1</td>
+                          <td>1</td>
+                          <td>1</td>
+                          <td>1</td>
+                          <td>1</td>
+                          <td>1</td>
+                          <td>1</td>
+                          <td>1</td>
+                          <td>0</td>
+                          <td>1</td>
+                          <td>1</td>
+                        </tr>
                       </tbody>
                     </Table>
                   </div>
@@ -71,12 +71,12 @@ const TeluSelectedCandidate202223 = () => {
               <h1>Rajay Stree Shakti Tilu Rauteli Puraskar  2023-24: All List</h1>
             </div> */}
             <Row className="mt-3">
-             
+
               <Col lg={12} md={12} sm={12}>
                 <div className="box-container1">
                   <Row>
                     <div className="awc-finance-mobresp">
-                      <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                      <Col lg={6} md={6} sm={6} className="nd-staff-print11">
                         <div className="search-container">
                           <form>
                             <input
@@ -96,8 +96,8 @@ const TeluSelectedCandidate202223 = () => {
                           </form>
                         </div>
                       </Col>
-                      <Col lg={6} md={6} sm={12} className="nd-staff-print ">
-                      <Button variant="secondary" className="dpo-copy-puru-btn mx-3">
+                      <Col lg={6} md={6} sm={6} className="nd-staff-print ">
+                        <Button variant="secondary" className="dpo-copy-puru-btn mx-3">
                           Copy
                         </Button>
                         <Button className="awc-btn-puru-exl">Excel</Button>
@@ -117,35 +117,35 @@ const TeluSelectedCandidate202223 = () => {
                           <th>Mobile No.</th>
                           <th>Applicant Name</th>
                           <th>Account Name</th>
-                           <th>Account No.</th>
+                          <th>Account No.</th>
                           <th>IFSC Code</th>
                           <th>Bank Name</th>
                         </tr>
                       </thead>
                       <tbody>
-                      <tr>
+                        <tr>
                           <td>1</td>
                           <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                TR-2022-00081
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    TR-2022-00081
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
                           <td>9927-xxxxxx </td>
                           <td>Dr. Sahchi Joahi</td>
                           <td>Sashi Joshi</td>
                           <td>1178-xxxxxxx</td>
                           <td>SBIN0004759</td>
                           <td>State Bank Of India MoleKhal</td>
-                         
+
                         </tr>
-                       
+
                       </tbody>
                     </Table>
                   </div>

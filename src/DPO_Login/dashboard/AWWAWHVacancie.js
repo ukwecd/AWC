@@ -5,7 +5,7 @@ import Footer from "../../componets/footer/Footer";
 import DPODashBoard from "./DPODashBoard";
 import { GiReturnArrow } from "react-icons/gi";
 
-import { IoIosCheckmarkCircle, IoMdCloseCircle } from "react-icons/io";
+import { IoIosCheckmarkCircle } from "react-icons/io";
 
 const AWWAWHVacancie = () => {
   return (
@@ -23,12 +23,12 @@ const AWWAWHVacancie = () => {
               <h1>Vacancies Details</h1>
             </div>
             <div className="box-container">
-            <div class="awc-table-head">
-              <h1>Added Vacancies</h1></div>
+              <div class="awc-table-head">
+                <h1>Added Vacancies</h1></div>
 
               <Row>
                 <div className="awc-dpo-mobresp">
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print11">
                     <div className="search-container">
                       <form>
                         <input
@@ -48,7 +48,7 @@ const AWWAWHVacancie = () => {
                       </form>
                     </div>
                   </Col>
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print ">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print ">
                     <Button className="awc-btn-copy">Copy</Button>
 
                     <Button variant="secondary" className="dpo-prnt-btn">
@@ -64,7 +64,7 @@ const AWWAWHVacancie = () => {
                       <th>S.No</th>
                       <th>District Name</th>
                       <th>Project Name</th>
-                     <th>Sector Name</th>
+                      <th>Sector Name</th>
                       <th>AWC Name</th>
                       <th>AWC Type</th>
                       <th>Vacancy Name</th>
@@ -102,8 +102,8 @@ const AWWAWHVacancie = () => {
                         </div>
                       </td>
 
-                     
-                     
+
+
                     </tr>
                   </tbody>
                 </Table>

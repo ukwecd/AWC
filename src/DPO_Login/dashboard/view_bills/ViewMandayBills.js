@@ -5,7 +5,7 @@ import Accordion from "react-bootstrap/Accordion";
 import DPODashBoard from "../DPODashBoard";
 import Footer from "../../../componets/footer/Footer";
 import { FaIdCard } from "react-icons/fa";
-import { IoIosCheckmarkCircle} from "react-icons/io";
+import { IoIosCheckmarkCircle } from "react-icons/io";
 import { IoCloseCircle } from "react-icons/io5";
 import { MdError } from "react-icons/md";
 import { FaCircleCheck } from "react-icons/fa6";
@@ -95,7 +95,7 @@ const ViewMandayBills = () => {
                           <Col
                             lg={6}
                             md={6}
-                            sm={12}
+                            sm={6}
                             className="nd-staff-print11"
                           >
                             <div className="search-container">
@@ -120,7 +120,7 @@ const ViewMandayBills = () => {
                           <Col
                             lg={6}
                             md={6}
-                            sm={12}
+                            sm={6}
                             className="nd-staff-print "
                           >
                             <Button className="awc-btn-copy">Copy</Button>
@@ -195,102 +195,102 @@ const ViewMandayBills = () => {
                           </div>{" "}
                         </Col>
                       </Row>
-                    
-<Row>
-  <Col lg={6} md={6} sm={12}>
-  <ListGroup as="ol" className="awc-d-flex">
-      <ListGroup.Item
-        as="li"
-        className="d-flex justify-content-between align-items-start"
-      >
-        <div className="me-auto">
-          <div>AWW</div>
-         
-        </div>
-        <Badge bg="primary" pill>
-          0
-        </Badge>
-      </ListGroup.Item>
-      <ListGroup.Item
-        as="li"
-        className="d-flex justify-content-between align-items-start"
-      >
-        <div className="me-auto">
-          <div>AWH</div>
-        
-        </div>
-        <Badge bg="primary" pill>
-          0
-        </Badge>
-      </ListGroup.Item>
-      <ListGroup.Item
-        as="li"
-        className="d-flex justify-content-between align-items-start"
-      >
-        <div className="me-auto">
-          <div>MINI</div>
-        
-        </div>
-        <Badge bg="primary" pill>
-          0
-        </Badge>
-      </ListGroup.Item>
-      <ListGroup.Item
-        as="li"
-        className="d-flex justify-content-between align-items-start"
-      >
-        <div className="me-auto">
-          <div>Total Worker</div>
-        
-        </div>
-        <Badge bg="primary" pill>
-          0
-        </Badge>
-      </ListGroup.Item>
-    </ListGroup>
-  </Col>
-<Col lg={6} sm={12} md={6}>
-<ListGroup as="ol" className="awc-d-flex">
-      <ListGroup.Item
-        as="li"
-        className="d-flex justify-content-between align-items-start"
-      >
-        <div className="me-auto">
-          <div>Center Share</div>
-         
-        </div>
-        <Badge bg="primary" pill>
-          0
-        </Badge>
-      </ListGroup.Item>
-      <ListGroup.Item
-        as="li"
-        className="d-flex justify-content-between align-items-start"
-      >
-        <div className=" me-auto">
-          <div>State Share</div>
-       
-        </div>
-        <Badge bg="primary" pill>
-         0
-        </Badge>
-      </ListGroup.Item>
-      <ListGroup.Item
-        as="li"
-        className="d-flex justify-content-between align-items-start"
-      >
-        <div className="me-auto">
-          <div>Total Amount</div>
-          
-        </div>
-        <Badge bg="primary" pill>
-          0
-        </Badge>
-      </ListGroup.Item>
-    </ListGroup>
-</Col>
-   
-</Row>
+
+                      <Row>
+                        <Col lg={6} md={6} sm={12}>
+                          <ListGroup as="ol" className="awc-d-flex">
+                            <ListGroup.Item
+                              as="li"
+                              className="d-flex justify-content-between align-items-start"
+                            >
+                              <div className="me-auto">
+                                <div>AWW</div>
+
+                              </div>
+                              <Badge bg="primary" pill>
+                                0
+                              </Badge>
+                            </ListGroup.Item>
+                            <ListGroup.Item
+                              as="li"
+                              className="d-flex justify-content-between align-items-start"
+                            >
+                              <div className="me-auto">
+                                <div>AWH</div>
+
+                              </div>
+                              <Badge bg="primary" pill>
+                                0
+                              </Badge>
+                            </ListGroup.Item>
+                            <ListGroup.Item
+                              as="li"
+                              className="d-flex justify-content-between align-items-start"
+                            >
+                              <div className="me-auto">
+                                <div>MINI</div>
+
+                              </div>
+                              <Badge bg="primary" pill>
+                                0
+                              </Badge>
+                            </ListGroup.Item>
+                            <ListGroup.Item
+                              as="li"
+                              className="d-flex justify-content-between align-items-start"
+                            >
+                              <div className="me-auto">
+                                <div>Total Worker</div>
+
+                              </div>
+                              <Badge bg="primary" pill>
+                                0
+                              </Badge>
+                            </ListGroup.Item>
+                          </ListGroup>
+                        </Col>
+                        <Col lg={6} sm={12} md={6}>
+                          <ListGroup as="ol" className="awc-d-flex">
+                            <ListGroup.Item
+                              as="li"
+                              className="d-flex justify-content-between align-items-start"
+                            >
+                              <div className="me-auto">
+                                <div>Center Share</div>
+
+                              </div>
+                              <Badge bg="primary" pill>
+                                0
+                              </Badge>
+                            </ListGroup.Item>
+                            <ListGroup.Item
+                              as="li"
+                              className="d-flex justify-content-between align-items-start"
+                            >
+                              <div className=" me-auto">
+                                <div>State Share</div>
+
+                              </div>
+                              <Badge bg="primary" pill>
+                                0
+                              </Badge>
+                            </ListGroup.Item>
+                            <ListGroup.Item
+                              as="li"
+                              className="d-flex justify-content-between align-items-start"
+                            >
+                              <div className="me-auto">
+                                <div>Total Amount</div>
+
+                              </div>
+                              <Badge bg="primary" pill>
+                                0
+                              </Badge>
+                            </ListGroup.Item>
+                          </ListGroup>
+                        </Col>
+
+                      </Row>
 
 
 
@@ -322,42 +322,42 @@ const ViewMandayBills = () => {
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
+
                                     0{" "} <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
                                   </span>
                                 </div>
-                                
+
                               </td>
                               <td>64</td>
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
+
                                     0{" "} <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
                                   </span>
                                 </div>
-                                
+
                               </td>
                               <td>64</td>
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
-                                    0{" "} <FaCircleCheck  className="awc-dpo-rmv-icon" />{" "}
+
+                                    0{" "} <FaCircleCheck className="awc-dpo-rmv-icon" />{" "}
                                   </span>
                                 </div>
-                                
+
                               </td>
-                           
+
                               <td>180</td>
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
+
                                     0{" "} <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
                                   </span>
                                 </div>
-                                
+
                               </td>
 
                               <td>
@@ -387,42 +387,42 @@ const ViewMandayBills = () => {
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
+
                                     0{" "} <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
                                   </span>
                                 </div>
-                                
+
                               </td>
                               <td>64</td>
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
+
                                     0{" "} <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
                                   </span>
                                 </div>
-                                
+
                               </td>
                               <td>64</td>
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
-                                    0{" "} <FaCircleCheck  className="awc-dpo-rmv-icon" />{" "}
+
+                                    0{" "} <FaCircleCheck className="awc-dpo-rmv-icon" />{" "}
                                   </span>
                                 </div>
-                                
+
                               </td>
-                           
+
                               <td>180</td>
                               <td>
                                 <div className="dpo-table-Entry">
                                   <span className="badge  rounded-pill d-inline-block dpo-entry">
-                                   
+
                                     0{" "} <IoCloseCircle className="awc-dpo-entry-icon" />{" "}
                                   </span>
                                 </div>
-                                
+
                               </td>
 
                               <td>
@@ -466,7 +466,7 @@ const ViewMandayBills = () => {
                           <Col
                             lg={6}
                             md={6}
-                            sm={12}
+                            sm={6}
                             className="nd-staff-print11"
                           >
                             <div className="search-container">
@@ -491,7 +491,7 @@ const ViewMandayBills = () => {
                           <Col
                             lg={6}
                             md={6}
-                            sm={12}
+                            sm={6}
                             className="nd-staff-print "
                           >
                             <Button className="awc-btn-copy">Copy</Button>

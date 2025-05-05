@@ -28,7 +28,7 @@ const PendingRemoveRequest = () => {
               </div>
               <Row>
                 <div className="nd-staff-mobresp">
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print11">
                     <div className="search-container">
                       <form>
                         <input
@@ -48,7 +48,7 @@ const PendingRemoveRequest = () => {
                       </form>
                     </div>
                   </Col>
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print ">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print ">
                     <Button variant="warning" className="nd-btn-copy">
                       Copy
                     </Button>
@@ -109,7 +109,7 @@ const PendingRemoveRequest = () => {
                       <Pagination.Item>{10}</Pagination.Item>
                       <Pagination.Item>{11}</Pagination.Item>
                       <Pagination.Item active>{12}</Pagination.Item>
-                     
+
                       <Pagination.Next />
                       <Pagination.Last />
                     </Pagination>

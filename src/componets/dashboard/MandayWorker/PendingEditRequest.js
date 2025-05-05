@@ -22,7 +22,7 @@ const PendingEditRequest = () => {
             <div className="box-container">
               <Row>
                 <div className="nd-staff-mobresp">
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print11">
                     <div className="search-container">
                       <form>
                         <input
@@ -42,7 +42,7 @@ const PendingEditRequest = () => {
                       </form>
                     </div>
                   </Col>
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print ">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print ">
                     <Button variant="warning" className="nd-btn-copy">
                       Copy
                     </Button>
@@ -76,12 +76,12 @@ const PendingEditRequest = () => {
                   </thead>
                   <tbody></tbody>
                 </Table>
-                
+
               </div>
               <div className="text-center awc-dna">
-                  {" "}
-                  <MdError /> Data Not Available
-                </div>
+                {" "}
+                <MdError /> Data Not Available
+              </div>
               <Row className="awc-m-t">
                 <Col lg={6} md={6} sm={12}>
                   {" "}
@@ -102,7 +102,7 @@ const PendingEditRequest = () => {
                       <Pagination.Item>{10}</Pagination.Item>
                       <Pagination.Item>{11}</Pagination.Item>
                       <Pagination.Item active>{12}</Pagination.Item>
-                     
+
                       <Pagination.Next />
                       <Pagination.Last />
                     </Pagination>

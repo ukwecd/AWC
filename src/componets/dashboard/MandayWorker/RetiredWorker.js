@@ -23,7 +23,7 @@ const RetiredWorker = () => {
             <div className="box-container">
               <Row>
                 <div className="nd-staff-mobresp">
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print11">
                     <div className="search-container">
                       <form>
                         <input
@@ -43,7 +43,7 @@ const RetiredWorker = () => {
                       </form>
                     </div>
                   </Col>
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print ">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print ">
                     <Button variant="warning" className="nd-btn-copy">
                       Copy
                     </Button>
@@ -57,40 +57,40 @@ const RetiredWorker = () => {
                 </div>
               </Row>
               <div className="table-container-box table-responsive-lg">
-                
-                  <Table className="awc-sub-table ">
-                    <thead className="awc-thead">
-                      <tr>
-                        <th>S.No</th>
 
-                        <th>Remove Request</th>
-                        <th>Aadhar No.</th>
-                        <th>Group Title</th>
-                        <th>Grant Code</th>
-                        <th>Worker Name</th>
-                        <th>Worker DOB</th>
-                        <th>Worker Mobile No</th>
-                        <th>Worker Type</th>
-                        <th>Project</th>
-                        <th>AWC Name</th>
-                        <th>AWC Code</th>
-                        <th>Center Mandary</th>
-                        <th>State Manady</th>
-                        <th>Acount No.</th>
-                        <th>IFSC Code</th>
-                        <th>Bank Name</th>
-                      </tr>
-                    </thead>
-                    <tbody></tbody>
-                  </Table>
-                 
-                 
+                <Table className="awc-sub-table ">
+                  <thead className="awc-thead">
+                    <tr>
+                      <th>S.No</th>
+
+                      <th>Remove Request</th>
+                      <th>Aadhar No.</th>
+                      <th>Group Title</th>
+                      <th>Grant Code</th>
+                      <th>Worker Name</th>
+                      <th>Worker DOB</th>
+                      <th>Worker Mobile No</th>
+                      <th>Worker Type</th>
+                      <th>Project</th>
+                      <th>AWC Name</th>
+                      <th>AWC Code</th>
+                      <th>Center Mandary</th>
+                      <th>State Manady</th>
+                      <th>Acount No.</th>
+                      <th>IFSC Code</th>
+                      <th>Bank Name</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </Table>
+
+
               </div>
               <div className="text-center awc-dna">
-                  {" "}
-                  <MdError /> Data Not Available
-                
-                </div>
+                {" "}
+                <MdError /> Data Not Available
+
+              </div>
               <Row>
                 <Col lg={6} md={6} sm={12}>
                   {" "}
@@ -111,7 +111,7 @@ const RetiredWorker = () => {
                       <Pagination.Item>{10}</Pagination.Item>
                       <Pagination.Item>{11}</Pagination.Item>
                       <Pagination.Item active>{12}</Pagination.Item>
-                     
+
                       <Pagination.Next />
                       <Pagination.Last />
                     </Pagination>

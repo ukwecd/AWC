@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row,Button, Pagination, Table} from "react-bootstrap";
+import { Col, Row, Button, Pagination, Table } from "react-bootstrap";
 import "../../../Puruskar_Login/assets/css/PurskarLeftNav.css";
 import PuruskarDashBoard from "../PuruskarDashBoard";
 import Footer from "../../../componets/footer/Footer";
@@ -20,14 +20,14 @@ const AllEntry202324 = () => {
 
           <div className="main">
 
-          <div className="awc-dpo-head">
+            <div className="awc-dpo-head">
               <h1>Rajay Stree Shakti Tilu Rauteli Puraskar  Applicant List 2023-24</h1>
             </div>
             <Row>
-             
+
               <Col lg={12} md={12} sm={12}>
                 <div className="box-container1">
-                <div class="awc-purskar-alert">
+                  <div class="awc-purskar-alert">
                     <h2>Please Click on the District Name to Filter.</h2>
                   </div>
                   <div className="table-responsive-lg table-container-box mt-1">
@@ -52,175 +52,175 @@ const AllEntry202324 = () => {
                       </thead>
                       <tbody>
                         <tr>
-                        <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                 All Entry
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                3
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                3
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                0
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                5
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                3
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                3
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                3
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                3
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                12
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                5
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                8
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                3
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                2
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                          
+                          <td className="text-primary awc-bold">
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    All Entry
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="text-primary awc-bold">
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    3
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="text-primary awc-bold">
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    3
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="text-primary awc-bold">
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    0
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="text-primary awc-bold">
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    5
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="text-primary awc-bold">
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    3
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="text-primary awc-bold">
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    3
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="text-primary awc-bold">
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    3
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="text-primary awc-bold">
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    3
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="text-primary awc-bold">
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    12
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="text-primary awc-bold">
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    5
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="text-primary awc-bold">
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    8
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="text-primary awc-bold">
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    3
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="text-primary awc-bold">
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    2
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+
 
                           {/* <td>
                         <div className="dpo-p">
@@ -241,11 +241,11 @@ const AllEntry202324 = () => {
                         </div>
                       </td> */}
                         </tr>
-                        
+
                       </tbody>
                     </Table>
                   </div>
-                  
+
                 </div>
               </Col>
             </Row>
@@ -253,12 +253,12 @@ const AllEntry202324 = () => {
               <h1>Rajay Stree Shakti Tilu Rauteli Puraskar 2023-24: All List</h1>
             </div>
             <Row>
-             
+
               <Col lg={12} md={12} sm={12}>
                 <div className="box-container1">
                   <Row>
                     <div className="awc-finance-mobresp">
-                      <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                      <Col lg={6} md={6} sm={6} className="nd-staff-print11">
                         <div className="search-container">
                           <form>
                             <input
@@ -278,8 +278,8 @@ const AllEntry202324 = () => {
                           </form>
                         </div>
                       </Col>
-                      <Col lg={6} md={6} sm={12} className="nd-staff-print ">
-                      <Button variant="secondary" className="dpo-copy-puru-btn mx-3">
+                      <Col lg={6} md={6} sm={6} className="nd-staff-print ">
+                        <Button variant="secondary" className="dpo-copy-puru-btn mx-3">
                           Copy
                         </Button>
                         <Button className="awc-btn-puru-exl">Excel</Button>
@@ -304,46 +304,46 @@ const AllEntry202324 = () => {
                           <th>District</th>
                           <th>Social Media Link/URL</th>
                           <th>Remark</th>
-                          
+
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td>1</td>
-                        
+
                           <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                AP-2024-00034
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    AP-2024-00034
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
                           <td>Nirmala Fartiyal</td>
                           <td>01-Jan-1982</td>
                           <td>12th</td>
                           {/* data will be change */}
                           <td>ग्राम कनालूँगा पोस्ट पाटलीबागड हवालबाग</td>
-                        
+
                           <td>Almora</td>
                           <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               Open Link
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td>-</td>
-                          
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    Open Link
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td>-</td>
+
                           {/* <td>
                         <div className="dpo-p">
                           <Button className="dpo-approved-btn">
@@ -353,7 +353,7 @@ const AllEntry202324 = () => {
                           </Button>
                         </div>
                       </td> */}
-                      {/* <td>
+                          {/* <td>
                         <div className="dpo-p">
                           <Button className="dpo-return-btn">
                             <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
@@ -365,39 +365,39 @@ const AllEntry202324 = () => {
                         </tr>
                         <tr>
                           <td>2</td>
-                        
+
                           <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                                AP-2024-00056
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    AP-2024-00056
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
                           <td>Deepa Gurwant</td>
                           <td>01-Jan-1993</td>
                           <td>Post-Graduation</td>
                           <td>Village Sola-2 post Offic Kotar Tarikhet Almora </td>
                           <td>Almora</td>
                           <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               <IoMdCloseCircle className="close-icon" />
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
-                        <td>-</td>
-                          
-                      
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    <IoMdCloseCircle className="close-icon" />
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
+                          <td>-</td>
+
+
                         </tr>
                       </tbody>
                     </Table>

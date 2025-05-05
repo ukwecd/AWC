@@ -23,12 +23,12 @@ const Project202324 = () => {
               <h1>Vacancies Details</h1>
             </div>
             <div className="box-container">
-            <div class="awc-table-head">
-              <h1>Added Vacancies</h1></div>
+              <div class="awc-table-head">
+                <h1>Added Vacancies</h1></div>
 
               <Row>
                 <div className="awc-dpo-mobresp">
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print11">
                     <div className="search-container">
                       <form>
                         <input
@@ -48,7 +48,7 @@ const Project202324 = () => {
                       </form>
                     </div>
                   </Col>
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print ">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print ">
                     <Button className="awc-btn-copy">Copy</Button>
 
                     <Button variant="secondary" className="dpo-prnt-btn">
@@ -60,18 +60,18 @@ const Project202324 = () => {
               <div className="table-responsive-lg table-container-box mt-1">
                 <Table className="dpo-sub-table" striped bordered hover>
                   <thead className="dpo-project">
-                   
+
                     <tr>
-                    <th rowSpan="2"><div className="dpo-project-data">S.No</div></th>
-    <th rowSpan="2">District Name</th>
-    <th rowSpan="2">Project Name</th>
+                      <th rowSpan="2"><div className="dpo-project-data">S.No</div></th>
+                      <th rowSpan="2">District Name</th>
+                      <th rowSpan="2">Project Name</th>
                       <th colspan="13" className="text-center">Grant 15</th>
                       <th colspan="5" className="text-center">Grant 30</th>
                       <th colspan="10" className="text-center">Grant 31</th>
                     </tr>
                     <tr>
-                    
-                     <th>AWC Rent | आंगनवाड़ी भवन किराया</th>
+
+                      <th>AWC Rent | आंगनवाड़ी भवन किराया</th>
                       <th>TA</th>
                       <th>Medical</th>
                       <th>Petrol/ Oil/ Lubricant/ Maintainence etc | गाड़ियों के संचालन अनुरक्षण एवं इंधन आदि की खरीद</th>
@@ -99,7 +99,7 @@ const Project202324 = () => {
                       <th>Manday | मानदेय</th>
                       <th>Cooked Food| मानदेय</th>
                       <th>Construction of AWC | आंगनवाड़ी भवन का निर्माण</th>
-                      
+
                     </tr>
                   </thead>
                   <tbody>
@@ -135,11 +135,11 @@ const Project202324 = () => {
                       <td>0.00</td>
                       <td>0.00</td>
                       <td>0.00</td>
-                      
-                    
 
-                     
-                     
+
+
+
+
                     </tr>
                   </tbody>
                 </Table>

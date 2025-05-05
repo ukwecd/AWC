@@ -42,8 +42,8 @@ const DirectInnerDash = () => {
                                 <BsBuildingAdd className="finace-icon-clr" />
                               </i>
                             </div>
-                            <Col lg={8} md={8} sm={8}>
-                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
+                            <Col lg={8} md={8} sm={8} className="">
+                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data dash-mob">
                                 <div className="d-flex align-items-center">
                                   <span className="">कुल पूर्ण आँगनवाड़ी केंद्र :</span>
                                 </div>
@@ -83,7 +83,7 @@ const DirectInnerDash = () => {
                               </i>
                             </div>
                             <Col lg={8} md={8} sm={8}>
-                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
+                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data dash-mob">
                                 <div className="d-flex align-items-center">
                                   <span className="">केंद्रों में कुल कार्यरत कार्यकर्त्रियां :</span>
                                 </div>
@@ -128,13 +128,13 @@ const DirectInnerDash = () => {
                               </i>
                             </div>
                             <Col lg={8} md={8} sm={8}>
-                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
+                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data dash-mob">
                                 <div className="d-flex align-items-center">
                                   <span className="">आंगनबाड़ी कार्यकर्त्रियां के रिक्त पद :</span>
                                 </div>
                                 <div className="">373</div>
                               </div>
-                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data">
+                              <div className="d-flex justify-content-between mb-1 awc-dashbord-data ">
                                 <div className="d-flex align-items-center">
                                   <span className="">मिनी आंगनबाड़ी कार्यकर्त्रियां के रिक्त पद :</span>
                                 </div>

@@ -46,7 +46,7 @@ const AllWorker = () => {
               </Row>
               <Row className="mt-1">
                 <div className="awc-staff-mobresp">
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print11">
                     <div className="search-container">
                       <form>
                         <input
@@ -66,7 +66,7 @@ const AllWorker = () => {
                       </form>
                     </div>
                   </Col>
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print ">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print ">
                     <Button variant="primary" className="awc-btn-add">
                       Add New Request
                     </Button>

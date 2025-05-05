@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row,Button, Pagination, Table} from "react-bootstrap";
+import { Col, Row, Button, Pagination, Table } from "react-bootstrap";
 import "../../../Puruskar_Login/assets/css/PurskarLeftNav.css";
 import PuruskarDashBoard from "../PuruskarDashBoard";
 import Footer from "../../../componets/footer/Footer";
@@ -18,11 +18,11 @@ const ApprovedEntry202223 = () => {
 
           <div className="main">
 
-          <div className="awc-dpo-head">
+            <div className="awc-dpo-head">
               <h1>Anganwadi Puraskar Applicant List 2021-22</h1>
             </div>
             <Row>
-             
+
               <Col lg={12} md={12} sm={12}>
                 <div className="box-container1">
                   <div className="table-responsive-lg table-container-box mt-1">
@@ -60,11 +60,11 @@ const ApprovedEntry202223 = () => {
                         <td>7</td>
                         <td>7</td>
                         <td>6</td>
-                        
+
                       </tbody>
                     </Table>
                   </div>
-                  
+
                 </div>
               </Col>
             </Row>
@@ -72,12 +72,12 @@ const ApprovedEntry202223 = () => {
               <h1>Rajay Stree Sahkti Telu Roteli Purskar  Applicant List 23-24: All List</h1>
             </div> */}
             <Row className="m-t-2">
-             
+
               <Col lg={12} md={12} sm={12}>
                 <div className="box-container">
                   <Row>
                     <div className="awc-finance-mobresp">
-                      <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                      <Col lg={6} md={6} sm={6} className="nd-staff-print11">
                         <div className="search-container">
                           <form>
                             <input
@@ -97,8 +97,8 @@ const ApprovedEntry202223 = () => {
                           </form>
                         </div>
                       </Col>
-                      <Col lg={6} md={6} sm={12} className="nd-staff-print ">
-                      <Button variant="secondary" className="dpo-copy-puru-btn mx-3">
+                      <Col lg={6} md={6} sm={6} className="nd-staff-print ">
+                        <Button variant="secondary" className="dpo-copy-puru-btn mx-3">
                           Copy
                         </Button>
                         <Button className="awc-btn-puru-exl">Excel</Button>
@@ -121,12 +121,12 @@ const ApprovedEntry202223 = () => {
                           <th>Father/Husband Name</th>
                           <th>Mother Name</th>
                           <th>Education Qualification</th>
-                         
+
                           <th>District</th>
                           <th>Project</th>
                           <th>AWC Name</th>
                           <th>Join Date</th>
-                          
+
                         </tr>
                       </thead>
                       <tbody>
@@ -134,31 +134,31 @@ const ApprovedEntry202223 = () => {
                           <td>1</td>
                           <td>8496-xxxxxx</td>
                           <td className="text-primary awc-bold">
-                          <div className="dpo-p">
-                            <Link to="#">
-                              {" "}
-                              <Button className="awc-btn-money text-primary">
-                                <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
-                               2022-0001
-                                </span>
-                              </Button>
-                            </Link>
-                          </div>
-                        </td>
+                            <div className="dpo-p">
+                              <Link to="#">
+                                {" "}
+                                <Button className="awc-btn-money text-primary">
+                                  <span className="badge  rounded-pill text-primary d-inline-block nd-btn-district-btnn nd-btn-district1">
+                                    2022-0001
+                                  </span>
+                                </Button>
+                              </Link>
+                            </div>
+                          </td>
                           <td>Yasmeen Jahan</td>
                           <td>11-may-1971</td>
                           <td>Muhamad Hanif</td>
                           {/* data will be change */}
                           <td>Jaibun Nisha</td>
-                        
-                          <td>Graduation</td> 
+
+                          <td>Graduation</td>
                           <td>Usnagar</td>
                           <td>Sitarganj[0506710]</td>
                           <td>WARD NO. 3 KA 2</td>
                           <td>2006-11-22</td>
-                        
-                        
-                          
+
+
+
                           {/* <td>
                         <div className="dpo-p">
                           <Button className="dpo-approved-btn">
@@ -168,7 +168,7 @@ const ApprovedEntry202223 = () => {
                           </Button>
                         </div>
                       </td> */}
-                      {/* <td>
+                          {/* <td>
                         <div className="dpo-p">
                           <Button className="dpo-return-btn">
                             <span className="badge  rounded-pill text-dark-white d-inline-block nd-btn-district nd-btn-district1">
@@ -178,7 +178,7 @@ const ApprovedEntry202223 = () => {
                         </div>
                       </td> */}
                         </tr>
-                       
+
                       </tbody>
                     </Table>
                   </div>

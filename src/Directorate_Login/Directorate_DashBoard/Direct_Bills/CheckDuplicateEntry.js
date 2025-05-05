@@ -103,7 +103,7 @@ const CheckDuplicateEntry = () => {
               <Row> <h2>Manday for Month : April 2023-24</h2></Row>
               <Row>
                 <div className="awc-finance-mobresp">
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print11">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print11">
                     <div className="search-container">
                       <form>
                         <input
@@ -123,7 +123,7 @@ const CheckDuplicateEntry = () => {
                       </form>
                     </div>
                   </Col>
-                  <Col lg={6} md={6} sm={12} className="nd-staff-print ">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-print ">
                     <Button variant="secondary" className="aws-copy-Directorate-btn mx-3">
                       Copy
                     </Button>

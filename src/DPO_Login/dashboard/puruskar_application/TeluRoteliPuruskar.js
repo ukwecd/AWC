@@ -48,7 +48,7 @@ const TeluRoteliPuruskar = () => {
                           <Col
                             lg={6}
                             md={6}
-                            sm={12}
+                            sm={6}
                             className="nd-staff-print11"
                           >
                             <div className="search-container">
@@ -73,7 +73,7 @@ const TeluRoteliPuruskar = () => {
                           <Col
                             lg={6}
                             md={6}
-                            sm={12}
+                            sm={6}
                             className="nd-staff-print "
                           >
                             <Button className="awc-btn-copy">Copy</Button>
@@ -186,7 +186,7 @@ const TeluRoteliPuruskar = () => {
                           <Col
                             lg={6}
                             md={6}
-                            sm={12}
+                            sm={6}
                             className="nd-staff-print11"
                           >
                             <div className="search-container">
@@ -211,7 +211,7 @@ const TeluRoteliPuruskar = () => {
                           <Col
                             lg={6}
                             md={6}
-                            sm={12}
+                            sm={6}
                             className="nd-staff-print "
                           >
                             <Button className="awc-btn-copy">Copy</Button>

@@ -230,11 +230,16 @@ button.awc-btn-money.btn.btn-primary {
   font-size: var(--awc-space-450);
   color: var(--awc-Primary);
 }
-.awc-btn-bill{
+
+.awc-btn-bill {
   text-align: left;
 }
 
 @media only screen and (max-width: 568px) {
+  .dash-mob {
+    padding-top: var(--awc-space-200);
+  }
+
   .awc-dpo-icon-finace {
     display: none;
   }

@@ -69,10 +69,10 @@ const ViewProtsahanBills = () => {
               </div>
 
               <div className="awc-after-fillter mt-3">
-                
+
                 <div className="awc-dpo-head">
                   <h1>
-                  Manday For Month : February 2024-25 | all Project
+                    Manday For Month : February 2024-25 | all Project
                   </h1>
                 </div>
 
@@ -84,7 +84,7 @@ const ViewProtsahanBills = () => {
                     <Col
                       lg={6}
                       md={6}
-                      sm={12}
+                      sm={6}
                       className="nd-staff-print11"
                     >
                       <div className="search-container">
@@ -109,7 +109,7 @@ const ViewProtsahanBills = () => {
                     <Col
                       lg={6}
                       md={6}
-                      sm={12}
+                      sm={6}
                       className="nd-staff-print "
                     >
                       <Button className="awc-btn-copy">Copy</Button>
@@ -146,7 +146,7 @@ const ViewProtsahanBills = () => {
                         <th>IFSC Code</th>
                         <th>Bank Name</th>
                         <th>Claim Amount</th>
-                       
+
                         <th>Remark (if Any)</th>
                       </tr>
                     </thead>
@@ -201,89 +201,89 @@ const ViewProtsahanBills = () => {
                     </div>{" "}
                   </Col>
                 </Row>
-              
-<Row>
-<Col lg={6} md={6} sm={12}>
-<ListGroup as="ol" className="awc-d-flex">
-<ListGroup.Item
-  as="li"
-  className="d-flex justify-content-between align-items-start"
->
-  <div className="me-auto">
-    <div>AWW</div>
-   
-  </div>
-  <Badge bg="primary" pill>
-    0
-  </Badge>
-</ListGroup.Item>
-<ListGroup.Item
-  as="li"
-  className="d-flex justify-content-between align-items-start"
->
-  <div className="me-auto">
-    <div>AWH</div>
-  
-  </div>
-  <Badge bg="primary" pill>
-    0
-  </Badge>
-</ListGroup.Item>
-<ListGroup.Item
-  as="li"
-  className="d-flex justify-content-between align-items-start"
->
-  <div className="me-auto">
-    <div>MINI</div>
-  
-  </div>
-  <Badge bg="primary" pill>
-    0
-  </Badge>
-</ListGroup.Item>
-<ListGroup.Item
-  as="li"
-  className="d-flex justify-content-between align-items-start"
->
-  <div className="me-auto">
-    <div>Total Worker</div>
-  
-  </div>
-  <Badge bg="primary" pill>
-    0
-  </Badge>
-</ListGroup.Item>
-</ListGroup>
-</Col>
-<Col lg={6} sm={12} md={6}>
-<ListGroup as="ol" className="awc-d-flex">
-<ListGroup.Item
-  as="li"
-  className="d-flex justify-content-between align-items-start"
->
-  <div className="me-auto">
-    <div>Total Amount</div>
-   
-  </div>
-  <Badge bg="primary" pill>
-  6082200
-  </Badge>
-</ListGroup.Item>
 
-</ListGroup>
-</Col>
+                <Row>
+                  <Col lg={6} md={6} sm={12}>
+                    <ListGroup as="ol" className="awc-d-flex">
+                      <ListGroup.Item
+                        as="li"
+                        className="d-flex justify-content-between align-items-start"
+                      >
+                        <div className="me-auto">
+                          <div>AWW</div>
 
-</Row>
+                        </div>
+                        <Badge bg="primary" pill>
+                          0
+                        </Badge>
+                      </ListGroup.Item>
+                      <ListGroup.Item
+                        as="li"
+                        className="d-flex justify-content-between align-items-start"
+                      >
+                        <div className="me-auto">
+                          <div>AWH</div>
+
+                        </div>
+                        <Badge bg="primary" pill>
+                          0
+                        </Badge>
+                      </ListGroup.Item>
+                      <ListGroup.Item
+                        as="li"
+                        className="d-flex justify-content-between align-items-start"
+                      >
+                        <div className="me-auto">
+                          <div>MINI</div>
+
+                        </div>
+                        <Badge bg="primary" pill>
+                          0
+                        </Badge>
+                      </ListGroup.Item>
+                      <ListGroup.Item
+                        as="li"
+                        className="d-flex justify-content-between align-items-start"
+                      >
+                        <div className="me-auto">
+                          <div>Total Worker</div>
+
+                        </div>
+                        <Badge bg="primary" pill>
+                          0
+                        </Badge>
+                      </ListGroup.Item>
+                    </ListGroup>
+                  </Col>
+                  <Col lg={6} sm={12} md={6}>
+                    <ListGroup as="ol" className="awc-d-flex">
+                      <ListGroup.Item
+                        as="li"
+                        className="d-flex justify-content-between align-items-start"
+                      >
+                        <div className="me-auto">
+                          <div>Total Amount</div>
+
+                        </div>
+                        <Badge bg="primary" pill>
+                          6082200
+                        </Badge>
+                      </ListGroup.Item>
+
+                    </ListGroup>
+                  </Col>
+
+                </Row>
 
 
 
-                
+
                 {/* <div className="text-center awc-dna">
                   {" "}
                   <MdError /> Data Not Available
                 </div> */}
-            
-        </div>
+
+              </div>
             </div>
             <div>
               <Footer />
