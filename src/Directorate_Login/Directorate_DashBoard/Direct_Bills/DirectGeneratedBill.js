@@ -209,7 +209,7 @@ const DirectGeneratedBill = () => {
                               </Form.Group>
                             </Col>
                             <Col lg={4} md={4} sm={12} className="biil-submit">
-                              <Button className="aws-copy-Directorate-btn">Project Wise Fetch</Button>
+                              <Button className="aws-copy-Directorate-btn mb-3">Project Wise Fetch</Button>
                             </Col>
                           </Row>
 
@@ -449,7 +449,7 @@ const DirectGeneratedBill = () => {
             </div>
             <div className="awc-after-fillter mt-3">
 
-              <Row><h2>Manday for Month : April 2023-24 | agastymuni</h2>
+              <Row><h2>Manday for Month : April 2023-24 | Agastymuni</h2>
                 <p><b>Note:</b> Center Share : 90% Center Share + 10% State Share <br></br><b>Note:</b> State Share : Rs. 100/- Deducted towards Kalyan Kosh</p>
 
               </Row>
@@ -519,7 +519,7 @@ const DirectGeneratedBill = () => {
                       <td>Rajeshwari Devi</td>
                       <td>	AWW</td>
                       <td>	Rudra Prayag</td>
-                      <td>	agastymuni</td>
+                      <td>	Agastymuni</td>
                       <td>BANGOLI 1</td>
                       <td>	4283002925</td>
                       <td>SBIN0RRUTGB</td>

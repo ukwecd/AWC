@@ -35,7 +35,7 @@ const ShowHideBills = () => {
                     <tr>
                       <th>SNo.</th>
                       <th>Bill Title</th>
-                      <th>	financial Year</th>
+                      <th>	Financial Year</th>
                       <th>	Manday/Protsahan</th>
                       <th>	Bill Month</th>
                       <th>		Status (Click to Change Status)</th>

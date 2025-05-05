@@ -235,6 +235,11 @@ button.awc-btn-money.btn.btn-primary {
   text-align: left;
 }
 
+.aws-accordion {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media only screen and (max-width: 568px) {
   .dash-mob {
     padding-top: var(--awc-space-200);
@@ -288,7 +293,7 @@ button.awc-btn-money.btn.btn-primary {
   }
 
   .search {
-    width: 145px !important;
+    width: 115px !important;
   }
 
   .awc-form-box {

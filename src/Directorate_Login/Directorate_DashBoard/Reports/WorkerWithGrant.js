@@ -23,7 +23,7 @@ const WorkerWithGrant = () => {
           <div className="main">
 
             <div className="awc-dpo-head">
-              <h1>View Grant-wise | Worker wise |District Bill Report</h1>
+              <h1>View Grant Wise | Worker Wise |District Bill Report</h1>
             </div>
 
 

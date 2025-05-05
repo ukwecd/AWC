@@ -72,7 +72,7 @@ const WorkerDOBList = () => {
                       <th rowSpan="2">District</th>
                       <th rowSpan="2">Project</th>
                       <th rowSpan="2">	Worker</th>
-                      <th rowSpan="2">	DOB filled</th>
+                      <th rowSpan="2">	DOB Filled</th>
 
                     </tr>
 

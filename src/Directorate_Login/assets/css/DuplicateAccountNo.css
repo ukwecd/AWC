@@ -11,14 +11,14 @@
 }
 
 .aws-wroker-total {
-    background-color: #089bab;
+    background-color: #0874ab;
     padding: 8px;
     color: #fff;
     font-size: var(--awc-space-300);
 }
 
 .aws-wroker-dob {
-    background-color: #21b0c0;
+    background-color: #a1a1a1;
     padding: 8px;
     color: #fff;
     font-size: var(--awc-space-300);

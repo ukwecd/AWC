@@ -49,7 +49,7 @@ const DuplicateAccountNo = () => {
                               <th>	Project</th>
                               <th>	District</th>
                               <th>A/C No.</th>
-                              <th>	IFSC code</th>
+                              <th>	IFSC Code</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -114,7 +114,7 @@ const DuplicateAccountNo = () => {
                               <th>	Project</th>
                               <th>	District</th>
                               <th>A/C No.</th>
-                              <th>	IFSC code</th>
+                              <th>	IFSC Code</th>
                             </tr>
                           </thead>
                           <tbody>
