@@ -302,7 +302,7 @@ function DirectorateDashBoard() {
             <span className="mx-2">Directorate Login </span>
             {/* <span>Almora</span> */}
           </div>
-          <div className="purskar-dp" alt="logout" title="Click to logout">
+          <div className="direct-dp" alt="logout" title="Click to logout">
             <div className="awc-log-icon">
               <LuLogOut className="awc-logout" />
             </div>
