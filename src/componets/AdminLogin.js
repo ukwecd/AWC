@@ -405,7 +405,7 @@ function AdminBanner() {
               </Col>
 
               <Col lg={4} md={6} sm={6} className="nd-admin-top m-t-0">
-                <div className="form-check form-check1">
+                <div className="form-check">
                   <Link to="/DPOInnerDashBoard">
                     {" "}
                     <input
@@ -423,7 +423,7 @@ function AdminBanner() {
                   </label>
                 </div>
               </Col>
-              <Col lg={4} md={6} sm={6} className="mt-3 m-t-0">
+              <Col lg={4} md={6} sm={6} className="m-t-0">
                 <div className="form-check">
                   <Link to="/InnerDashBoard">
                     {" "}

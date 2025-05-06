@@ -165,7 +165,7 @@ ul.awc-paging.pagination .page-item {
 }
 
 .awc-table-head {
-  padding: var(--awc-space-200) var(--awc-space-200) var(--awc-space-0) var(--awc-space-200);
+  padding: var(--awc-space-50) var(--awc-space-50) var(--awc-space-50) var(--awc-space-50);
 }
 
 .awc-table-head h1 {

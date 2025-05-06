@@ -63,3 +63,8 @@
         12px;
     }
 }
+@media (max-width: 640px) {
+    .awc-col{
+        display: none;
+    }
+}

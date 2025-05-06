@@ -31,7 +31,7 @@ const AnganwadiKaryakarti = () => {
             <div className="box-container">
               <div className="awc-after-fillter">
                 <Accordion defaultActiveKey="0">
-                  <Accordion.Item eventKey="0" className="dpo-accordin-top">
+                  <Accordion.Item eventKey="0" className="">
                     <Accordion.Header>
                       Waiting for Review by CDPO
                     </Accordion.Header>
