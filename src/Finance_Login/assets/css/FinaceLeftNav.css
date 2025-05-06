@@ -544,7 +544,7 @@ span.nav-label:hover {
     display: none;
   }
 
-  .dpo-user {
+  .finance-user {
     display: none;
 
   }
@@ -940,7 +940,7 @@ span.nav-label:hover {
     display: flex;
   }
 
-  .dpo-user {
+  .finance-user {
     padding: 6px 8px 6px 16px;
     margin-left: 12px !important;
 
@@ -1051,7 +1051,7 @@ span.nav-label:hover {
 }
 
 @media screen and (max-width: 390px) {
-  .dpo-user {
+  .finance-user {
     margin-left: 5% !important;
     max-width: 250px;
   }

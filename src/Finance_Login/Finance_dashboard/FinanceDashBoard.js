@@ -254,7 +254,7 @@ function FinanceDashBoard() {
                   <div>
                     <FaAlignLeft className="icn dpo-menuicn" onClick={toggleNav} />
                   </div>
-                  <div className="dpo-user">Finance login : Almora</div>
+                  <div className="finance-user">Finance login : Almora</div>
                   <div className="finance-log-icon-mob">
                     <LuLogOut className=" " title="Click to logout" />
                   </div>
