@@ -22,8 +22,8 @@ const AllWorker = () => {
             <div className="box-container">
 
             <Row className="d-flex justify-content-between">
-                <Col lg={7} md={7} sm={12} className="awc-text"><p>Manday Report(With Kalyan-Kosh) for Month : April 2023-24</p></Col>
-                <Col lg={5} md={5} sm={12} className="aws-top-btn"> 
+                <Col lg={7} md={7} sm={7} className="awc-text"><p>Manday Report(With Kalyan-Kosh) for Month : April 2023-24</p></Col>
+                <Col lg={5} md={5} sm={5} className="aws-top-btn"> 
                 {/* <Button variant="secondary" className="aws-grant-btn mx-3">
                   View Grant Wise Kalyan Kosh Report
                 </Button> */}

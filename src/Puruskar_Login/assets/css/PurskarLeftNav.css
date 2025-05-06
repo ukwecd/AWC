@@ -187,8 +187,6 @@ a.purskar-sub-option:hover {
 
 }
 
-
-
 .main-container {
   display: flex;
   width: 100vw;
@@ -196,7 +194,6 @@ a.purskar-sub-option:hover {
   /* top: 70px; */
   z-index: 1;
 }
-
 
 .dpicn {
   height: 42px;
