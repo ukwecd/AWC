@@ -94,6 +94,10 @@
     margin: -3px;
   } */
 
+  .dropdown-arrow{
+    font-size: var(--awc-space-500) !important;
+
+  }
 .modal-footer {
   justify-content: center !important;
 }
@@ -102,6 +106,7 @@
 
   max-width: 140px;
 }
+
 
 .shadow1 {
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.10);
@@ -239,12 +244,20 @@ button.awc-btn-money.btn.btn-primary {
   display: flex;
   justify-content: space-between;
 }
+.text1{
+  display: flex;
+  justify-content: space-between;
+}
 
 @media only screen and (max-width: 568px) {
+  .awc-btn-bill{
+text-align: center !important;
+margin-bottom: var(--awc-space-300);
+  }
   .dash-mob {
     padding-top: var(--awc-space-200);
   }
-
+ 
   .awc-dpo-icon-finace {
     display: none;
   }
@@ -299,10 +312,10 @@ button.awc-btn-money.btn.btn-primary {
   .awc-form-box {
     padding: var(--awc-space-0) !important;
   }
-
+/* 
   .awc-staff-mobresp {
     display: block !important;
-  }
+  } */
 
   .awc-after-fillter {
     padding: var(--awc-space-0) !important;

@@ -20,33 +20,29 @@ const AllWorker = () => {
               <h1>HavaBag Current Balance 2024-25</h1>
             </div>
             <div className="box-container">
-              <Row>
-                <div className="nd-staff-mobresp">
-                  <Col lg={12} md={12} sm={12}>
-                    <div className="awc-text">
-                      <p>
-                        पूर्व में हटाई गई आंगनबाड़ी कार्यकर्ती को जोड़ने के लिए
-                        तकनीकी विभाग से संपर्क करें{" "}
-                      </p>
-                    </div>
-                  </Col>
+
+            <Row className="d-flex justify-content-between">
+                <Col lg={7} md={7} sm={12} className="awc-text"><p>Manday Report(With Kalyan-Kosh) for Month : April 2023-24</p></Col>
+                <Col lg={5} md={5} sm={12} className="aws-top-btn"> 
+                {/* <Button variant="secondary" className="aws-grant-btn mx-3">
+                  View Grant Wise Kalyan Kosh Report
+                </Button> */}
+                <Button variant="primary" className="awc-btn-add">
+                      Add New Request
+                    </Button>
+                    <Button variant="primary" className="awc-btn-remove">
+                      Remove Request
+                    </Button>
+                </Col>
 
 
-                  {/* <Col lg={6} md={6} sm={12} className="nd-staff-print">
-                    <div className="awc-view-btn">
-                      <Button variant="primary" className="awc-btn-add">
-                        Add New Worker Request
-                      </Button>
-                      <Button variant="primary" className="awc-btn-remove">
-                        Remove Worker Request
-                      </Button>
-                    </div>
-                  </Col> */}
-                </div>
+
+
               </Row>
+             
               <Row className="mt-1">
                 <div className="awc-staff-mobresp">
-                  <Col lg={6} md={6} sm={6} className="nd-staff-print11">
+                  <Col lg={6} md={6} sm={6} className="nd-staff-awc">
                     <div className="search-container">
                       <form>
                         <input
@@ -65,14 +61,10 @@ const AllWorker = () => {
                         </label>
                       </form>
                     </div>
+                   
                   </Col>
                   <Col lg={6} md={6} sm={6} className="nd-staff-print ">
-                    <Button variant="primary" className="awc-btn-add">
-                      Add New Request
-                    </Button>
-                    <Button variant="primary" className="awc-btn-remove">
-                      Remove Request
-                    </Button>
+                   
                     <Button variant="warning" className="nd-btn-copy">
                       Copy
                     </Button>
