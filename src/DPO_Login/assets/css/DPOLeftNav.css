@@ -714,6 +714,7 @@ span.nav-label:hover {
     width: 100%;
     position: absolute;
     z-index: 999;
+    height: 100%;
   }
 
   .navclose {
