@@ -21,25 +21,25 @@ const AllWorker = () => {
             </div>
             <div className="box-container">
 
-            <Row className="d-flex justify-content-between">
+              <Row className="d-flex justify-content-between">
                 <Col lg={7} md={7} sm={7} className="awc-text"><p>Manday Report(With Kalyan-Kosh) for Month : April 2023-24</p></Col>
-                <Col lg={5} md={5} sm={5} className="aws-top-btn"> 
-                {/* <Button variant="secondary" className="aws-grant-btn mx-3">
+                <Col lg={5} md={5} sm={12} className="aws-top-btn">
+                  {/* <Button variant="secondary" className="aws-grant-btn mx-3">
                   View Grant Wise Kalyan Kosh Report
                 </Button> */}
-                <Button variant="primary" className="awc-btn-add">
-                      Add New Request
-                    </Button>
-                    <Button variant="primary" className="awc-btn-remove">
-                      Remove Request
-                    </Button>
+                  <Button variant="primary" className="awc-btn-add">
+                    Add New Request
+                  </Button>
+                  <Button variant="primary" className="awc-btn-remove">
+                    Remove Request
+                  </Button>
                 </Col>
 
 
 
 
               </Row>
-             
+
               <Row className="mt-1">
                 <div className="awc-staff-mobresp">
                   <Col lg={6} md={6} sm={6} className="nd-staff-awc">
@@ -61,10 +61,10 @@ const AllWorker = () => {
                         </label>
                       </form>
                     </div>
-                   
+
                   </Col>
                   <Col lg={6} md={6} sm={6} className="nd-staff-print ">
-                   
+
                     <Button variant="warning" className="nd-btn-copy">
                       Copy
                     </Button>
