@@ -177,7 +177,7 @@ function PuruskarDashBoard() {
                     />
                   </div>
                   <div className="dpo-user">Puraskar login </div>
-                  <div className="finance-log-icon-mob">
+                  <div className="purskar-log-icon-mob">
                     <LuLogOut className=" " title="Click to logout" />
                   </div>
                 </div>

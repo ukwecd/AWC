@@ -662,7 +662,7 @@ span.nav-label:hover {
 
   .awc-log-icon-mob {
     /* custom */
-    background-color: #EA9343;
+    background-color: rgb(94 114 228 / 0.3);
     color: white;
     width: 30px;
     height: 30px;
@@ -707,6 +707,7 @@ span.nav-label:hover {
     width: 100%;
     position: absolute;
     z-index: 999;
+    height: 100%;
   }
 
   .navclose {
@@ -803,7 +804,7 @@ span.nav-label:hover {
   }
 
   .awc-log-icon-mob {
-    background-color: rgb(179 190 250 / 56%) !important;
+    background-color: rgb(94 114 228 / 0.3) !important;
     color: white;
     width: 30px;
     height: 30px;
@@ -891,7 +892,7 @@ span.nav-label:hover {
 
   .awc-log-icon-mob {
     /* custom */
-    background-color: rgb(179 190 250 / 56%) !important;
+    background-color: rgb(94 114 228 / 0.3) !important;
     width: 30px;
     height: 30px;
     border-radius: 50%;
