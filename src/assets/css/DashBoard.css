@@ -36,7 +36,7 @@ body {
 }
 
 .dropdown-arrow {
-  margin-top: 6px;
+
   float: right;
 
 }
@@ -810,8 +810,8 @@ span.nav-label:hover {
     height: 30px;
     border-radius: 50%;
     padding-left: var(--awc-space-150);
-        margin-left: 4%;
-        margin-right: 14px;
+    margin-left: 4%;
+    margin-right: 14px;
 
   }
 }

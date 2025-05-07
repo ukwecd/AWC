@@ -36,7 +36,6 @@ body {
 }
 
 .dropdown-arrow {
-  margin-top: 6px;
   float: right;
 
 }
@@ -803,14 +802,14 @@ span.nav-label:hover {
   .awc-check-btn {
     width: fit-content;
   }
- 
+
 }
 
 @media screen and (max-width: 844px) {
 
 
   .dpo-log-icon-mob {
-    background-color:#091023;
+    background-color: #091023;
     color: white;
     width: 30px;
     height: 30px;
@@ -819,7 +818,8 @@ span.nav-label:hover {
     margin-left: 20%;
     margin-right: 2%;
   }
-  .dpo-user{
+
+  .dpo-user {
     margin-left: 18%;
   }
 }

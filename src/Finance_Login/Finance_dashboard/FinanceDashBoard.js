@@ -4,7 +4,7 @@ import MenuIcon from "../../assets/images/menu_icon.png";
 import { LuLogOut, LuMapPinned } from "react-icons/lu";
 import React, { useState } from "react";
 import "../../DPO_Login/assets/css/DPOLeftNav.css";
-import { FaAlignLeft, FaMapMarkerAlt} from "react-icons/fa";
+import { FaAlignLeft, FaMapMarkerAlt } from "react-icons/fa";
 import { LiaClipboardListSolid } from "react-icons/lia";
 import { Link } from "react-router-dom";
 import LogoCDPO from "../../assets/images/Logo-cdpo.png";
@@ -12,7 +12,7 @@ import { RxDashboard } from "react-icons/rx";
 import { MdExpandLess } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaReceipt } from "react-icons/fa";
-import { IoFileTrayFull} from "react-icons/io5";
+import { IoFileTrayFull } from "react-icons/io5";
 import { IoIosList } from "react-icons/io";
 import { LuFileText } from "react-icons/lu";
 import { BiRupee } from "react-icons/bi";
@@ -68,7 +68,7 @@ function FinanceDashBoard() {
           label: "To District 2024-25",
           path: "/District202425",
         },
-       
+
       ],
     },
     {
@@ -121,13 +121,13 @@ function FinanceDashBoard() {
         },
       ],
     },
-   
+
     {
-      icon:  <span title="Surrender/Demand Summary"><GiTowerFlag /></span>,
-      label: "Surrender/Demand Sum.",
+      icon: <span title="Surrender/Demand Summary"><GiTowerFlag /></span>,
+      label: "Surrender/Demand Su.",
       subRoutes: [
         {
-          icon: <IoIosList  />,
+          icon: <IoIosList />,
           label: "Project Surrender Summary",
           path: "/ProjectSurrenderSummary",
         },
@@ -144,11 +144,11 @@ function FinanceDashBoard() {
       ],
     },
     {
-      icon: <BiRupee  />,
+      icon: <BiRupee />,
       label: "Financial Year 2023-24",
       subRoutes: [
         {
-          icon: <IoIosList  />,
+          icon: <IoIosList />,
           label: "Project Overview",
           path: "/ProjectOverview1",
         },
@@ -170,11 +170,11 @@ function FinanceDashBoard() {
       ],
     },
     {
-      icon: <GiMoneyStack  />,
+      icon: <GiMoneyStack />,
       label: "Financial Year 2022-23",
       subRoutes: [
         {
-          icon: <IoIosList  />,
+          icon: <IoIosList />,
           label: "Project Overview",
           path: "/FinanceProjectOverview",
         },
@@ -196,11 +196,11 @@ function FinanceDashBoard() {
       ],
     },
 
-     {
-          icon: <IoIosCall />,
-          label: "Technical Help: 7668151041",
-    
-        },
+    {
+      icon: <IoIosCall />,
+      label: "Technical Help: 7668151041",
+
+    },
   ];
 
   return (
@@ -214,9 +214,9 @@ function FinanceDashBoard() {
             alt="menu-icon"
             onClick={toggleNav}
           />
-           <Link to="#" className="logo-page">
-                      <img src={LogoDhanparwa} alt="logo" className="dhan-parwa-logo img-fluid" />
-                    </Link>
+          <Link to="#" className="logo-page">
+            <img src={LogoDhanparwa} alt="logo" className="dhan-parwa-logo img-fluid" />
+          </Link>
           <Link to="#" className="logo-page">
             <img src={UKLogon} alt="logo" className="wced-logo" />
           </Link>
