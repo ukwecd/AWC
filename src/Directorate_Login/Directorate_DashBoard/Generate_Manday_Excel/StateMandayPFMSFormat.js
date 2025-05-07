@@ -172,7 +172,7 @@ const StateMandayPFMSFormat = () => {
                             </Form.Select>
                           </Form.Group>
                         </Col>
-                        <Col lg={2} md={2} sm={2} className="biil-submit">
+                        <Col lg={2} md={2} sm={2} className="biil-submit text-start">
                           <Button className="aws-copy-Directorate-btn">Filter District</Button>
                         </Col>
                       </Row>

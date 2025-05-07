@@ -172,8 +172,8 @@ const StateMandayBankFormat = () => {
                             </Form.Select>
                           </Form.Group>
                         </Col>
-                        <Col lg={2} md={2} sm={2} className="biil-submit">
-                          <Button className="aws-copy-Directorate-btn">Filter District</Button>
+                        <Col lg={2} md={2} sm={2} className="biil-submit text-start">
+                          <Button className="aws-copy-Directorate-btn ">Filter District</Button>
                         </Col>
                       </Row>
                     </Col>

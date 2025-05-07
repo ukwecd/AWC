@@ -208,7 +208,7 @@ const DirectGeneratedBill = () => {
                                 </Form.Select>
                               </Form.Group>
                             </Col>
-                            <Col lg={4} md={4} sm={12} className="biil-submit">
+                            <Col lg={4} md={4} sm={12} className="biil-submit text-start">
                               <Button className="aws-copy-Directorate-btn mb-3">Project Wise Fetch</Button>
                             </Col>
                           </Row>
@@ -294,7 +294,7 @@ const DirectGeneratedBill = () => {
                                 </Form.Select>
                               </Form.Group>
                             </Col>
-                            <Col lg={4} md={4} sm={12} className="biil-submit">
+                            <Col lg={4} md={4} sm={12} className="biil-submit text-start">
                               <Button className="aws-copy-Directorate-btn">District Wise Fetch</Button>
                             </Col>
                           </Row>
