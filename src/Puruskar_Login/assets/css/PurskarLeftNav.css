@@ -724,7 +724,7 @@ span.nav-label:hover {
         top: 0;
         left: -100vw;
         min-height: 1000px !important;
-        background-color: #5b4da4;
+        background-color:var(--awc-black);
         z-index: 999;
   }
 
@@ -826,7 +826,7 @@ span.nav-label:hover {
 
 
   .finance-log-icon-mob {
-    background-color: #7264b9;
+    background-color: #b0b435;
     ;
     color: white;
     width: 30px;
@@ -917,7 +917,7 @@ span.nav-label:hover {
 
   .finance-log-icon-mob {
     /* custom */
-    background-color: #52468c;
+    background-color: #b0b435;
     ;
     width: 30px;
     height: 30px;
